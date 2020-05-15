@@ -145,7 +145,7 @@ public class Demographics implements Comparable<Demographics>, Serializable {
       // - 9,278,993 speak Spanish and English not well or not at all (18%)
       // - 0.4% speak another language, which we will ignore to simplify things
       // 48.85% will speak English (only English + half of bilingual) the rest will speak Spanish
-      hispanicLanguageUsage.add(48.85, "english");
+      hispanicLanguageUsage.add(48.85, "french");
       hispanicLanguageUsage.add(51.15, "spanish");
       return hispanicLanguageUsage.next(random);
     } else {
@@ -178,7 +178,7 @@ public class Demographics implements Comparable<Demographics>, Serializable {
           RandomCollection<String> blackLanguageUsage = new RandomCollection();
           blackLanguageUsage.add(0.004, "french");
           blackLanguageUsage.add(0.026, "spanish");
-          blackLanguageUsage.add(0.97, "english");
+          blackLanguageUsage.add(0.97, "french");
           return blackLanguageUsage.next(random);
         case "asian":
           // 33% of people who report a race of Asian alone speak English less than very well
@@ -204,7 +204,7 @@ public class Demographics implements Comparable<Demographics>, Serializable {
           // TODO: This is overly simplistic, 7% of people who report a race of American Indian and
           // Alaska Native speak English less than well.
           // https://factfinder.census.gov/faces/tableservices/jsf/pages/productview.xhtml?pid=ACS_17_5YR_B16005C&prodType=table
-          return "english";
+          return "french";
         case "other":
           // 36% of people who report a race of something else speak English less than well
           // https://factfinder.census.gov/faces/tableservices/jsf/pages/productview.xhtml?pid=ACS_17_5YR_B16005F&prodType=table
@@ -218,7 +218,7 @@ public class Demographics implements Comparable<Demographics>, Serializable {
           return otherLanguageUsage.next(random);
         default:
           // Should never happen
-          return "english";
+          return "french";
       }
     }
   }

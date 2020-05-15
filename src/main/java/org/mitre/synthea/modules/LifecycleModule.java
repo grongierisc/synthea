@@ -273,7 +273,7 @@ public final class LifecycleModule extends Module {
     if ("spanish".equalsIgnoreCase(language)) {
       choices = (List<String>) names.get("spanish." + gender);
     } else {
-      choices = (List<String>) names.get("english." + gender);
+      choices = (List<String>) names.get("french." + gender);
     }
     // pick a random item from the list
     return choices.get(random.nextInt(choices.size()));
@@ -291,7 +291,7 @@ public final class LifecycleModule extends Module {
     if ("spanish".equalsIgnoreCase(language)) {
       choices = (List<String>) names.get("spanish.family");
     } else {
-      choices = (List<String>) names.get("english.family");
+      choices = (List<String>) names.get("french.family");
     }
     // pick a random item from the list
     return choices.get(random.nextInt(choices.size()));
@@ -307,7 +307,7 @@ public final class LifecycleModule extends Module {
   @SuppressWarnings("unchecked")
   public static String fakeAddress(boolean includeLine2, Random random) {
     int number = random.nextInt(1000) + 100;
-    List<String> n = (List<String>)names.get("english.family");
+    List<String> n = (List<String>)names.get("french.family");
     // for now just use family names as the street name. 
     // could expand with a few more but probably not worth it
     String streetName = n.get(random.nextInt(n.size()));
