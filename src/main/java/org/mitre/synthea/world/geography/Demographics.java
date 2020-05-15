@@ -169,7 +169,7 @@ public class Demographics implements Comparable<Demographics>, Serializable {
           whiteLanguageUsage.add(0.002, "portuguese");
           whiteLanguageUsage.add(0.003, "russian");
           whiteLanguageUsage.add(0.001, "greek");
-          whiteLanguageUsage.add(0.984, "english");
+          whiteLanguageUsage.add(0.984, "french");
           return whiteLanguageUsage.next(random);
         case "black":
           // Only 3% of people who report a race of black or African American alone speak English
