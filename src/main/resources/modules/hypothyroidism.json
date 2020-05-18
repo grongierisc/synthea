@@ -74,7 +74,7 @@
         {
           "system": "SNOMED-CT",
           "code": 83664006,
-          "display": "Idiopathic atrophic hypothyroidism"
+          "display": "Hypothyroïdie atrophique idiopathique"
         }
       ],
       "direct_transition": "Hypothyroidism Encounter Workup"
@@ -87,7 +87,7 @@
         {
           "system": "SNOMED-CT",
           "code": 185347001,
-          "display": "Encounter for Problem"
+          "display": "Rencontre médicale"
         }
       ],
       "direct_transition": "fT4 panel results"
@@ -127,7 +127,7 @@
         {
           "system": "SNOMED-CT",
           "code": 185347001,
-          "display": "Encounter for Problem"
+          "display": "Rencontre médicale"
         }
       ],
       "direct_transition": "Synthroid Medication Order"
@@ -152,7 +152,7 @@
         {
           "system": "LOINC",
           "code": "3024-7",
-          "display": "Thyroxine (T4) free [Mass/volume] in Serum or Plasma"
+          "display": "Thyroxine (T4) libre [masse/volume] dans le sérum ou le plasma"
         }
       ],
       "direct_transition": "TSH panel result",
@@ -169,7 +169,7 @@
         {
           "system": "LOINC",
           "code": "3016-3",
-          "display": "Thyrotropin [Units/volume] in Serum or Plasma"
+          "display": "Thyrotropine [unités/volume] dans le sérum ou le plasma"
         }
       ],
       "direct_transition": "encounter end",

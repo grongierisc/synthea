@@ -92,7 +92,7 @@
             {
               "system": "LOINC",
               "code": "8480-6",
-              "display": "Systolic Blood Pressure"
+              "display": "Tension artérielle systolique"
             }
           ],
           "unit": "mm[Hg]"
@@ -104,7 +104,7 @@
             {
               "system": "LOINC",
               "code": "8462-4",
-              "display": "Diastolic Blood Pressure"
+              "display": "Pression artérielle diastolique"
             }
           ],
           "unit": "mm[Hg]"
@@ -328,7 +328,7 @@
                   {
                     "system": "SNOMED-CT",
                     "code": "44054006",
-                    "display": "Diabetes"
+                    "display": "Diabète"
                   }
                 ]
               },
@@ -338,7 +338,7 @@
                   {
                     "system": "SNOMED-CT",
                     "code": "15777000",
-                    "display": "Prediabetes"
+                    "display": "Prédiabète"
                   }
                 ]
               }
@@ -364,7 +364,7 @@
                   {
                     "system": "SNOMED-CT",
                     "code": "44054006",
-                    "display": "Diabetes"
+                    "display": "Diabète"
                   }
                 ]
               },
@@ -409,7 +409,7 @@
               {
                 "system": "SNOMED-CT",
                 "code": "44054006",
-                "display": "Diabetes"
+                "display": "Diabète"
               }
             ]
           },
@@ -433,7 +433,7 @@
                   {
                     "system": "SNOMED-CT",
                     "code": "44054006",
-                    "display": "Diabetes"
+                    "display": "Diabète"
                   }
                 ]
               },

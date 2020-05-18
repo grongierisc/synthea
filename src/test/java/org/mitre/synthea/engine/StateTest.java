@@ -554,9 +554,9 @@ public class StateTest {
     assertEquals("procedure", codeObservation.category);
     //assertEquals("LOINC", codeObservation.value.system);
     //assertEquals("25428-4", codeObservation.value.code);
-    //assertEquals("Glucose [Presence] in Urine by Test strip", codeObservation.value.system);
+    //assertEquals("Glucose [Présence] dans l'urine par bandelette", codeObservation.value.system);
 
-    Code testCode = new Code("LOINC", "25428-4", "Glucose [Presence] in Urine by Test strip");
+    Code testCode = new Code("LOINC", "25428-4", "Glucose [Présence] dans l'urine par bandelette");
     assertEquals(testCode.toString(), codeObservation.value.toString());
 
     Code codeObsCode = codeObservation.codes.get(0);
@@ -1203,12 +1203,12 @@ public class StateTest {
 
     Code code = cp.codes.get(0);
     assertEquals("698360004", code.code);
-    assertEquals("Diabetes self management plan", code.display);
+    assertEquals("Plan d'autogestion du diabète", code.display);
 
     assertEquals(1, cp.activities.size());
     Code activity = cp.activities.iterator().next();
     assertEquals("160670007", activity.code);
-    assertEquals("Diabetic diet", activity.display);
+    assertEquals("Régime diabétique", activity.display);
   }
 
   @Test
@@ -1229,7 +1229,7 @@ public class StateTest {
 
     Code code = cp.codes.get(0);
     assertEquals("698360004", code.code);
-    assertEquals("Diabetes self management plan", code.display);
+    assertEquals("Plan d'autogestion du diabète", code.display);
   }
 
   @Test
@@ -1271,12 +1271,12 @@ public class StateTest {
 
     Code code = cp.codes.get(0);
     assertEquals("698360004", code.code);
-    assertEquals("Diabetes self management plan", code.display);
+    assertEquals("Plan d'autogestion du diabète", code.display);
 
     assertEquals(1, cp.activities.size());
     Code activity = cp.activities.iterator().next();
     assertEquals("160670007", activity.code);
-    assertEquals("Diabetic diet", activity.display);
+    assertEquals("Régime diabétique", activity.display);
   }
 
   @Test

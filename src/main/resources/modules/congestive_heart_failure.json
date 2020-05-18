@@ -402,7 +402,7 @@
         {
           "system": "SNOMED-CT",
           "code": 185347001,
-          "display": "Encounter for Problem"
+          "display": "Rencontre médicale"
         }
       ],
       "direct_transition": "Record_CMP",
@@ -420,7 +420,7 @@
           "body_site": {
             "system": "SNOMED-CT",
             "code": 51185008,
-            "display": "Thoracic structure (body structure)"
+            "display": "Structure thoracique (structure du corps)"
           },
           "modality": {
             "system": "DICOM-DCM",
@@ -611,7 +611,7 @@
           "modality": {
             "system": "DICOM-DCM",
             "code": "DX",
-            "display": "Digital Radiography"
+            "display": "Radiographie"
           },
           "instances": [
             {
@@ -1106,7 +1106,7 @@
         {
           "system": "SNOMED-CT",
           "code": 225323000,
-          "display": "Smoking cessation education"
+          "display": "Éducation au sevrage tabagique"
         }
       ],
       "direct_transition": "Wrap up follow-up encounter"
@@ -1367,7 +1367,7 @@
             {
               "system": "LOINC",
               "code": "8480-6",
-              "display": "Systolic Blood Pressure"
+              "display": "Tension artérielle systolique"
             }
           ],
           "vital_sign": "Systolic Blood Pressure"
@@ -1379,7 +1379,7 @@
             {
               "system": "LOINC",
               "code": "8462-4",
-              "display": "Diastolic Blood Pressure"
+              "display": "Pression artérielle diastolique"
             }
           ],
           "vital_sign": "Diastolic Blood Pressure"

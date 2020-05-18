@@ -108,19 +108,19 @@
         {
           "system": "SNOMED-CT",
           "code": "408869004",
-          "display": "Musculoskeletal care"
+          "display": "Soins musculo-squelettiques"
         }
       ],
       "activities": [
         {
           "system": "SNOMED-CT",
           "code": "386294003",
-          "display": "Joint mobility exercises"
+          "display": "Exercices de mobilité communs"
         },
         {
           "system": "SNOMED-CT",
           "code": "266694003",
-          "display": "Heat therapy"
+          "display": "Thérapie par la chaleur"
         }
       ],
       "direct_transition": "OA_Pain_Medication"

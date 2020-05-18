@@ -211,7 +211,7 @@
     "codes": [{
       "system": "SNOMED-CT",
       "code": "698360004",
-      "display": "Diabetes self management plan"
+      "display": "Plan d'autogestion du diabète"
     }]
   },
   "anginaCarePlanTest": {

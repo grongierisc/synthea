@@ -125,19 +125,19 @@
         {
           "system": "SNOMED-CT",
           "code": "408869004",
-          "display": "Musculoskeletal care"
+          "display": "Soins musculo-squelettiques"
         }
       ],
       "activities": [
         {
           "system": "SNOMED-CT",
           "code": "183301007",
-          "display": "Physical exercises"
+          "display": "Exercices physiques"
         },
         {
           "system": "SNOMED-CT",
           "code": "229580007",
-          "display": "Ice therapy"
+          "display": "Thérapie par la glace"
         },
         {
           "system": "SNOMED-CT",

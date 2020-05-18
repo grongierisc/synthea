@@ -342,7 +342,7 @@
         {
           "system": "SNOMED-CT",
           "code": 408580007,
-          "display": "Physical activity target light exercise"
+          "display": "L'activité physique cible l'exercice léger"
         },
         {
           "system": "SNOMED-CT",
@@ -798,7 +798,7 @@
         {
           "system": "LOINC",
           "code": "24357-6",
-          "display": "Urinalysis macro (dipstick) panel - Urine"
+          "display": "Macro d'analyse d'urine (jauge) - Urine"
         }
       ],
       "observations": [
@@ -808,14 +808,14 @@
             {
               "system": "LOINC",
               "code": "5767-9",
-              "display": "Appearance of Urine"
+              "display": "Apparition de l'urine"
             }
           ],
           "unit": "{nominal}",
           "value_code": {
             "system": "SNOMED-CT",
             "code": 7766007,
-            "display": "Cloudy urine (finding)"
+            "display": "Urine trouble (constatation)"
           }
         },
         {
@@ -824,7 +824,7 @@
             {
               "system": "LOINC",
               "code": "5767-9",
-              "display": "Odor of Urine"
+              "display": "Odeur d'urine"
             }
           ],
           "unit": "{nominal}",
@@ -840,14 +840,14 @@
             {
               "system": "LOINC",
               "code": "32167-9",
-              "display": "Clarity of Urine"
+              "display": "Clarté de l'urine"
             }
           ],
           "unit": "{nominal}",
           "value_code": {
             "system": "SNOMED-CT",
             "code": 7766007,
-            "display": "Cloudy urine (finding)"
+            "display": "Urine trouble (constatation)"
           }
         },
         {
@@ -856,7 +856,7 @@
             {
               "system": "LOINC",
               "code": "5778-6",
-              "display": "Color of Urine"
+              "display": "Couleur de l'urine"
             }
           ],
           "unit": "{nominal}",
@@ -872,7 +872,7 @@
             {
               "system": "LOINC",
               "code": "5792-7",
-              "display": "Glucose [Mass/volume] in Urine by Test strip"
+              "display": "Glucose [masse/volume] dans l'urine par bandelette"
             }
           ],
           "unit": "mg/dL",
@@ -887,14 +887,14 @@
             {
               "system": "LOINC",
               "code": "25428-4",
-              "display": "Glucose [Presence] in Urine by Test strip"
+              "display": "Glucose [Présence] dans l'urine par bandelette"
             }
           ],
           "unit": "{nominal}",
           "value_code": {
             "system": "SNOMED-CT",
             "code": 167265006,
-            "display": "Urine glucose test = ++ (finding)"
+            "display": "Test de glucose dans l'urine = ++ (résultat)"
           }
         },
         {
@@ -903,7 +903,7 @@
             {
               "system": "LOINC",
               "code": "20505-4",
-              "display": "Bilirubin.total [Mass/volume] in Urine by Test strip"
+              "display": "Bilirubin.total [Mass/volume] dans l'urine par bandelettes réactives"
             }
           ],
           "unit": "mg/dL",
@@ -918,14 +918,14 @@
             {
               "system": "LOINC",
               "code": "5770-3",
-              "display": "Bilirubin.total [Presence] in Urine by Test strip"
+              "display": "Bilirubin.total [Presence] dans l'urine par bandelettes réactives"
             }
           ],
           "unit": "{nominal}",
           "value_code": {
             "system": "SNOMED-CT",
             "code": 275778006,
-            "display": "Finding of bilirubin in urine (finding)"
+            "display": "Recherche de bilirubine dans les urines (recherche)"
           }
         },
         {
@@ -935,7 +935,7 @@
             {
               "system": "LOINC",
               "code": "5797-6",
-              "display": "Ketones [Mass/volume] in Urine by Test strip"
+              "display": "Ketones [Mass/volume] dans l'urine par bandelettes réactives"
             }
           ],
           "range": {
@@ -950,7 +950,7 @@
             {
               "system": "LOINC",
               "code": "2514-8",
-              "display": "Ketones [Presence] in Urine by Test strip"
+              "display": "Ketones [Presence] dans l'urine par bandelettes réactives"
             }
           ],
           "value_code": {
@@ -966,7 +966,7 @@
             {
               "system": "LOINC",
               "code": "5811-5",
-              "display": "Specific gravity of Urine by Test strip"
+              "display": "Densité de l'urine par bandelette de test"
             }
           ],
           "range": {
@@ -981,7 +981,7 @@
             {
               "system": "LOINC",
               "code": "5803-2",
-              "display": "pH of Urine by Test strip"
+              "display": "pH de l'urine par bandelette de test"
             }
           ],
           "range": {
@@ -996,7 +996,7 @@
             {
               "system": "LOINC",
               "code": "5804-0",
-              "display": "Protein [Mass/volume] in Urine by Test strip"
+              "display": "Protein [Mass/volume] dans l'urine par bandelettes réactives"
             }
           ],
           "range": {
@@ -1011,7 +1011,7 @@
             {
               "system": "LOINC",
               "code": "20454-5",
-              "display": "Protein [Presence] in Urine by Test strip"
+              "display": "Protein [Presence] dans l'urine par bandelettes réactives"
             }
           ],
           "value_code": {
@@ -1027,13 +1027,13 @@
             {
               "system": "LOINC",
               "code": "5802-4",
-              "display": "Nitrite [Presence] in Urine by Test strip"
+              "display": "Nitrite [Presence] dans l'urine par bandelettes réactives"
             }
           ],
           "value_code": {
             "system": "SNOMED-CT",
             "code": 314138001,
-            "display": "Urine nitrite negative (finding)"
+            "display": "Négatif pour les nitrites dans l'urine (constat)"
           }
         },
         {
@@ -1043,7 +1043,7 @@
             {
               "system": "LOINC",
               "code": "5794-3",
-              "display": "Hemoglobin [Presence] in Urine by Test strip"
+              "display": "Hemoglobin [Presence] dans l'urine par bandelettes réactives"
             }
           ],
           "value_code": {
@@ -1059,13 +1059,13 @@
             {
               "system": "LOINC",
               "code": "5799-2",
-              "display": "Leukocyte esterase [Presence] in Urine by Test strip"
+              "display": "Leukocyte esterase [Presence] dans l'urine par bandelettes réactives"
             }
           ],
           "value_code": {
             "system": "SNOMED-CT",
             "code": 394717006,
-            "display": "Urine leukocyte test negative (finding)"
+            "display": "Test leucocytaire urinaire négatif (résultat)"
           }
         }
       ],

@@ -20,7 +20,7 @@
             "codes": [{
                 "system": "SNOMED-CT",
                 "code": "32485007",
-                "display": "Hospital admission"
+                "display": "Admission à l'hôpital"
             }],
             "direct_transition" : "VitalSignObservation"
         },
@@ -54,7 +54,7 @@
             "value_code" : {
                 "system": "LOINC",
                 "code": "25428-4",
-                "display": "Glucose [Presence] in Urine by Test strip"
+                "display": "Glucose [Présence] dans l'urine par bandelette"
             },
             "direct_transition" : "Terminal"
         },

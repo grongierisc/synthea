@@ -79,7 +79,7 @@
         {
           "system": "SNOMED-CT",
           "code": 390906007,
-          "display": "Hypertension follow-up encounter"
+          "display": "Rencontre de suivi sur l'hypertension"
         }
       ],
       "direct_transition": "Record_BP"
@@ -173,7 +173,7 @@
         {
           "system": "SNOMED-CT",
           "code": 390906007,
-          "display": "Hypertension follow-up encounter"
+          "display": "Rencontre de suivi sur l'hypertension"
         }
       ],
       "direct_transition": "Record_BP_2"
@@ -186,7 +186,7 @@
         {
           "system": "SNOMED-CT",
           "code": 390906007,
-          "display": "Hypertension follow-up encounter"
+          "display": "Rencontre de suivi sur l'hypertension"
         }
       ],
       "direct_transition": "Record_BP_3"
@@ -228,29 +228,29 @@
         {
           "system": "SNOMED-CT",
           "code": 443402002,
-          "display": "Lifestyle education regarding hypertension"
+          "display": "Éducation au mode de vie concernant l'hypertension"
         }
       ],
       "activities": [
         {
           "system": "SNOMED-CT",
           "code": 386463000,
-          "display": "Prescribed activity/exercise education"
+          "display": "Activité/exercice éducatif"
         },
         {
           "system": "SNOMED-CT",
           "code": 413473000,
-          "display": "Counseling about alcohol consumption"
+          "display": "Conseils sur la consommation d'alcool"
         },
         {
           "system": "SNOMED-CT",
           "code": 1151000175103,
-          "display": "Dietary approaches to stop hypertension diet"
+          "display": "Approches alimentaires pour arrêter le régime de l'hypertension"
         },
         {
           "system": "SNOMED-CT",
           "code": 225323000,
-          "display": "Smoking cessation education"
+          "display": "Éducation au sevrage tabagique"
         }
       ],
       "goals": [
@@ -350,7 +350,7 @@
         {
           "system": "LOINC",
           "code": "85354-9",
-          "display": "Blood Pressure"
+          "display": "Tension artérielle"
         }
       ],
       "observations": [
@@ -360,7 +360,7 @@
             {
               "system": "LOINC",
               "code": "8480-6",
-              "display": "Systolic Blood Pressure"
+              "display": "Tension artérielle systolique"
             }
           ],
           "unit": "mm[Hg]",
@@ -372,7 +372,7 @@
             {
               "system": "LOINC",
               "code": "8462-4",
-              "display": "Diastolic Blood Pressure"
+              "display": "Pression artérielle diastolique"
             }
           ],
           "unit": "mm[Hg]",
@@ -401,7 +401,7 @@
         {
           "system": "LOINC",
           "code": "85354-9",
-          "display": "Blood Pressure"
+          "display": "Tension artérielle"
         }
       ],
       "observations": [
@@ -411,7 +411,7 @@
             {
               "system": "LOINC",
               "code": "8480-6",
-              "display": "Systolic Blood Pressure"
+              "display": "Tension artérielle systolique"
             }
           ],
           "unit": "mm[Hg]",
@@ -423,7 +423,7 @@
             {
               "system": "LOINC",
               "code": "8462-4",
-              "display": "Diastolic Blood Pressure"
+              "display": "Pression artérielle diastolique"
             }
           ],
           "unit": "mm[Hg]",
@@ -452,7 +452,7 @@
         {
           "system": "LOINC",
           "code": "85354-9",
-          "display": "Blood Pressure"
+          "display": "Tension artérielle"
         }
       ],
       "observations": [
@@ -462,7 +462,7 @@
             {
               "system": "LOINC",
               "code": "8480-6",
-              "display": "Systolic Blood Pressure"
+              "display": "Tension artérielle systolique"
             }
           ],
           "unit": "mm[Hg]",
@@ -474,7 +474,7 @@
             {
               "system": "LOINC",
               "code": "8462-4",
-              "display": "Diastolic Blood Pressure"
+              "display": "Pression artérielle diastolique"
             }
           ],
           "unit": "mm[Hg]",
@@ -502,7 +502,7 @@
         {
           "system": "SNOMED-CT",
           "code": 183856001,
-          "display": "Referral to hypertension clinic"
+          "display": "Orientation vers une clinique d'hypertension"
         }
       ],
       "direct_transition": "End_Hypertension_Followup_Encounter_3"

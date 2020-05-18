@@ -26,7 +26,7 @@
         {
           "system": "SNOMED-CT",
           "code": 734163000,
-          "display": "Care Plan"
+          "display": "Plan de soins"
         }
       ],
       "reason": "Smoking_Condition",
@@ -143,7 +143,7 @@
         {
           "system": "SNOMED-CT",
           "code": 734163000,
-          "display": "Care Plan"
+          "display": "Plan de soins"
         }
       ],
       "direct_transition": "Opioid Abuse Diagnosis",
@@ -225,7 +225,7 @@
         {
           "system": "SNOMED-CT",
           "code": 734163000,
-          "display": "Care Plan"
+          "display": "Plan de soins"
         }
       ],
       "direct_transition": "SUD check",

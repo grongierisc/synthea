@@ -33,14 +33,14 @@
             {
               "system": "SNOMED-CT",
               "code": "698360004",
-              "display": "Diabetes self management plan"
+              "display": "Plan d'autogestion du diabète"
             }
           ],
           "activities": [
             {
               "system": "SNOMED-CT",
               "code": "160670007",
-              "display": "Diabetic diet"
+              "display": "Régime diabétique"
             }
           ],
           "assign_to_attribute": "Diabetes_CarePlan",

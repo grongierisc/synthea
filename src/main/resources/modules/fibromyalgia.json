@@ -95,7 +95,7 @@
         {
           "system": "SNOMED-CT",
           "code": "95417003",
-          "display": "Primary fibromyalgia syndrome"
+          "display": "Syndrome de fibromyalgie primaire"
         }
       ],
       "direct_transition": "Fibromyalgia_Diagnosis"
@@ -175,19 +175,19 @@
         {
           "system": "SNOMED-CT",
           "code": "408869004",
-          "display": "Musculoskeletal care"
+          "display": "Soins musculo-squelettiques"
         }
       ],
       "activities": [
         {
           "system": "SNOMED-CT",
           "code": "386294003",
-          "display": "Joint mobility exercises"
+          "display": "Exercices de mobilité communs"
         },
         {
           "system": "SNOMED-CT",
           "code": "226060000",
-          "display": "Stress management"
+          "display": "Gestion du stress"
         }
       ],
       "direct_transition": "Pain_Vital"
@@ -228,7 +228,7 @@
         {
           "system": "SNOMED-CT",
           "code": "32485007",
-          "display": "Hospital admission"
+          "display": "Admission à l'hôpital"
         }
       ],
       "complex_transition": [

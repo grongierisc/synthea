@@ -94,7 +94,7 @@
         {
           "system": "SNOMED-CT",
           "code": "162573006",
-          "display": "Suspected lung cancer (situation)"
+          "display": "Soupçon de cancer du poumon (situation)"
         }
       ],
       "direct_transition": "Diagnosis Encounter I"
@@ -162,7 +162,7 @@
         {
           "system": "SNOMED-CT",
           "code": "418891003",
-          "display": "Computed tomography of chest and abdomen"
+          "display": "Tomodensitométrie de la poitrine et de l'abdomen"
         }
       ],
       "duration": {
@@ -213,7 +213,7 @@
         {
           "system": "SNOMED-CT",
           "code": "254637007",
-          "display": "Non-small cell lung cancer (disorder)"
+          "display": "Cancer du poumon grandes cellules (maladie)"
         }
       ],
       "direct_transition": "Diagnosis Encounter III"
@@ -232,7 +232,7 @@
         {
           "system": "SNOMED-CT",
           "code": "254632001",
-          "display": "Small cell carcinoma of lung (disorder)"
+          "display": "Carcinome du poumon à petites cellules (trouble)"
         }
       ],
       "direct_transition": "Diagnosis Encounter III"
@@ -274,7 +274,7 @@
         {
           "system": "SNOMED-CT",
           "code": "167995008",
-          "display": "Sputum microscopy (procedure)"
+          "display": "Microscopie des salives (procédure)"
         }
       ],
       "direct_transition": "End_Diagnosis_Encounter_III"
@@ -298,7 +298,7 @@
         {
           "system": "SNOMED-CT",
           "code": "432231006",
-          "display": "Fine needle aspiration biopsy of lung (procedure)"
+          "display": "Biopsie du poumon par aspiration à l'aiguille fine (procédure)"
         }
       ],
       "direct_transition": "End_Diagnosis_Encounter_III"
@@ -310,7 +310,7 @@
         {
           "system": "SNOMED-CT",
           "code": "173160006",
-          "display": "Diagnostic fiberoptic bronchoscopy (procedure)"
+          "display": "Bronchoscopie diagnostique par fibre optique (procédure)"
         }
       ],
       "direct_transition": "End_Diagnosis_Encounter_III"
@@ -495,7 +495,7 @@
         {
           "system": "SNOMED-CT",
           "code": "424132000",
-          "display": "Non-small cell carcinoma of lung, TNM stage 1 (disorder)"
+          "display": "Carcinome du poumon à grandes cellules, TNM stage 1 (disorder)"
         }
       ],
       "direct_transition": "Diagnosis Encounter IV"
@@ -508,7 +508,7 @@
         {
           "system": "SNOMED-CT",
           "code": "425048006",
-          "display": "Non-small cell carcinoma of lung, TNM stage 2 (disorder)"
+          "display": "Carcinome du poumon à grandes cellules, TNM stage 2 (disorder)"
         }
       ],
       "direct_transition": "Diagnosis Encounter IV"
@@ -521,7 +521,7 @@
         {
           "system": "SNOMED-CT",
           "code": "422968005",
-          "display": "Non-small cell carcinoma of lung, TNM stage 3 (disorder)"
+          "display": "Carcinome du poumon à grandes cellules, TNM stage 3 (disorder)"
         }
       ],
       "direct_transition": "Diagnosis Encounter IV"
@@ -534,7 +534,7 @@
         {
           "system": "SNOMED-CT",
           "code": "423121009",
-          "display": "Non-small cell carcinoma of lung, TNM stage 4 (disorder)"
+          "display": "Carcinome du poumon à grandes cellules, TNM stage 4 (disorder)"
         }
       ],
       "direct_transition": "Diagnosis Encounter IV"
@@ -547,7 +547,7 @@
         {
           "system": "SNOMED-CT",
           "code": "67811000119102",
-          "display": "Primary small cell malignant neoplasm of lung, TNM stage 1 (disorder)"
+          "display": "Tumeur maligne primaire à petites cellules du poumon, TNM stage 1 (disorder)"
         }
       ],
       "direct_transition": "Diagnosis Encounter IV"
@@ -560,7 +560,7 @@
         {
           "system": "SNOMED-CT",
           "code": "67821000119109",
-          "display": "Primary small cell malignant neoplasm of lung, TNM stage 2 (disorder)"
+          "display": "Tumeur maligne primaire à petites cellules du poumon, TNM stage 2 (disorder)"
         }
       ],
       "direct_transition": "Diagnosis Encounter IV"
@@ -573,7 +573,7 @@
         {
           "system": "SNOMED-CT",
           "code": "67831000119107",
-          "display": "Primary small cell malignant neoplasm of lung, TNM stage 3 (disorder)"
+          "display": "Tumeur maligne primaire à petites cellules du poumon, TNM stage 3 (disorder)"
         }
       ],
       "direct_transition": "Diagnosis Encounter IV"
@@ -586,7 +586,7 @@
         {
           "system": "SNOMED-CT",
           "code": "67841000119103",
-          "display": "Primary small cell malignant neoplasm of lung, TNM stage 4 (disorder)"
+          "display": "Tumeur maligne primaire à petites cellules du poumon, TNM stage 4 (disorder)"
         }
       ],
       "direct_transition": "Diagnosis Encounter IV"
@@ -611,19 +611,19 @@
         {
           "system": "SNOMED-CT",
           "code": "182964004",
-          "display": "Terminal care"
+          "display": "Soins en phase terminale"
         }
       ],
       "activities": [
         {
           "system": "SNOMED-CT",
           "code": "133918004",
-          "display": "Comfort measures"
+          "display": "Mesures de confort"
         },
         {
           "system": "SNOMED-CT",
           "code": "408957008",
-          "display": "Chronic pain control management"
+          "display": "Gestion du contrôle de la douleur chronique"
         },
         {
           "system": "SNOMED-CT",
@@ -640,7 +640,7 @@
         {
           "system": "SNOMED-CT",
           "code": "698354004",
-          "display": "Magnetic resonance imaging for measurement of brain volume (procedure)"
+          "display": "Imagerie par résonance magnétique pour la mesure du volume du cerveau (procédure)"
         }
       ],
       "duration": {

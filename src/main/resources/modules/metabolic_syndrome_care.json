@@ -48,7 +48,7 @@
         {
           "system": "LOINC",
           "code": "4548-4",
-          "display": "Hemoglobin A1c/Hemoglobin.total in Blood"
+          "display": "Hémoglobine A1c/Hémoglobine.totale dans le sang"
         }
       ],
       "unit": "%",
@@ -78,7 +78,7 @@
         {
           "system": "SNOMED-CT",
           "code": 80394007,
-          "display": "Hyperglycemia (disorder)"
+          "display": "Hyperglycémie (trouble)"
         }
       ],
       "direct_transition": "Triglyceride_Check"
@@ -107,7 +107,7 @@
         {
           "system": "SNOMED-CT",
           "code": 302870006,
-          "display": "Hypertriglyceridemia (disorder)"
+          "display": "Hypertriglycéridémie (trouble)"
         }
       ],
       "direct_transition": "Metabolic_Check"
@@ -162,7 +162,7 @@
         {
           "system": "SNOMED-CT",
           "code": 237602007,
-          "display": "Metabolic syndrome X (disorder)"
+          "display": "Syndrome métabolique X (trouble)"
         }
       ],
       "direct_transition": "Diagnosis"
@@ -177,7 +177,7 @@
               {
                 "system": "LOINC",
                 "code": "4548-4",
-                "display": "Hemoglobin A1c/Hemoglobin.total in Blood"
+                "display": "Hémoglobine A1c/Hémoglobine.totale dans le sang"
               }
             ],
             "operator": "<=",
@@ -195,7 +195,7 @@
               {
                 "system": "LOINC",
                 "code": "4548-4",
-                "display": "Hemoglobin A1c/Hemoglobin.total in Blood"
+                "display": "Hémoglobine A1c/Hémoglobine.totale dans le sang"
               }
             ],
             "operator": "<=",
@@ -213,7 +213,7 @@
               {
                 "system": "LOINC",
                 "code": "4548-4",
-                "display": "Hemoglobin A1c/Hemoglobin.total in Blood"
+                "display": "Hémoglobine A1c/Hémoglobine.totale dans le sang"
               }
             ],
             "operator": "<=",
@@ -231,7 +231,7 @@
               {
                 "system": "LOINC",
                 "code": "4548-4",
-                "display": "Hemoglobin A1c/Hemoglobin.total in Blood"
+                "display": "Hémoglobine A1c/Hémoglobine.totale dans le sang"
               }
             ],
             "operator": "<=",
@@ -295,7 +295,7 @@
         {
           "system": "SNOMED-CT",
           "code": "15777000",
-          "display": "Prediabetes"
+          "display": "Prédiabète"
         }
       ],
       "assign_to_attribute": "diabetes_stage",
@@ -331,7 +331,7 @@
         {
           "system": "SNOMED-CT",
           "code": "44054006",
-          "display": "Diabetes"
+          "display": "Diabète"
         }
       ],
       "assign_to_attribute": "diabetes_stage",
@@ -347,7 +347,7 @@
               {
                 "system": "SNOMED-CT",
                 "code": "698360004",
-                "display": "Diabetes self management plan"
+                "display": "Plan d'autogestion du diabète"
               }
             ]
           },
@@ -364,14 +364,14 @@
         {
           "system": "SNOMED-CT",
           "code": "698360004",
-          "display": "Diabetes self management plan"
+          "display": "Plan d'autogestion du diabète"
         }
       ],
       "activities": [
         {
           "system": "SNOMED-CT",
           "code": "160670007",
-          "display": "Diabetic diet"
+          "display": "Régime diabétique"
         },
         {
           "system": "SNOMED-CT",
@@ -386,7 +386,7 @@
               {
                 "system": "LOINC",
                 "code": "4548-4",
-                "display": "Hemoglobin A1c total in Blood"
+                "display": "Hémoglobine A1c totale dans le sang"
               }
             ],
             "operator": "<",
@@ -402,7 +402,7 @@
               {
                 "system": "LOINC",
                 "code": "2339-0",
-                "display": "Glucose [Mass/volume] in Blood"
+                "display": "Glucose [masse/volume] dans le sang"
               }
             ],
             "operator": "<",
@@ -671,7 +671,7 @@
               {
                 "system": "SNOMED-CT",
                 "code": "127013003",
-                "display": "Diabetic renal disease (disorder)"
+                "display": "Maladie rénale diabétique (trouble)"
               }
             ]
           },
@@ -692,7 +692,7 @@
               {
                 "system": "RxNorm",
                 "code": "106892",
-                "display": "insulin human, isophane 70 UNT/ML / Regular Insulin, Human 30 UNT/ML Injectable Suspension [Humulin]"
+                "display": "Insuline humaine, isophane 70 UNT/ML / Insuline ordinaire, humaine 30 UNT/ML Suspension injectable [Humulin]"
               }
             ]
           },
@@ -708,7 +708,7 @@
               {
                 "system": "RxNorm",
                 "code": "865098",
-                "display": "Insulin Lispro 100 UNT/ML Solution injectable [Humalog]"
+                "display": "Insuline Lispro 100 UNT/ML Solution injectable [Humalog]"
               }
             ]
           },
@@ -731,7 +731,7 @@
         {
           "system": "RxNorm",
           "code": "106892",
-          "display": "insulin human, isophane 70 UNT/ML / Regular Insulin, Human 30 UNT/ML Injectable Suspension [Humulin]"
+          "display": "Insuline humaine, isophane 70 UNT/ML / Insuline ordinaire, humaine 30 UNT/ML Suspension injectable [Humulin]"
         }
       ],
       "reason": "Diagnose_Diabetes",
@@ -744,7 +744,7 @@
         {
           "system": "RxNorm",
           "code": "106892",
-          "display": "insulin human, isophane 70 UNT/ML / Regular Insulin, Human 30 UNT/ML Injectable Suspension [Humulin]"
+          "display": "Insuline humaine, isophane 70 UNT/ML / Insuline ordinaire, humaine 30 UNT/ML Suspension injectable [Humulin]"
         }
       ],
       "direct_transition": "Prescribe_Prandial_Insulin"
@@ -755,7 +755,7 @@
         {
           "system": "RxNorm",
           "code": "865098",
-          "display": "Insulin Lispro 100 UNT/ML Solution injectable [Humalog]"
+          "display": "Insuline Lispro 100 UNT/ML Solution injectable [Humalog]"
         }
       ],
       "reason": "Diagnose_Diabetes",
@@ -772,7 +772,7 @@
               {
                 "system": "RxNorm",
                 "code": "106892",
-                "display": "insulin human, isophane 70 UNT/ML / Regular Insulin, Human 30 UNT/ML Injectable Suspension [Humulin]"
+                "display": "Insuline humaine, isophane 70 UNT/ML / Insuline ordinaire, humaine 30 UNT/ML Suspension injectable [Humulin]"
               }
             ]
           },
@@ -785,7 +785,7 @@
               {
                 "system": "RxNorm",
                 "code": "865098",
-                "display": "Insulin Lispro 100 UNT/ML Solution injectable [Humalog]"
+                "display": "Insuline Lispro 100 UNT/ML Solution injectable [Humalog]"
               }
             ]
           },
@@ -802,7 +802,7 @@
         {
           "system": "RxNorm",
           "code": "106892",
-          "display": "insulin human, isophane 70 UNT/ML / Regular Insulin, Human 30 UNT/ML Injectable Suspension [Humulin]"
+          "display": "Insuline humaine, isophane 70 UNT/ML / Insuline ordinaire, humaine 30 UNT/ML Suspension injectable [Humulin]"
         }
       ],
       "direct_transition": "Check_Complications"
@@ -813,7 +813,7 @@
         {
           "system": "RxNorm",
           "code": "865098",
-          "display": "Insulin Lispro 100 UNT/ML Solution injectable [Humalog]"
+          "display": "Insuline Lispro 100 UNT/ML Solution injectable [Humalog]"
         }
       ],
       "direct_transition": "Check_Complications"
@@ -918,7 +918,7 @@
                     {
                       "system": "SNOMED-CT",
                       "code": "127013003",
-                      "display": "Diabetic renal disease (disorder)"
+                      "display": "Maladie rénale diabétique (trouble)"
                     }
                   ]
                 }
@@ -942,7 +942,7 @@
                   {
                     "system": "SNOMED-CT",
                     "code": "127013003",
-                    "display": "Diabetic renal disease (disorder)"
+                    "display": "Maladie rénale diabétique (trouble)"
                   }
                 ]
               }
@@ -961,7 +961,7 @@
         {
           "system": "SNOMED-CT",
           "code": "127013003",
-          "display": "Diabetic renal disease (disorder)"
+          "display": "Maladie rénale diabétique (trouble)"
         }
       ],
       "direct_transition": "Check_Microalbuminuria"
@@ -972,7 +972,7 @@
         {
           "system": "SNOMED-CT",
           "code": "127013003",
-          "display": "Diabetic renal disease (disorder)"
+          "display": "Maladie rénale diabétique (trouble)"
         }
       ],
       "direct_transition": "Check_Microalbuminuria"
@@ -997,7 +997,7 @@
                     {
                       "system": "SNOMED-CT",
                       "code": "90781000119102",
-                      "display": "Microalbuminuria due to type 2 diabetes mellitus (disorder)"
+                      "display": "Microalbuminurie due au diabète sucré de type 2 (trouble)"
                     }
                   ]
                 }
@@ -1021,7 +1021,7 @@
                   {
                     "system": "SNOMED-CT",
                     "code": "90781000119102",
-                    "display": "Microalbuminuria due to type 2 diabetes mellitus (disorder)"
+                    "display": "Microalbuminurie due au diabète sucré de type 2 (trouble)"
                   }
                 ]
               }
@@ -1040,7 +1040,7 @@
         {
           "system": "SNOMED-CT",
           "code": "90781000119102",
-          "display": "Microalbuminuria due to type 2 diabetes mellitus (disorder)"
+          "display": "Microalbuminurie due au diabète sucré de type 2 (trouble)"
         }
       ],
       "direct_transition": "Check_Proteinuria"
@@ -1051,7 +1051,7 @@
         {
           "system": "SNOMED-CT",
           "code": "90781000119102",
-          "display": "Microalbuminuria due to type 2 diabetes mellitus (disorder)"
+          "display": "Microalbuminurie due au diabète sucré de type 2 (trouble)"
         }
       ],
       "direct_transition": "Check_Proteinuria"
@@ -1076,7 +1076,7 @@
                     {
                       "system": "SNOMED-CT",
                       "code": "157141000119108",
-                      "display": "Proteinuria due to type 2 diabetes mellitus (disorder)"
+                      "display": "Protéinurie due au diabète sucré de type 2 (trouble)"
                     }
                   ]
                 }
@@ -1100,7 +1100,7 @@
                   {
                     "system": "SNOMED-CT",
                     "code": "157141000119108",
-                    "display": "Proteinuria due to type 2 diabetes mellitus (disorder)"
+                    "display": "Protéinurie due au diabète sucré de type 2 (trouble)"
                   }
                 ]
               }
@@ -1119,7 +1119,7 @@
         {
           "system": "SNOMED-CT",
           "code": "157141000119108",
-          "display": "Proteinuria due to type 2 diabetes mellitus (disorder)"
+          "display": "Protéinurie due au diabète sucré de type 2 (trouble)"
         }
       ],
       "direct_transition": "Check_End_Stage_Renal_Disease"
@@ -1130,7 +1130,7 @@
         {
           "system": "SNOMED-CT",
           "code": "157141000119108",
-          "display": "Proteinuria due to type 2 diabetes mellitus (disorder)"
+          "display": "Protéinurie due au diabète sucré de type 2 (trouble)"
         }
       ],
       "direct_transition": "Check_End_Stage_Renal_Disease"
@@ -1156,7 +1156,7 @@
                     {
                       "system": "SNOMED-CT",
                       "code": "46177005",
-                      "display": "End stage renal disease (disorder)"
+                      "display": "Maladie rénale en phase terminale (trouble)"
                     }
                   ]
                 }
@@ -1180,7 +1180,7 @@
                   {
                     "system": "SNOMED-CT",
                     "code": "46177005",
-                    "display": "End stage renal disease (disorder)"
+                    "display": "Maladie rénale en phase terminale (trouble)"
                   }
                 ]
               }
@@ -1199,7 +1199,7 @@
         {
           "system": "SNOMED-CT",
           "code": "46177005",
-          "display": "End stage renal disease (disorder)"
+          "display": "Maladie rénale en phase terminale (trouble)"
         }
       ],
       "direct_transition": "Record_MetabolicPanel_5",
@@ -1211,7 +1211,7 @@
         {
           "system": "SNOMED-CT",
           "code": "46177005",
-          "display": "End stage renal disease (disorder)"
+          "display": "Maladie rénale en phase terminale (trouble)"
         }
       ],
       "direct_transition": "Check_Retinopathy"
@@ -1236,7 +1236,7 @@
                     {
                       "system": "SNOMED-CT",
                       "code": "422034002",
-                      "display": "Diabetic retinopathy associated with type II diabetes mellitus (disorder)"
+                      "display": "Rétinopathie diabétique associée au diabète sucré de type II (trouble)"
                     }
                   ]
                 }
@@ -1260,7 +1260,7 @@
                   {
                     "system": "SNOMED-CT",
                     "code": "422034002",
-                    "display": "Diabetic retinopathy associated with type II diabetes mellitus (disorder)"
+                    "display": "Rétinopathie diabétique associée au diabète sucré de type II (trouble)"
                   }
                 ]
               }
@@ -1279,7 +1279,7 @@
         {
           "system": "SNOMED-CT",
           "code": "422034002",
-          "display": "Diabetic retinopathy associated with type II diabetes mellitus (disorder)"
+          "display": "Rétinopathie diabétique associée au diabète sucré de type II (trouble)"
         }
       ],
       "direct_transition": "Check_Nonproliferative_Retinopathy"
@@ -1290,7 +1290,7 @@
         {
           "system": "SNOMED-CT",
           "code": "422034002",
-          "display": "Diabetic retinopathy associated with type II diabetes mellitus (disorder)"
+          "display": "Rétinopathie diabétique associée au diabète sucré de type II (trouble)"
         }
       ],
       "direct_transition": "Check_Nonproliferative_Retinopathy"
@@ -1315,7 +1315,7 @@
                     {
                       "system": "SNOMED-CT",
                       "code": "1551000119108",
-                      "display": "Nonproliferative diabetic retinopathy due to type 2 diabetes mellitus (disorder)"
+                      "display": "Rétinopathie diabétique non proliférative due au diabète sucré de type 2 (trouble)"
                     }
                   ]
                 }
@@ -1339,7 +1339,7 @@
                   {
                     "system": "SNOMED-CT",
                     "code": "1551000119108",
-                    "display": "Nonproliferative diabetic retinopathy due to type 2 diabetes mellitus (disorder)"
+                    "display": "Rétinopathie diabétique non proliférative due au diabète sucré de type 2 (trouble)"
                   }
                 ]
               }
@@ -1358,7 +1358,7 @@
         {
           "system": "SNOMED-CT",
           "code": "1551000119108",
-          "display": "Nonproliferative diabetic retinopathy due to type 2 diabetes mellitus (disorder)"
+          "display": "Rétinopathie diabétique non proliférative due au diabète sucré de type 2 (trouble)"
         }
       ],
       "direct_transition": "Check_Proliferative_Retinopathy"
@@ -1369,7 +1369,7 @@
         {
           "system": "SNOMED-CT",
           "code": "1551000119108",
-          "display": "Nonproliferative diabetic retinopathy due to type 2 diabetes mellitus (disorder)"
+          "display": "Rétinopathie diabétique non proliférative due au diabète sucré de type 2 (trouble)"
         }
       ],
       "direct_transition": "Check_Proliferative_Retinopathy"
@@ -1394,7 +1394,7 @@
                     {
                       "system": "SNOMED-CT",
                       "code": "1501000119109",
-                      "display": "Proliferative diabetic retinopathy due to type II diabetes mellitus (disorder)"
+                      "display": "Rétinopathie diabétique proliférative due au diabète sucré de type II (trouble)"
                     }
                   ]
                 }
@@ -1418,7 +1418,7 @@
                   {
                     "system": "SNOMED-CT",
                     "code": "1501000119109",
-                    "display": "Proliferative diabetic retinopathy due to type II diabetes mellitus (disorder)"
+                    "display": "Rétinopathie diabétique proliférative due au diabète sucré de type II (trouble)"
                   }
                 ]
               }
@@ -1437,7 +1437,7 @@
         {
           "system": "SNOMED-CT",
           "code": "1501000119109",
-          "display": "Proliferative diabetic retinopathy due to type II diabetes mellitus (disorder)"
+          "display": "Rétinopathie diabétique proliférative due au diabète sucré de type II (trouble)"
         }
       ],
       "direct_transition": "Check_Macular_Edema"
@@ -1448,7 +1448,7 @@
         {
           "system": "SNOMED-CT",
           "code": "1501000119109",
-          "display": "Proliferative diabetic retinopathy due to type II diabetes mellitus (disorder)"
+          "display": "Rétinopathie diabétique proliférative due au diabète sucré de type II (trouble)"
         }
       ],
       "direct_transition": "Check_Macular_Edema"
@@ -1473,7 +1473,7 @@
                     {
                       "system": "SNOMED-CT",
                       "code": "97331000119101",
-                      "display": "Macular edema and retinopathy due to type 2 diabetes mellitus (disorder)"
+                      "display": "Oedème maculaire et rétinopathie dus au diabète sucré de type 2 (trouble)"
                     }
                   ]
                 }
@@ -1497,7 +1497,7 @@
                   {
                     "system": "SNOMED-CT",
                     "code": "97331000119101",
-                    "display": "Macular edema and retinopathy due to type 2 diabetes mellitus (disorder)"
+                    "display": "Oedème maculaire et rétinopathie dus au diabète sucré de type 2 (trouble)"
                   }
                 ]
               }
@@ -1516,7 +1516,7 @@
         {
           "system": "SNOMED-CT",
           "code": "97331000119101",
-          "display": "Macular edema and retinopathy due to type 2 diabetes mellitus (disorder)"
+          "display": "Oedème maculaire et rétinopathie dus au diabète sucré de type 2 (trouble)"
         }
       ],
       "direct_transition": "Check_Blindness"
@@ -1527,7 +1527,7 @@
         {
           "system": "SNOMED-CT",
           "code": "97331000119101",
-          "display": "Macular edema and retinopathy due to type 2 diabetes mellitus (disorder)"
+          "display": "Oedème maculaire et rétinopathie dus au diabète sucré de type 2 (trouble)"
         }
       ],
       "direct_transition": "Check_Blindness"
@@ -1552,7 +1552,7 @@
                     {
                       "system": "SNOMED-CT",
                       "code": "60951000119105",
-                      "display": "Blindness due to type 2 diabetes mellitus (disorder)"
+                      "display": "Cécité due au diabète sucré de type 2 (trouble)"
                     }
                   ]
                 }
@@ -1576,7 +1576,7 @@
                   {
                     "system": "SNOMED-CT",
                     "code": "60951000119105",
-                    "display": "Blindness due to type 2 diabetes mellitus (disorder)"
+                    "display": "Cécité due au diabète sucré de type 2 (trouble)"
                   }
                 ]
               }
@@ -1595,7 +1595,7 @@
         {
           "system": "SNOMED-CT",
           "code": "60951000119105",
-          "display": "Blindness due to type 2 diabetes mellitus (disorder)"
+          "display": "Cécité due au diabète sucré de type 2 (trouble)"
         }
       ],
       "direct_transition": "Check_Neuropathy"
@@ -1606,7 +1606,7 @@
         {
           "system": "SNOMED-CT",
           "code": "60951000119105",
-          "display": "Blindness due to type 2 diabetes mellitus (disorder)"
+          "display": "Cécité due au diabète sucré de type 2 (trouble)"
         }
       ],
       "direct_transition": "Check_Neuropathy"
@@ -1631,7 +1631,7 @@
                     {
                       "system": "SNOMED-CT",
                       "code": "368581000119106",
-                      "display": "Neuropathy due to type 2 diabetes mellitus (disorder)"
+                      "display": "Neuropathie due au diabète sucré de type 2 (trouble)"
                     }
                   ]
                 }
@@ -1655,7 +1655,7 @@
                   {
                     "system": "SNOMED-CT",
                     "code": "368581000119106",
-                    "display": "Neuropathy due to type 2 diabetes mellitus (disorder)"
+                    "display": "Neuropathie due au diabète sucré de type 2 (trouble)"
                   }
                 ]
               }
@@ -1674,7 +1674,7 @@
         {
           "system": "SNOMED-CT",
           "code": "368581000119106",
-          "display": "Neuropathy due to type 2 diabetes mellitus (disorder)"
+          "display": "Neuropathie due au diabète sucré de type 2 (trouble)"
         }
       ],
       "direct_transition": "Consider_Procedures"
@@ -1685,7 +1685,7 @@
         {
           "system": "SNOMED-CT",
           "code": "368581000119106",
-          "display": "Neuropathy due to type 2 diabetes mellitus (disorder)"
+          "display": "Neuropathie due au diabète sucré de type 2 (trouble)"
         }
       ],
       "direct_transition": "Consider_Procedures"
@@ -1719,7 +1719,7 @@
               {
                 "system": "SNOMED-CT",
                 "code": "368581000119106",
-                "display": "Neuropathy due to type 2 diabetes mellitus (disorder)"
+                "display": "Neuropathie due au diabète sucré de type 2 (trouble)"
               }
             ]
           },
@@ -1863,7 +1863,7 @@
         {
           "system": "SNOMED-CT",
           "code": "180030006",
-          "display": "Amputation of left foot"
+          "display": "Amputation du pied gauche"
         }
       ],
       "duration": {
@@ -1904,7 +1904,7 @@
         {
           "system": "SNOMED-CT",
           "code": "180030006",
-          "display": "Amputation of right foot"
+          "display": "Amputation du pied droit"
         }
       ],
       "duration": {
@@ -1936,7 +1936,7 @@
         {
           "system": "SNOMED-CT",
           "code": "79733001",
-          "display": "Amputation of left leg"
+          "display": "Amputation de la jambe gauche"
         }
       ],
       "duration": {
@@ -1968,7 +1968,7 @@
         {
           "system": "SNOMED-CT",
           "code": "79733001",
-          "display": "Amputation of right leg"
+          "display": "Amputation de la jambe gauche"
         }
       ],
       "duration": {
@@ -1985,7 +1985,7 @@
         {
           "system": "SNOMED-CT",
           "code": "161622006",
-          "display": "History of lower limb amputation (situation)"
+          "display": "Historique de l'amputation d'un membre inférieur (situation)"
         }
       ],
       "direct_transition": "Recovery_After_Amputation"
@@ -1996,7 +1996,7 @@
         {
           "system": "SNOMED-CT",
           "code": "429280009",
-          "display": "History of amputation of foot (situation)"
+          "display": "Historique de l'amputation d'un membre inférieur (situation)"
         }
       ],
       "direct_transition": "Recovery_After_Amputation"
@@ -2031,7 +2031,7 @@
         {
           "system": "SNOMED-CT",
           "code": "46028000",
-          "display": "Amputation of left hand"
+          "display": "Amputation de la main gauche"
         }
       ],
       "duration": {
@@ -2072,7 +2072,7 @@
         {
           "system": "SNOMED-CT",
           "code": "46028000",
-          "display": "Amputation of right hand"
+          "display": "Amputation de la main droite"
         }
       ],
       "duration": {
@@ -2104,7 +2104,7 @@
         {
           "system": "SNOMED-CT",
           "code": "13995008",
-          "display": "Amputation of right arm"
+          "display": "Amputation du bras droit"
         }
       ],
       "duration": {
@@ -2136,7 +2136,7 @@
         {
           "system": "SNOMED-CT",
           "code": "13995008",
-          "display": "Amputation of left arm"
+          "display": "Amputation du bras gauche"
         }
       ],
       "duration": {
@@ -2153,7 +2153,7 @@
         {
           "system": "SNOMED-CT",
           "code": "161621004",
-          "display": "History of upper limb amputation (situation)"
+          "display": "Historique de l'amputation d'un membre inférieur (situation)"
         }
       ],
       "direct_transition": "Recovery_After_Amputation"
@@ -2164,7 +2164,7 @@
         {
           "system": "SNOMED-CT",
           "code": "698423002",
-          "display": "History of disarticulation at wrist (situation)"
+          "display": "Histoire de la désarticulation du poignet (situation)"
         }
       ],
       "direct_transition": "Recovery_After_Amputation"
@@ -2236,7 +2236,7 @@
         {
           "system": "SNOMED-CT",
           "code": 431855005,
-          "display": "Chronic kidney disease stage 1 (disorder)"
+          "display": "Maladie rénale chronique de stade 1 (disorder)"
         }
       ],
       "direct_transition": "Record_MetabolicPanel"
@@ -2247,7 +2247,7 @@
         {
           "system": "SNOMED-CT",
           "code": 431856006,
-          "display": "Chronic kidney disease stage 2 (disorder)"
+          "display": "Maladie rénale chronique de stade 2 (disorder)"
         }
       ],
       "direct_transition": "Record_MetabolicPanel_2"
@@ -2258,7 +2258,7 @@
         {
           "system": "SNOMED-CT",
           "code": 433144002,
-          "display": "Chronic kidney disease stage 3 (disorder)"
+          "display": "Maladie rénale chronique de stade 3 (disorder)"
         }
       ],
       "direct_transition": "Record_MetabolicPanel_3",
@@ -2270,7 +2270,7 @@
         {
           "system": "SNOMED-CT",
           "code": 431857002,
-          "display": "Chronic kidney disease stage 4 (disorder)"
+          "display": "Maladie rénale chronique de stade 4 (disorder)"
         }
       ],
       "direct_transition": "Record_MetabolicPanel_4",
@@ -2309,7 +2309,7 @@
         {
           "system": "SNOMED-CT",
           "code": 162864005,
-          "display": "Body mass index 30+ - obesity (finding)"
+          "display": "Indice de masse corporelle 30+ - obésité (constat)"
         }
       ],
       "direct_transition": "Wellness_Encounter",
@@ -2323,7 +2323,7 @@
         {
           "system": "SNOMED-CT",
           "code": 408512008,
-          "display": "Body mass index 40+ - severely obese (finding)"
+          "display": "Indice de masse corporelle 40+ - obésité (constat)"
         }
       ],
       "direct_transition": "Wellness_Encounter"
@@ -2334,7 +2334,7 @@
         {
           "system": "LOINC",
           "code": "24321-2",
-          "display": "Basic Metabolic 2000 Panel"
+          "display": "Panel de base sur le métabolisme 2000"
         }
       ],
       "observations": [
@@ -2461,7 +2461,7 @@
         {
           "system": "LOINC",
           "code": "24321-2",
-          "display": "Basic Metabolic 2000 Panel"
+          "display": "Panel de base sur le métabolisme 2000"
         }
       ],
       "observations": [
@@ -2588,7 +2588,7 @@
         {
           "system": "LOINC",
           "code": "24321-2",
-          "display": "Basic Metabolic 2000 Panel"
+          "display": "Panel de base sur le métabolisme 2000"
         }
       ],
       "observations": [
@@ -2715,7 +2715,7 @@
         {
           "system": "LOINC",
           "code": "24321-2",
-          "display": "Basic Metabolic 2000 Panel"
+          "display": "Panel de base sur le métabolisme 2000"
         }
       ],
       "observations": [
@@ -2842,7 +2842,7 @@
         {
           "system": "LOINC",
           "code": "24321-2",
-          "display": "Basic Metabolic 2000 Panel"
+          "display": "Panel de base sur le métabolisme 2000"
         }
       ],
       "observations": [
@@ -2969,7 +2969,7 @@
         {
           "system": "LOINC",
           "code": "24357-6",
-          "display": "Urinalysis macro (dipstick) panel - Urine"
+          "display": "Macro d'analyse d'urine (jauge) - Urine"
         }
       ],
       "observations": [
@@ -2979,14 +2979,14 @@
             {
               "system": "LOINC",
               "code": "5767-9",
-              "display": "Appearance of Urine"
+              "display": "Apparition de l'urine"
             }
           ],
           "unit": "{nominal}",
           "value_code": {
             "system": "SNOMED-CT",
             "code": 7766007,
-            "display": "Cloudy urine (finding)"
+            "display": "Urine trouble (constatation)"
           }
         },
         {
@@ -2995,14 +2995,14 @@
             {
               "system": "LOINC",
               "code": "5767-9",
-              "display": "Odor of Urine"
+              "display": "Odeur d'urine"
             }
           ],
           "unit": "{nominal}",
           "value_code": {
             "system": "SNOMED-CT",
             "code": 167248002,
-            "display": "Urine smell ammoniacal (finding)"
+            "display": "Odeur d'urine ammoniacale (constat)"
           }
         },
         {
@@ -3011,14 +3011,14 @@
             {
               "system": "LOINC",
               "code": "32167-9",
-              "display": "Clarity of Urine"
+              "display": "Clarté de l'urine"
             }
           ],
           "unit": "{nominal}",
           "value_code": {
             "system": "SNOMED-CT",
             "code": 300828005,
-            "display": "Translucent (valeur unitaire)"
+            "display": "Translucide (valeur unitaire)"
           }
         },
         {
@@ -3027,14 +3027,14 @@
             {
               "system": "LOINC",
               "code": "5778-6",
-              "display": "Color of Urine"
+              "display": "Couleur de l'urine"
             }
           ],
           "unit": "{nominal}",
           "value_code": {
             "system": "SNOMED-CT",
             "code": 371254008,
-            "display": "Brown color (valeur unitaire)"
+            "display": "Couleur marron (valeur unitaire)"
           }
         },
         {
@@ -3043,7 +3043,7 @@
             {
               "system": "LOINC",
               "code": "5792-7",
-              "display": "Glucose [Mass/volume] in Urine by Test strip"
+              "display": "Glucose [masse/volume] dans l'urine par bandelette"
             }
           ],
           "unit": "mg/dL",
@@ -3058,14 +3058,14 @@
             {
               "system": "LOINC",
               "code": "25428-4",
-              "display": "Glucose [Presence] in Urine by Test strip"
+              "display": "Glucose [Présence] dans l'urine par bandelette"
             }
           ],
           "unit": "{nominal}",
           "value_code": {
             "system": "SNOMED-CT",
             "code": 167265006,
-            "display": "Urine glucose test = ++ (finding)"
+            "display": "Test de glucose dans l'urine = ++ (résultat)"
           }
         },
         {
@@ -3074,7 +3074,7 @@
             {
               "system": "LOINC",
               "code": "20505-4",
-              "display": "Bilirubin.total [Mass/volume] in Urine by Test strip"
+              "display": "Bilirubin.total [Mass/volume] dans l'urine par bandelettes réactives"
             }
           ],
           "unit": "mg/dL",
@@ -3089,14 +3089,14 @@
             {
               "system": "LOINC",
               "code": "5770-3",
-              "display": "Bilirubin.total [Presence] in Urine by Test strip"
+              "display": "Bilirubin.total [Presence] dans l'urine par bandelettes réactives"
             }
           ],
           "unit": "{nominal}",
           "value_code": {
             "system": "SNOMED-CT",
             "code": 275778006,
-            "display": "Finding of bilirubin in urine (finding)"
+            "display": "Recherche de bilirubine dans les urines (recherche)"
           }
         },
         {
@@ -3106,7 +3106,7 @@
             {
               "system": "LOINC",
               "code": "5797-6",
-              "display": "Ketones [Mass/volume] in Urine by Test strip"
+              "display": "Ketones [Mass/volume] dans l'urine par bandelettes réactives"
             }
           ],
           "range": {
@@ -3121,7 +3121,7 @@
             {
               "system": "LOINC",
               "code": "2514-8",
-              "display": "Ketones [Presence] in Urine by Test strip"
+              "display": "Ketones [Presence] dans l'urine par bandelettes réactives"
             }
           ],
           "value_code": {
@@ -3137,7 +3137,7 @@
             {
               "system": "LOINC",
               "code": "5811-5",
-              "display": "Specific gravity of Urine by Test strip"
+              "display": "Densité de l'urine par bandelette de test"
             }
           ],
           "range": {
@@ -3152,7 +3152,7 @@
             {
               "system": "LOINC",
               "code": "5803-2",
-              "display": "pH of Urine by Test strip"
+              "display": "pH de l'urine par bandelette de test"
             }
           ],
           "range": {
@@ -3167,7 +3167,7 @@
             {
               "system": "LOINC",
               "code": "5804-0",
-              "display": "Protein [Mass/volume] in Urine by Test strip"
+              "display": "Protein [Mass/volume] dans l'urine par bandelettes réactives"
             }
           ],
           "range": {
@@ -3182,7 +3182,7 @@
             {
               "system": "LOINC",
               "code": "20454-5",
-              "display": "Protein [Presence] in Urine by Test strip"
+              "display": "Protein [Presence] dans l'urine par bandelettes réactives"
             }
           ],
           "value_code": {
@@ -3198,13 +3198,13 @@
             {
               "system": "LOINC",
               "code": "5802-4",
-              "display": "Nitrite [Presence] in Urine by Test strip"
+              "display": "Nitrite [Presence] dans l'urine par bandelettes réactives"
             }
           ],
           "value_code": {
             "system": "SNOMED-CT",
             "code": 314138001,
-            "display": "Urine nitrite negative (finding)"
+            "display": "Négatif pour les nitrites dans l'urine (constat)"
           }
         },
         {
@@ -3214,13 +3214,13 @@
             {
               "system": "LOINC",
               "code": "5794-3",
-              "display": "Hemoglobin [Presence] in Urine by Test strip"
+              "display": "Hemoglobin [Presence] dans l'urine par bandelettes réactives"
             }
           ],
           "value_code": {
             "system": "SNOMED-CT",
             "code": 167297006,
-            "display": "Urine blood test = negative (finding)"
+            "display": "Test urinaire sanguin = négatif (résultat)"
           }
         },
         {
@@ -3230,13 +3230,13 @@
             {
               "system": "LOINC",
               "code": "5799-2",
-              "display": "Leukocyte esterase [Presence] in Urine by Test strip"
+              "display": "Leukocyte esterase [Presence] dans l'urine par bandelettes réactives"
             }
           ],
           "value_code": {
             "system": "SNOMED-CT",
             "code": 394717006,
-            "display": "Urine leukocyte test negative (finding)"
+            "display": "Test leucocytaire urinaire négatif (résultat)"
           }
         }
       ],
@@ -3248,7 +3248,7 @@
         {
           "system": "LOINC",
           "code": "24357-6",
-          "display": "Urinalysis macro (dipstick) panel - Urine"
+          "display": "Macro d'analyse d'urine (jauge) - Urine"
         }
       ],
       "observations": [
@@ -3258,14 +3258,14 @@
             {
               "system": "LOINC",
               "code": "5767-9",
-              "display": "Appearance of Urine"
+              "display": "Apparition de l'urine"
             }
           ],
           "unit": "{nominal}",
           "value_code": {
             "system": "SNOMED-CT",
             "code": 7766007,
-            "display": "Cloudy urine (finding)"
+            "display": "Urine trouble (constatation)"
           }
         },
         {
@@ -3274,14 +3274,14 @@
             {
               "system": "LOINC",
               "code": "5767-9",
-              "display": "Odor of Urine"
+              "display": "Odeur d'urine"
             }
           ],
           "unit": "{nominal}",
           "value_code": {
             "system": "SNOMED-CT",
             "code": 167248002,
-            "display": "Urine smell ammoniacal (finding)"
+            "display": "Odeur d'urine ammoniacale (constat)"
           }
         },
         {
@@ -3290,14 +3290,14 @@
             {
               "system": "LOINC",
               "code": "32167-9",
-              "display": "Clarity of Urine"
+              "display": "Clarté de l'urine"
             }
           ],
           "unit": "{nominal}",
           "value_code": {
             "system": "SNOMED-CT",
             "code": 300828005,
-            "display": "Translucent (valeur unitaire)"
+            "display": "Translucide (valeur unitaire)"
           }
         },
         {
@@ -3306,14 +3306,14 @@
             {
               "system": "LOINC",
               "code": "5778-6",
-              "display": "Color of Urine"
+              "display": "Couleur de l'urine"
             }
           ],
           "unit": "{nominal}",
           "value_code": {
             "system": "SNOMED-CT",
             "code": 371254008,
-            "display": "Brown color (valeur unitaire)"
+            "display": "Couleur marron (valeur unitaire)"
           }
         },
         {
@@ -3322,7 +3322,7 @@
             {
               "system": "LOINC",
               "code": "5792-7",
-              "display": "Glucose [Mass/volume] in Urine by Test strip"
+              "display": "Glucose [masse/volume] dans l'urine par bandelette"
             }
           ],
           "unit": "mg/dL",
@@ -3337,14 +3337,14 @@
             {
               "system": "LOINC",
               "code": "25428-4",
-              "display": "Glucose [Presence] in Urine by Test strip"
+              "display": "Glucose [Présence] dans l'urine par bandelette"
             }
           ],
           "unit": "{nominal}",
           "value_code": {
             "system": "SNOMED-CT",
             "code": 167265006,
-            "display": "Urine glucose test = ++ (finding)"
+            "display": "Test de glucose dans l'urine = ++ (résultat)"
           }
         },
         {
@@ -3353,7 +3353,7 @@
             {
               "system": "LOINC",
               "code": "20505-4",
-              "display": "Bilirubin.total [Mass/volume] in Urine by Test strip"
+              "display": "Bilirubin.total [Mass/volume] dans l'urine par bandelettes réactives"
             }
           ],
           "unit": "mg/dL",
@@ -3368,14 +3368,14 @@
             {
               "system": "LOINC",
               "code": "5770-3",
-              "display": "Bilirubin.total [Presence] in Urine by Test strip"
+              "display": "Bilirubin.total [Presence] dans l'urine par bandelettes réactives"
             }
           ],
           "unit": "{nominal}",
           "value_code": {
             "system": "SNOMED-CT",
             "code": 275778006,
-            "display": "Finding of bilirubin in urine (finding)"
+            "display": "Recherche de bilirubine dans les urines (recherche)"
           }
         },
         {
@@ -3385,7 +3385,7 @@
             {
               "system": "LOINC",
               "code": "5797-6",
-              "display": "Ketones [Mass/volume] in Urine by Test strip"
+              "display": "Ketones [Mass/volume] dans l'urine par bandelettes réactives"
             }
           ],
           "range": {
@@ -3400,7 +3400,7 @@
             {
               "system": "LOINC",
               "code": "2514-8",
-              "display": "Ketones [Presence] in Urine by Test strip"
+              "display": "Ketones [Presence] dans l'urine par bandelettes réactives"
             }
           ],
           "value_code": {
@@ -3416,7 +3416,7 @@
             {
               "system": "LOINC",
               "code": "5811-5",
-              "display": "Specific gravity of Urine by Test strip"
+              "display": "Densité de l'urine par bandelette de test"
             }
           ],
           "range": {
@@ -3431,7 +3431,7 @@
             {
               "system": "LOINC",
               "code": "5803-2",
-              "display": "pH of Urine by Test strip"
+              "display": "pH de l'urine par bandelette de test"
             }
           ],
           "range": {
@@ -3446,7 +3446,7 @@
             {
               "system": "LOINC",
               "code": "5804-0",
-              "display": "Protein [Mass/volume] in Urine by Test strip"
+              "display": "Protein [Mass/volume] dans l'urine par bandelettes réactives"
             }
           ],
           "range": {
@@ -3461,7 +3461,7 @@
             {
               "system": "LOINC",
               "code": "20454-5",
-              "display": "Protein [Presence] in Urine by Test strip"
+              "display": "Protein [Presence] dans l'urine par bandelettes réactives"
             }
           ],
           "value_code": {
@@ -3477,13 +3477,13 @@
             {
               "system": "LOINC",
               "code": "5802-4",
-              "display": "Nitrite [Presence] in Urine by Test strip"
+              "display": "Nitrite [Presence] dans l'urine par bandelettes réactives"
             }
           ],
           "value_code": {
             "system": "SNOMED-CT",
             "code": 314138001,
-            "display": "Urine nitrite negative (finding)"
+            "display": "Négatif pour les nitrites dans l'urine (constat)"
           }
         },
         {
@@ -3493,13 +3493,13 @@
             {
               "system": "LOINC",
               "code": "5794-3",
-              "display": "Hemoglobin [Presence] in Urine by Test strip"
+              "display": "Hemoglobin [Presence] dans l'urine par bandelettes réactives"
             }
           ],
           "value_code": {
             "system": "SNOMED-CT",
             "code": 167297006,
-            "display": "Urine blood test = negative (finding)"
+            "display": "Test urinaire sanguin = négatif (résultat)"
           }
         },
         {
@@ -3509,13 +3509,13 @@
             {
               "system": "LOINC",
               "code": "5799-2",
-              "display": "Leukocyte esterase [Presence] in Urine by Test strip"
+              "display": "Leukocyte esterase [Presence] dans l'urine par bandelettes réactives"
             }
           ],
           "value_code": {
             "system": "SNOMED-CT",
             "code": 394717006,
-            "display": "Urine leukocyte test negative (finding)"
+            "display": "Test leucocytaire urinaire négatif (résultat)"
           }
         }
       ],
@@ -3527,7 +3527,7 @@
         {
           "system": "LOINC",
           "code": "24357-6",
-          "display": "Urinalysis macro (dipstick) panel - Urine"
+          "display": "Macro d'analyse d'urine (jauge) - Urine"
         }
       ],
       "observations": [
@@ -3537,14 +3537,14 @@
             {
               "system": "LOINC",
               "code": "5767-9",
-              "display": "Appearance of Urine"
+              "display": "Apparition de l'urine"
             }
           ],
           "unit": "{nominal}",
           "value_code": {
             "system": "SNOMED-CT",
             "code": 7766007,
-            "display": "Cloudy urine (finding)"
+            "display": "Urine trouble (constatation)"
           }
         },
         {
@@ -3553,14 +3553,14 @@
             {
               "system": "LOINC",
               "code": "5767-9",
-              "display": "Odor of Urine"
+              "display": "Odeur d'urine"
             }
           ],
           "unit": "{nominal}",
           "value_code": {
             "system": "SNOMED-CT",
             "code": 167248002,
-            "display": "Urine smell ammoniacal (finding)"
+            "display": "Odeur d'urine ammoniacale (constat)"
           }
         },
         {
@@ -3569,14 +3569,14 @@
             {
               "system": "LOINC",
               "code": "32167-9",
-              "display": "Clarity of Urine"
+              "display": "Clarté de l'urine"
             }
           ],
           "unit": "{nominal}",
           "value_code": {
             "system": "SNOMED-CT",
             "code": 300828005,
-            "display": "Translucent (valeur unitaire)"
+            "display": "Translucide (valeur unitaire)"
           }
         },
         {
@@ -3585,14 +3585,14 @@
             {
               "system": "LOINC",
               "code": "5778-6",
-              "display": "Color of Urine"
+              "display": "Couleur de l'urine"
             }
           ],
           "unit": "{nominal}",
           "value_code": {
             "system": "SNOMED-CT",
             "code": 371254008,
-            "display": "Brown color (valeur unitaire)"
+            "display": "Couleur marron (valeur unitaire)"
           }
         },
         {
@@ -3601,7 +3601,7 @@
             {
               "system": "LOINC",
               "code": "5792-7",
-              "display": "Glucose [Mass/volume] in Urine by Test strip"
+              "display": "Glucose [masse/volume] dans l'urine par bandelette"
             }
           ],
           "unit": "mg/dL",
@@ -3616,14 +3616,14 @@
             {
               "system": "LOINC",
               "code": "25428-4",
-              "display": "Glucose [Presence] in Urine by Test strip"
+              "display": "Glucose [Présence] dans l'urine par bandelette"
             }
           ],
           "unit": "{nominal}",
           "value_code": {
             "system": "SNOMED-CT",
             "code": 167265006,
-            "display": "Urine glucose test = ++ (finding)"
+            "display": "Test de glucose dans l'urine = ++ (résultat)"
           }
         },
         {
@@ -3632,7 +3632,7 @@
             {
               "system": "LOINC",
               "code": "20505-4",
-              "display": "Bilirubin.total [Mass/volume] in Urine by Test strip"
+              "display": "Bilirubin.total [Mass/volume] dans l'urine par bandelettes réactives"
             }
           ],
           "unit": "mg/dL",
@@ -3647,14 +3647,14 @@
             {
               "system": "LOINC",
               "code": "5770-3",
-              "display": "Bilirubin.total [Presence] in Urine by Test strip"
+              "display": "Bilirubin.total [Presence] dans l'urine par bandelettes réactives"
             }
           ],
           "unit": "{nominal}",
           "value_code": {
             "system": "SNOMED-CT",
             "code": 275778006,
-            "display": "Finding of bilirubin in urine (finding)"
+            "display": "Recherche de bilirubine dans les urines (recherche)"
           }
         },
         {
@@ -3664,7 +3664,7 @@
             {
               "system": "LOINC",
               "code": "5797-6",
-              "display": "Ketones [Mass/volume] in Urine by Test strip"
+              "display": "Ketones [Mass/volume] dans l'urine par bandelettes réactives"
             }
           ],
           "range": {
@@ -3679,7 +3679,7 @@
             {
               "system": "LOINC",
               "code": "2514-8",
-              "display": "Ketones [Presence] in Urine by Test strip"
+              "display": "Ketones [Presence] dans l'urine par bandelettes réactives"
             }
           ],
           "value_code": {
@@ -3695,7 +3695,7 @@
             {
               "system": "LOINC",
               "code": "5811-5",
-              "display": "Specific gravity of Urine by Test strip"
+              "display": "Densité de l'urine par bandelette de test"
             }
           ],
           "range": {
@@ -3710,7 +3710,7 @@
             {
               "system": "LOINC",
               "code": "5803-2",
-              "display": "pH of Urine by Test strip"
+              "display": "pH de l'urine par bandelette de test"
             }
           ],
           "range": {
@@ -3725,7 +3725,7 @@
             {
               "system": "LOINC",
               "code": "5804-0",
-              "display": "Protein [Mass/volume] in Urine by Test strip"
+              "display": "Protein [Mass/volume] dans l'urine par bandelettes réactives"
             }
           ],
           "range": {
@@ -3740,7 +3740,7 @@
             {
               "system": "LOINC",
               "code": "20454-5",
-              "display": "Protein [Presence] in Urine by Test strip"
+              "display": "Protein [Presence] dans l'urine par bandelettes réactives"
             }
           ],
           "value_code": {
@@ -3756,13 +3756,13 @@
             {
               "system": "LOINC",
               "code": "5802-4",
-              "display": "Nitrite [Presence] in Urine by Test strip"
+              "display": "Nitrite [Presence] dans l'urine par bandelettes réactives"
             }
           ],
           "value_code": {
             "system": "SNOMED-CT",
             "code": 314138001,
-            "display": "Urine nitrite negative (finding)"
+            "display": "Négatif pour les nitrites dans l'urine (constat)"
           }
         },
         {
@@ -3772,13 +3772,13 @@
             {
               "system": "LOINC",
               "code": "5794-3",
-              "display": "Hemoglobin [Presence] in Urine by Test strip"
+              "display": "Hemoglobin [Presence] dans l'urine par bandelettes réactives"
             }
           ],
           "value_code": {
             "system": "SNOMED-CT",
             "code": 167297006,
-            "display": "Urine blood test = negative (finding)"
+            "display": "Test urinaire sanguin = négatif (résultat)"
           }
         },
         {
@@ -3788,13 +3788,13 @@
             {
               "system": "LOINC",
               "code": "5799-2",
-              "display": "Leukocyte esterase [Presence] in Urine by Test strip"
+              "display": "Leukocyte esterase [Presence] dans l'urine par bandelettes réactives"
             }
           ],
           "value_code": {
             "system": "SNOMED-CT",
             "code": 394717006,
-            "display": "Urine leukocyte test negative (finding)"
+            "display": "Test leucocytaire urinaire négatif (résultat)"
           }
         }
       ],
@@ -3806,7 +3806,7 @@
         {
           "system": "LOINC",
           "code": "24357-6",
-          "display": "Urinalysis macro (dipstick) panel - Urine"
+          "display": "Macro d'analyse d'urine (jauge) - Urine"
         }
       ],
       "observations": [
@@ -3816,14 +3816,14 @@
             {
               "system": "LOINC",
               "code": "5767-9",
-              "display": "Appearance of Urine"
+              "display": "Apparition de l'urine"
             }
           ],
           "unit": "{nominal}",
           "value_code": {
             "system": "SNOMED-CT",
             "code": 7766007,
-            "display": "Cloudy urine (finding)"
+            "display": "Urine trouble (constatation)"
           }
         },
         {
@@ -3832,14 +3832,14 @@
             {
               "system": "LOINC",
               "code": "5767-9",
-              "display": "Odor of Urine"
+              "display": "Odeur d'urine"
             }
           ],
           "unit": "{nominal}",
           "value_code": {
             "system": "SNOMED-CT",
             "code": 167248002,
-            "display": "Urine smell ammoniacal (finding)"
+            "display": "Odeur d'urine ammoniacale (constat)"
           }
         },
         {
@@ -3848,14 +3848,14 @@
             {
               "system": "LOINC",
               "code": "32167-9",
-              "display": "Clarity of Urine"
+              "display": "Clarté de l'urine"
             }
           ],
           "unit": "{nominal}",
           "value_code": {
             "system": "SNOMED-CT",
             "code": 300828005,
-            "display": "Translucent (valeur unitaire)"
+            "display": "Translucide (valeur unitaire)"
           }
         },
         {
@@ -3864,14 +3864,14 @@
             {
               "system": "LOINC",
               "code": "5778-6",
-              "display": "Color of Urine"
+              "display": "Couleur de l'urine"
             }
           ],
           "unit": "{nominal}",
           "value_code": {
             "system": "SNOMED-CT",
             "code": 371254008,
-            "display": "Brown color (valeur unitaire)"
+            "display": "Couleur marron (valeur unitaire)"
           }
         },
         {
@@ -3880,7 +3880,7 @@
             {
               "system": "LOINC",
               "code": "5792-7",
-              "display": "Glucose [Mass/volume] in Urine by Test strip"
+              "display": "Glucose [masse/volume] dans l'urine par bandelette"
             }
           ],
           "unit": "mg/dL",
@@ -3895,14 +3895,14 @@
             {
               "system": "LOINC",
               "code": "25428-4",
-              "display": "Glucose [Presence] in Urine by Test strip"
+              "display": "Glucose [Présence] dans l'urine par bandelette"
             }
           ],
           "unit": "{nominal}",
           "value_code": {
             "system": "SNOMED-CT",
             "code": 167265006,
-            "display": "Urine glucose test = ++ (finding)"
+            "display": "Test de glucose dans l'urine = ++ (résultat)"
           }
         },
         {
@@ -3911,7 +3911,7 @@
             {
               "system": "LOINC",
               "code": "20505-4",
-              "display": "Bilirubin.total [Mass/volume] in Urine by Test strip"
+              "display": "Bilirubin.total [Mass/volume] dans l'urine par bandelettes réactives"
             }
           ],
           "unit": "mg/dL",
@@ -3926,14 +3926,14 @@
             {
               "system": "LOINC",
               "code": "5770-3",
-              "display": "Bilirubin.total [Presence] in Urine by Test strip"
+              "display": "Bilirubin.total [Presence] dans l'urine par bandelettes réactives"
             }
           ],
           "unit": "{nominal}",
           "value_code": {
             "system": "SNOMED-CT",
             "code": 275778006,
-            "display": "Finding of bilirubin in urine (finding)"
+            "display": "Recherche de bilirubine dans les urines (recherche)"
           }
         },
         {
@@ -3943,7 +3943,7 @@
             {
               "system": "LOINC",
               "code": "5797-6",
-              "display": "Ketones [Mass/volume] in Urine by Test strip"
+              "display": "Ketones [Mass/volume] dans l'urine par bandelettes réactives"
             }
           ],
           "range": {
@@ -3958,7 +3958,7 @@
             {
               "system": "LOINC",
               "code": "2514-8",
-              "display": "Ketones [Presence] in Urine by Test strip"
+              "display": "Ketones [Presence] dans l'urine par bandelettes réactives"
             }
           ],
           "value_code": {
@@ -3974,7 +3974,7 @@
             {
               "system": "LOINC",
               "code": "5811-5",
-              "display": "Specific gravity of Urine by Test strip"
+              "display": "Densité de l'urine par bandelette de test"
             }
           ],
           "range": {
@@ -3989,7 +3989,7 @@
             {
               "system": "LOINC",
               "code": "5803-2",
-              "display": "pH of Urine by Test strip"
+              "display": "pH de l'urine par bandelette de test"
             }
           ],
           "range": {
@@ -4004,7 +4004,7 @@
             {
               "system": "LOINC",
               "code": "5804-0",
-              "display": "Protein [Mass/volume] in Urine by Test strip"
+              "display": "Protein [Mass/volume] dans l'urine par bandelettes réactives"
             }
           ],
           "range": {
@@ -4019,7 +4019,7 @@
             {
               "system": "LOINC",
               "code": "20454-5",
-              "display": "Protein [Presence] in Urine by Test strip"
+              "display": "Protein [Presence] dans l'urine par bandelettes réactives"
             }
           ],
           "value_code": {
@@ -4035,13 +4035,13 @@
             {
               "system": "LOINC",
               "code": "5802-4",
-              "display": "Nitrite [Presence] in Urine by Test strip"
+              "display": "Nitrite [Presence] dans l'urine par bandelettes réactives"
             }
           ],
           "value_code": {
             "system": "SNOMED-CT",
             "code": 314138001,
-            "display": "Urine nitrite negative (finding)"
+            "display": "Négatif pour les nitrites dans l'urine (constat)"
           }
         },
         {
@@ -4051,13 +4051,13 @@
             {
               "system": "LOINC",
               "code": "5794-3",
-              "display": "Hemoglobin [Presence] in Urine by Test strip"
+              "display": "Hemoglobin [Presence] dans l'urine par bandelettes réactives"
             }
           ],
           "value_code": {
             "system": "SNOMED-CT",
             "code": 167297006,
-            "display": "Urine blood test = negative (finding)"
+            "display": "Test urinaire sanguin = négatif (résultat)"
           }
         },
         {
@@ -4067,13 +4067,13 @@
             {
               "system": "LOINC",
               "code": "5799-2",
-              "display": "Leukocyte esterase [Presence] in Urine by Test strip"
+              "display": "Leukocyte esterase [Presence] dans l'urine par bandelettes réactives"
             }
           ],
           "value_code": {
             "system": "SNOMED-CT",
             "code": 394717006,
-            "display": "Urine leukocyte test negative (finding)"
+            "display": "Test leucocytaire urinaire négatif (résultat)"
           }
         }
       ],

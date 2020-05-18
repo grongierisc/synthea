@@ -53,14 +53,14 @@ import org.mitre.synthea.world.concepts.HealthRecord.Report;
  * 2015-11-04 - 2015-11-18 : Acute viral pharyngitis (disorder)
  * --------------------------------------------------------------------------------
  * CARE PLANS:
- * 2016-10-26[CURRENT] : Diabetes self management plan
+ * 2016-10-26[CURRENT] : Plan d'autogestion du diabète
  *                          Reason: Diabetes
- *                          Activity: Diabetic diet
+ *                          Activity: Régime diabétique
  *                          Activity: Exercise therapy
- * 2010-09-15[STOPPED] : Fracture care
- *                          Reason: Fracture subluxation of wrist
+ * 2010-09-15[STOPPED] : Soins des fractures
+ *                          Reason: Fracture subluxation du poignet
  *                          Activity: Recommendation to rest
- *                          Activity: Physical activity target light exercise
+ *                          Activity: L'activité physique cible l'exercice léger
  * --------------------------------------------------------------------------------
  * OBSERVATIONS:
  * 2017-11-01 : Blood Pressure
@@ -126,7 +126,7 @@ import org.mitre.synthea.world.concepts.HealthRecord.Report;
  * CONTINUING
  *   
  *  CONDITIONS:
- *  2015-01-14 : Atopic dermatitis
+ *  2015-01-14 : La dermatite atopique
  *  2016-04-18 : Childhood asthma
  *  
  *  MEDICATIONS:
@@ -137,12 +137,12 @@ import org.mitre.synthea.world.concepts.HealthRecord.Report;
  *              Inhaler for Childhood asthma
  *   
  *  CAREPLANS:
- *  2015-01-14 : Skin condition care
- *                        Reason: Atopic dermatitis
- *                        Activity: Application of moisturizer to skin
+ *  2015-01-14 : Soins des affections de la peau
+ *                        Reason: La dermatite atopique
+ *                        Activity: Application d'une crème hydratante sur la peau
  *  2015-01-27 : Self care
  *                        Activity: Allergy education
- *                        Activity: Food allergy diet
+ *                        Activity: Régime alimentaire contre les allergies
  *                        Activity: Allergy education
  *  2016-04-18 : Asthma self management
  *                        Reason: Childhood asthma

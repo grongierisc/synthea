@@ -125,7 +125,7 @@
         {
           "system": "SNOMED-CT",
           "code": "74857009",
-          "display": "Hospital admission, short-term, 24 hours"
+          "display": "Admission à l'hôpital, short-term, 24 hours"
         }
       ],
       "duration": {

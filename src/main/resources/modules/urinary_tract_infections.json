@@ -213,7 +213,7 @@
     },
     "UTI_Symptom5": {
       "type": "Symptom",
-      "symptom": "Odor of Urine",
+      "symptom": "Odeur d'urine",
       "range": {
         "low": 0,
         "high": 10
@@ -411,7 +411,7 @@
     },
     "UTI_Symptom5_Ends": {
       "type": "Symptom",
-      "symptom": "Odor of Urine",
+      "symptom": "Odeur d'urine",
       "exact": {
         "quantity": 0
       },

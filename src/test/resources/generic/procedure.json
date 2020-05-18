@@ -11,7 +11,7 @@
             "codes": [{
                 "system": "SNOMED-CT",
                 "code": "32485007",
-                "display": "Hospital admission"
+                "display": "Admission à l'hôpital"
             }],
             "direct_transition": "Appendectomy"
         },

@@ -195,7 +195,7 @@
         {
           "system": "SNOMED-CT",
           "code": "210098006",
-          "display": "Domiciliary or rest home patient evaluation and management"
+          "display": "Évaluation et gestion des patients à domicile ou en maison de repos"
         }
       ],
       "direct_transition": "Information_Gathering"
@@ -206,7 +206,7 @@
         {
           "system": "SNOMED-CT",
           "code": "311791003",
-          "display": "Information gathering (procedure)"
+          "display": "Collecte d'informations (procédure)"
         }
       ],
       "direct_transition": "Question_1",
@@ -222,7 +222,7 @@
         {
           "system": "LOINC",
           "code": "76690-7",
-          "display": "Sexual orientation"
+          "display": "Orientation sexuel"
         }
       ],
       "attribute": "sexual_orientation",
@@ -322,7 +322,7 @@
         {
           "system": "LOINC",
           "code": "28245-9",
-          "display": "Abuse Status [OMAHA]"
+          "display": "Statut des abus [OMAHA]"
         }
       ],
       "exact": {
@@ -338,7 +338,7 @@
         {
           "system": "LOINC",
           "code": "28245-9",
-          "display": "Abuse Status [OMAHA]"
+          "display": "Statut des abus [OMAHA]"
         }
       ],
       "exact": {
@@ -354,7 +354,7 @@
         {
           "system": "LOINC",
           "code": "71802-3",
-          "display": "Housing status"
+          "display": "Situation du logement"
         }
       ],
       "exact": {
@@ -386,7 +386,7 @@
         {
           "system": "LOINC",
           "code": "63513-6",
-          "display": "Are you covered by health insurance or some other kind of health care plan [PhenX]"
+          "display": "Êtes-vous couvert par une assurance maladie ou un autre type de plan de soins de santé [PhenX]"
         }
       ],
       "exact": {
@@ -402,7 +402,7 @@
         {
           "system": "LOINC",
           "code": "63513-6",
-          "display": "Are you covered by health insurance or some other kind of health care plan [PhenX]"
+          "display": "Êtes-vous couvert par une assurance maladie ou un autre type de plan de soins de santé [PhenX]"
         }
       ],
       "exact": {
@@ -418,7 +418,7 @@
         {
           "system": "LOINC",
           "code": "46240-8",
-          "display": "History of Hospitalizations+Outpatient visits"
+          "display": "Historique des hospitalisations et des consultations externes"
         }
       ],
       "range": {

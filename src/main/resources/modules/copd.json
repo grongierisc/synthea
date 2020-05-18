@@ -335,7 +335,7 @@
         {
           "system": "SNOMED-CT",
           "code": "15081005",
-          "display": "Pulmonary rehabilitation (regime/therapy)"
+          "display": "Réadaptation pulmonaire (régime/thérapie)"
         }
       ],
       "direct_transition": "End_Diagnosis_Encounter"
@@ -359,7 +359,7 @@
         {
           "system": "SNOMED-CT",
           "code": "426990007",
-          "display": "Home oxygen therapy (procedure)"
+          "display": "Oxygénothérapie à domicile (procédure)"
         }
       ],
       "direct_transition": "End_Diagnosis_Encounter"
@@ -890,7 +890,7 @@
         {
           "system": "SNOMED-CT",
           "code": "305411003",
-          "display": "Admission to thoracic surgery department"
+          "display": "Admission au service de chirurgie thoracique"
         }
       ],
       "conditional_transition": [
@@ -924,7 +924,7 @@
         {
           "system": "SNOMED-CT",
           "code": "88039007",
-          "display": "Transplant of lung (procedure)"
+          "display": "Transplantation de poumon (procédure)"
         }
       ],
       "duration": {
@@ -941,7 +941,7 @@
         {
           "system": "SNOMED-CT",
           "code": "429609002",
-          "display": "Lung volume reduction surgery (procedure)"
+          "display": "Chirurgie de réduction du volume des poumons (procédure)"
         }
       ],
       "direct_transition": "End_Surgery_Encounter"
@@ -957,7 +957,7 @@
         {
           "system": "SNOMED-CT",
           "code": "15081005",
-          "display": "Pulmonary rehabilitation (regime/therapy)"
+          "display": "Réadaptation pulmonaire (régime/thérapie)"
         }
       ],
       "direct_transition": "Check_Medication"

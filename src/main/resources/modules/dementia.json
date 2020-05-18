@@ -82,7 +82,7 @@
         {
           "system": "SNOMED-CT",
           "code": "26929004",
-          "display": "Alzheimer's disease (disorder)"
+          "display": "Maladie d'Alzheimer (trouble)"
         }
       ],
       "direct_transition": "NoImpairment"
@@ -104,7 +104,7 @@
         {
           "system": "SNOMED-CT",
           "code": "230265002",
-          "display": "Familial Alzheimer's disease of early onset (disorder)"
+          "display": "Apparition précoce Maladie d'Alzheimer familiale (trouble)"
         }
       ],
       "direct_transition": "NoImpairment"
@@ -266,24 +266,24 @@
         {
           "system": "SNOMED-CT",
           "code": "386257007",
-          "display": "Demential management"
+          "display": "Gestion de la démence"
         }
       ],
       "activities": [
         {
           "system": "SNOMED-CT",
           "code": "850261000000100",
-          "display": "Education about dementia"
+          "display": "Éducation sur la démence"
         },
         {
           "system": "SNOMED-CT",
           "code": "710125008",
-          "display": "Promotion of use of memory skills"
+          "display": "Promotion de l'utilisation des capacités de mémoire"
         },
         {
           "system": "SNOMED-CT",
           "code": "315043002",
-          "display": "Long term social support"
+          "display": "Soutien social à long terme"
         }
       ],
       "direct_transition": "FirstPrescription"
@@ -428,7 +428,7 @@
         {
           "system": "SNOMED-CT",
           "code": "316744009",
-          "display": "Office Visit"
+          "display": "Viste médicale"
         }
       ],
       "direct_transition": "ModeratelySevere_MMSE_Score"
@@ -574,7 +574,7 @@
         {
           "system": "SNOMED-CT",
           "code": "316744009",
-          "display": "Office Visit"
+          "display": "Viste médicale"
         }
       ],
       "direct_transition": "Severe_MMSE_Score"
@@ -625,7 +625,7 @@
         {
           "system": "SNOMED-CT",
           "code": "316744009",
-          "display": "Office Visit"
+          "display": "Viste médicale"
         }
       ],
       "direct_transition": "VerySevere_MMSE_Score"
@@ -689,7 +689,7 @@
         {
           "system": "SNOMED-CT",
           "code": "233604007",
-          "display": "Pneumonia"
+          "display": "Pneumonie"
         }
       ],
       "remarks": [
@@ -705,7 +705,7 @@
         {
           "system": "SNOMED-CT",
           "code": "32485007",
-          "display": "Hospital admission"
+          "display": "Admission à l'hôpital"
         }
       ],
       "direct_transition": "PneumoniaDeath"

@@ -388,7 +388,7 @@ public class LogicTest {
     assertFalse(doTest("diabetesConditionTest"));
 
     HealthRecord.Code alzCode = new HealthRecord.Code("SNOMED-CT", "26929004",
-        "Alzheimer's disease (disorder)");
+        "Maladie d'Alzheimer (trouble)");
 
     HealthRecord.Entry cond = person.record.conditionStart(time, alzCode.code);
     person.attributes.put("Alzheimer's Variant", cond);
@@ -400,7 +400,7 @@ public class LogicTest {
   public void test_careplan_condition() {
 
     HealthRecord.Code diabetesCode = new HealthRecord.Code("SNOMED-CT", "698360004",
-        "Diabetes self management plan");
+        "Plan d'autogestion du diabète");
 
     person.record = new HealthRecord(person);
     assertFalse(doTest("diabetesCarePlanTest"));
@@ -418,7 +418,7 @@ public class LogicTest {
     assertFalse(doTest("diabetesCarePlanTest"));
 
     HealthRecord.Code anginaCode = new HealthRecord.Code("SNOMED-CT", "698360004",
-        "Diabetes self management plan");
+        "Plan d'autogestion du diabète");
 
     CarePlan acp = person.record.careplanStart(time, anginaCode.code);
     acp.codes.add(anginaCode);

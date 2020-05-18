@@ -154,7 +154,7 @@
         {
           "system": "SNOMED-CT",
           "code": "128613002",
-          "display": "Seizure disorder"
+          "display": "Troubles convulsifs"
         }
       ],
       "direct_transition": "Seizure_Encounter",
@@ -187,7 +187,7 @@
         {
           "system": "SNOMED-CT",
           "code": "703151001",
-          "display": "History of single seizure (situation)"
+          "display": "Historique de convultion(situation)"
         }
       ],
       "direct_transition": "EEG_Test"
@@ -203,7 +203,7 @@
         {
           "system": "SNOMED-CT",
           "code": "54550000",
-          "display": "Seizure Count Cerebral Cortex Electroencephalogram (EEG)"
+          "display": "Compte des crises Électroencéphalogramme du cortex cérébral (EEG)"
         }
       ],
       "complex_transition": [
@@ -238,7 +238,7 @@
         {
           "system": "SNOMED-CT",
           "code": "84757009",
-          "display": "Epilepsy"
+          "display": "Epilepsie"
         }
       ],
       "distributed_transition": [
@@ -417,7 +417,7 @@
         {
           "system": "SNOMED-CT",
           "code": "390906007",
-          "display": "Follow-Up Encounter"
+          "display": "Rencontre de suivi"
         }
       ],
       "distributed_transition": [
@@ -455,7 +455,7 @@
         {
           "system": "SNOMED-CT",
           "code": "95281009",
-          "display": "Sudden Cardiac Death"
+          "display": "Mort cardiaque soudaine"
         }
       ],
       "direct_transition": "Terminal"

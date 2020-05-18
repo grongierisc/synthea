@@ -5,7 +5,7 @@
     "Known colloquially as Eczema. About 10.7% of children develop dermatitis ",
     "and dermatitis is found in about 10.2% of adults. 31.6M adults overall ",
     "have eczema. 17.8M have moderate to severe cases, usually atopic dermatitis (AD).",
-    "Atopic dermatitis usually appears in childhood. 1/3 of all children with AD ",
+    "La dermatite atopique usually appears in childhood. 1/3 of all children with AD ",
     "have severe cases. Up to 3% of adults are also living with severe AD, suggesting ",
     "that AD is typically a lifelong condition.",
     "The remaining patients with dermatitis typically have contact dermatitis (CD), ",
@@ -161,7 +161,7 @@
         {
           "system": "SNOMED-CT",
           "code": "24079001",
-          "display": "Atopic dermatitis"
+          "display": "La dermatite atopique"
         }
       ],
       "direct_transition": "PCP_Encounter"
@@ -174,7 +174,7 @@
         {
           "system": "SNOMED-CT",
           "code": "40275004",
-          "display": "Contact dermatitis"
+          "display": "La dermatite de contact"
         }
       ],
       "direct_transition": "PCP_Encounter"
@@ -239,14 +239,14 @@
         {
           "system": "SNOMED-CT",
           "code": "711282006",
-          "display": "Skin condition care"
+          "display": "Soins des affections de la peau"
         }
       ],
       "activities": [
         {
           "system": "SNOMED-CT",
           "code": "225130001",
-          "display": "Application of moisturizer to skin"
+          "display": "Application d'une crème hydratante sur la peau"
         }
       ],
       "direct_transition": "End_Diagnosis_Encounter"

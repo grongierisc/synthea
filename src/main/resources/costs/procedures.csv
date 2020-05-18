@@ -5,7 +5,7 @@ CODE,MIN,MODE,MAX,COMMENTS
 405783006,5132.80,10265.59304,20531.19,Évaluation psychologique
 228557008,5132.80,10265.59304,20531.19,Thérapie cognitive et comportementale
 399208008,3805.29,7610.58,15221.16,Radiographie du thorax (procédure)
-269911007,3048.51,6097.0171,12194.03,Examen des crachats (procédure)
+269911007,3048.51,6097.0171,12194.03,Examen des salives (procédure)
 73761001,5856.40,11712.80115,23425.60,Colonoscopy
 104435004,3048.51,6097.0171,12194.03,Dépistage du sang occulte dans les selles (procédure)
 274031008,5062.49,10124.97792,20249.96,Polypectomie rectale
@@ -23,21 +23,21 @@ CODE,MIN,MODE,MAX,COMMENTS
 755621000000101,4532.15,9064.305145,18128.61,Replacement of subcutaneous contraceptive
 301807007,4532.15,9064.305145,18128.61,Removal of subcutaneous contraceptive
 127783003,3885.65,7771.290572,15542.58,Spirométrie (procédure)
-88039007,77613.87,155227.7365,310455.47,Transplant of lung (procedure)
-429609002,15711.90,31423.79603,62847.59,Lung volume reduction surgery (procedure)
-54550000,4938.46,9876.914606,19753.83,Seizure Count Cerebral Cortex Electroencephalogram (EEG)
+88039007,77613.87,155227.7365,310455.47,Transplantation de poumon (procédure)
+429609002,15711.90,31423.79603,62847.59,Chirurgie de réduction du volume des poumons (procédure)
+54550000,4938.46,9876.914606,19753.83,Compte des crises Électroencéphalogramme du cortex cérébral (EEG)
 312681000,4746.98,9493.95989,18987.92,Scanner de la densité osseuse (procédure)
-288086009,4629.94,9259.88974,18519.78,Suture open wound
-384700001,1284.51,2569.027213,5138.05,Injection of tetanus antitoxin
-91251008,250.00,500,1000.00,Physical therapy procedure
-699253003,8449.67,16899.34109,33798.68,Surgical manipulation of joint of knee
-387685009,8449.67,16899.34109,33798.68,Surgical manipulation of shoulder joint
-418891003,4619.60,9239.205362,18478.41,Computed tomography of chest and abdomen
-167995008,3048.51,6097.0171,12194.03,Sputum microscopy (procedure)
+288086009,4629.94,9259.88974,18519.78,Suture d'une plaie ouverte
+384700001,1284.51,2569.027213,5138.05,Injection d'antitoxine tétanique
+91251008,250.00,500,1000.00,Procédure de thérapie physique
+699253003,8449.67,16899.34109,33798.68,Manipulation chirurgicale de l'articulation du genou
+387685009,8449.67,16899.34109,33798.68,Manipulation chirurgicale de l'articulation de l'épaule
+418891003,4619.60,9239.205362,18478.41,Tomodensitométrie de la poitrine et de l'abdomen
+167995008,3048.51,6097.0171,12194.03,Microscopie des salives (procédure)
 91602002,7753.63,15507.25552,31014.51,Thoracentesis (procedure)
-432231006,7753.63,15507.25552,31014.51,Fine needle aspiration biopsy of lung (procedure)
-173160006,4245.28,8490.5551,16981.11,Diagnostic fiberoptic bronchoscopy (procedure)
-698354004,5103.68,10207.35977,20414.72,Magnetic resonance imaging for measurement of brain volume (procedure)
+432231006,7753.63,15507.25552,31014.51,Biopsie du poumon par aspiration à l'aiguille fine (procédure)
+173160006,4245.28,8490.5551,16981.11,Bronchoscopie diagnostique par fibre optique (procédure)
+698354004,5103.68,10207.35977,20414.72,Imagerie par résonance magnétique pour la mesure du volume du cerveau (procédure)
 430193006,250.00,500,1000.00,Bilan comparatif des médicaments (procédure)
 180030006,10671.22,21342.44596,42684.89,Amputation of right foot
 79733001,10671.22,21342.44596,42684.89,Amputation of right leg

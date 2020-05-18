@@ -78,7 +78,7 @@
         {
           "system": "SNOMED-CT",
           "code": "200936003",
-          "display": "Lupus erythematosus"
+          "display": "Lupus érythémateux"
         }
       ],
       "direct_transition": "Lupus_Diagnosis"
@@ -140,14 +140,14 @@
         {
           "system": "SNOMED-CT",
           "code": "408869004",
-          "display": "Musculoskeletal care"
+          "display": "Soins musculo-squelettiques"
         }
       ],
       "activities": [
         {
           "system": "SNOMED-CT",
           "code": "440381005",
-          "display": "Behavior to prevent sun exposure"
+          "display": "Comportement pour prévenir l'exposition au soleil"
         },
         {
           "system": "SNOMED-CT",

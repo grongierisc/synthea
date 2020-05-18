@@ -1105,8 +1105,8 @@ public final class LifecycleModule extends Module {
       int activeInterventions = 0;
 
       // careplan for exercise or PT
-      if (person.record.careplanActive("Physical therapy procedure")
-          || person.record.careplanActive("Physical activity target light exercise")) {
+      if (person.record.careplanActive("Procédure de thérapie physique")
+          || person.record.careplanActive("L'activité physique cible l'exercice léger")) {
         activeInterventions++;
       }
 
@@ -1116,7 +1116,7 @@ public final class LifecycleModule extends Module {
       }
 
       // osteoporosis diagnosis makes them more careful
-      if (person.record.conditionActive("Osteoporosis (disorder)")) {
+      if (person.record.conditionActive("Ostéoporose (trouble)")) {
         activeInterventions++;
       }
 

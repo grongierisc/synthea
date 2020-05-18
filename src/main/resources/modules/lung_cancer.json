@@ -194,7 +194,7 @@
         {
           "system": "SNOMED-CT",
           "code": "162573006",
-          "display": "Suspected lung cancer (situation)"
+          "display": "Soupçon de cancer du poumon (situation)"
         }
       ],
       "direct_transition": "Diagnosis Encounter I"
@@ -262,7 +262,7 @@
         {
           "system": "SNOMED-CT",
           "code": "418891003",
-          "display": "Computed tomography of chest and abdomen"
+          "display": "Tomodensitométrie de la poitrine et de l'abdomen"
         }
       ],
       "duration": {
@@ -313,7 +313,7 @@
         {
           "system": "SNOMED-CT",
           "code": "254637007",
-          "display": "Non-small cell lung cancer (disorder)"
+          "display": "Cancer du poumon grandes cellules (maladie)"
         }
       ],
       "direct_transition": "Diagnosis Encounter III"
@@ -332,7 +332,7 @@
         {
           "system": "SNOMED-CT",
           "code": "254632001",
-          "display": "Small cell carcinoma of lung (disorder)"
+          "display": "Carcinome du poumon à petites cellules (trouble)"
         }
       ],
       "direct_transition": "Diagnosis Encounter III"
@@ -374,7 +374,7 @@
         {
           "system": "SNOMED-CT",
           "code": "167995008",
-          "display": "Sputum microscopy (procedure)"
+          "display": "Microscopie des salives (procédure)"
         }
       ],
       "direct_transition": "End_Diagnosis_Encounter_III"
@@ -398,7 +398,7 @@
         {
           "system": "SNOMED-CT",
           "code": "432231006",
-          "display": "Fine needle aspiration biopsy of lung (procedure)"
+          "display": "Biopsie du poumon par aspiration à l'aiguille fine (procédure)"
         }
       ],
       "direct_transition": "End_Diagnosis_Encounter_III"
@@ -410,7 +410,7 @@
         {
           "system": "SNOMED-CT",
           "code": "173160006",
-          "display": "Diagnostic fiberoptic bronchoscopy (procedure)"
+          "display": "Bronchoscopie diagnostique par fibre optique (procédure)"
         }
       ],
       "direct_transition": "End_Diagnosis_Encounter_III"
@@ -608,7 +608,7 @@
         {
           "system": "SNOMED-CT",
           "code": "424132000",
-          "display": "Non-small cell carcinoma of lung, TNM stage 1 (disorder)"
+          "display": "Carcinome du poumon à grandes cellules, TNM stage 1 (disorder)"
         }
       ],
       "direct_transition": "Diagnosis Encounter IV"
@@ -621,7 +621,7 @@
         {
           "system": "SNOMED-CT",
           "code": "425048006",
-          "display": "Non-small cell carcinoma of lung, TNM stage 2 (disorder)"
+          "display": "Carcinome du poumon à grandes cellules, TNM stage 2 (disorder)"
         }
       ],
       "direct_transition": "Diagnosis Encounter IV"
@@ -634,7 +634,7 @@
         {
           "system": "SNOMED-CT",
           "code": "422968005",
-          "display": "Non-small cell carcinoma of lung, TNM stage 3 (disorder)"
+          "display": "Carcinome du poumon à grandes cellules, TNM stage 3 (disorder)"
         }
       ],
       "direct_transition": "Diagnosis Encounter IV"
@@ -647,7 +647,7 @@
         {
           "system": "SNOMED-CT",
           "code": "423121009",
-          "display": "Non-small cell carcinoma of lung, TNM stage 4 (disorder)"
+          "display": "Carcinome du poumon à grandes cellules, TNM stage 4 (disorder)"
         }
       ],
       "direct_transition": "Diagnosis Encounter IV"
@@ -660,7 +660,7 @@
         {
           "system": "SNOMED-CT",
           "code": "67811000119102",
-          "display": "Primary small cell malignant neoplasm of lung, TNM stage 1 (disorder)"
+          "display": "Tumeur maligne primaire à petites cellules du poumon, TNM stage 1 (disorder)"
         }
       ],
       "direct_transition": "Diagnosis Encounter IV"
@@ -673,7 +673,7 @@
         {
           "system": "SNOMED-CT",
           "code": "67821000119109",
-          "display": "Primary small cell malignant neoplasm of lung, TNM stage 2 (disorder)"
+          "display": "Tumeur maligne primaire à petites cellules du poumon, TNM stage 2 (disorder)"
         }
       ],
       "direct_transition": "Diagnosis Encounter IV"
@@ -686,7 +686,7 @@
         {
           "system": "SNOMED-CT",
           "code": "67831000119107",
-          "display": "Primary small cell malignant neoplasm of lung, TNM stage 3 (disorder)"
+          "display": "Tumeur maligne primaire à petites cellules du poumon, TNM stage 3 (disorder)"
         }
       ],
       "direct_transition": "Diagnosis Encounter IV"
@@ -699,7 +699,7 @@
         {
           "system": "SNOMED-CT",
           "code": "67841000119103",
-          "display": "Primary small cell malignant neoplasm of lung, TNM stage 4 (disorder)"
+          "display": "Tumeur maligne primaire à petites cellules du poumon, TNM stage 4 (disorder)"
         }
       ],
       "direct_transition": "Diagnosis Encounter IV"
@@ -724,19 +724,19 @@
         {
           "system": "SNOMED-CT",
           "code": "182964004",
-          "display": "Terminal care"
+          "display": "Soins en phase terminale"
         }
       ],
       "activities": [
         {
           "system": "SNOMED-CT",
           "code": "133918004",
-          "display": "Comfort measures"
+          "display": "Mesures de confort"
         },
         {
           "system": "SNOMED-CT",
           "code": "408957008",
-          "display": "Chronic pain control management"
+          "display": "Gestion du contrôle de la douleur chronique"
         },
         {
           "system": "SNOMED-CT",
@@ -753,7 +753,7 @@
         {
           "system": "SNOMED-CT",
           "code": "698354004",
-          "display": "Magnetic resonance imaging for measurement of brain volume (procedure)"
+          "display": "Imagerie par résonance magnétique pour la mesure du volume du cerveau (procédure)"
         }
       ],
       "duration": {
@@ -1471,7 +1471,7 @@
         {
           "system": "SNOMED-CT",
           "code": 398171003,
-          "display": "Hearing examination (procedure)"
+          "display": "Examen de l'audition (procédure)"
         }
       ],
       "duration": {
@@ -1487,7 +1487,7 @@
         {
           "system": "SNOMED-CT",
           "code": 398171003,
-          "display": "Hearing examination (procedure)"
+          "display": "Examen de l'audition (procédure)"
         }
       ],
       "duration": {
@@ -1502,19 +1502,19 @@
       "procedure_code": {
         "system": "SNOMED-CT",
         "code": 16335031000119103,
-        "display": "High resolution computed tomography of chest without contrast (procedure)"
+        "display": "Tomographie informatisée à haute résolution du thorax sans contraste (procédure)"
       },
       "series": [
         {
           "body_site": {
             "system": "SNOMED-CT",
             "code": 51185008,
-            "display": "Thoracic structure (body structure)"
+            "display": "Structure thoracique (structure du corps)"
           },
           "modality": {
             "system": "DICOM-DCM",
             "code": "CT",
-            "display": "Computed Tomography"
+            "display": "Tomographie assistée par ordinateur"
           },
           "min_number_instances": 300,
           "max_number_instances": 500,
@@ -1537,19 +1537,19 @@
       "procedure_code": {
         "system": "SNOMED-CT",
         "code": 16335031000119103,
-        "display": "High resolution computed tomography of chest without contrast (procedure)"
+        "display": "Tomographie informatisée à haute résolution du thorax sans contraste (procédure)"
       },
       "series": [
         {
           "body_site": {
             "system": "SNOMED-CT",
             "code": 51185008,
-            "display": "Thoracic structure (body structure)"
+            "display": "Structure thoracique (structure du corps)"
           },
           "modality": {
             "system": "DICOM-DCM",
             "code": "CT",
-            "display": "Computed Tomography"
+            "display": "Tomographie assistée par ordinateur"
           },
           "min_number_instances": 300,
           "max_number_instances": 500,
@@ -1573,7 +1573,7 @@
         {
           "system": "LOINC",
           "code": "24357-6",
-          "display": "Urinalysis macro (dipstick) panel - Urine"
+          "display": "Macro d'analyse d'urine (jauge) - Urine"
         }
       ],
       "observations": [
@@ -1583,14 +1583,14 @@
             {
               "system": "LOINC",
               "code": "5767-9",
-              "display": "Appearance of Urine"
+              "display": "Apparition de l'urine"
             }
           ],
           "unit": "{nominal}",
           "value_code": {
             "system": "SNOMED-CT",
             "code": 7766007,
-            "display": "Cloudy urine (finding)"
+            "display": "Urine trouble (constatation)"
           }
         },
         {
@@ -1599,14 +1599,14 @@
             {
               "system": "LOINC",
               "code": "5767-9",
-              "display": "Odor of Urine"
+              "display": "Odeur d'urine"
             }
           ],
           "unit": "{nominal}",
           "value_code": {
             "system": "SNOMED-CT",
             "code": 167248002,
-            "display": "Urine smell ammoniacal (finding)"
+            "display": "Odeur d'urine ammoniacale (constat)"
           }
         },
         {
@@ -1615,14 +1615,14 @@
             {
               "system": "LOINC",
               "code": "32167-9",
-              "display": "Clarity of Urine"
+              "display": "Clarté de l'urine"
             }
           ],
           "unit": "{nominal}",
           "value_code": {
             "system": "SNOMED-CT",
             "code": 300828005,
-            "display": "Translucent (valeur unitaire)"
+            "display": "Translucide (valeur unitaire)"
           }
         },
         {
@@ -1631,14 +1631,14 @@
             {
               "system": "LOINC",
               "code": "5778-6",
-              "display": "Color of Urine"
+              "display": "Couleur de l'urine"
             }
           ],
           "unit": "{nominal}",
           "value_code": {
             "system": "SNOMED-CT",
             "code": 371254008,
-            "display": "Brown color (valeur unitaire)"
+            "display": "Couleur marron (valeur unitaire)"
           }
         },
         {
@@ -1647,7 +1647,7 @@
             {
               "system": "LOINC",
               "code": "5792-7",
-              "display": "Glucose [Mass/volume] in Urine by Test strip"
+              "display": "Glucose [masse/volume] dans l'urine par bandelette"
             }
           ],
           "unit": "mg/dL",
@@ -1662,14 +1662,14 @@
             {
               "system": "LOINC",
               "code": "25428-4",
-              "display": "Glucose [Presence] in Urine by Test strip"
+              "display": "Glucose [Présence] dans l'urine par bandelette"
             }
           ],
           "unit": "{nominal}",
           "value_code": {
             "system": "SNOMED-CT",
             "code": 167265006,
-            "display": "Urine glucose test = ++ (finding)"
+            "display": "Test de glucose dans l'urine = ++ (résultat)"
           }
         },
         {
@@ -1678,7 +1678,7 @@
             {
               "system": "LOINC",
               "code": "20505-4",
-              "display": "Bilirubin.total [Mass/volume] in Urine by Test strip"
+              "display": "Bilirubin.total [Mass/volume] dans l'urine par bandelettes réactives"
             }
           ],
           "unit": "mg/dL",
@@ -1693,14 +1693,14 @@
             {
               "system": "LOINC",
               "code": "5770-3",
-              "display": "Bilirubin.total [Presence] in Urine by Test strip"
+              "display": "Bilirubin.total [Presence] dans l'urine par bandelettes réactives"
             }
           ],
           "unit": "{nominal}",
           "value_code": {
             "system": "SNOMED-CT",
             "code": 275778006,
-            "display": "Finding of bilirubin in urine (finding)"
+            "display": "Recherche de bilirubine dans les urines (recherche)"
           }
         },
         {
@@ -1710,7 +1710,7 @@
             {
               "system": "LOINC",
               "code": "5797-6",
-              "display": "Ketones [Mass/volume] in Urine by Test strip"
+              "display": "Ketones [Mass/volume] dans l'urine par bandelettes réactives"
             }
           ],
           "range": {
@@ -1725,7 +1725,7 @@
             {
               "system": "LOINC",
               "code": "2514-8",
-              "display": "Ketones [Presence] in Urine by Test strip"
+              "display": "Ketones [Presence] dans l'urine par bandelettes réactives"
             }
           ],
           "value_code": {
@@ -1741,7 +1741,7 @@
             {
               "system": "LOINC",
               "code": "5811-5",
-              "display": "Specific gravity of Urine by Test strip"
+              "display": "Densité de l'urine par bandelette de test"
             }
           ],
           "range": {
@@ -1756,7 +1756,7 @@
             {
               "system": "LOINC",
               "code": "5803-2",
-              "display": "pH of Urine by Test strip"
+              "display": "pH de l'urine par bandelette de test"
             }
           ],
           "range": {
@@ -1771,7 +1771,7 @@
             {
               "system": "LOINC",
               "code": "5804-0",
-              "display": "Protein [Mass/volume] in Urine by Test strip"
+              "display": "Protein [Mass/volume] dans l'urine par bandelettes réactives"
             }
           ],
           "range": {
@@ -1786,7 +1786,7 @@
             {
               "system": "LOINC",
               "code": "20454-5",
-              "display": "Protein [Presence] in Urine by Test strip"
+              "display": "Protein [Presence] dans l'urine par bandelettes réactives"
             }
           ],
           "value_code": {
@@ -1802,13 +1802,13 @@
             {
               "system": "LOINC",
               "code": "5802-4",
-              "display": "Nitrite [Presence] in Urine by Test strip"
+              "display": "Nitrite [Presence] dans l'urine par bandelettes réactives"
             }
           ],
           "value_code": {
             "system": "SNOMED-CT",
             "code": 314138001,
-            "display": "Urine nitrite negative (finding)"
+            "display": "Négatif pour les nitrites dans l'urine (constat)"
           }
         },
         {
@@ -1818,13 +1818,13 @@
             {
               "system": "LOINC",
               "code": "5794-3",
-              "display": "Hemoglobin [Presence] in Urine by Test strip"
+              "display": "Hemoglobin [Presence] dans l'urine par bandelettes réactives"
             }
           ],
           "value_code": {
             "system": "SNOMED-CT",
             "code": 167297006,
-            "display": "Urine blood test = negative (finding)"
+            "display": "Test urinaire sanguin = négatif (résultat)"
           }
         },
         {
@@ -1834,13 +1834,13 @@
             {
               "system": "LOINC",
               "code": "5799-2",
-              "display": "Leukocyte esterase [Presence] in Urine by Test strip"
+              "display": "Leukocyte esterase [Presence] dans l'urine par bandelettes réactives"
             }
           ],
           "value_code": {
             "system": "SNOMED-CT",
             "code": 394717006,
-            "display": "Urine leukocyte test negative (finding)"
+            "display": "Test leucocytaire urinaire négatif (résultat)"
           }
         }
       ],
@@ -1852,7 +1852,7 @@
         {
           "system": "LOINC",
           "code": "24357-6",
-          "display": "Urinalysis macro (dipstick) panel - Urine"
+          "display": "Macro d'analyse d'urine (jauge) - Urine"
         }
       ],
       "observations": [
@@ -1862,14 +1862,14 @@
             {
               "system": "LOINC",
               "code": "5767-9",
-              "display": "Appearance of Urine"
+              "display": "Apparition de l'urine"
             }
           ],
           "unit": "{nominal}",
           "value_code": {
             "system": "SNOMED-CT",
             "code": 7766007,
-            "display": "Cloudy urine (finding)"
+            "display": "Urine trouble (constatation)"
           }
         },
         {
@@ -1878,14 +1878,14 @@
             {
               "system": "LOINC",
               "code": "5767-9",
-              "display": "Odor of Urine"
+              "display": "Odeur d'urine"
             }
           ],
           "unit": "{nominal}",
           "value_code": {
             "system": "SNOMED-CT",
             "code": 167248002,
-            "display": "Urine smell ammoniacal (finding)"
+            "display": "Odeur d'urine ammoniacale (constat)"
           }
         },
         {
@@ -1894,14 +1894,14 @@
             {
               "system": "LOINC",
               "code": "32167-9",
-              "display": "Clarity of Urine"
+              "display": "Clarté de l'urine"
             }
           ],
           "unit": "{nominal}",
           "value_code": {
             "system": "SNOMED-CT",
             "code": 300828005,
-            "display": "Translucent (valeur unitaire)"
+            "display": "Translucide (valeur unitaire)"
           }
         },
         {
@@ -1910,14 +1910,14 @@
             {
               "system": "LOINC",
               "code": "5778-6",
-              "display": "Color of Urine"
+              "display": "Couleur de l'urine"
             }
           ],
           "unit": "{nominal}",
           "value_code": {
             "system": "SNOMED-CT",
             "code": 371254008,
-            "display": "Brown color (valeur unitaire)"
+            "display": "Couleur marron (valeur unitaire)"
           }
         },
         {
@@ -1926,7 +1926,7 @@
             {
               "system": "LOINC",
               "code": "5792-7",
-              "display": "Glucose [Mass/volume] in Urine by Test strip"
+              "display": "Glucose [masse/volume] dans l'urine par bandelette"
             }
           ],
           "unit": "mg/dL",
@@ -1941,14 +1941,14 @@
             {
               "system": "LOINC",
               "code": "25428-4",
-              "display": "Glucose [Presence] in Urine by Test strip"
+              "display": "Glucose [Présence] dans l'urine par bandelette"
             }
           ],
           "unit": "{nominal}",
           "value_code": {
             "system": "SNOMED-CT",
             "code": 167265006,
-            "display": "Urine glucose test = ++ (finding)"
+            "display": "Test de glucose dans l'urine = ++ (résultat)"
           }
         },
         {
@@ -1957,7 +1957,7 @@
             {
               "system": "LOINC",
               "code": "20505-4",
-              "display": "Bilirubin.total [Mass/volume] in Urine by Test strip"
+              "display": "Bilirubin.total [Mass/volume] dans l'urine par bandelettes réactives"
             }
           ],
           "unit": "mg/dL",
@@ -1972,14 +1972,14 @@
             {
               "system": "LOINC",
               "code": "5770-3",
-              "display": "Bilirubin.total [Presence] in Urine by Test strip"
+              "display": "Bilirubin.total [Presence] dans l'urine par bandelettes réactives"
             }
           ],
           "unit": "{nominal}",
           "value_code": {
             "system": "SNOMED-CT",
             "code": 275778006,
-            "display": "Finding of bilirubin in urine (finding)"
+            "display": "Recherche de bilirubine dans les urines (recherche)"
           }
         },
         {
@@ -1989,7 +1989,7 @@
             {
               "system": "LOINC",
               "code": "5797-6",
-              "display": "Ketones [Mass/volume] in Urine by Test strip"
+              "display": "Ketones [Mass/volume] dans l'urine par bandelettes réactives"
             }
           ],
           "range": {
@@ -2004,7 +2004,7 @@
             {
               "system": "LOINC",
               "code": "2514-8",
-              "display": "Ketones [Presence] in Urine by Test strip"
+              "display": "Ketones [Presence] dans l'urine par bandelettes réactives"
             }
           ],
           "value_code": {
@@ -2020,7 +2020,7 @@
             {
               "system": "LOINC",
               "code": "5811-5",
-              "display": "Specific gravity of Urine by Test strip"
+              "display": "Densité de l'urine par bandelette de test"
             }
           ],
           "range": {
@@ -2035,7 +2035,7 @@
             {
               "system": "LOINC",
               "code": "5803-2",
-              "display": "pH of Urine by Test strip"
+              "display": "pH de l'urine par bandelette de test"
             }
           ],
           "range": {
@@ -2050,7 +2050,7 @@
             {
               "system": "LOINC",
               "code": "5804-0",
-              "display": "Protein [Mass/volume] in Urine by Test strip"
+              "display": "Protein [Mass/volume] dans l'urine par bandelettes réactives"
             }
           ],
           "range": {
@@ -2065,7 +2065,7 @@
             {
               "system": "LOINC",
               "code": "20454-5",
-              "display": "Protein [Presence] in Urine by Test strip"
+              "display": "Protein [Presence] dans l'urine par bandelettes réactives"
             }
           ],
           "value_code": {
@@ -2081,13 +2081,13 @@
             {
               "system": "LOINC",
               "code": "5802-4",
-              "display": "Nitrite [Presence] in Urine by Test strip"
+              "display": "Nitrite [Presence] dans l'urine par bandelettes réactives"
             }
           ],
           "value_code": {
             "system": "SNOMED-CT",
             "code": 314138001,
-            "display": "Urine nitrite negative (finding)"
+            "display": "Négatif pour les nitrites dans l'urine (constat)"
           }
         },
         {
@@ -2097,13 +2097,13 @@
             {
               "system": "LOINC",
               "code": "5794-3",
-              "display": "Hemoglobin [Presence] in Urine by Test strip"
+              "display": "Hemoglobin [Presence] dans l'urine par bandelettes réactives"
             }
           ],
           "value_code": {
             "system": "SNOMED-CT",
             "code": 167297006,
-            "display": "Urine blood test = negative (finding)"
+            "display": "Test urinaire sanguin = négatif (résultat)"
           }
         },
         {
@@ -2113,13 +2113,13 @@
             {
               "system": "LOINC",
               "code": "5799-2",
-              "display": "Leukocyte esterase [Presence] in Urine by Test strip"
+              "display": "Leukocyte esterase [Presence] dans l'urine par bandelettes réactives"
             }
           ],
           "value_code": {
             "system": "SNOMED-CT",
             "code": 394717006,
-            "display": "Urine leukocyte test negative (finding)"
+            "display": "Test leucocytaire urinaire négatif (résultat)"
           }
         }
       ],

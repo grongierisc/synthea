@@ -55,7 +55,7 @@
         {
           "system": "SNOMED-CT",
           "code": "183495009",
-          "display": "Non-urgent orthopedic admission"
+          "display": "Admission orthopédique non urgente"
         }
       ],
       "conditional_transition": [
@@ -117,12 +117,12 @@
         {
           "system": "SNOMED-CT",
           "code": "91251008",
-          "display": "Physical therapy procedure"
+          "display": "Procédure de thérapie physique"
         },
         {
           "system": "SNOMED-CT",
           "code": "229070002",
-          "display": "Stretching exercises"
+          "display": "Exercices d'étirement"
         }
       ],
       "direct_transition": "Post_Op_Prescribe_Pain_Reliever"
