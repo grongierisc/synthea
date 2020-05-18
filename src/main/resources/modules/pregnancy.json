@@ -360,7 +360,7 @@
         {
           "system": "SNOMED-CT",
           "code": "104091002",
-          "display": "Hemoglobin / Hematocrit / Platelet count"
+          "display": "Hemoglobin / Hématocrite / Platelet count"
         }
       ],
       "direct_transition": "Hep_B_Surface_Antigen"
@@ -891,7 +891,7 @@
         {
           "system": "SNOMED-CT",
           "code": "104091002",
-          "display": "Hemoglobin / Hematocrit / Platelet count"
+          "display": "Hemoglobin / Hématocrite / Platelet count"
         }
       ],
       "direct_transition": "Tdap_Vaccine"
@@ -1772,7 +1772,7 @@
         {
           "system": "SNOMED-CT",
           "code": "305408004",
-          "display": "Admission to surgical department"
+          "display": "Admission au service de chirurgie"
         }
       ],
       "distributed_transition": [

@@ -17,7 +17,7 @@
         {
           "system": "SNOMED-CT",
           "code": 69031006,
-          "display": "Excision of breast tissue (procedure)"
+          "display": "Excision du tissu mammaire (procédure)"
         }
       ],
       "duration": {
@@ -51,7 +51,7 @@
         {
           "system": "SNOMED-CT",
           "code": 392021009,
-          "display": "Lumpectomy of breast (procedure)"
+          "display": "Lumpectomie du sein (procédure)"
         }
       ],
       "duration": {
@@ -87,7 +87,7 @@
         {
           "system": "SNOMED-CT",
           "code": 33195004,
-          "display": "Teleradiotherapy procedure (procedure)"
+          "display": "Procédure de téléradiothérapie (procédure)"
         }
       ],
       "duration": {
@@ -107,7 +107,7 @@
         {
           "system": "SNOMED-CT",
           "code": 385798007,
-          "display": "Radiation therapy care (regime/therapy)"
+          "display": "Soins par rayonnement (régime/thérapie)"
         }
       ],
       "duration": {
@@ -127,7 +127,7 @@
         {
           "system": "SNOMED-CT",
           "code": 108290001,
-          "display": "Radiation oncology AND/OR radiotherapy (procedure)"
+          "display": "Rayonnement oncologique ET/OU radiothérapie (procédure)"
         }
       ],
       "duration": {
@@ -148,7 +148,7 @@
         {
           "system": "SNOMED-CT",
           "code": "447759004",
-          "display": "Brachytherapy of breast (procedure)"
+          "display": "Brachythérapie du sein (procédure)"
         }
       ],
       "duration": {
@@ -178,7 +178,7 @@
         {
           "system": "SNOMED-CT",
           "code": 113120007,
-          "display": "Interstitial brachytherapy (procedure)"
+          "display": "Curiethérapie interstitielle (procédure)"
         }
       ],
       "duration": {
@@ -198,7 +198,7 @@
         {
           "system": "SNOMED-CT",
           "code": 384692006,
-          "display": "Intracavitary brachytherapy (procedure)"
+          "display": "Curiethérapie intracavitaire (procédure)"
         }
       ],
       "duration": {
@@ -300,7 +300,7 @@
         {
           "system": "RxNorm",
           "code": 993452,
-          "display": "1 ML denosumab 60 MG/ML Prefilled Syringe"
+          "display": "1 ML denosumab 60 MG/ML Seringue préremplie"
         }
       ],
       "direct_transition": "Advanced Drugs IV Injection",
@@ -333,7 +333,7 @@
         {
           "system": "SNOMED-CT",
           "code": 396487001,
-          "display": "Sentinel lymph node biopsy (procedure)"
+          "display": "Biopsie des ganglions lymphatiques sentinelles (procédure)"
         }
       ],
       "direct_transition": "Excision_Of_Sentinel_Lymph_Node",
@@ -350,7 +350,7 @@
         {
           "system": "SNOMED-CT",
           "code": 234262008,
-          "display": "Excision of axillary lymph node (procedure)"
+          "display": "Excision d'un ganglion lymphatique axillaire (procédure)"
         }
       ],
       "duration": {
@@ -419,7 +419,7 @@
         {
           "system": "SNOMED-CT",
           "code": 185347001,
-          "display": "Encounter for problem"
+          "display": "Rencontre médicale"
         }
       ],
       "conditional_transition": [
@@ -482,7 +482,7 @@
         {
           "system": "SNOMED-CT",
           "code": 185347001,
-          "display": "Encounter for problem"
+          "display": "Rencontre médicale"
         }
       ],
       "complex_transition": [
@@ -503,14 +503,14 @@
               {
                 "system": "LOINC",
                 "code": "21908-9",
-                "display": "Stage group.clinical Cancer"
+                "display": "Stade clinique Cancer"
               }
             ],
             "operator": "==",
             "value_code": {
               "system": "SNOMED-CT",
               "code": 258215001,
-              "display": "Stage 1 (qualifier value)"
+              "display": "Stade 1 (valeur d'unité)"
             }
           },
           "distributions": [
@@ -527,14 +527,14 @@
               {
                 "system": "LOINC",
                 "code": "21908-9",
-                "display": "Stage group.clinical Cancer"
+                "display": "Stade clinique Cancer"
               }
             ],
             "operator": "==",
             "value_code": {
               "system": "SNOMED-CT",
               "code": 258228008,
-              "display": "Stage 4 (qualifier value)"
+              "display": "Stade 4 (valeur d'unité)"
             }
           },
           "distributions": [
@@ -659,7 +659,7 @@
         {
           "system": "SNOMED-CT",
           "code": 185347001,
-          "display": "Encounter for problem"
+          "display": "Rencontre médicale"
         }
       ],
       "complex_transition": [
@@ -680,14 +680,14 @@
               {
                 "system": "LOINC",
                 "code": "21908-9",
-                "display": "Stage group.clinical Cancer"
+                "display": "Stade clinique Cancer"
               }
             ],
             "operator": "==",
             "value_code": {
               "system": "SNOMED-CT",
               "code": 258215001,
-              "display": "Stage 1 (qualifier value)"
+              "display": "Stade 1 (valeur d'unité)"
             }
           },
           "distributions": [
@@ -716,14 +716,14 @@
               {
                 "system": "LOINC",
                 "code": "21908-9",
-                "display": "Stage group.clinical Cancer"
+                "display": "Stade clinique Cancer"
               }
             ],
             "operator": "==",
             "value_code": {
               "system": "SNOMED-CT",
               "code": 258228008,
-              "display": "Stage 4 (qualifier value)"
+              "display": "Stade 4 (valeur d'unité)"
             }
           },
           "distributions": [
@@ -869,7 +869,7 @@
         {
           "system": "SNOMED-CT",
           "code": 43060002,
-          "display": "Intravenous injection (procedure)"
+          "display": "Injection intraveineuse (procédure)"
         }
       ],
       "duration": {
@@ -890,7 +890,7 @@
         {
           "system": "SNOMED-CT",
           "code": 43060002,
-          "display": "Intravenous injection (procedure)"
+          "display": "Injection intraveineuse (procédure)"
         }
       ],
       "duration": {
@@ -955,7 +955,7 @@
         {
           "system": "SNOMED-CT",
           "code": 185347001,
-          "display": "Encounter for problem"
+          "display": "Rencontre médicale"
         }
       ],
       "direct_transition": "Advanced_drugs"
@@ -1021,7 +1021,7 @@
         {
           "system": "SNOMED-CT",
           "code": 185347001,
-          "display": "Encounter for problem"
+          "display": "Rencontre médicale"
         }
       ],
       "conditional_transition": [
@@ -1054,7 +1054,7 @@
         {
           "system": "SNOMED-CT",
           "code": 443497002,
-          "display": "Excision of sentinel lymph node (procedure)"
+          "display": "Excision d'un ganglion lymphatique sentinelle (procédure)"
         }
       ],
       "duration": {

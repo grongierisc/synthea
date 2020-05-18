@@ -88,7 +88,7 @@
         {
           "system": "SNOMED-CT",
           "code": 185345009,
-          "display": "Encounter for symptom"
+          "display": "Rencontre pour symptôme"
         }
       ],
       "direct_transition": "Record_LipidPanel",
@@ -211,7 +211,7 @@
         {
           "system": "RxNorm",
           "code": 314231,
-          "display": "Simvastatin 10 MG Oral Tablet"
+          "display": "Simvastatin 10 MG Comprimé oral"
         }
       ],
       "direct_transition": "followup encounter end",
@@ -237,7 +237,7 @@
         {
           "system": "LOINC",
           "code": "24323-8",
-          "display": "Comprehensive metabolic 2000 panel - Serum or Plasma"
+          "display": "Panel métabolique complet 2000 - Sérum ou plasma"
         }
       ],
       "observations": [
@@ -260,7 +260,7 @@
             {
               "system": "LOINC",
               "code": "6299-2",
-              "display": "Urea Nitrogen"
+              "display": "Azote uréique"
             }
           ],
           "unit": "mg/dL"
@@ -347,7 +347,7 @@
             {
               "system": "LOINC",
               "code": "33914-3",
-              "display": "Glomerular filtration rate/1.73 sq M.predicted"
+              "display": "Taux de filtration glomérulaire/1,73 m² prévu"
             }
           ],
           "range": {
@@ -362,7 +362,7 @@
             {
               "system": "LOINC",
               "code": "2885-2",
-              "display": "Protein [Mass/volume] in Serum or Plasma"
+              "display": "Protéines [masse/volume] dans le sérum ou le plasma"
             }
           ],
           "range": {
@@ -377,7 +377,7 @@
             {
               "system": "LOINC",
               "code": "1751-7",
-              "display": "Albumin [Mass/volume] in Serum or Plasma"
+              "display": "Albumine [masse/volume] dans le sérum ou le plasma"
             }
           ],
           "range": {
@@ -392,7 +392,7 @@
             {
               "system": "LOINC",
               "code": "10834-0",
-              "display": "Globulin [Mass/volume] in Serum by calculation"
+              "display": "Globuline [masse/volume] dans le sérum par calcul"
             }
           ],
           "range": {
@@ -407,7 +407,7 @@
             {
               "system": "LOINC",
               "code": "1975-2",
-              "display": "Bilirubin.total [Mass/volume] in Serum or Plasma"
+              "display": "Bilirubine.total [masse/volume] dans le sérum ou le plasma"
             }
           ],
           "range": {
@@ -422,7 +422,7 @@
             {
               "system": "LOINC",
               "code": "6768-6",
-              "display": "Alkaline phosphatase [Enzymatic activity/volume] in Serum or Plasma"
+              "display": "Phosphatase alcaline [activité/volume enzymatique] dans le sérum ou le plasma"
             }
           ],
           "range": {
@@ -437,7 +437,7 @@
             {
               "system": "LOINC",
               "code": "1742-6",
-              "display": "Alanine aminotransferase [Enzymatic activity/volume] in Serum or Plasma"
+              "display": "Alanine aminotransférase [activité/volume enzymatique] dans le sérum ou le plasma"
             }
           ],
           "range": {
@@ -452,7 +452,7 @@
             {
               "system": "LOINC",
               "code": "1920-8",
-              "display": "Aspartate aminotransferase [Enzymatic activity/volume] in Serum or Plasma"
+              "display": "Aspartate aminotransférase [activité/volume enzymatique] dans le sérum ou le plasma"
             }
           ],
           "range": {
@@ -490,7 +490,7 @@
         {
           "system": "LOINC",
           "code": "24323-8",
-          "display": "Comprehensive metabolic 2000 panel - Serum or Plasma"
+          "display": "Panel métabolique complet 2000 - Sérum ou plasma"
         }
       ],
       "observations": [
@@ -513,7 +513,7 @@
             {
               "system": "LOINC",
               "code": "6299-2",
-              "display": "Urea Nitrogen"
+              "display": "Azote uréique"
             }
           ],
           "unit": "mg/dL"
@@ -600,7 +600,7 @@
             {
               "system": "LOINC",
               "code": "33914-3",
-              "display": "Glomerular filtration rate/1.73 sq M.predicted"
+              "display": "Taux de filtration glomérulaire/1,73 m² prévu"
             }
           ],
           "range": {
@@ -615,7 +615,7 @@
             {
               "system": "LOINC",
               "code": "2885-2",
-              "display": "Protein [Mass/volume] in Serum or Plasma"
+              "display": "Protéines [masse/volume] dans le sérum ou le plasma"
             }
           ],
           "range": {
@@ -630,7 +630,7 @@
             {
               "system": "LOINC",
               "code": "1751-7",
-              "display": "Albumin [Mass/volume] in Serum or Plasma"
+              "display": "Albumine [masse/volume] dans le sérum ou le plasma"
             }
           ],
           "range": {
@@ -645,7 +645,7 @@
             {
               "system": "LOINC",
               "code": "10834-0",
-              "display": "Globulin [Mass/volume] in Serum by calculation"
+              "display": "Globuline [masse/volume] dans le sérum par calcul"
             }
           ],
           "range": {
@@ -660,7 +660,7 @@
             {
               "system": "LOINC",
               "code": "1975-2",
-              "display": "Bilirubin.total [Mass/volume] in Serum or Plasma"
+              "display": "Bilirubine.total [masse/volume] dans le sérum ou le plasma"
             }
           ],
           "range": {
@@ -675,7 +675,7 @@
             {
               "system": "LOINC",
               "code": "6768-6",
-              "display": "Alkaline phosphatase [Enzymatic activity/volume] in Serum or Plasma"
+              "display": "Phosphatase alcaline [activité/volume enzymatique] dans le sérum ou le plasma"
             }
           ],
           "range": {
@@ -690,7 +690,7 @@
             {
               "system": "LOINC",
               "code": "1742-6",
-              "display": "Alanine aminotransferase [Enzymatic activity/volume] in Serum or Plasma"
+              "display": "Alanine aminotransférase [activité/volume enzymatique] dans le sérum ou le plasma"
             }
           ],
           "range": {
@@ -705,7 +705,7 @@
             {
               "system": "LOINC",
               "code": "1920-8",
-              "display": "Aspartate aminotransferase [Enzymatic activity/volume] in Serum or Plasma"
+              "display": "Aspartate aminotransférase [activité/volume enzymatique] dans le sérum ou le plasma"
             }
           ],
           "range": {
@@ -816,7 +816,7 @@
         {
           "system": "RxNorm",
           "code": 314231,
-          "display": "Simvastatin 10 MG Oral Tablet"
+          "display": "Simvastatin 10 MG Comprimé oral"
         }
       ],
       "reason": "hyperlipidemia",

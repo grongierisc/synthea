@@ -170,7 +170,7 @@
         {
           "system": "SNOMED-CT",
           "code": "185345009",
-          "display": "Encounter for symptom"
+          "display": "Rencontre pour symptôme"
         }
       ],
       "direct_transition": "UTI_Symptom1"
@@ -272,7 +272,7 @@
         {
           "system": "RxNorm",
           "code": "1094107",
-          "display": "Phenazopyridine hydrochloride 100 MG Oral Tablet"
+          "display": "Phenazopyridine hydrochloride 100 MG Comprimé oral"
         }
       ],
       "direct_transition": "UTI_CarePlan"
@@ -335,7 +335,7 @@
         {
           "system": "SNOMED-CT",
           "code": "185345009",
-          "display": "Encounter for symptom"
+          "display": "Rencontre pour symptôme"
         }
       ],
       "direct_transition": "Prescribe_Second_Round_Of_Antibiotics"
@@ -350,7 +350,7 @@
         {
           "system": "RxNorm",
           "code": "311995",
-          "display": "NITROFURANTOIN, MACROCRYSTALS 50 MG Oral Capsule"
+          "display": "NITROFURANTOIN, MACROCRYSTALS 50 MG Comprimés oraux"
         }
       ],
       "direct_transition": "End_Followup"

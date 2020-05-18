@@ -140,7 +140,7 @@
         {
           "system": "RxNorm",
           "code": "243670",
-          "display": "Aspirin 81 MG Oral Tablet"
+          "display": "Aspirin 81 MG Comprimé oral"
         }
       ],
       "prescription": {
@@ -172,7 +172,7 @@
         {
           "system": "RxNorm",
           "code": "313820",
-          "display": "Acetaminophen 160 MG Chewable Tablet"
+          "display": "Acetaminophen 160 MG Comprimé à croquer"
         }
       ],
       "prescription": {
@@ -187,7 +187,7 @@
         {
           "system": "RxNorm",
           "code": "313782",
-          "display": "Acetaminophen 325 MG Oral Tablet"
+          "display": "Acetaminophen 325 MG Comprimé oral"
         }
       ],
       "prescription": {
@@ -219,7 +219,7 @@
         {
           "system": "RxNorm",
           "code": "198405",
-          "display": "Ibuprofen 100 MG Oral Tablet"
+          "display": "Ibuprofen 100 MG Comprimé oral"
         }
       ],
       "prescription": {
@@ -234,7 +234,7 @@
         {
           "system": "RxNorm",
           "code": "310965",
-          "display": "Ibuprofen 200 MG Oral Tablet"
+          "display": "Ibuprofen 200 MG Comprimé oral"
         }
       ],
       "prescription": {
@@ -284,7 +284,7 @@
         {
           "system": "RxNorm",
           "code": "849574",
-          "display": "Naproxen sodium 220 MG Oral Tablet"
+          "display": "Naproxen sodium 220 MG Comprimé oral"
         }
       ],
       "prescription": {

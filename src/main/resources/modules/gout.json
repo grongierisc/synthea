@@ -127,7 +127,7 @@
         {
           "system": "SNOMED-CT",
           "code": "185347001",
-          "display": "Encounter for problem"
+          "display": "Rencontre médicale"
         }
       ],
       "direct_transition": "Pain_Vital"
@@ -157,7 +157,7 @@
         {
           "system": "SNOMED-CT",
           "code": "226234005",
-          "display": "Healthy diet"
+          "display": "Une alimentation saine"
         }
       ],
       "direct_transition": "Gout_Nonopioid_Pain_Medication"
@@ -189,7 +189,7 @@
         {
           "system": "RxNorm",
           "code": "198014",
-          "display": "Naproxen 500 MG Oral Tablet"
+          "display": "Naproxen 500 MG Comprimé oral"
         }
       ],
       "direct_transition": "Uric_Acid_Reducer"
@@ -205,7 +205,7 @@
         {
           "system": "RxNorm",
           "code": "197541",
-          "display": "Colchicine 0.6 MG Oral Tablet"
+          "display": "Colchicine 0.6 MG Comprimé oral"
         }
       ],
       "direct_transition": "Uric_Acid_Reducer"
@@ -217,7 +217,7 @@
         {
           "system": "RxNorm",
           "code": "197319",
-          "display": "Allopurinol 100 MG Oral Tablet"
+          "display": "Allopurinol 100 MG Comprimé oral"
         }
       ],
       "direct_transition": "End_Diagnosis_Encounter"
@@ -278,7 +278,7 @@
         {
           "system": "LOINC",
           "code": "72514-3",
-          "display": "Pain severity - 0-10 verbal numeric rating [Score] - Reported"
+          "display": "Gravité de la douleur - 0-10 évaluation numérique verbale [Score] - Signalée"
         }
       ],
       "range": {

@@ -61,12 +61,12 @@
             {
               "system": "SNOMED-CT",
               "code": "229065009",
-              "display": "Exercise therapy"
+              "display": "Thérapie par l'exercice"
             },
             {
               "system": "SNOMED-CT",
               "code": "226234005",
-              "display": "Healthy diet"
+              "display": "Une alimentation saine"
             }
           ],
           "direct_transition": "CarePlan3_Start"

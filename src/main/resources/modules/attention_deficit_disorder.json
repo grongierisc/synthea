@@ -62,7 +62,7 @@
         {
           "system": "SNOMED-CT",
           "code": "192127007",
-          "display": "Child attention deficit disorder"
+          "display": "Trouble déficitaire de l'attention chez l'enfant"
         }
       ],
       "direct_transition": "ADHD_Diagnosis"
@@ -75,7 +75,7 @@
         {
           "system": "SNOMED-CT",
           "code": "185347001",
-          "display": "Encounter for problem"
+          "display": "Rencontre médicale"
         }
       ],
       "direct_transition": "ADD_Symptom1"
@@ -132,19 +132,19 @@
         {
           "system": "SNOMED-CT",
           "code": "386522008",
-          "display": "Overactivity/inattention behavior management"
+          "display": "Gestion des comportements de suractivité/inattention"
         }
       ],
       "activities": [
         {
           "system": "SNOMED-CT",
           "code": "409063005",
-          "display": "Counseling"
+          "display": "Conseil"
         },
         {
           "system": "SNOMED-CT",
           "code": "405783006",
-          "display": "Psychological assessment"
+          "display": "Évaluation psychologique"
         }
       ],
       "remarks": [
@@ -194,7 +194,7 @@
         {
           "system": "SNOMED-CT",
           "code": "185347001",
-          "display": "Encounter for problem"
+          "display": "Rencontre médicale"
         }
       ],
       "direct_transition": "Behavior_Treatment_Procedure"
@@ -206,7 +206,7 @@
         {
           "system": "SNOMED-CT",
           "code": "228557008",
-          "display": "Cognitive and behavioral therapy"
+          "display": "Thérapie cognitive et comportementale"
         }
       ],
       "duration": {
@@ -333,7 +333,7 @@
         {
           "system": "RxNorm",
           "code": "1091392",
-          "display": "Methylphenidate Hydrochloride 20 MG Oral Tablet"
+          "display": "Methylphenidate Hydrochloride 20 MG Comprimé oral"
         }
       ],
       "distributed_transition": [
@@ -355,7 +355,7 @@
         {
           "system": "RxNorm",
           "code": "608139",
-          "display": "atomoxetine 100 MG Oral Capsule"
+          "display": "atomoxetine 100 MG Comprimés oraux"
         }
       ],
       "distributed_transition": [

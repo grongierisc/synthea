@@ -56,7 +56,7 @@
         {
           "system": "SNOMED-CT",
           "code": "698314001",
-          "display": "Consultation for treatment"
+          "display": "Consultation pour traitement"
         }
       ],
       "direct_transition": "Prescribe_Nuvaring"
@@ -68,7 +68,7 @@
         {
           "system": "RxNorm",
           "code": "1367439",
-          "display": "NuvaRing 0.12/0.015 MG per 24HR 21 Day Vaginal Ring"
+          "display": "NuvaRing 0,12/0,015 MG par 24HR Anneau vaginal de 21 jours"
         }
       ],
       "direct_transition": "End_Consultation_Encounter"

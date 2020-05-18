@@ -25,7 +25,7 @@
               {
                 "system": "SNOMED-CT",
                 "code": "420174000",
-                "display": "Allergy to wheat"
+                "display": "Allergie au gluten"
               }
             ]
           },
@@ -56,7 +56,7 @@
         {
           "system": "SNOMED-CT",
           "code": "420174000",
-          "display": "Allergy to wheat"
+          "display": "Allergie au gluten"
         }
       ],
       "direct_transition": "Dairy_Allergy"
@@ -76,7 +76,7 @@
               {
                 "system": "SNOMED-CT",
                 "code": "425525006",
-                "display": "Allergy to dairy product"
+                "display": "Allergie aux produits laitiers"
               }
             ]
           },
@@ -107,7 +107,7 @@
         {
           "system": "SNOMED-CT",
           "code": "425525006",
-          "display": "Allergy to dairy product"
+          "display": "Allergie aux produits laitiers"
         }
       ],
       "direct_transition": "Eggs_Allergy"
@@ -127,7 +127,7 @@
               {
                 "system": "SNOMED-CT",
                 "code": "91930004",
-                "display": "Allergy to eggs"
+                "display": "Allergie aux œufs"
               }
             ]
           },
@@ -158,7 +158,7 @@
         {
           "system": "SNOMED-CT",
           "code": "91930004",
-          "display": "Allergy to eggs"
+          "display": "Allergie aux œufs"
         }
       ],
       "direct_transition": "Soy_Allergy"
@@ -229,7 +229,7 @@
               {
                 "system": "SNOMED-CT",
                 "code": "300916003",
-                "display": "Latex allergy"
+                "display": "Allergie au latex"
               }
             ]
           },
@@ -260,7 +260,7 @@
         {
           "system": "SNOMED-CT",
           "code": "300916003",
-          "display": "Latex allergy"
+          "display": "Allergie au latex"
         }
       ],
       "direct_transition": "Check_For_Other_Food_Allergies"
@@ -308,7 +308,7 @@
                   {
                     "system": "SNOMED-CT",
                     "code": "300913006",
-                    "display": "Shellfish allergy"
+                    "display": "Allergie aux crustacés"
                   }
                 ]
               }

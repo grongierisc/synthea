@@ -378,7 +378,7 @@
         {
           "system": "SNOMED-CT",
           "code": 50849002,
-          "display": "Emergency Room Admission"
+          "display": "Admission aux urgences"
         }
       ],
       "remarks": [
@@ -393,7 +393,7 @@
       "discharge_disposition": {
         "system": "NUBC",
         "code": "01",
-        "display": "Discharged to home care or self care (routine discharge)"
+        "display": "Renvoi aux soins à domicile ou aux soins personnels (renvoi de routine)"
       }
     },
     "Symptom_Onset_Delay": {
@@ -611,7 +611,7 @@
         {
           "system": "SNOMED-CT",
           "code": 185349003,
-          "display": "Encounter for 'check-up'"
+          "display": "Rencontre pour le 'check-up'"
         }
       ],
       "direct_transition": "End_Postoperative_Follow-up",
@@ -624,7 +624,7 @@
         {
           "system": "SNOMED-CT",
           "code": 185349003,
-          "display": "Encounter for 'check-up'"
+          "display": "Rencontre pour le 'check-up'"
         }
       ],
       "reason": "Open_Cholecystectomy",
@@ -636,7 +636,7 @@
       "discharge_disposition": {
         "system": "NUBC",
         "code": "01",
-        "display": "Discharged to home care or self care (routine discharge)"
+        "display": "Renvoi aux soins à domicile ou aux soins personnels (renvoi de routine)"
       }
     },
     "Ready_for_Surgery": {
@@ -658,7 +658,7 @@
         {
           "system": "RxNorm",
           "code": 313002,
-          "display": "Sodium Chloride 9 MG/ML Injectable Solution"
+          "display": "Sodium Chloride 9 MG/ML Solution injectable"
         }
       ],
       "direct_transition": "Antiemetic"
@@ -779,7 +779,7 @@
         {
           "system": "LOINC",
           "code": "24323-8",
-          "display": "Comprehensive metabolic 2000 panel - Serum or Plasma"
+          "display": "Panel métabolique complet 2000 - Sérum ou plasma"
         }
       ],
       "observations": [
@@ -847,7 +847,7 @@
             {
               "system": "LOINC",
               "code": "3094-0",
-              "display": "Urea Nitrogen"
+              "display": "Azote uréique"
             }
           ],
           "vital_sign": "Urea Nitrogen"
@@ -1070,7 +1070,7 @@
             {
               "system": "LOINC",
               "code": "20570-8",
-              "display": "Hematocrit"
+              "display": "Hématocrite"
             }
           ],
           "range": {

@@ -28,7 +28,7 @@
         {
           "system": "SNOMED-CT",
           "code": "170837001",
-          "display": "Allergic disorder initial assessment"
+          "display": "Évaluation initiale des troubles allergiques"
         }
       ],
       "distributed_transition": [
@@ -66,7 +66,7 @@
         {
           "system": "SNOMED-CT",
           "code": "170836005",
-          "display": "Allergic disorder monitoring"
+          "display": "Surveillance des troubles allergiques"
         }
       ],
       "activities": [
@@ -89,7 +89,7 @@
         {
           "system": "SNOMED-CT",
           "code": "395142003",
-          "display": "Allergy screening test"
+          "display": "Test de dépistage des allergies"
         }
       ],
       "direct_transition": "Benchmark_Allergy_Panel"
@@ -156,7 +156,7 @@
         {
           "system": "SNOMED-CT",
           "code": "371883000",
-          "display": "Outpatient procedure"
+          "display": "Procédure ambulatoire"
         }
       ],
       "direct_transition": "Immunotherapy_Procedure"
@@ -167,7 +167,7 @@
         {
           "system": "SNOMED-CT",
           "code": "180256009",
-          "display": "Subcutaneous immunotherapy"
+          "display": "Immunothérapie sous-cutanée"
         }
       ],
       "duration": {
@@ -198,7 +198,7 @@
         {
           "system": "SNOMED-CT",
           "code": "170838006",
-          "display": "Allergic disorder follow-up assessment"
+          "display": "Évaluation de suivi des troubles allergiques"
         }
       ],
       "direct_transition": "Immunotherapy_CarePlan_Ends"
@@ -242,7 +242,7 @@
         {
           "system": "SNOMED-CT",
           "code": "395142003",
-          "display": "Allergy screening test"
+          "display": "Test de dépistage des allergies"
         }
       ],
       "direct_transition": "Followup_Allergy_Panel"

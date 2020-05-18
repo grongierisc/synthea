@@ -43,13 +43,13 @@
         {
           "system": "LOINC",
           "code": "85319-2",
-          "display": "HER2 [Presence] in Breast cancer specimen by Immune stain"
+          "display": "HER2 [Présence] dans un échantillon de cancer du sein par coloration immunitaire"
         }
       ],
       "value_code": {
         "system": "SNOMED-CT",
         "code": 260385009,
-        "display": "Negative (qualifier value)"
+        "display": "Négatif (valeur du qualificatif)"
       },
       "direct_transition": "HER2 ratio less than 1point8"
     },
@@ -61,13 +61,13 @@
         {
           "system": "LOINC",
           "code": "85319-2",
-          "display": "HER2 [Presence] in Breast cancer specimen by Immune stain"
+          "display": "HER2 [Présence] dans un échantillon de cancer du sein par coloration immunitaire"
         }
       ],
       "value_code": {
         "system": "SNOMED-CT",
         "code": 10828004,
-        "display": "Positive (qualifier value)"
+        "display": "Positif (valeur du qualificatif)"
       },
       "direct_transition": "HER2_ratio_greater_than_2point2"
     },
@@ -96,13 +96,13 @@
         {
           "system": "LOINC",
           "code": "85337-4",
-          "display": "Estrogen receptor Ag [Presence] in Breast cancer specimen by Immune stain"
+          "display": "Récepteur d'œstrogène Ag [Présence] dans un échantillon de cancer du sein par coloration immunologique"
         }
       ],
       "value_code": {
         "system": "SNOMED-CT",
         "code": 260385009,
-        "display": "Negative (qualifier value)"
+        "display": "Négatif (valeur du qualificatif)"
       },
       "direct_transition": "ER-"
     },
@@ -114,13 +114,13 @@
         {
           "system": "LOINC",
           "code": "85337-4",
-          "display": "Estrogen receptor Ag [Presence] in Breast cancer specimen by Immune stain"
+          "display": "Récepteur d'œstrogène Ag [Présence] dans un échantillon de cancer du sein par coloration immunologique"
         }
       ],
       "value_code": {
         "system": "SNOMED-CT",
         "code": 10828004,
-        "display": "Positive (qualifier value)"
+        "display": "Positif (valeur du qualificatif)"
       },
       "direct_transition": "ER+"
     },
@@ -149,13 +149,13 @@
         {
           "system": "LOINC",
           "code": "85339-0",
-          "display": "Progesterone receptor Ag [Presence] in Breast cancer specimen by Immune stain"
+          "display": "Récepteur de progestérone Ag [Présence] dans un échantillon de cancer du sein par coloration immunologique"
         }
       ],
       "value_code": {
         "system": "SNOMED-CT",
         "code": 260385009,
-        "display": "Negative (qualifier value)"
+        "display": "Négatif (valeur du qualificatif)"
       },
       "direct_transition": "PR-"
     },
@@ -167,13 +167,13 @@
         {
           "system": "LOINC",
           "code": "85339-0",
-          "display": "Progesterone receptor Ag [Presence] in Breast cancer specimen by Immune stain"
+          "display": "Récepteur de progestérone Ag [Présence] dans un échantillon de cancer du sein par coloration immunologique"
         }
       ],
       "value_code": {
         "system": "SNOMED-CT",
         "code": 10828004,
-        "display": "Positive (qualifier value)"
+        "display": "Positif (valeur du qualificatif)"
       },
       "direct_transition": "PR+"
     },
@@ -272,13 +272,13 @@
         {
           "system": "LOINC",
           "code": "21924-6",
-          "display": "Tumor marker Cancer"
+          "display": "Marqueur tumoral Cancer"
         }
       ],
       "value_code": {
         "system": "SNOMED-CT",
         "code": 260385009,
-        "display": "Negative (qualifier value)"
+        "display": "Négatif (valeur du qualificatif)"
       },
       "direct_transition": "Triple_Negative_Patient",
       "remarks": [
@@ -293,14 +293,14 @@
         {
           "system": "LOINC",
           "code": "10480-2",
-          "display": "Estrogen+Progesterone receptor Ag [Presence] in Tissue by Immune stain"
+          "display": "Récepteur Ag des œstrogènes+progestérone [Présence] dans les tissus par coloration immunologique"
         }
       ],
       "direct_transition": "Terminal",
       "value_code": {
         "system": "SNOMED-CT",
         "code": 10828004,
-        "display": "Positive (qualifier value)"
+        "display": "Positif (valeur du qualificatif)"
       },
       "remarks": [
         "Hormone receptor-positive (estrogen receptor-positive (ER-positive)/progesterone receptor-positive (PR-positive)) tumors express (have a lot of) hormone receptors.:",
@@ -315,13 +315,13 @@
         {
           "system": "LOINC",
           "code": 417181009,
-          "display": "Estrogen+Progesterone receptor Ag [Presence] in Tissue by Immune stain"
+          "display": "Récepteur Ag des œstrogènes+progestérone [Présence] dans les tissus par coloration immunologique"
         }
       ],
       "value_code": {
         "system": "SNOMED-CT",
         "code": 260385009,
-        "display": "Negative (qualifier value)"
+        "display": "Négatif (valeur du qualificatif)"
       },
       "conditional_transition": [
         {
@@ -348,7 +348,7 @@
         {
           "system": "SNOMED-CT",
           "code": 433114000,
-          "display": "Human epidermal growth factor receptor 2 gene detection by immunohistochemistry (procedure)"
+          "display": "Détection du gène du récepteur 2 du facteur de croissance épidermique humain par immunohistochimie (procédure)"
         }
       ],
       "duration": {
@@ -392,7 +392,7 @@
         {
           "system": "LOINC",
           "code": "85318-4",
-          "display": "HER2 [Presence] in Breast cancer specimen by FISH"
+          "display": "HER2 [Présence] dans un échantillon de cancer du sein par FISH"
         }
       ],
       "direct_transition": "HER2-",
@@ -413,7 +413,7 @@
         {
           "system": "LOINC",
           "code": "85318-4",
-          "display": "HER2 [Presence] in Breast cancer specimen by FISH"
+          "display": "HER2 [Présence] dans un échantillon de cancer du sein par FISH"
         }
       ],
       "direct_transition": "HER2+",

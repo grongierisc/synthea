@@ -480,7 +480,7 @@
         {
           "system": "RxNorm",
           "code": "198767",
-          "display": "Pancreatin 600 MG Oral Tablet"
+          "display": "Pancreatin 600 MG Comprimé oral"
         }
       ],
       "direct_transition": "CF_CarePlan",
@@ -687,7 +687,7 @@
         {
           "system": "RxNorm",
           "code": 1243052,
-          "display": "Kalydeco 150 MG Oral Tablet"
+          "display": "Kalydeco 150 MG Comprimé oral"
         }
       ],
       "direct_transition": "Prescribe_Mucus_Thinner",
@@ -1226,7 +1226,7 @@
         {
           "system": "RxNorm",
           "code": 313572,
-          "display": "Vancomycin 50 MG/ML Injectable Solution"
+          "display": "Vancomycin 50 MG/ML Solution injectable"
         }
       ],
       "direct_transition": "Pulmonary_Function_Test",
@@ -1363,7 +1363,7 @@
         {
           "system": "SNOMED-CT",
           "code": 50849002,
-          "display": "Emergency room admission (procedure)"
+          "display": "Admission aux urgences (procédure)"
         }
       ],
       "conditional_transition": [

@@ -123,7 +123,7 @@
         {
           "system": "SNOMED-CT",
           "code": "233678006",
-          "display": "Childhood asthma"
+          "display": "L'asthme chez l'enfant"
         }
       ],
       "direct_transition": "Set_Childhood_Asthma"
@@ -142,7 +142,7 @@
         {
           "system": "SNOMED-CT",
           "code": "195967001",
-          "display": "Asthma"
+          "display": "asthme"
         }
       ],
       "direct_transition": "Set_Adult_Asthma"
@@ -161,7 +161,7 @@
         {
           "system": "SNOMED-CT",
           "code": "185345009",
-          "display": "Encounter for symptom"
+          "display": "Rencontre pour symptôme"
         }
       ],
       "direct_transition": "Asthma_Symptom1"
@@ -227,7 +227,7 @@
         {
           "system": "SNOMED-CT",
           "code": "171231001",
-          "display": "Asthma screening"
+          "display": "Dépistage de l'asthme"
         }
       ],
       "direct_transition": "Prescribe_Maintenance_Inhaler"
@@ -239,7 +239,7 @@
         {
           "system": "RxNorm",
           "code": "895994",
-          "display": "120 ACTUAT Fluticasone propionate 0.044 MG/ACTUAT Metered Dose Inhaler"
+          "display": "120 ACTUAT Propionate de fluticasone 0,044 MG/ACTUAT Inhalateur doseur"
         }
       ],
       "prescription": {
@@ -255,7 +255,7 @@
         {
           "system": "RxNorm",
           "code": "2123111",
-          "display": "NDA020503 200 ACTUAT Albuterol 0.09 MG/ACTUAT Metered Dose Inhaler"
+          "display": "NDA020503 200 ACTUAT Albutérol 0,09 MG/ACTUAT Inhalateur doseur"
         }
       ],
       "prescription": {
@@ -300,24 +300,24 @@
         {
           "system": "SNOMED-CT",
           "code": "699728000",
-          "display": "Asthma self management"
+          "display": "Autogestion de l'asthme"
         }
       ],
       "activities": [
         {
           "system": "SNOMED-CT",
           "code": "710081004",
-          "display": "Smoking cessation therapy"
+          "display": "Thérapie de sevrage tabagique"
         },
         {
           "system": "SNOMED-CT",
           "code": "710818004",
-          "display": "Inhaled steroid therapy"
+          "display": "Thérapie par stéroïdes inhalés"
         },
         {
           "system": "SNOMED-CT",
           "code": "708409001",
-          "display": "Home nebulizer therapy"
+          "display": "Thérapie par nébulisation à domicile"
         }
       ],
       "direct_transition": "End_Diagnosis_Encounter"
@@ -330,19 +330,19 @@
         {
           "system": "SNOMED-CT",
           "code": "699728000",
-          "display": "Asthma self management"
+          "display": "Autogestion de l'asthme"
         }
       ],
       "activities": [
         {
           "system": "SNOMED-CT",
           "code": "710818004",
-          "display": "Inhaled steroid therapy"
+          "display": "Thérapie par stéroïdes inhalés"
         },
         {
           "system": "SNOMED-CT",
           "code": "708409001",
-          "display": "Home nebulizer therapy"
+          "display": "Thérapie par nébulisation à domicile"
         },
         {
           "system": "SNOMED-CT",
@@ -433,7 +433,7 @@
         {
           "system": "SNOMED-CT",
           "code": "195967001",
-          "display": "Asthma"
+          "display": "Asthme"
         }
       ],
       "direct_transition": "Maintaining_Asthma"
@@ -489,7 +489,7 @@
         {
           "system": "SNOMED-CT",
           "code": "183478001",
-          "display": "Emergency hospital admission for asthma"
+          "display": "Admission d'urgence à l'hôpital pour l'asthme"
         }
       ],
       "direct_transition": "End_Asthma_ED_Visit"
@@ -515,7 +515,7 @@
         {
           "system": "SNOMED-CT",
           "code": "394701000",
-          "display": "Asthma follow-up"
+          "display": "Suivi de l'asthme"
         }
       ],
       "direct_transition": "Followup_End"

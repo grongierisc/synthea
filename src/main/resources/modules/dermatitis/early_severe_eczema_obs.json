@@ -19,7 +19,7 @@
         {
           "system": "LOINC",
           "code": "66519-0",
-          "display": "Percentage area affected by eczema Head and Neck"
+          "display": "Pourcentage de la zone affectée par l'eczéma Tête et cou"
         }
       ],
       "range": {
@@ -36,7 +36,7 @@
         {
           "system": "LOINC",
           "code": "66529-9",
-          "display": "Percentage area affected by eczema Trunk"
+          "display": "Pourcentage de la zone affectée par eczéma Tronc"
         }
       ],
       "range": {
@@ -53,7 +53,7 @@
         {
           "system": "LOINC",
           "code": "66524-0",
-          "display": "Percentage area affected by eczema Upper extremitiy - bilateral"
+          "display": "Pourcentage de la zone affectée par eczéma Extrémité supérieure - bilatéral"
         }
       ],
       "range": {
@@ -70,7 +70,7 @@
         {
           "system": "LOINC",
           "code": "66534-9",
-          "display": "Percentage area affected by eczema Lower extremitiy - bilateral"
+          "display": "Pourcentage de la zone affectée par eczéma Extrémité inférieure - bilatéral"
         }
       ],
       "range": {

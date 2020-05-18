@@ -59,7 +59,7 @@
         {
           "system": "RxNorm",
           "code": 311700,
-          "display": "Midazolam 1 MG/ML Injectable Solution"
+          "display": "Midazolam 1 MG/ML Solution injectable"
         }
       ],
       "direct_transition": "Midazolam_End",
@@ -93,7 +93,7 @@
         {
           "system": "RxNorm",
           "code": 309845,
-          "display": "Diazepam 5 MG/ML Injectable Solution"
+          "display": "Diazepam 5 MG/ML Solution injectable"
         }
       ],
       "direct_transition": "Diazepam_End",
@@ -105,7 +105,7 @@
         {
           "system": "RxNorm",
           "code": 238100,
-          "display": "Lorazepam 2 MG/ML Injectable Solution"
+          "display": "Lorazepam 2 MG/ML Solution injectable"
         }
       ],
       "direct_transition": "Lorazepam_End",
@@ -133,7 +133,7 @@
         {
           "system": "RxNorm",
           "code": 1234995,
-          "display": "Rocuronium bromide 10 MG/ML Injectable Solution"
+          "display": "Rocuronium bromide 10 MG/ML Solution injectable"
         }
       ],
       "direct_transition": "Paralytic_End",

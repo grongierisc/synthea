@@ -194,7 +194,7 @@
         {
           "system": "SNOMED-CT",
           "code": "185347001",
-          "display": "Encounter for problem"
+          "display": "Rencontre médicale"
         }
       ],
       "direct_transition": "Dermatitis_Symptom1"
@@ -286,7 +286,7 @@
         {
           "system": "SNOMED-CT",
           "code": "185347001",
-          "display": "Encounter for problem"
+          "display": "Rencontre médicale"
         }
       ],
       "complex_transition": [
@@ -521,7 +521,7 @@
         {
           "system": "SNOMED-CT",
           "code": "185347001",
-          "display": "Encounter for problem"
+          "display": "Rencontre médicale"
         }
       ],
       "conditional_transition": [
@@ -561,7 +561,7 @@
         {
           "system": "RxNorm",
           "code": "241834",
-          "display": "cycloSPORINE, modified 100 MG Oral Capsule"
+          "display": "cycloSPORINE, modified 100 MG Comprimés oraux"
         }
       ],
       "prescription": {
@@ -608,7 +608,7 @@
               {
                 "system": "RxNorm",
                 "code": "241834",
-                "display": "cycloSPORINE, modified 100 MG Oral Capsule"
+                "display": "cycloSPORINE, modified 100 MG Comprimés oraux"
               }
             ]
           },

@@ -27,7 +27,7 @@
         {
           "system": "SNOMED-CT",
           "code": "503552143",
-          "display": "Encounter for symptom"
+          "display": "Rencontre pour symptôme"
         }
       ],
       "direct_transition": "Call_MedicationOrder_Submodule"

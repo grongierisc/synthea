@@ -66,7 +66,7 @@
         {
           "system": "SNOMED-CT",
           "code": "10509002",
-          "display": "Acute bronchitis (disorder)"
+          "display": "Bronchite aiguë (trouble)"
         }
       ],
       "direct_transition": "Bronchitis_Symptom1"
@@ -186,7 +186,7 @@
         {
           "system": "SNOMED-CT",
           "code": "185345009",
-          "display": "Encounter for symptom"
+          "display": "Rencontre pour symptôme"
         }
       ],
       "distributed_transition": [
@@ -215,7 +215,7 @@
         {
           "system": "SNOMED-CT",
           "code": "399208008",
-          "display": "Plain chest X-ray (procedure)"
+          "display": "Radiographie du thorax (procédure)"
         }
       ],
       "duration": {
@@ -232,7 +232,7 @@
         {
           "system": "SNOMED-CT",
           "code": "269911007",
-          "display": "Sputum examination (procedure)"
+          "display": "Examen des crachats (procédure)"
         }
       ],
       "duration": {
@@ -249,7 +249,7 @@
         {
           "system": "SNOMED-CT",
           "code": "23426006",
-          "display": "Measurement of respiratory function (procedure)"
+          "display": "Mesure de la fonction respiratoire (procédure)"
         }
       ],
       "duration": {
@@ -295,24 +295,24 @@
         {
           "system": "SNOMED-CT",
           "code": "53950000",
-          "display": "Respiratory therapy"
+          "display": "Thérapie respiratoire"
         }
       ],
       "activities": [
         {
           "system": "SNOMED-CT",
           "code": "710081004",
-          "display": "Smoking cessation therapy"
+          "display": "Thérapie de sevrage tabagique"
         },
         {
           "system": "SNOMED-CT",
           "code": "304510005",
-          "display": "Recommendation to avoid exercise"
+          "display": "Recommandation pour éviter l'exercice"
         },
         {
           "system": "SNOMED-CT",
           "code": "371605008",
-          "display": "Deep breathing and coughing exercises"
+          "display": "Exercices de respiration profonde et de toux"
         }
       ],
       "direct_transition": "OTC_Medicine"
@@ -325,19 +325,19 @@
         {
           "system": "SNOMED-CT",
           "code": "53950000",
-          "display": "Respiratory therapy"
+          "display": "Thérapie respiratoire"
         }
       ],
       "activities": [
         {
           "system": "SNOMED-CT",
           "code": "304510005",
-          "display": "Recommendation to avoid exercise"
+          "display": "Recommandation pour éviter l'exercice"
         },
         {
           "system": "SNOMED-CT",
           "code": "371605008",
-          "display": "Deep breathing and coughing exercises"
+          "display": "Exercices de respiration profonde et de toux"
         }
       ],
       "direct_transition": "OTC_Medicine"
@@ -392,7 +392,7 @@
         {
           "system": "RxNorm",
           "code": "1043400",
-          "display": "Acetaminophen 21.7 MG/ML / Dextromethorphan Hydrobromide 1 MG/ML / doxylamine succinate 0.417 MG/ML Oral Solution"
+          "display": "Acetaminophen 21.7 MG/ML / Dextromethorphan Hydrobromide 1 MG/ML / doxylamine succinate 0.417 MG/ML Solution orale"
         }
       ],
       "direct_transition": "End_Doctor_Visit"
@@ -405,7 +405,7 @@
         {
           "system": "RxNorm",
           "code": "313782",
-          "display": "Acetaminophen 325 MG Oral Tablet"
+          "display": "Acetaminophen 325 MG Comprimé oral"
         }
       ],
       "direct_transition": "End_Doctor_Visit"

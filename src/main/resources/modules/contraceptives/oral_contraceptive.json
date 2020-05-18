@@ -75,7 +75,7 @@
         {
           "system": "SNOMED-CT",
           "code": "698314001",
-          "display": "Consultation for treatment"
+          "display": "Consultation pour traitement"
         }
       ],
       "direct_transition": "Combination_Or_Minipill"
@@ -188,7 +188,7 @@
         {
           "system": "RxNorm",
           "code": "748962",
-          "display": "Camila 28 Day Pack"
+          "display": "Camila 28 Dose quotidienne"
         }
       ],
       "direct_transition": "End_Encounter"
@@ -200,7 +200,7 @@
         {
           "system": "RxNorm",
           "code": "831533",
-          "display": "Errin 28 Day Pack"
+          "display": "Errin 28 Dose quotidienne"
         }
       ],
       "direct_transition": "End_Encounter"
@@ -212,7 +212,7 @@
         {
           "system": "RxNorm",
           "code": "757594",
-          "display": "Jolivette 28 Day Pack"
+          "display": "Jolivette 28 Dose quotidienne"
         }
       ],
       "direct_transition": "End_Encounter"
@@ -406,7 +406,7 @@
         {
           "system": "RxNorm",
           "code": "749882",
-          "display": "Norinyl 1+50 28 Day Pack"
+          "display": "Norinyl 1+50 28 Dose quotidienne"
         }
       ],
       "direct_transition": "End_Encounter"
@@ -418,7 +418,7 @@
         {
           "system": "RxNorm",
           "code": "1359133",
-          "display": "Estrostep Fe 28 Day Pack"
+          "display": "Estrostep Fe 28 Dose quotidienne"
         }
       ],
       "direct_transition": "End_Encounter"
@@ -430,7 +430,7 @@
         {
           "system": "RxNorm",
           "code": "749785",
-          "display": "Ortho Tri-Cyclen 28 Day Pack"
+          "display": "Ortho Tri-Cyclen 28 Dose quotidienne"
         }
       ],
       "direct_transition": "End_Encounter"
@@ -442,7 +442,7 @@
         {
           "system": "RxNorm",
           "code": "751905",
-          "display": "Trinessa 28 Day Pack"
+          "display": "Trinessa 28 Dose quotidienne"
         }
       ],
       "direct_transition": "End_Encounter"
@@ -457,7 +457,7 @@
         {
           "system": "RxNorm",
           "code": "749762",
-          "display": "Seasonique 91 Day Pack"
+          "display": "Seasonique 91 Dose quotidienne"
         }
       ],
       "direct_transition": "End_Encounter"
@@ -469,7 +469,7 @@
         {
           "system": "RxNorm",
           "code": "748856",
-          "display": "Yaz 28 Day Pack"
+          "display": "Yaz 28 Dose quotidienne"
         }
       ],
       "direct_transition": "End_Encounter"
@@ -481,7 +481,7 @@
         {
           "system": "RxNorm",
           "code": "978950",
-          "display": "Natazia 28 Day Pack"
+          "display": "Natazia 28 Dose quotidienne"
         }
       ],
       "direct_transition": "End_Encounter"
@@ -493,7 +493,7 @@
         {
           "system": "RxNorm",
           "code": "748879",
-          "display": "Levora 0.15/30 28 Day Pack"
+          "display": "Levora 0.15/30 28 Dose quotidienne"
         }
       ],
       "direct_transition": "End_Encounter"

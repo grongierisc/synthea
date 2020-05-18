@@ -26,7 +26,7 @@
             "codes": [{
                 "system": "RxNorm",
                 "code": "860975",
-                "display": "24 HR Metformin hydrochloride 500 MG Extended Release Oral Tablet"
+                "display": "24 HR Metformin hydrochloride 500 MG Extended Release Comprimé oral"
             }],
             "assign_to_attribute" : "Diabetes Medication",
             "reason": "Diabetes",
@@ -39,7 +39,7 @@
             {
               "system": "RxNorm",
               "code": "860975",
-              "display": "24 HR Metformin hydrochloride 500 MG Extended Release Oral Tablet"
+              "display": "24 HR Metformin hydrochloride 500 MG Extended Release Comprimé oral"
             }
           ],
           "assign_to_attribute": "Diabetes Medication",
@@ -55,7 +55,7 @@
               {
                 "system": "RxNorm",
                 "code": "860975",
-                "display": "24 HR Metformin hydrochloride 500 MG Extended Release Oral Tablet"
+                "display": "24 HR Metformin hydrochloride 500 MG Extended Release Comprimé oral"
               }
             ],
             "prescription": {

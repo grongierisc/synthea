@@ -1,7 +1,7 @@
 SYSTEM,CODE,DISPLAY,LOW,MED,HIGH
 SNOMED-CT,10383002,Counseling for termination of pregnancy,0.078,0.114,0.159
-SNOMED-CT,10509002,Acute bronchitis (disorder),0.011,0.019,0.033
-SNOMED-CT,109838007,Overlapping malignant neoplasm of colon,0.307,0.451,0.6
+SNOMED-CT,10509002,Bronchite aiguë (trouble),0.011,0.019,0.033
+SNOMED-CT,109838007,Chevauchement du néoplasme malin du côlon,0.307,0.451,0.6
 SNOMED-CT,110030002,Concussion injury of brain,0.134,0.203,0.29
 SNOMED-CT,11218009,Infection caused by Pseudomonas aeruginosa,0.088,0.133,0.19
 SNOMED-CT,124171000119105,Chronic intractable migraine without aura,0.294,0.441,0.588
@@ -17,10 +17,10 @@ SNOMED-CT,15777000,Prediabetes,0.031,0.049,0.072
 SNOMED-CT,16114001,Fracture of ankle,0.112,0.165,0.232
 SNOMED-CT,1734006,Fracture of the vertebral column with spinal cord injury,0.216,0.317,0.44
 SNOMED-CT,180030006,Amputation of right foot,0.024,0.039,0.059
-SNOMED-CT,185086009,Chronic obstructive bronchitis (disorder),0.011,0.019,0.033
+SNOMED-CT,185086009,Bronchite obstructive chronique (trouble),0.011,0.019,0.033
 SNOMED-CT,190905008,Cystic Fibrosis,0.273,0.408,0.556
 SNOMED-CT,19169002,Miscarriage in first trimester,0.078,0.114,0.159
-SNOMED-CT,192127007,Child attention deficit disorder,0.028,0.045,0.066
+SNOMED-CT,192127007,Trouble déficitaire de l'attention chez l'enfant,0.028,0.045,0.066
 SNOMED-CT,195662009,Acute viral pharyngitis (disorder),0.002,0.006,0.012
 SNOMED-CT,195967001,Asthma,0.015,0.036,0.133
 SNOMED-CT,196416002,Impacted molars,0.005,0.01,0.019
@@ -32,20 +32,20 @@ SNOMED-CT,22298006,Myocardial Infarction,0.049,0.074,0.105
 SNOMED-CT,230265002,Familial Alzheimer's disease of early onset (disorder),0.046,0.069,0.099
 SNOMED-CT,230690007,Stroke,0.01,0.316,0.744
 SNOMED-CT,233604007,Pneumonia,0.019,0.225,0.408
-SNOMED-CT,233678006,Childhood asthma,0.015,0.036,0.133
+SNOMED-CT,233678006,L'asthme chez l'enfant,0.015,0.036,0.133
 SNOMED-CT,235919008,Cholelithiasis,0.011,0.114,0.324
-SNOMED-CT,236077008,Protracted diarrhea,0.164,0.247,0.348
+SNOMED-CT,236077008,Diarrhée prolongée,0.164,0.247,0.348
 SNOMED-CT,239720000,Tear of meniscus of knee,0.023,0.079,0.165
 SNOMED-CT,239872002,Osteoarthritis of hip,0.023,0.079,0.165
 SNOMED-CT,239873007,Osteoarthritis of knee,0.023,0.079,0.165
 SNOMED-CT,24079001,Atopic dermatitis,0.027,0.188,0.267
 SNOMED-CT,254632001,Small cell carcinoma of lung (disorder),0.193,0.288,0.399
 SNOMED-CT,254637007,Non-small cell lung cancer (disorder),0.193,0.288,0.399
-SNOMED-CT,254837009,Malignant neoplasm of breast (disorder),0.193,0.288,0.399
+SNOMED-CT,254837009,Néoplasme malin du sein (trouble),0.193,0.288,0.399
 SNOMED-CT,262574004,Bullet wound,0.22,0.432,0.442
 SNOMED-CT,263102004,Fracture subluxation of wrist,0.017,0.028,0.045
 SNOMED-CT,26929004,Alzheimer's disease (disorder),0.252,0.377,0.508
-SNOMED-CT,271737000,Anemia (disorder),0.004,0.052,0.149
+SNOMED-CT,271737000,Anémie (trouble),0.004,0.052,0.149
 SNOMED-CT,275272006,Brain damage - traumatic,0.374,0.542,0.702
 SNOMED-CT,283371005,Laceration of forearm,0.002,0.006,0.012
 SNOMED-CT,283385000,Laceration of thigh,0.002,0.006,0.012
@@ -57,14 +57,14 @@ SNOMED-CT,30832001,Rupture of patellar tendon,0.023,0.079,0.165
 SNOMED-CT,314994000,Metastasis from malignant tumor of prostate (disorder),0.307,0.451,0.6
 SNOMED-CT,33737001,Fracture of rib,0.08,0.117,0.163
 SNOMED-CT,359817006,Closed fracture of hip,0.216,0.317,0.44
-SNOMED-CT,363406005,Malignant tumor of colon,0.377,0.54,0.687
+SNOMED-CT,363406005,Tumeur maligne du côlon,0.377,0.54,0.687
 SNOMED-CT,368581000119106,Neuropathy due to type 2 diabetes mellitus (disorder),0.089,0.133,0.187
 SNOMED-CT,36923009,Major depression  single episode,0.099,0.145,0.209
 SNOMED-CT,36971009,Sinusitis (disorder),0.002,0.006,0.012
 SNOMED-CT,370143000,Major depression disorder,0.267,0.396,0.531
 SNOMED-CT,370247008,Facial laceration,0.002,0.006,0.012
 SNOMED-CT,386394001,Pregnancy termination care,0.078,0.114,0.159
-SNOMED-CT,386522008,Overactivity/inattention behavior management,0.028,0.045,0.066
+SNOMED-CT,386522008,Gestion des comportements de suractivité/inattention,0.028,0.045,0.066
 SNOMED-CT,38822007,Cystitis,0.032,0.051,0.074
 SNOMED-CT,398254007,Preeclampsia,0.031,0.049,0.072
 SNOMED-CT,39848009,Whiplash injury to neck,0.114,0.229,0.304
@@ -96,7 +96,7 @@ SNOMED-CT,444470001,Injury of anterior cruciate ligament,0.023,0.079,0.165
 SNOMED-CT,44465007,Sprain of ankle,0.013,0.023,0.037
 SNOMED-CT,444814009,Viral sinusitis (disorder),0.002,0.006,0.012
 SNOMED-CT,445912000,Excision of fallopian tube and surgical removal of ectopic pregnancy,0.078,0.114,0.159
-SNOMED-CT,446096008,Perennial allergic rhinitis,0.002,0.006,0.012
+SNOMED-CT,446096008,Rhinite allergique perannuelle,0.002,0.006,0.012
 SNOMED-CT,448417001,Sepsis caused by Staphylococcus aureus,0.088,0.133,0.19
 SNOMED-CT,448813005,Sepsis caused by Pseudomonas (disorder),0.088,0.133,0.19
 SNOMED-CT,449868002,Smokes tobacco daily,0.018,0.03,0.046
@@ -111,7 +111,7 @@ SNOMED-CT,53741008,Coronary Heart Disease,0.031,0.049,0.072
 SNOMED-CT,55680006,Drug overdose,0.51,0.697,0.843
 SNOMED-CT,5602001,Opioid abuse (disorder),0.221,0.335,0.473
 SNOMED-CT,58150001,Fracture of clavicle,0.08,0.117,0.163
-SNOMED-CT,6072007,Bleeding from anus,0.209,0.325,0.462
+SNOMED-CT,6072007,Saignement de l'anus,0.209,0.325,0.462
 SNOMED-CT,609496007,Complication occuring during pregnancy,0.078,0.114,0.159
 SNOMED-CT,60951000119105,Blindness due to type 2 diabetes mellitus (disorder),0.124,0.187,0.26
 SNOMED-CT,62106007,Concussion with no loss of consciousness,0.018,0.031,0.05
@@ -137,12 +137,12 @@ SNOMED-CT,79733001,Amputation of right leg,0.024,0.039,0.059
 SNOMED-CT,82423001,Chronic pain,0.02,0.256,0.518
 SNOMED-CT,84757009,Epilepsy,0.375,0.552,0.71
 SNOMED-CT,85116003,Miscarriage in second trimester,0.078,0.114,0.159
-SNOMED-CT,87433001,Pulmonary emphysema (disorder),0.011,0.019,0.033
+SNOMED-CT,87433001,Emphysème pulmonaire (trouble),0.011,0.019,0.033
 SNOMED-CT,88805009,Chronic congestive heart failure (disorder),0.049,0.179,0.251
 SNOMED-CT,90560007,Gout,0.196,0.295,0.409
 SNOMED-CT,90781000119102,Microalbuminuria due to type 2 diabetes mellitus (disorder),0.034,0.052,0.076
 SNOMED-CT,92691004,Carcinoma in situ of prostate (disorder),0.193,0.288,0.399
-SNOMED-CT,93761005,Primary malignant neoplasm of colon,0.193,0.288,0.399
-SNOMED-CT,94260004,Secondary malignant neoplasm of colon,0.307,0.451,0.6
+SNOMED-CT,93761005,Tumeur maligne primaire du côlon,0.193,0.288,0.399
+SNOMED-CT,94260004,Néoplasme malin secondaire du côlon,0.307,0.451,0.6
 SNOMED-CT,95417003,Primary fibromyalgia syndrome,0.216,0.317,0.44
 SNOMED-CT,97331000119101,Macular edema and retinopathy due to type 2 diabetes mellitus (disorder),0.124,0.187,0.26

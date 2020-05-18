@@ -120,7 +120,7 @@
         {
           "system": "SNOMED-CT",
           "code": "185347001",
-          "display": "Encounter for problem"
+          "display": "Rencontre médicale"
         }
       ],
       "conditional_transition": [
@@ -147,7 +147,7 @@
         {
           "system": "SNOMED-CT",
           "code": "384758001",
-          "display": "Self-care interventions (procedure)"
+          "display": "Interventions d'autosoins (procédure)"
         }
       ],
       "activities": [
@@ -159,7 +159,7 @@
         {
           "system": "SNOMED-CT",
           "code": "58332002",
-          "display": "Allergy education"
+          "display": "Éducation sur les allergies"
         }
       ],
       "direct_transition": "Advise_To_Visit_Allergist"

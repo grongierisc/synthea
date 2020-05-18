@@ -172,7 +172,7 @@
         {
           "system": "SNOMED-CT",
           "code": "308335008",
-          "display": "Patient encounter procedure"
+          "display": "Procédure de rencontre avec le patient"
         }
       ],
       "direct_transition": "IUD_Replacement"
@@ -204,7 +204,7 @@
         {
           "system": "SNOMED-CT",
           "code": "308335008",
-          "display": "Patient encounter procedure"
+          "display": "Procédure de rencontre avec le patient"
         }
       ],
       "direct_transition": "IUD_Removal"
@@ -312,7 +312,7 @@
         {
           "system": "SNOMED-CT",
           "code": "308335008",
-          "display": "Patient encounter procedure"
+          "display": "Procédure de rencontre avec le patient"
         }
       ],
       "direct_transition": "Remove_Implant_Before_Replacement"
@@ -328,7 +328,7 @@
         {
           "system": "SNOMED-CT",
           "code": "308335008",
-          "display": "Patient encounter procedure"
+          "display": "Procédure de rencontre avec le patient"
         }
       ],
       "direct_transition": "Remove_Implant"
@@ -437,7 +437,7 @@
         {
           "system": "SNOMED-CT",
           "code": "308335008",
-          "display": "Patient encounter procedure"
+          "display": "Procédure de rencontre avec le patient"
         }
       ],
       "direct_transition": "Regular_Contraceptive_Injection"
@@ -453,7 +453,7 @@
         {
           "system": "SNOMED-CT",
           "code": "76601001",
-          "display": "Intramuscular injection"
+          "display": "Injection intramusculaire"
         }
       ],
       "direct_transition": "End_Regular_Injection_Encounter"
@@ -471,7 +471,7 @@
         {
           "system": "SNOMED-CT",
           "code": 169553002,
-          "display": "Insertion of subcutaneous contraceptive"
+          "display": "Insertion d'un contraceptif sous-cutané"
         }
       ],
       "duration": {

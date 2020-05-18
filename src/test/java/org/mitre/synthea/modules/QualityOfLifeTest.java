@@ -53,8 +53,8 @@ public class QualityOfLifeTest {
     // ADD starts
     Entry addCondition = person.record.conditionStart(
         TimeUnit.DAYS.toMillis((long) (365.25 * 10)), "192127007");
-    addCondition.name = "Child attention deficit disorder";
-    Code addCode = new Code("SNOMED", "192127007", "Child attention deficit disorder");
+    addCondition.name = "Trouble déficitaire de l'attention chez l'enfant";
+    Code addCode = new Code("SNOMED", "192127007", "Trouble déficitaire de l'attention chez l'enfant");
     addCondition.codes.add(addCode);
 
     // Asthma starts
@@ -126,7 +126,7 @@ public class QualityOfLifeTest {
         TimeUnit.DAYS.toMillis((long) (365.25 * 10)),
         TimeUnit.DAYS.toMillis((long) (365.25 * 11)));
     assertEquals(2, conditionsYear10.size());
-    assertEquals("Child attention deficit disorder", conditionsYear10.get(0).name);
+    assertEquals("Trouble déficitaire de l'attention chez l'enfant", conditionsYear10.get(0).name);
     assertEquals("Asthma", conditionsYear10.get(1).name);
 
     // conditions in year 30

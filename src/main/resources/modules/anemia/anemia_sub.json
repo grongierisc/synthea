@@ -15,7 +15,7 @@
         {
           "system": "SNOMED-CT",
           "code": 271737000,
-          "display": "Anemia (disorder)"
+          "display": "Anémie (trouble)"
         }
       ],
       "direct_transition": "Anemia_Encounter"
@@ -29,7 +29,7 @@
         {
           "system": "SNOMED-CT",
           "code": 415300000,
-          "display": "Review of systems (procedure)"
+          "display": "Révision des systèmes (procédure)"
         }
       ],
       "duration": {
@@ -48,7 +48,7 @@
         {
           "system": "SNOMED-CT",
           "code": 162676008,
-          "display": "Brief general examination (procedure)"
+          "display": "Bref examen général (procédure)"
         }
       ],
       "duration": {
@@ -73,7 +73,7 @@
                   {
                     "system": "LOINC",
                     "code": "20570-8",
-                    "display": "Hematocrit"
+                    "display": "Hématocrite"
                   }
                 ],
                 "operator": "<=",
@@ -101,7 +101,7 @@
                   {
                     "system": "LOINC",
                     "code": "20570-8",
-                    "display": "Hematocrit"
+                    "display": "Hématocrite"
                   }
                 ],
                 "operator": "<=",
@@ -189,7 +189,7 @@
         {
           "system": "SNOMED-CT",
           "code": 14768001,
-          "display": "Peripheral blood smear interpretation"
+          "display": "Interprétation du frottis sanguin périphérique"
         }
       ],
       "duration": {
@@ -205,7 +205,7 @@
         {
           "system": "SNOMED-CT",
           "code": 430193006,
-          "display": "Medication Reconciliation (procedure)"
+          "display": "Bilan comparatif des médicaments (procédure)"
         }
       ],
       "duration": {
@@ -238,7 +238,7 @@
         {
           "system": "RxNorm",
           "code": 310325,
-          "display": "ferrous sulfate 325 MG Oral Tablet"
+          "display": "sulfate ferreux 325 MG comprimé oral"
         }
       ],
       "distributed_transition": [
@@ -258,7 +258,7 @@
         {
           "system": "RxNorm",
           "code": 2001499,
-          "display": "Vitamin B 12 5 MG/ML Injectable Solution"
+          "display": "Vitamine B 12 5 MG/ML Solution injectable"
         }
       ],
       "direct_transition": "End_Consult_Referral to_Experts_Encounter"
@@ -271,7 +271,7 @@
         {
           "system": "SNOMED-CT",
           "code": 185347001,
-          "display": "Encounter for problem (procedure)"
+          "display": "Rencontre médicale (procédure)"
         }
       ],
       "direct_transition": "Transfusion"
@@ -283,7 +283,7 @@
         {
           "system": "SNOMED-CT",
           "code": 185347001,
-          "display": "Encounter for problem"
+          "display": "Rencontre médicale"
         }
       ],
       "conditional_transition": [
@@ -327,7 +327,7 @@
         {
           "system": "RxNorm",
           "code": 310325,
-          "display": "ferrous sulfate 325 MG Oral Tablet"
+          "display": "sulfate ferreux 325 MG comprimé oral"
         }
       ],
       "distributed_transition": [
@@ -347,7 +347,7 @@
         {
           "system": "RxNorm",
           "code": 2001499,
-          "display": "Vitamin B 12 5 MG/ML Injectable Solution"
+          "display": "Vitamine B 12 5 MG/ML Solution injectable"
         }
       ],
       "direct_transition": "End_Anemia_Encounter"
@@ -363,7 +363,7 @@
         {
           "system": "LOINC",
           "code": "58410-2",
-          "display": "Complete blood count (hemogram) panel - Blood by Automated count"
+          "display": "Analyse complète de la formule sanguine (hémogramme) - Sang par comptage automatisé"
         }
       ],
       "direct_transition": "Peripheral_Blood_Smear",
@@ -375,7 +375,7 @@
             {
               "system": "LOINC",
               "code": "718-7",
-              "display": "Hemoglobin [Mass/volume] in Blood"
+              "display": "Hémoglobine [masse/volume] dans le sang"
             }
           ],
           "range": {
@@ -390,7 +390,7 @@
             {
               "system": "LOINC",
               "code": "20570-8",
-              "display": "Hematocrit [Volume Fraction] of Blood"
+              "display": "Hématocrite [Fraction volumique] du sang"
             }
           ],
           "range": {
@@ -435,7 +435,7 @@
             {
               "system": "LOINC",
               "code": "787-2",
-              "display": "MCV [Entitic volume] by Automated count"
+              "display": "MCV [Volume entier] par Comptage automatisé"
             }
           ],
           "range": {
@@ -450,7 +450,7 @@
             {
               "system": "LOINC",
               "code": "785-6",
-              "display": "MCH [Entitic mass] by Automated count"
+              "display": "MCH [Volume entier] par Comptage automatisé"
             }
           ],
           "range": {
@@ -465,7 +465,7 @@
             {
               "system": "LOINC",
               "code": "786-4",
-              "display": "MCHC [Mass/volume] by Automated count"
+              "display": "MCHC [Volume entier] par Comptage automatisé"
             }
           ],
           "range": {
@@ -480,7 +480,7 @@
             {
               "system": "LOINC",
               "code": "21000-5",
-              "display": "RDW - Erythrocyte distribution width Auto (RBC) [Entitic vol]"
+              "display": "RDW - Largeur de distribution des érythrocytes Auto (RBC) [Entitic vol]"
             }
           ],
           "range": {
@@ -495,7 +495,7 @@
             {
               "system": "LOINC",
               "code": "777-3",
-              "display": "Platelets [#/volume] in Blood by Automated count"
+              "display": "Plaquettes [#/volume] dans le sang par comptage automatisé"
             }
           ],
           "range": {
@@ -510,7 +510,7 @@
             {
               "system": "LOINC",
               "code": "32207-3",
-              "display": "Platelet distribution width [Entitic volume] in Blood by Automated count"
+              "display": "Largeur de distribution des plaquettes [volume entier] dans le sang par comptage automatisé"
             }
           ],
           "range": {
@@ -525,7 +525,7 @@
             {
               "system": "LOINC",
               "code": "32623-1",
-              "display": "Platelet mean volume [Entitic volume] in Blood by Automated count"
+              "display": "Volume moyen des plaquettes [volume entier] dans le sang par comptage automatisé"
             }
           ],
           "range": {
@@ -542,7 +542,7 @@
         {
           "system": "LOINC",
           "code": "58410-2",
-          "display": "Complete blood count (hemogram) panel - Blood by Automated count"
+          "display": "Analyse complète de la formule sanguine (hémogramme) - Sang par comptage automatisé"
         }
       ],
       "observations": [
@@ -553,7 +553,7 @@
             {
               "system": "LOINC",
               "code": "718-7",
-              "display": "Hemoglobin [Mass/volume] in Blood"
+              "display": "Hémoglobine [masse/volume] dans le sang"
             }
           ],
           "range": {
@@ -568,7 +568,7 @@
             {
               "system": "LOINC",
               "code": "20570-8",
-              "display": "Hematocrit [Volume Fraction] of Blood"
+              "display": "Hématocrite [Fraction volumique] du sang"
             }
           ],
           "range": {
@@ -613,7 +613,7 @@
             {
               "system": "LOINC",
               "code": "787-2",
-              "display": "MCV [Entitic volume] by Automated count"
+              "display": "MCV [Volume entier] par Comptage automatisé"
             }
           ],
           "range": {
@@ -628,7 +628,7 @@
             {
               "system": "LOINC",
               "code": "785-6",
-              "display": "MCH [Entitic mass] by Automated count"
+              "display": "MCH [Volume entier] par Comptage automatisé"
             }
           ],
           "range": {
@@ -643,7 +643,7 @@
             {
               "system": "LOINC",
               "code": "786-4",
-              "display": "MCHC [Mass/volume] by Automated count"
+              "display": "MCHC [Volume entier] par Comptage automatisé"
             }
           ],
           "range": {
@@ -658,7 +658,7 @@
             {
               "system": "LOINC",
               "code": "21000-5",
-              "display": "RDW - Erythrocyte distribution width Auto (RBC) [Entitic vol]"
+              "display": "RDW - Largeur de distribution des érythrocytes Auto (RBC) [Entitic vol]"
             }
           ],
           "range": {
@@ -673,7 +673,7 @@
             {
               "system": "LOINC",
               "code": "777-3",
-              "display": "Platelets [#/volume] in Blood by Automated count"
+              "display": "Plaquettes [#/volume] dans le sang par comptage automatisé"
             }
           ],
           "range": {
@@ -688,7 +688,7 @@
             {
               "system": "LOINC",
               "code": "32207-3",
-              "display": "Platelet distribution width [Entitic volume] in Blood by Automated count"
+              "display": "Largeur de distribution des plaquettes [volume entier] dans le sang par comptage automatisé"
             }
           ],
           "range": {
@@ -703,7 +703,7 @@
             {
               "system": "LOINC",
               "code": "32623-1",
-              "display": "Platelet mean volume [Entitic volume] in Blood by Automated count"
+              "display": "Volume moyen des plaquettes [volume entier] dans le sang par comptage automatisé"
             }
           ],
           "range": {
@@ -721,7 +721,7 @@
         {
           "system": "LOINC",
           "code": "58410-2",
-          "display": "Complete blood count (hemogram) panel - Blood by Automated count"
+          "display": "Analyse complète de la formule sanguine (hémogramme) - Sang par comptage automatisé"
         }
       ],
       "observations": [
@@ -732,7 +732,7 @@
             {
               "system": "LOINC",
               "code": "718-7",
-              "display": "Hemoglobin [Mass/volume] in Blood"
+              "display": "Hémoglobine [masse/volume] dans le sang"
             }
           ],
           "range": {
@@ -747,7 +747,7 @@
             {
               "system": "LOINC",
               "code": "20570-8",
-              "display": "Hematocrit [Volume Fraction] of Blood"
+              "display": "Hématocrite [Fraction volumique] du sang"
             }
           ],
           "range": {
@@ -792,7 +792,7 @@
             {
               "system": "LOINC",
               "code": "787-2",
-              "display": "MCV [Entitic volume] by Automated count"
+              "display": "MCV [Volume entier] par Comptage automatisé"
             }
           ],
           "range": {
@@ -807,7 +807,7 @@
             {
               "system": "LOINC",
               "code": "785-6",
-              "display": "MCH [Entitic mass] by Automated count"
+              "display": "MCH [Volume entier] par Comptage automatisé"
             }
           ],
           "range": {
@@ -822,7 +822,7 @@
             {
               "system": "LOINC",
               "code": "786-4",
-              "display": "MCHC [Mass/volume] by Automated count"
+              "display": "MCHC [Volume entier] par Comptage automatisé"
             }
           ],
           "range": {
@@ -837,7 +837,7 @@
             {
               "system": "LOINC",
               "code": "21000-5",
-              "display": "RDW - Erythrocyte distribution width Auto (RBC) [Entitic vol]"
+              "display": "RDW - Largeur de distribution des érythrocytes Auto (RBC) [Entitic vol]"
             }
           ],
           "range": {
@@ -852,7 +852,7 @@
             {
               "system": "LOINC",
               "code": "777-3",
-              "display": "Platelets [#/volume] in Blood by Automated count"
+              "display": "Plaquettes [#/volume] dans le sang par comptage automatisé"
             }
           ],
           "range": {
@@ -867,7 +867,7 @@
             {
               "system": "LOINC",
               "code": "32207-3",
-              "display": "Platelet distribution width [Entitic volume] in Blood by Automated count"
+              "display": "Largeur de distribution des plaquettes [volume entier] dans le sang par comptage automatisé"
             }
           ],
           "range": {
@@ -882,7 +882,7 @@
             {
               "system": "LOINC",
               "code": "32623-1",
-              "display": "Platelet mean volume [Entitic volume] in Blood by Automated count"
+              "display": "Volume moyen des plaquettes [volume entier] dans le sang par comptage automatisé"
             }
           ],
           "range": {
@@ -900,7 +900,7 @@
         {
           "system": "LOINC",
           "code": "58410-2",
-          "display": "Complete blood count (hemogram) panel - Blood by Automated count"
+          "display": "Analyse complète de la formule sanguine (hémogramme) - Sang par comptage automatisé"
         }
       ],
       "direct_transition": "Peripheral_Blood_Smear",
@@ -912,7 +912,7 @@
             {
               "system": "LOINC",
               "code": "718-7",
-              "display": "Hemoglobin [Mass/volume] in Blood"
+              "display": "Hémoglobine [masse/volume] dans le sang"
             }
           ],
           "range": {
@@ -927,7 +927,7 @@
             {
               "system": "LOINC",
               "code": "20570-8",
-              "display": "Hematocrit [Volume Fraction] of Blood"
+              "display": "Hématocrite [Fraction volumique] du sang"
             }
           ],
           "range": {
@@ -972,7 +972,7 @@
             {
               "system": "LOINC",
               "code": "787-2",
-              "display": "MCV [Entitic volume] by Automated count"
+              "display": "MCV [Volume entier] par Comptage automatisé"
             }
           ],
           "range": {
@@ -987,7 +987,7 @@
             {
               "system": "LOINC",
               "code": "785-6",
-              "display": "MCH [Entitic mass] by Automated count"
+              "display": "MCH [Volume entier] par Comptage automatisé"
             }
           ],
           "range": {
@@ -1002,7 +1002,7 @@
             {
               "system": "LOINC",
               "code": "786-4",
-              "display": "MCHC [Mass/volume] by Automated count"
+              "display": "MCHC [Volume entier] par Comptage automatisé"
             }
           ],
           "range": {
@@ -1017,7 +1017,7 @@
             {
               "system": "LOINC",
               "code": "21000-5",
-              "display": "RDW - Erythrocyte distribution width Auto (RBC) [Entitic vol]"
+              "display": "RDW - Largeur de distribution des érythrocytes Auto (RBC) [Entitic vol]"
             }
           ],
           "range": {
@@ -1032,7 +1032,7 @@
             {
               "system": "LOINC",
               "code": "777-3",
-              "display": "Platelets [#/volume] in Blood by Automated count"
+              "display": "Plaquettes [#/volume] dans le sang par comptage automatisé"
             }
           ],
           "range": {
@@ -1047,7 +1047,7 @@
             {
               "system": "LOINC",
               "code": "32207-3",
-              "display": "Platelet distribution width [Entitic volume] in Blood by Automated count"
+              "display": "Largeur de distribution des plaquettes [volume entier] dans le sang par comptage automatisé"
             }
           ],
           "range": {
@@ -1062,7 +1062,7 @@
             {
               "system": "LOINC",
               "code": "32623-1",
-              "display": "Platelet mean volume [Entitic volume] in Blood by Automated count"
+              "display": "Volume moyen des plaquettes [volume entier] dans le sang par comptage automatisé"
             }
           ],
           "range": {
@@ -1084,7 +1084,7 @@
         {
           "system": "SNOMED-CT",
           "code": 185347001,
-          "display": "Encounter for problem"
+          "display": "Rencontre médicale"
         }
       ],
       "conditional_transition": [
@@ -1129,7 +1129,7 @@
         {
           "system": "LOINC",
           "code": "24360-0",
-          "display": "Hemoglobin and Hematocrit panel - Blood"
+          "display": "Hémoglobine et panel d'hématocrite - Sang"
         }
       ],
       "observations": [
@@ -1140,7 +1140,7 @@
             {
               "system": "LOINC",
               "code": "718-7",
-              "display": "Hemoglobin [Mass/volume] in Blood"
+              "display": "Hémoglobine [masse/volume] dans le sang"
             }
           ],
           "range": {
@@ -1155,7 +1155,7 @@
             {
               "system": "LOINC",
               "code": "20570-8",
-              "display": "Hematocrit [Volume Fraction] of Blood"
+              "display": "Hématocrite [Fraction volumique] du sang"
             }
           ],
           "range": {
@@ -1172,7 +1172,7 @@
         {
           "system": "LOINC",
           "code": "24360-0",
-          "display": "Hemoglobin and Hematocrit panel - Blood"
+          "display": "Hémoglobine et panel d'hématocrite - Sang"
         }
       ],
       "observations": [
@@ -1183,7 +1183,7 @@
             {
               "system": "LOINC",
               "code": "718-7",
-              "display": "Hemoglobin [Mass/volume] in Blood"
+              "display": "Hémoglobine [masse/volume] dans le sang"
             }
           ],
           "range": {
@@ -1198,7 +1198,7 @@
             {
               "system": "LOINC",
               "code": "20570-8",
-              "display": "Hematocrit [Volume Fraction] of Blood"
+              "display": "Hématocrite [Fraction volumique] du sang"
             }
           ],
           "range": {

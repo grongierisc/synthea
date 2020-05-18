@@ -237,7 +237,7 @@
         {
           "system": "SNOMED-CT",
           "code": "185345009",
-          "display": "Encounter for symptom"
+          "display": "Rencontre pour symptôme"
         }
       ],
       "conditional_transition": [
@@ -456,7 +456,7 @@
         {
           "system": "RxNorm",
           "code": "834061",
-          "display": "Penicillin V Potassium 250 MG Oral Tablet"
+          "display": "Penicillin V Potassium 250 MG Comprimé oral"
         }
       ],
       "direct_transition": "End_Encounter"
@@ -469,7 +469,7 @@
         {
           "system": "RxNorm",
           "code": "834102",
-          "display": "Penicillin V Potassium 500 MG Oral Tablet"
+          "display": "Penicillin V Potassium 500 MG Comprimé oral"
         }
       ],
       "direct_transition": "End_Encounter"

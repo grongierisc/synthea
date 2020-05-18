@@ -111,7 +111,7 @@
         {
           "system": "SNOMED-CT",
           "code": "185349003",
-          "display": "Encounter for 'check-up'"
+          "display": "Rencontre pour le 'check-up'"
         }
       ],
       "direct_transition": "Routine_Colonoscopy_Procedure"
@@ -129,7 +129,7 @@
         {
           "system": "SNOMED-CT",
           "code": "73761001",
-          "display": "Colonoscopy"
+          "display": "Colonoscopie"
         }
       ],
       "duration": {
@@ -239,7 +239,7 @@
         {
           "system": "SNOMED-CT",
           "code": "68496003",
-          "display": "Polyp of colon"
+          "display": "Polype du côlon"
         }
       ],
       "distributed_transition": [
@@ -265,7 +265,7 @@
         {
           "system": "LOINC",
           "code": "33756-8",
-          "display": "Polyp size greatest dimension by CAP cancer protocols"
+          "display": "La plus grande dimension de la taille des polypes selon les protocoles de la PAC sur le cancer"
         }
       ],
       "direct_transition": "Fecal_Test"
@@ -282,7 +282,7 @@
         {
           "system": "LOINC",
           "code": "33756-8",
-          "display": "Polyp size greatest dimension by CAP cancer protocols"
+          "display": "La plus grande dimension de la taille des polypes selon les protocoles de la PAC sur le cancer"
         }
       ],
       "direct_transition": "Fecal_Test"
@@ -307,7 +307,7 @@
         {
           "system": "SNOMED-CT",
           "code": "104435004",
-          "display": "Screening for occult blood in feces (procedure)"
+          "display": "Dépistage du sang occulte dans les selles (procédure)"
         }
       ],
       "conditional_transition": [
@@ -335,7 +335,7 @@
         {
           "system": "LOINC",
           "code": "57905-2",
-          "display": "Hemoglobin.gastrointestinal [Presence] in Stool by Immunologic method"
+          "display": "Hémoglobine [Présence] gastro-intestinale dans les selles par méthode immunologique"
         }
       ],
       "direct_transition": "Adenoma_Removal"
@@ -352,7 +352,7 @@
         {
           "system": "LOINC",
           "code": "57905-2",
-          "display": "Hemoglobin.gastrointestinal [Presence] in Stool by Immunologic method"
+          "display": "Hémoglobine [Présence] gastro-intestinale dans les selles par méthode immunologique"
         }
       ],
       "direct_transition": "Adenoma_Removal"
@@ -372,7 +372,7 @@
         {
           "system": "SNOMED-CT",
           "code": "274031008",
-          "display": "Rectal polypectomy"
+          "display": "Polypectomie rectale"
         }
       ],
       "conditional_transition": [
@@ -399,7 +399,7 @@
         {
           "system": "SNOMED-CT",
           "code": "76164006",
-          "display": "Biopsy of colon"
+          "display": "Biopsie du côlon"
         }
       ],
       "direct_transition": "End_Routine_Colonoscopy_with_Malignant_Adenoma"
@@ -425,7 +425,7 @@
         {
           "system": "SNOMED-CT",
           "code": "185347001",
-          "display": "Encounter for problem"
+          "display": "Rencontre médicale"
         }
       ],
       "direct_transition": "End_Biopsy_Followup"
@@ -471,7 +471,7 @@
         {
           "system": "SNOMED-CT",
           "code": "185349003",
-          "display": "Encounter for 'check-up'"
+          "display": "Rencontre pour le 'check-up'"
         }
       ],
       "direct_transition": "Followup_Colonoscopy_Procedure"
@@ -486,7 +486,7 @@
         {
           "system": "SNOMED-CT",
           "code": "73761001",
-          "display": "Colonoscopy"
+          "display": "Colonoscopie"
         }
       ],
       "duration": {
@@ -502,7 +502,7 @@
               {
                 "system": "SNOMED-CT",
                 "code": "713197008",
-                "display": "Recurrent rectal polyp"
+                "display": "Polype rectal récurrent"
               }
             ],
             "remarks": [
@@ -564,7 +564,7 @@
         {
           "system": "SNOMED-CT",
           "code": "713197008",
-          "display": "Recurrent rectal polyp"
+          "display": "Polype rectal récurrent"
         }
       ],
       "direct_transition": "Recurrent_Adenoma_Removal"
@@ -576,7 +576,7 @@
         {
           "system": "SNOMED-CT",
           "code": "274031008",
-          "display": "Rectal polypectomy"
+          "display": "Polypectomie rectale"
         }
       ],
       "direct_transition": "Pain_Vital"
@@ -617,7 +617,7 @@
         {
           "system": "SNOMED-CT",
           "code": "236077008",
-          "display": "Protracted diarrhea"
+          "display": "Diarrhée prolongée"
         }
       ],
       "direct_transition": "Colorectal_Cancer_Symptom_2"
@@ -629,7 +629,7 @@
         {
           "system": "SNOMED-CT",
           "code": "6072007",
-          "display": "Bleeding from anus"
+          "display": "Saignement de l'anus"
         }
       ],
       "direct_transition": "Symptom_Encounter"
@@ -642,7 +642,7 @@
         {
           "system": "SNOMED-CT",
           "code": "185345009",
-          "display": "Encounter for symptom"
+          "display": "Rencontre pour symptôme"
         }
       ],
       "direct_transition": "End_Symptom_Encounter"
@@ -716,7 +716,7 @@
         {
           "system": "SNOMED-CT",
           "code": "185349003",
-          "display": "Encounter for 'check-up'"
+          "display": "Rencontre pour le 'check-up'"
         }
       ],
       "direct_transition": "Diagnostic_Colonoscopy_Procedure"
@@ -731,7 +731,7 @@
         {
           "system": "SNOMED-CT",
           "code": "73761001",
-          "display": "Colonoscopy"
+          "display": "Colonoscopie"
         }
       ],
       "duration": {
@@ -841,7 +841,7 @@
         {
           "system": "SNOMED-CT",
           "code": "93761005",
-          "display": "Primary malignant neoplasm of colon"
+          "display": "Tumeur maligne primaire du côlon"
         }
       ],
       "distributed_transition": [
@@ -863,7 +863,7 @@
         {
           "system": "SNOMED-CT",
           "code": "109838007",
-          "display": "Overlapping malignant neoplasm of colon"
+          "display": "Chevauchement du néoplasme malin du côlon"
         }
       ],
       "distributed_transition": [
@@ -885,7 +885,7 @@
         {
           "system": "SNOMED-CT",
           "code": "363406005",
-          "display": "Malignant tumor of colon"
+          "display": "Tumeur maligne du côlon"
         }
       ],
       "distributed_transition": [
@@ -907,7 +907,7 @@
         {
           "system": "SNOMED-CT",
           "code": "94260004",
-          "display": "Secondary malignant neoplasm of colon"
+          "display": "Néoplasme malin secondaire du côlon"
         }
       ],
       "distributed_transition": [
@@ -1031,7 +1031,7 @@
         {
           "system": "SNOMED-CT",
           "code": "185347001",
-          "display": "Encounter for problem"
+          "display": "Rencontre médicale"
         }
       ],
       "direct_transition": "Colorectal_Cancer_CarePlan"
@@ -1050,24 +1050,24 @@
         {
           "system": "SNOMED-CT",
           "code": "395082007",
-          "display": "Cancer care plan"
+          "display": "Plan de soins contre le cancer"
         }
       ],
       "activities": [
         {
           "system": "SNOMED-CT",
           "code": "226234005",
-          "display": "Healthy diet"
+          "display": "Une alimentation saine"
         },
         {
           "system": "SNOMED-CT",
           "code": "703993001",
-          "display": "Colonoscopy planned"
+          "display": "Colonoscopie prévue"
         },
         {
           "system": "SNOMED-CT",
           "code": "243072006",
-          "display": "Cancer education"
+          "display": "Éducation sur le cancer"
         }
       ],
       "direct_transition": "End_Oncologist_Encounter"
@@ -1184,7 +1184,7 @@
         {
           "system": "SNOMED-CT",
           "code": "185347001",
-          "display": "Encounter for problem"
+          "display": "Rencontre médicale"
         }
       ],
       "direct_transition": "Partial_Colectomy_Procedure"
@@ -1196,7 +1196,7 @@
         {
           "system": "SNOMED-CT",
           "code": "43075005",
-          "display": "Partial resection of colon"
+          "display": "Résection partielle du côlon"
         }
       ],
       "direct_transition": "Pain_Vital_3"
@@ -1208,19 +1208,19 @@
         {
           "system": "SNOMED-CT",
           "code": "781831000000109",
-          "display": "Major surgery care management"
+          "display": "Gestion des soins de chirurgie majeure"
         }
       ],
       "activities": [
         {
           "system": "SNOMED-CT",
           "code": "10888001",
-          "display": "Liquid diet"
+          "display": "Régime liquide"
         },
         {
           "system": "SNOMED-CT",
           "code": "103744005",
-          "display": "Administration of intravenous fluids"
+          "display": "Administration de fluides par voie intraveineuse"
         }
       ],
       "direct_transition": "End_Partial_Colectomy_Encounter"
@@ -1309,7 +1309,7 @@
         {
           "system": "SNOMED-CT",
           "code": "185347001",
-          "display": "Encounter for problem"
+          "display": "Rencontre médicale"
         }
       ],
       "direct_transition": "Diverting_Colostomy_Procedure"
@@ -1321,7 +1321,7 @@
         {
           "system": "SNOMED-CT",
           "code": "387607004",
-          "display": "Construction of diverting colostomy"
+          "display": "Construction d'une colostomie de dérivation"
         }
       ],
       "direct_transition": "Pain_Vital_2"
@@ -1333,19 +1333,19 @@
         {
           "system": "SNOMED-CT",
           "code": "781831000000109",
-          "display": "Major surgery care management"
+          "display": "Gestion des soins de chirurgie majeure"
         }
       ],
       "activities": [
         {
           "system": "SNOMED-CT",
           "code": "10888001",
-          "display": "Liquid diet"
+          "display": "Régime liquide"
         },
         {
           "system": "SNOMED-CT",
           "code": "103744005",
-          "display": "Administration of intravenous fluids"
+          "display": "Administration de fluides par voie intraveineuse"
         }
       ],
       "direct_transition": "End_Diverting_Colostomy_Encounter"
@@ -1422,7 +1422,7 @@
         {
           "system": "SNOMED-CT",
           "code": "185347001",
-          "display": "Encounter for problem"
+          "display": "Rencontre médicale"
         }
       ],
       "direct_transition": "Pain_Vital_4"
@@ -1458,7 +1458,7 @@
         {
           "system": "SNOMED-CT",
           "code": "703423002",
-          "display": "Combined chemotherapy and radiation therapy (procedure)"
+          "display": "Chimiothérapie et radiothérapie combinées (procédure)"
         }
       ],
       "direct_transition": "End_Chemotherapy_Encounter"
@@ -1515,7 +1515,7 @@
         {
           "system": "SNOMED-CT",
           "code": "185349003",
-          "display": "Encounter for 'check-up'"
+          "display": "Rencontre pour le 'check-up'"
         }
       ],
       "direct_transition": "End_Colorectal_Cancer_CarePlan"
@@ -1583,7 +1583,7 @@
         {
           "system": "LOINC",
           "code": "24323-8",
-          "display": "Comprehensive metabolic 2000 panel - Serum or Plasma"
+          "display": "Panel métabolique complet 2000 - Sérum ou plasma"
         }
       ],
       "observations": [
@@ -1606,7 +1606,7 @@
             {
               "system": "LOINC",
               "code": "6299-2",
-              "display": "Urea Nitrogen"
+              "display": "Azote uréique"
             }
           ],
           "unit": "mg/dL"
@@ -1693,7 +1693,7 @@
             {
               "system": "LOINC",
               "code": "33914-3",
-              "display": "Glomerular filtration rate/1.73 sq M.predicted"
+              "display": "Taux de filtration glomérulaire/1,73 m² prévu"
             }
           ],
           "range": {
@@ -1708,7 +1708,7 @@
             {
               "system": "LOINC",
               "code": "2885-2",
-              "display": "Protein [Mass/volume] in Serum or Plasma"
+              "display": "Protéines [masse/volume] dans le sérum ou le plasma"
             }
           ],
           "range": {
@@ -1723,7 +1723,7 @@
             {
               "system": "LOINC",
               "code": "1751-7",
-              "display": "Albumin [Mass/volume] in Serum or Plasma"
+              "display": "Albumine [masse/volume] dans le sérum ou le plasma"
             }
           ],
           "range": {
@@ -1738,7 +1738,7 @@
             {
               "system": "LOINC",
               "code": "10834-0",
-              "display": "Globulin [Mass/volume] in Serum by calculation"
+              "display": "Globuline [masse/volume] dans le sérum par calcul"
             }
           ],
           "range": {
@@ -1753,7 +1753,7 @@
             {
               "system": "LOINC",
               "code": "1975-2",
-              "display": "Bilirubin.total [Mass/volume] in Serum or Plasma"
+              "display": "Bilirubine.total [masse/volume] dans le sérum ou le plasma"
             }
           ],
           "range": {
@@ -1768,7 +1768,7 @@
             {
               "system": "LOINC",
               "code": "6768-6",
-              "display": "Alkaline phosphatase [Enzymatic activity/volume] in Serum or Plasma"
+              "display": "Phosphatase alcaline [activité/volume enzymatique] dans le sérum ou le plasma"
             }
           ],
           "range": {
@@ -1783,7 +1783,7 @@
             {
               "system": "LOINC",
               "code": "1742-6",
-              "display": "Alanine aminotransferase [Enzymatic activity/volume] in Serum or Plasma"
+              "display": "Alanine aminotransférase [activité/volume enzymatique] dans le sérum ou le plasma"
             }
           ],
           "range": {
@@ -1798,7 +1798,7 @@
             {
               "system": "LOINC",
               "code": "1920-8",
-              "display": "Aspartate aminotransferase [Enzymatic activity/volume] in Serum or Plasma"
+              "display": "Aspartate aminotransférase [activité/volume enzymatique] dans le sérum ou le plasma"
             }
           ],
           "range": {
@@ -1816,7 +1816,7 @@
         {
           "system": "LOINC",
           "code": "58410-2",
-          "display": "Complete blood count (hemogram) panel - Blood by Automated count"
+          "display": "Analyse complète de la formule sanguine (hémogramme) - Sang par comptage automatisé"
         }
       ],
       "observations": [
@@ -1826,7 +1826,7 @@
             {
               "system": "LOINC",
               "code": "6690-2",
-              "display": "Leukocytes [#/volume] in Blood by Automated count"
+              "display": "Leucocytes [#/volume] dans le sang par comptage automatisé"
             }
           ],
           "unit": "10*3/uL",
@@ -1841,7 +1841,7 @@
             {
               "system": "LOINC",
               "code": "789-8",
-              "display": "Erythrocytes [#/volume] in Blood by Automated count"
+              "display": "Erythrocytes [#/volume] dans le sang par comptage automatisé"
             }
           ],
           "unit": "10*6/uL",
@@ -1856,7 +1856,7 @@
             {
               "system": "LOINC",
               "code": "718-7",
-              "display": "Hemoglobin [Mass/volume] in Blood"
+              "display": "Hémoglobine [masse/volume] dans le sang"
             }
           ],
           "unit": "g/dL",
@@ -1871,7 +1871,7 @@
             {
               "system": "LOINC",
               "code": "4544-3",
-              "display": "Hematocrit [Volume Fraction] of Blood by Automated count"
+              "display": "Hématocrite [Fraction volumique] du sang par Comptage automatisé"
             }
           ],
           "unit": "%",
@@ -1887,7 +1887,7 @@
             {
               "system": "LOINC",
               "code": "787-2",
-              "display": "MCV [Entitic volume] by Automated count"
+              "display": "MCV [Volume entier] par Comptage automatisé"
             }
           ],
           "range": {
@@ -1902,7 +1902,7 @@
             {
               "system": "LOINC",
               "code": "785-6",
-              "display": "MCH [Entitic mass] by Automated count"
+              "display": "MCH [Volume entier] par Comptage automatisé"
             }
           ],
           "range": {
@@ -1917,7 +1917,7 @@
             {
               "system": "LOINC",
               "code": "786-4",
-              "display": "MCHC [Mass/volume] by Automated count"
+              "display": "MCHC [Volume entier] par Comptage automatisé"
             }
           ],
           "range": {
@@ -1932,7 +1932,7 @@
             {
               "system": "LOINC",
               "code": "21000-5",
-              "display": "Erythrocyte distribution width [Entitic volume] by Automated count"
+              "display": "Largeur de distribution des érythrocytes [volume entier] par comptage automatisé"
             }
           ],
           "range": {
@@ -1947,7 +1947,7 @@
             {
               "system": "LOINC",
               "code": "777-3",
-              "display": "Platelets [#/volume] in Blood by Automated count"
+              "display": "Plaquettes [#/volume] dans le sang par comptage automatisé"
             }
           ],
           "range": {
@@ -1962,7 +1962,7 @@
             {
               "system": "LOINC",
               "code": "32207-3",
-              "display": "Platelet distribution width [Entitic volume] in Blood by Automated count"
+              "display": "Largeur de distribution des plaquettes [volume entier] dans le sang par comptage automatisé"
             }
           ],
           "range": {
@@ -1977,7 +1977,7 @@
             {
               "system": "LOINC",
               "code": "32623-1",
-              "display": "Platelet mean volume [Entitic volume] in Blood by Automated count"
+              "display": "Volume moyen des plaquettes [volume entier] dans le sang par comptage automatisé"
             }
           ],
           "range": {
@@ -1996,7 +1996,7 @@
         {
           "system": "LOINC",
           "code": "72514-3",
-          "display": "Pain severity - 0-10 verbal numeric rating [Score] - Reported"
+          "display": "Gravité de la douleur - 0-10 évaluation numérique verbale [Score] - Signalée"
         }
       ],
       "range": {
@@ -2014,7 +2014,7 @@
         {
           "system": "LOINC",
           "code": "72514-3",
-          "display": "Pain severity - 0-10 verbal numeric rating [Score] - Reported"
+          "display": "Gravité de la douleur - 0-10 évaluation numérique verbale [Score] - Signalée"
         }
       ],
       "range": {
@@ -2032,7 +2032,7 @@
         {
           "system": "LOINC",
           "code": "72514-3",
-          "display": "Pain severity - 0-10 verbal numeric rating [Score] - Reported"
+          "display": "Gravité de la douleur - 0-10 évaluation numérique verbale [Score] - Signalée"
         }
       ],
       "range": {
@@ -2050,7 +2050,7 @@
         {
           "system": "LOINC",
           "code": "72514-3",
-          "display": "Pain severity - 0-10 verbal numeric rating [Score] - Reported"
+          "display": "Gravité de la douleur - 0-10 évaluation numérique verbale [Score] - Signalée"
         }
       ],
       "range": {

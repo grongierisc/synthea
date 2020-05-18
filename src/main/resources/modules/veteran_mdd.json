@@ -533,7 +533,7 @@
         {
           "system": "RxNorm",
           "code": 310385,
-          "display": "FLUoxetine 20 MG Oral Capsule"
+          "display": "FLUoxetine 20 MG Comprimés oraux"
         }
       ],
       "assign_to_attribute": "ssri",
@@ -695,7 +695,7 @@
         {
           "system": "SNOMED-CT",
           "code": 185345009,
-          "display": "Encounter for symptom (procedure)"
+          "display": "Rencontre pour symptôme (procedure)"
         }
       ],
       "direct_transition": "MDD_Initial_Careplan"
@@ -717,7 +717,7 @@
         {
           "system": "SNOMED-CT",
           "code": 185347001,
-          "display": "Encounter for problem (procedure)"
+          "display": "Rencontre médicale (procédure)"
         }
       ],
       "direct_transition": "Therapy_Note"

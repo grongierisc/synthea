@@ -86,7 +86,7 @@
         {
           "system": "SNOMED-CT",
           "code": 185347001,
-          "display": "Encounter for problem"
+          "display": "Rencontre médicale"
         }
       ],
       "direct_transition": "NTproBNP lab workup"
@@ -120,7 +120,7 @@
             {
               "system": "LOINC",
               "code": "6299-2",
-              "display": "Urea Nitrogen"
+              "display": "Azote uréique"
             }
           ],
           "unit": "mg/dL"
@@ -208,7 +208,7 @@
         {
           "system": "SNOMED-CT",
           "code": 185347001,
-          "display": "Encounter for problem"
+          "display": "Rencontre médicale"
         }
       ],
       "direct_transition": "Workup imaging for CHF"
@@ -268,7 +268,7 @@
         {
           "system": "RxNorm",
           "code": 866414,
-          "display": "24 HR metoprolol succinate 100 MG Extended Release Oral Tablet [Toprol]"
+          "display": "24 HR metoprolol succinate 100 MG Extended Release Comprimé oral [Toprol]"
         }
       ],
       "direct_transition": "CHF Medication Start 2",
@@ -293,7 +293,7 @@
         {
           "system": "RxNorm",
           "code": "313988",
-          "display": "Furosemide 40 MG Oral Tablet"
+          "display": "Furosemide 40 MG Comprimé oral"
         }
       ],
       "direct_transition": "Assign CHF care plan",
@@ -413,7 +413,7 @@
       "procedure_code": {
         "system": "SNOMED-CT",
         "code": 399208008,
-        "display": "Plain chest X-ray (procedure)"
+        "display": "Radiographie du thorax (procédure)"
       },
       "series": [
         {
@@ -707,7 +707,7 @@
             {
               "system": "LOINC",
               "code": "6299-2",
-              "display": "Urea Nitrogen"
+              "display": "Azote uréique"
             }
           ],
           "unit": "mg/dL"
@@ -793,7 +793,7 @@
         {
           "system": "LOINC",
           "code": "24323-8",
-          "display": "Comprehensive metabolic 2000 panel - Serum or Plasma"
+          "display": "Panel métabolique complet 2000 - Sérum ou plasma"
         }
       ],
       "observations": [
@@ -816,7 +816,7 @@
             {
               "system": "LOINC",
               "code": "6299-2",
-              "display": "Urea Nitrogen"
+              "display": "Azote uréique"
             }
           ],
           "unit": "mg/dL"
@@ -900,7 +900,7 @@
             {
               "system": "LOINC",
               "code": "33914-3",
-              "display": "Glomerular filtration rate/1.73 sq M.predicted"
+              "display": "Taux de filtration glomérulaire/1,73 m² prévu"
             }
           ],
           "range": {
@@ -915,7 +915,7 @@
             {
               "system": "LOINC",
               "code": "2885-2",
-              "display": "Protein [Mass/volume] in Serum or Plasma"
+              "display": "Protéines [masse/volume] dans le sérum ou le plasma"
             }
           ],
           "range": {
@@ -930,7 +930,7 @@
             {
               "system": "LOINC",
               "code": "1751-7",
-              "display": "Albumin [Mass/volume] in Serum or Plasma"
+              "display": "Albumine [masse/volume] dans le sérum ou le plasma"
             }
           ],
           "range": {
@@ -945,7 +945,7 @@
             {
               "system": "LOINC",
               "code": "10834-0",
-              "display": "Globulin [Mass/volume] in Serum by calculation"
+              "display": "Globuline [masse/volume] dans le sérum par calcul"
             }
           ],
           "range": {
@@ -960,7 +960,7 @@
             {
               "system": "LOINC",
               "code": "1975-2",
-              "display": "Bilirubin.total [Mass/volume] in Serum or Plasma"
+              "display": "Bilirubine.total [masse/volume] dans le sérum ou le plasma"
             }
           ],
           "range": {
@@ -975,7 +975,7 @@
             {
               "system": "LOINC",
               "code": "6768-6",
-              "display": "Alkaline phosphatase [Enzymatic activity/volume] in Serum or Plasma"
+              "display": "Phosphatase alcaline [activité/volume enzymatique] dans le sérum ou le plasma"
             }
           ],
           "range": {
@@ -990,7 +990,7 @@
             {
               "system": "LOINC",
               "code": "1742-6",
-              "display": "Alanine aminotransferase [Enzymatic activity/volume] in Serum or Plasma"
+              "display": "Alanine aminotransférase [activité/volume enzymatique] dans le sérum ou le plasma"
             }
           ],
           "range": {
@@ -1005,7 +1005,7 @@
             {
               "system": "LOINC",
               "code": "1920-8",
-              "display": "Aspartate aminotransferase [Enzymatic activity/volume] in Serum or Plasma"
+              "display": "Aspartate aminotransférase [activité/volume enzymatique] dans le sérum ou le plasma"
             }
           ],
           "range": {

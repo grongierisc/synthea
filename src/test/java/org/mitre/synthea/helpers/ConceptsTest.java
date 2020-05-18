@@ -74,7 +74,7 @@ public class ConceptsTest {
     Concepts.inventoryState(concepts, state, module.get("name").getAsString());
     
     assertEquals(1, concepts.keySet().size());
-    Code code = new Code("SNOMED-CT", "47693006", "Rupture of appendix");
+    Code code = new Code("SNOMED-CT", "47693006", "Rupture de l'appendice");
     assertTrue(concepts.containsKey(code));
   }
   
@@ -84,8 +84,8 @@ public class ConceptsTest {
     
     codes.add(new Code("SNOMED-CT","230690007","Stroke"));
     codes.add(new Code("SNOMED-CT","22298006","Myocardial Infarction"));
-    codes.add(new Code("RxNorm","834061","Penicillin V Potassium 250 MG Oral Tablet"));
-    codes.add(new Code("RxNorm","834061","Penicillin V Potassium 250 MG Oral Tablet"));
+    codes.add(new Code("RxNorm","834061","Penicillin V Potassium 250 MG Comprimé oral"));
+    codes.add(new Code("RxNorm","834061","Penicillin V Potassium 250 MG Comprimé oral"));
     // note duplicate code here!! ex, same code in multiple modules
     
     Concepts.inventoryCodes(concepts, codes, ConceptsTest.class.getSimpleName());

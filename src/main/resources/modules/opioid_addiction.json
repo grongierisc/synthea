@@ -172,7 +172,7 @@
         {
           "system": "SNOMED-CT",
           "code": "183452005",
-          "display": "Encounter Inpatient"
+          "display": "Rencontrer les patients hospitalisés"
         }
       ],
       "direct_transition": "Pain_Vital_3"
@@ -195,7 +195,7 @@
         {
           "system": "RxNorm",
           "code": "856987",
-          "display": "Acetaminophen 300 MG / HYDROcodone Bitartrate 5 MG Oral Tablet"
+          "display": "Acetaminophen 300 MG / HYDROcodone Bitartrate 5 MG Comprimé oral"
         }
       ],
       "direct_transition": "End_Directed_Use_Encounter"
@@ -220,7 +220,7 @@
         {
           "system": "SNOMED-CT",
           "code": "183452005",
-          "display": "Encounter Inpatient"
+          "display": "Rencontrer les patients hospitalisés"
         }
       ],
       "direct_transition": "Pain_Vital_2"
@@ -232,7 +232,7 @@
         {
           "system": "RxNorm",
           "code": "1860154",
-          "display": "Abuse-Deterrent 12 HR Oxycodone Hydrochloride 15 MG Extended Release Oral Tablet"
+          "display": "Abuse-Deterrent 12 HR Oxycodone Hydrochloride 15 MG Extended Release Comprimé oral"
         }
       ],
       "direct_transition": "End_Directed_Use_Encounter"
@@ -257,7 +257,7 @@
         {
           "system": "SNOMED-CT",
           "code": 183452005,
-          "display": "Encounter Inpatient"
+          "display": "Rencontrer les patients hospitalisés"
         }
       ],
       "direct_transition": "Pain_Vital"
@@ -269,7 +269,7 @@
         {
           "system": "RxNorm",
           "code": "1049221",
-          "display": "Acetaminophen 325 MG / Oxycodone Hydrochloride 5 MG Oral Tablet"
+          "display": "Acetaminophen 325 MG / Oxycodone Hydrochloride 5 MG Comprimé oral"
         }
       ],
       "direct_transition": "End_Directed_Use_Encounter"
@@ -574,7 +574,7 @@
         {
           "system": "SNOMED-CT",
           "code": 185347001,
-          "display": "Encounter for problem (procedure)"
+          "display": "Rencontre médicale (procédure)"
         }
       ],
       "direct_transition": "End_Recovery_Management_Encounter"
@@ -623,7 +623,7 @@
         {
           "system": "SNOMED-CT",
           "code": "50849002",
-          "display": "Emergency Room Admission"
+          "display": "Admission aux urgences"
         }
       ],
       "distributed_transition": [
@@ -661,7 +661,7 @@
         {
           "system": "SNOMED-CT",
           "code": "50849002",
-          "display": "Emergency Room Admission"
+          "display": "Admission aux urgences"
         }
       ],
       "distributed_transition": [
@@ -699,7 +699,7 @@
         {
           "system": "SNOMED-CT",
           "code": "50849002",
-          "display": "Emergency Room Admission"
+          "display": "Admission aux urgences"
         }
       ],
       "distributed_transition": [
@@ -785,7 +785,7 @@
         {
           "system": "LOINC",
           "code": "72514-3",
-          "display": "Pain severity - 0-10 verbal numeric rating [Score] - Reported"
+          "display": "Gravité de la douleur - 0-10 évaluation numérique verbale [Score] - Signalée"
         }
       ],
       "range": {
@@ -803,7 +803,7 @@
         {
           "system": "LOINC",
           "code": "72514-3",
-          "display": "Pain severity - 0-10 verbal numeric rating [Score] - Reported"
+          "display": "Gravité de la douleur - 0-10 évaluation numérique verbale [Score] - Signalée"
         }
       ],
       "range": {
@@ -821,7 +821,7 @@
         {
           "system": "LOINC",
           "code": "72514-3",
-          "display": "Pain severity - 0-10 verbal numeric rating [Score] - Reported"
+          "display": "Gravité de la douleur - 0-10 évaluation numérique verbale [Score] - Signalée"
         }
       ],
       "range": {
@@ -839,7 +839,7 @@
         {
           "system": "LOINC",
           "code": "72514-3",
-          "display": "Pain severity - 0-10 verbal numeric rating [Score] - Reported"
+          "display": "Gravité de la douleur - 0-10 évaluation numérique verbale [Score] - Signalée"
         }
       ],
       "range": {

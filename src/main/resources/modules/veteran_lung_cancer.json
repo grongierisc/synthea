@@ -107,7 +107,7 @@
         {
           "system": "SNOMED-CT",
           "code": "50849002",
-          "display": "Emergency Room Admission"
+          "display": "Admission aux urgences"
         }
       ],
       "direct_transition": "Chest X-Ray"
@@ -119,7 +119,7 @@
         {
           "system": "SNOMED-CT",
           "code": "399208008",
-          "display": "Plain chest X-ray (procedure)"
+          "display": "Radiographie du thorax (procédure)"
         }
       ],
       "duration": {
@@ -150,7 +150,7 @@
         {
           "system": "SNOMED-CT",
           "code": "185347001",
-          "display": "Encounter for problem"
+          "display": "Rencontre médicale"
         }
       ],
       "direct_transition": "Chest CT Scan"
@@ -245,7 +245,7 @@
         {
           "system": "SNOMED-CT",
           "code": "185347001",
-          "display": "Encounter for problem"
+          "display": "Rencontre médicale"
         }
       ],
       "distributed_transition": [
@@ -599,7 +599,7 @@
         {
           "system": "SNOMED-CT",
           "code": "185347001",
-          "display": "Encounter for problem"
+          "display": "Rencontre médicale"
         }
       ],
       "direct_transition": "Lung_Cancer_CarePlan"
@@ -628,7 +628,7 @@
         {
           "system": "SNOMED-CT",
           "code": "243072006",
-          "display": "Cancer education"
+          "display": "Éducation sur le cancer"
         }
       ],
       "direct_transition": "MRI Brain"
@@ -688,7 +688,7 @@
         {
           "system": "SNOMED-CT",
           "code": "185347001",
-          "display": "Encounter for problem"
+          "display": "Rencontre médicale"
         }
       ],
       "direct_transition": "SCLC Chemotheraphy I"
@@ -748,7 +748,7 @@
         {
           "system": "SNOMED-CT",
           "code": "703423002",
-          "display": "Combined chemotherapy and radiation therapy (procedure)"
+          "display": "Chimiothérapie et radiothérapie combinées (procédure)"
         }
       ],
       "duration": {
@@ -791,7 +791,7 @@
         {
           "system": "SNOMED-CT",
           "code": "185347001",
-          "display": "Encounter for problem"
+          "display": "Rencontre médicale"
         }
       ],
       "direct_transition": "NSCLC Chemotheraphy I"
@@ -852,7 +852,7 @@
         {
           "system": "SNOMED-CT",
           "code": "703423002",
-          "display": "Combined chemotherapy and radiation therapy (procedure)"
+          "display": "Chimiothérapie et radiothérapie combinées (procédure)"
         }
       ],
       "duration": {

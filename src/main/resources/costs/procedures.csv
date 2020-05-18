@@ -1,32 +1,32 @@
 CODE,MIN,MODE,MAX,COMMENTS
-180256009,5935.44,11870.87276,23741.75,Subcutaneous immunotherapy
-313191000,1284.51,2569.027213,5138.05,Injection of adrenaline
+180256009,5935.44,11870.87276,23741.75,Immunothérapie sous-cutanée
+313191000,1284.51,2569.027213,5138.05,Injection d'adrénaline
 80146002,6184.83,12369.65,24739.30,Appendectomy
-405783006,5132.80,10265.59304,20531.19,Psychological assessment
-228557008,5132.80,10265.59304,20531.19,Cognitive and behavioral therapy
-399208008,3805.29,7610.58,15221.16,Plain chest X-ray (procedure)
-269911007,3048.51,6097.0171,12194.03,Sputum examination (procedure)
+405783006,5132.80,10265.59304,20531.19,Évaluation psychologique
+228557008,5132.80,10265.59304,20531.19,Thérapie cognitive et comportementale
+399208008,3805.29,7610.58,15221.16,Radiographie du thorax (procédure)
+269911007,3048.51,6097.0171,12194.03,Examen des crachats (procédure)
 73761001,5856.40,11712.80115,23425.60,Colonoscopy
-104435004,3048.51,6097.0171,12194.03,Screening for occult blood in feces (procedure)
-274031008,5062.49,10124.97792,20249.96,Rectal polypectomy
-76164006,5856.40,11712.80115,23425.60,Biopsy of colon
-43075005,11874.36,23748.71475,47497.43,Partial resection of colon
-387607004,15874.74,31749.48505,63498.97,Construction of diverting colostomy
-703423002,5935.44,11870.87276,23741.75,Combined chemotherapy and radiation therapy (procedure)
-287664005,3755.29,7510.570372,15021.14,Bilateral tubal ligation
-169553002,4532.15,9064.305145,18128.61,Insertion of subcutaneous contraceptive
-76601001,1284.51,2569.027213,5138.05,Intramuscular injection
-65200003,4532.15,9064.305145,18128.61,Insertion of intrauterine contraceptive device
+104435004,3048.51,6097.0171,12194.03,Dépistage du sang occulte dans les selles (procédure)
+274031008,5062.49,10124.97792,20249.96,Polypectomie rectale
+76164006,5856.40,11712.80115,23425.60,Biopsie du côlon
+43075005,11874.36,23748.71475,47497.43,Résection partielle du côlon
+387607004,15874.74,31749.48505,63498.97,Construction d'une colostomie de dérivation
+703423002,5935.44,11870.87276,23741.75,Chimiothérapie et radiothérapie combinées (procédure)
+287664005,3755.29,7510.570372,15021.14,Ligature tubaire bilatérale
+169553002,4532.15,9064.305145,18128.61,Insertion d'un contraceptif sous-cutané
+76601001,1284.51,2569.027213,5138.05,Injection intramusculaire
+65200003,4532.15,9064.305145,18128.61,Insertion d'un dispositif contraceptif intra-utérin
 22523008,6568.03,13136.06819,26272.14,Vasectomy
 46706006,4532.15,9064.305145,18128.61,Replacement of contraceptive intrauterine device
 68254000,4532.15,9064.305145,18128.61,Removal of intrauterine device
 755621000000101,4532.15,9064.305145,18128.61,Replacement of subcutaneous contraceptive
 301807007,4532.15,9064.305145,18128.61,Removal of subcutaneous contraceptive
-127783003,3885.65,7771.290572,15542.58,Spirometry (procedure)
+127783003,3885.65,7771.290572,15542.58,Spirométrie (procédure)
 88039007,77613.87,155227.7365,310455.47,Transplant of lung (procedure)
 429609002,15711.90,31423.79603,62847.59,Lung volume reduction surgery (procedure)
 54550000,4938.46,9876.914606,19753.83,Seizure Count Cerebral Cortex Electroencephalogram (EEG)
-312681000,4746.98,9493.95989,18987.92,Bone density scan (procedure)
+312681000,4746.98,9493.95989,18987.92,Scanner de la densité osseuse (procédure)
 288086009,4629.94,9259.88974,18519.78,Suture open wound
 384700001,1284.51,2569.027213,5138.05,Injection of tetanus antitoxin
 91251008,250.00,500,1000.00,Physical therapy procedure
@@ -38,7 +38,7 @@ CODE,MIN,MODE,MAX,COMMENTS
 432231006,7753.63,15507.25552,31014.51,Fine needle aspiration biopsy of lung (procedure)
 173160006,4245.28,8490.5551,16981.11,Diagnostic fiberoptic bronchoscopy (procedure)
 698354004,5103.68,10207.35977,20414.72,Magnetic resonance imaging for measurement of brain volume (procedure)
-430193006,250.00,500,1000.00,Medication Reconciliation (procedure)
+430193006,250.00,500,1000.00,Bilan comparatif des médicaments (procédure)
 180030006,10671.22,21342.44596,42684.89,Amputation of right foot
 79733001,10671.22,21342.44596,42684.89,Amputation of right leg
 46028000,10671.22,21342.44596,42684.89,"Amputation of right hand -- data only has ""amputation of lower extremity; assume the same for upper"
@@ -52,7 +52,7 @@ CODE,MIN,MODE,MAX,COMMENTS
 274804006,2621.34,5242.673228,10485.35,Evaluation of uterine fundal height
 225158009,2621.34,5242.673228,10485.35,Auscultation of the fetal heart
 44608003,1000.00,2000,4000.00,Blood typing  RH typing
-104091002,1000.00,2000,4000.00,Hemoglobin / Hematocrit / Platelet count
+104091002,1000.00,2000,4000.00,Hemoglobin / Hématocrite / Platelet count
 47758006,1000.00,2000,4000.00,Hepatitis B Surface Antigen Measurement
 31676001,1000.00,2000,4000.00,Human immunodeficiency virus antigen test
 310861008,1000.00,2000,4000.00,Chlamydia antigen test

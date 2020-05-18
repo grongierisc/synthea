@@ -298,7 +298,7 @@
         {
           "system": "SNOMED-CT",
           "code": 254837009,
-          "display": "Malignant neoplasm of breast (disorder)"
+          "display": "Néoplasme malin du sein (trouble)"
         }
       ],
       "direct_transition": "Time Before Initial Doctor Visit",
@@ -311,7 +311,7 @@
         {
           "system": "SNOMED-CT",
           "code": 241055006,
-          "display": "Mammogram - symptomatic (procedure)"
+          "display": "Mammographie - symptomatique (procédure)"
         }
       ],
       "duration": {
@@ -343,7 +343,7 @@
         {
           "system": "SNOMED-CT",
           "code": 1571000087109,
-          "display": "Ultrasonography of bilateral breasts (procedure)"
+          "display": "Échographie des seins bilatéraux (procédure)"
         }
       ],
       "duration": {
@@ -365,7 +365,7 @@
         {
           "system": "SNOMED-CT",
           "code": 185345009,
-          "display": "Encounter for symptom (procedure)"
+          "display": "Rencontre pour symptôme (procedure)"
         }
       ],
       "direct_transition": "Mammogram"
@@ -376,7 +376,7 @@
         {
           "system": "SNOMED-CT",
           "code": 241615005,
-          "display": "Magnetic resonance imaging of breast (procedure)"
+          "display": "Imagerie par résonance magnétique du sein (procédure)"
         }
       ],
       "duration": {
@@ -435,14 +435,14 @@
         {
           "system": "LOINC",
           "code": "21908-9",
-          "display": "Stage group.clinical Cancer"
+          "display": "Stade clinique Cancer"
         }
       ],
       "direct_transition": "Delay for Analysis of Possible Treatments",
       "value_code": {
         "system": "SNOMED-CT",
         "code": 258228008,
-        "display": "Stage 4 (qualifier value)"
+        "display": "Stade 4 (valeur unitaire)"
       }
     },
     "Nonmetastatic": {
@@ -531,13 +531,13 @@
         {
           "system": "LOINC",
           "code": "21908-9",
-          "display": "Stage group.clinical Cancer"
+          "display": "Stade clinique Cancer"
         }
       ],
       "value_code": {
         "system": "SNOMED-CT",
         "code": 258224005,
-        "display": "Stage 3 (qualifier value)"
+        "display": "Stade 3 (valeur unitaire)"
       },
       "direct_transition": "Delay for Analysis of Possible Treatments"
     },
@@ -549,13 +549,13 @@
         {
           "system": "LOINC",
           "code": "21908-9",
-          "display": "Stage group.clinical Cancer"
+          "display": "Stade clinique Cancer"
         }
       ],
       "value_code": {
         "system": "SNOMED-CT",
         "code": 258215001,
-        "display": "Stage 1 (qualifier value)"
+        "display": "Stade 1 (valeur unitaire)"
       },
       "direct_transition": "Delay for Analysis of Possible Treatments"
     },
@@ -567,14 +567,14 @@
         {
           "system": "LOINC",
           "code": "21908-9",
-          "display": "Stage group.clinical Cancer"
+          "display": "Stade clinique Cancer"
         }
       ],
       "direct_transition": "Stage III",
       "value_code": {
         "system": "SNOMED-CT",
         "code": 261639007,
-        "display": "Stage 3B (qualifier value)"
+        "display": "Stade 3B (valeur unitaire)"
       }
     },
     "IIIA": {
@@ -585,13 +585,13 @@
         {
           "system": "LOINC",
           "code": "21908-9",
-          "display": "Stage group.clinical Cancer"
+          "display": "Stade clinique Cancer"
         }
       ],
       "value_code": {
         "system": "SNOMED-CT",
         "code": 261638004,
-        "display": "Stage 3A (qualifier value)"
+        "display": "Stade 3A (valeur unitaire)"
       },
       "direct_transition": "Stage III"
     },
@@ -719,13 +719,13 @@
         {
           "system": "LOINC",
           "code": "21908-9",
-          "display": "Stage group.clinical Cancer"
+          "display": "Stade clinique Cancer"
         }
       ],
       "value_code": {
         "system": "SNOMED-CT",
         "code": 261640009,
-        "display": "Stage 3C (qualifier value)"
+        "display": "Stade 3C (valeur unitaire)"
       },
       "direct_transition": "Stage III"
     },
@@ -737,13 +737,13 @@
         {
           "system": "LOINC",
           "code": "21908-9",
-          "display": "Stage group.clinical Cancer"
+          "display": "Stade clinique Cancer"
         }
       ],
       "value_code": {
         "system": "SNOMED-CT",
         "code": 261615002,
-        "display": "Stage 2B (qualifier value)"
+        "display": "Stade 2B (valeur unitaire)"
       },
       "direct_transition": "Stage II"
     },
@@ -755,13 +755,13 @@
         {
           "system": "LOINC",
           "code": "21908-9",
-          "display": "Stage group.clinical Cancer"
+          "display": "Stade clinique Cancer"
         }
       ],
       "value_code": {
         "system": "SNOMED-CT",
         "code": 261614003,
-        "display": "Stage 2A (qualifier value)"
+        "display": "Stade 2A (valeur unitaire)"
       },
       "direct_transition": "Stage II"
     },
@@ -773,13 +773,13 @@
         {
           "system": "LOINC",
           "code": "21908-9",
-          "display": "Stage group.clinical Cancer"
+          "display": "Stade clinique Cancer"
         }
       ],
       "value_code": {
         "system": "SNOMED-CT",
         "code": 261634002,
-        "display": "Stage 1A (qualifier value)"
+        "display": "Stade 1A (valeur unitaire)"
       },
       "direct_transition": "Stage I"
     },
@@ -791,13 +791,13 @@
         {
           "system": "LOINC",
           "code": "21908-9",
-          "display": "Stage group.clinical Cancer"
+          "display": "Stade clinique Cancer"
         }
       ],
       "value_code": {
         "system": "SNOMED-CT",
         "code": 261635001,
-        "display": "Stage 1B (qualifier value)"
+        "display": "Stade 1B (valeur unitaire)"
       },
       "direct_transition": "Stage I"
     },
@@ -835,13 +835,13 @@
         {
           "system": "LOINC",
           "code": "21908-9",
-          "display": "Stage group.clinical Cancer"
+          "display": "Stade clinique Cancer"
         }
       ],
       "value_code": {
         "system": "SNOMED-CT",
         "code": 258219007,
-        "display": "Stage 2 (qualifier value)"
+        "display": "Stade 2 (valeur unitaire)"
       },
       "direct_transition": "Delay for Analysis of Possible Treatments"
     },
@@ -936,14 +936,14 @@
               {
                 "system": "LOINC",
                 "code": "21908-9",
-                "display": "Stage group.clinical Cancer"
+                "display": "Stade clinique Cancer"
               }
             ],
             "operator": "!=",
             "value_code": {
               "system": "SNOMED-CT",
               "code": 261635001,
-              "display": "Stage 1B (qualifier value)"
+              "display": "Stade 1B (valeur unitaire)"
             }
           }
         },
@@ -962,7 +962,7 @@
         {
           "system": "SNOMED-CT",
           "code": 71651007,
-          "display": "Mammography (procedure)"
+          "display": "Mammographie (procedure)"
         }
       ],
       "duration": {
@@ -987,7 +987,7 @@
         {
           "system": "SNOMED-CT",
           "code": 410410006,
-          "display": "Screening surveillance (regime/therapy)"
+          "display": "Surveillance du dépistage (régime/thérapie)"
         }
       ],
       "encounter_class": "inpatient"
@@ -1010,7 +1010,7 @@
                   {
                     "system": "RxNorm",
                     "code": "198240",
-                    "display": "Tamoxifen 10 MG Oral Tablet"
+                    "display": "Tamoxifen 10 MG Comprimé oral"
                   }
                 ]
               },
@@ -1020,7 +1020,7 @@
                   {
                     "system": "RxNorm",
                     "code": "313428",
-                    "display": "Toremifene 60 MG Oral Tablet"
+                    "display": "Toremifene 60 MG Comprimé oral"
                   }
                 ]
               }
@@ -1064,7 +1064,7 @@
         {
           "system": "SNOMED-CT",
           "code": 310061009,
-          "display": "Gynecology service (qualifier value)"
+          "display": "Service de gynécologie (valeur unitaire)"
         }
       ],
       "direct_transition": "Pelvic Exam"
@@ -1083,7 +1083,7 @@
                   {
                     "system": "RxNorm",
                     "code": "310261",
-                    "display": "exemestane 25 MG Oral Tablet"
+                    "display": "exemestane 25 MG Comprimé oral"
                   }
                 ]
               },
@@ -1096,7 +1096,7 @@
                       {
                         "system": "RxNorm",
                         "code": "199224",
-                        "display": "anastrozole 1 MG Oral Tablet"
+                        "display": "anastrozole 1 MG Comprimé oral"
                       }
                     ]
                   },
@@ -1106,7 +1106,7 @@
                       {
                         "system": "RxNorm",
                         "code": "200064",
-                        "display": "letrozole 2.5 MG Oral Tablet"
+                        "display": "letrozole 2.5 MG Comprimé oral"
                       }
                     ]
                   }
@@ -1152,7 +1152,7 @@
         {
           "system": "SNOMED-CT",
           "code": 35025007,
-          "display": "Manual pelvic examination (procedure)"
+          "display": "Examen pelvien manuel (procedure)"
         }
       ],
       "duration": {
@@ -1174,7 +1174,7 @@
         {
           "system": "SNOMED-CT",
           "code": 90226004,
-          "display": "Cytopathology procedure, preparation of smear, genital source (procedure)"
+          "display": "Procédure de cytopathologie, préparation du frottis, source génitale (procédure)"
         }
       ],
       "duration": {
@@ -1198,7 +1198,7 @@
         {
           "system": "SNOMED-CT",
           "code": 312681000,
-          "display": "Bone density scan (procedure)"
+          "display": "Scanner de la densité osseuse (procédure)"
         }
       ],
       "duration": {
@@ -1221,7 +1221,7 @@
         {
           "system": "SNOMED-CT",
           "code": 185389009,
-          "display": "Follow-up visit (procedure)"
+          "display": "Visite de suivi (procédure)"
         }
       ],
       "direct_transition": "Bone Exam"
@@ -1284,7 +1284,7 @@
         {
           "system": "SNOMED-CT",
           "code": 439740005,
-          "display": "Postoperative follow-up visit (procedure)"
+          "display": "Visite de suivi postopératoire (procédure)"
         }
       ],
       "direct_transition": "End Initial Follow-Up Doctor Visit",
@@ -1312,7 +1312,7 @@
         {
           "system": "SNOMED-CT",
           "code": 86013001,
-          "display": "Periodic reevaluation and management of healthy individual (procedure)"
+          "display": "Réévaluation périodique et gestion d'un individu en bonne santé (procedure)"
         }
       ],
       "direct_transition": "Screening Mammogram"
@@ -1323,7 +1323,7 @@
         {
           "system": "SNOMED-CT",
           "code": 254837009,
-          "display": "Malignant neoplasm of breast (disorder)"
+          "display": "Néoplasme malin du sein (trouble)"
         }
       ],
       "direct_transition": "Diagnose_TNM_Markers",
@@ -1335,7 +1335,7 @@
         {
           "system": "SNOMED-CT",
           "code": 122548005,
-          "display": "Biopsy of breast (procedure)"
+          "display": "Biopsie du sein (procedure)"
         }
       ],
       "duration": {
@@ -1385,7 +1385,7 @@
         {
           "system": "SNOMED-CT",
           "code": 223484005,
-          "display": "Discussion about treatment (procedure)"
+          "display": "Discussion sur le traitement (procedure)"
         }
       ],
       "direct_transition": "End Meeting with Oncologist",
@@ -1470,7 +1470,7 @@
         {
           "system": "LOINC",
           "code": "59557-9",
-          "display": "Treatment status Cancer"
+          "display": "Statut du traitement Cancer"
         }
       ],
       "conditional_transition": [
@@ -1504,7 +1504,7 @@
       "value_code": {
         "system": "SNOMED-CT",
         "code": 445528004,
-        "display": "Treatment changed (situation)"
+        "display": "Modification du traitement (situation)"
       }
     },
     "End Neodjuvant Medication in Preparation for Surgery": {
@@ -1519,7 +1519,7 @@
         {
           "system": "SNOMED-CT",
           "code": 185347001,
-          "display": "Encounter for problem"
+          "display": "Rencontre médicale"
         }
       ],
       "direct_transition": "Chemotherapy Drugs",
@@ -1711,7 +1711,7 @@
         {
           "system": "SNOMED-CT",
           "code": 367336001,
-          "display": "Chemotherapy (procedure)"
+          "display": "Chimiothérapie (procédure)"
         }
       ],
       "duration": {
@@ -1753,7 +1753,7 @@
         {
           "system": "SNOMED-CT",
           "code": 185347001,
-          "display": "Encounter for problem"
+          "display": "Rencontre médicale"
         }
       ],
       "direct_transition": "Chemotherapy Drugs"
@@ -1780,7 +1780,7 @@
         {
           "system": "SNOMED-CT",
           "code": 24623002,
-          "display": "Screening mammography (procedure)"
+          "display": "Mammographie de dépistage (procedure)"
         }
       ],
       "duration": {
@@ -1928,7 +1928,7 @@
         {
           "system": "LOINC",
           "code": "88040-1",
-          "display": "Response to cancer treatment"
+          "display": "Réponse au traitement du cancer"
         }
       ],
       "direct_transition": "Begin Surgery and Radiation Treatment",
@@ -1938,7 +1938,7 @@
       "value_code": {
         "system": "SNOMED-CT",
         "code": 385633008,
-        "display": "Improving (qualifier value)"
+        "display": "Amélioration (valeur unitaire)"
       }
     },
     "Improvement After Surgery/Therapy": {
@@ -1949,7 +1949,7 @@
         {
           "system": "LOINC",
           "code": "88040-1",
-          "display": "Response to cancer treatment"
+          "display": "Réponse au traitement du cancer"
         }
       ],
       "remarks": [
@@ -1958,7 +1958,7 @@
       "value_code": {
         "system": "SNOMED-CT",
         "code": 385633008,
-        "display": "Improving (qualifier value)"
+        "display": "Amélioration (valeur unitaire)"
       },
       "direct_transition": "Post-Treatment Surveillance"
     },
@@ -1970,7 +1970,7 @@
         {
           "system": "LOINC",
           "code": "88040-1",
-          "display": "Response to cancer treatment"
+          "display": "Réponse au traitement du cancer"
         }
       ],
       "remarks": [
@@ -1979,7 +1979,7 @@
       "value_code": {
         "system": "SNOMED-CT",
         "code": 230993007,
-        "display": "Worsening (qualifier value)"
+        "display": "Aggravation (valeur unitaire)"
       },
       "direct_transition": "Post-Treatment Surveillance"
     },
@@ -2010,7 +2010,7 @@
         {
           "system": "LOINC",
           "code": "88040-1",
-          "display": "Response to cancer treatment"
+          "display": "Réponse au traitement du cancer"
         }
       ],
       "remarks": [
@@ -2019,7 +2019,7 @@
       "value_code": {
         "system": "SNOMED-CT",
         "code": 230993007,
-        "display": "Worsening (qualifier value)"
+        "display": "Aggravation (valeur unitaire)"
       },
       "direct_transition": "4 Months between Initial Follow-Ups"
     },
@@ -2031,7 +2031,7 @@
         {
           "system": "LOINC",
           "code": "88040-1",
-          "display": "Response to cancer treatment"
+          "display": "Réponse au traitement du cancer"
         }
       ],
       "remarks": [
@@ -2040,7 +2040,7 @@
       "value_code": {
         "system": "SNOMED-CT",
         "code": 385633008,
-        "display": "Improving (qualifier value)"
+        "display": "Amélioration (valeur unitaire)"
       },
       "direct_transition": "4 Months between Initial Follow-Ups"
     },

@@ -67,7 +67,7 @@
         {
           "system": "SNOMED-CT",
           "code": "698314001",
-          "display": "Consultation for treatment"
+          "display": "Consultation pour traitement"
         }
       ],
       "direct_transition": "Prescribe_Implant_Contraceptive"
@@ -144,7 +144,7 @@
         {
           "system": "RxNorm",
           "code": "1366343",
-          "display": "Levonorgestrel 0.00354 MG/HR Drug Implant"
+          "display": "Levonorgestrel 0.00354 MG/HR Implant de médicament"
         }
       ],
       "direct_transition": "Initial_Implant"
@@ -156,7 +156,7 @@
         {
           "system": "RxNorm",
           "code": "389221",
-          "display": "Etonogestrel 68 MG Drug Implant"
+          "display": "Etonogestrel 68 MG Implant de médicament"
         }
       ],
       "direct_transition": "Initial_Implant"
@@ -168,7 +168,7 @@
         {
           "system": "RxNorm",
           "code": "389221",
-          "display": "Etonogestrel 68 MG Drug Implant"
+          "display": "Etonogestrel 68 MG Implant de médicament"
         }
       ],
       "direct_transition": "Initial_Implant"
@@ -179,7 +179,7 @@
         {
           "system": "SNOMED-CT",
           "code": "169553002",
-          "display": "Insertion of subcutaneous contraceptive"
+          "display": "Insertion d'un contraceptif sous-cutané"
         }
       ],
       "duration": {

@@ -11,7 +11,7 @@
         {
           "system": "LOINC",
           "code": "72091-2",
-          "display": "Knee injury and Osteoarthritis Outcome Score [KOOS]"
+          "display": "Score de résultat pour les blessures au genou et l'arthrose [KOOS]"
         }
       ],
       "observations": [
@@ -22,7 +22,7 @@
             {
               "system": "LOINC",
               "code": "72101-9",
-              "display": "Symptoms score [KOOS]"
+              "display": "Score des symptômes [KOOS]"
             }
           ],
           "range": {
@@ -37,7 +37,7 @@
             {
               "system": "LOINC",
               "code": "72102-7",
-              "display": "Pain score [KOOS]"
+              "display": "Seuil de douleur [KOOS]"
             }
           ],
           "range": {
@@ -52,7 +52,7 @@
             {
               "system": "LOINC",
               "code": "72100-1",
-              "display": "Activities of daily living score [KOOS]"
+              "display": "Score des activités de la vie quotidienne [KOOS]"
             }
           ],
           "range": {
@@ -67,7 +67,7 @@
             {
               "system": "LOINC",
               "code": "72099-5",
-              "display": "Sport-recreation score [KOOS]"
+              "display": "Score sport-récréation [KOOS]"
             }
           ],
           "range": {
@@ -82,7 +82,7 @@
             {
               "system": "LOINC",
               "code": "72098-7",
-              "display": "Quality of life score [KOOS]"
+              "display": "Score de la qualité de vie [KOOS]"
             }
           ],
           "range": {
@@ -115,7 +115,7 @@
             {
               "system": "LOINC",
               "code": "71972-4",
-              "display": "PROMIS-10 Global Physical Health (GPH) score"
+              "display": "PROMIS-10 Score global de santé physique (GPH)"
             }
           ],
           "range": {
@@ -130,7 +130,7 @@
             {
               "system": "LOINC",
               "code": "71970-8",
-              "display": "PROMIS-10 Global Mental Health (GMH) score"
+              "display": "PROMIS-10 Score global de santé mentale (GPH)"
             }
           ],
           "range": {
@@ -151,7 +151,7 @@
         {
           "system": "LOINC",
           "code": "72092-0",
-          "display": "Hip Dysfunction and Osteoarthritis Outcome Score [HOOS]"
+          "display": "Score de résultat pour la dysfonction de la hanche et l'arthrose [HOOS]"
         }
       ],
       "observations": [
@@ -162,7 +162,7 @@
             {
               "system": "LOINC",
               "code": "72096-1",
-              "display": "Symptoms score [HOOS]"
+              "display": "Score des symptômes [HOOS]"
             }
           ],
           "range": {
@@ -177,7 +177,7 @@
             {
               "system": "LOINC",
               "code": "72097-9",
-              "display": "Pain score [HOOS]"
+              "display": "Seuil de douleur [HOOS]"
             }
           ],
           "range": {
@@ -192,7 +192,7 @@
             {
               "system": "LOINC",
               "code": "72095-3",
-              "display": "Activities of daily living score [HOOS]"
+              "display": "Score des activités de la vie quotidienne [HOOS]"
             }
           ],
           "range": {
@@ -207,7 +207,7 @@
             {
               "system": "LOINC",
               "code": "72094-6",
-              "display": "Sport-recreation score [HOOS]"
+              "display": "Score sport-récréation [HOOS]"
             }
           ],
           "range": {
@@ -222,7 +222,7 @@
             {
               "system": "LOINC",
               "code": "72093-8",
-              "display": "Quality of life score [HOOS]"
+              "display": "Score de la qualité de vie [HOOS]"
             }
           ],
           "range": {

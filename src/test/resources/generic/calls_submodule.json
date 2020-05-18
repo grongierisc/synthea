@@ -17,7 +17,7 @@
         {
           "system": "SNOMED-CT",
           "code": "12345678",
-          "display": "Encounter for problem"
+          "display": "Rencontre médicale"
         }
       ],
       "direct_transition": "Examplitis"

@@ -478,7 +478,7 @@
         {
           "system": "RxNorm",
           "code": 312938,
-          "display": "Sertraline 100 MG Oral Tablet"
+          "display": "Sertraline 100 MG Comprimé oral"
         }
       ],
       "assign_to_attribute": "SSRI",
@@ -673,7 +673,7 @@
         {
           "system": "SNOMED-CT",
           "code": 185347001,
-          "display": "Encounter for problem (procedure)"
+          "display": "Rencontre médicale (procédure)"
         }
       ],
       "direct_transition": "Inpatient Suicide Risk Assessment"
@@ -793,7 +793,7 @@
         {
           "system": "SNOMED-CT",
           "code": 185345009,
-          "display": "Encounter for symptom"
+          "display": "Rencontre pour symptôme"
         }
       ],
       "direct_transition": "PC-PTSD Screen"
@@ -852,7 +852,7 @@
         {
           "system": "SNOMED-CT",
           "code": 185347001,
-          "display": "Encounter for problem (procedure)"
+          "display": "Rencontre médicale (procédure)"
         }
       ],
       "direct_transition": "Therapy Note"
@@ -1006,7 +1006,7 @@
         {
           "system": "LOINC",
           "code": "72514-3",
-          "display": "Pain severity - 0-10 verbal numeric rating [Score] - Reported"
+          "display": "Gravité de la douleur - 0-10 évaluation numérique verbale [Score] - Signalée"
         }
       ],
       "range": {
@@ -1024,7 +1024,7 @@
         {
           "system": "LOINC",
           "code": "72514-3",
-          "display": "Pain severity - 0-10 verbal numeric rating [Score] - Reported"
+          "display": "Gravité de la douleur - 0-10 évaluation numérique verbale [Score] - Signalée"
         }
       ],
       "range": {
@@ -1042,7 +1042,7 @@
         {
           "system": "LOINC",
           "code": "72514-3",
-          "display": "Pain severity - 0-10 verbal numeric rating [Score] - Reported"
+          "display": "Gravité de la douleur - 0-10 évaluation numérique verbale [Score] - Signalée"
         }
       ],
       "range": {
@@ -1060,7 +1060,7 @@
         {
           "system": "LOINC",
           "code": "72514-3",
-          "display": "Pain severity - 0-10 verbal numeric rating [Score] - Reported"
+          "display": "Gravité de la douleur - 0-10 évaluation numérique verbale [Score] - Signalée"
         }
       ],
       "range": {
@@ -1209,7 +1209,7 @@
         {
           "system": "SNOMED-CT",
           "code": 185347001,
-          "display": "Encounter for problem (procedure)"
+          "display": "Rencontre médicale (procédure)"
         }
       ],
       "direct_transition": "Therapy Note"

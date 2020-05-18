@@ -10,7 +10,7 @@
             "codes": [{
                 "system": "SNOMED-CT",
                 "code": "91930004",
-                "display": "Allergy to eggs"
+                "display": "Allergie aux œufs"
             }],
             "target_encounter": "Dr_Visit",
             "direct_transition": "Dr_Visit"
@@ -22,7 +22,7 @@
               {
                 "system": "SNOMED-CT",
                 "code": "185345009",
-                "display": "Encounter for symptom"
+                "display": "Rencontre pour symptôme"
               }
             ],
             "direct_transition": "Allergy_Ends"

@@ -185,7 +185,7 @@
         {
           "system": "SNOMED-CT",
           "code": "87433001",
-          "display": "Pulmonary emphysema (disorder)"
+          "display": "Emphysème pulmonaire (trouble)"
         }
       ],
       "direct_transition": "Emphysema_Symptom1"
@@ -198,7 +198,7 @@
         {
           "system": "SNOMED-CT",
           "code": "185086009",
-          "display": "Chronic obstructive bronchitis (disorder)"
+          "display": "Bronchite obstructive chronique (trouble)"
         }
       ],
       "direct_transition": "Bronchitis_Symptom1"
@@ -278,7 +278,7 @@
         {
           "system": "SNOMED-CT",
           "code": "127783003",
-          "display": "Spirometry (procedure)"
+          "display": "Spirométrie (procédure)"
         }
       ],
       "direct_transition": "Initial_FEV_Result"
@@ -323,14 +323,14 @@
         {
           "system": "SNOMED-CT",
           "code": "412776001",
-          "display": "Chronic obstructive pulmonary disease clinical management plan"
+          "display": "Plan de gestion clinique des maladies pulmonaires obstructives chroniques"
         }
       ],
       "activities": [
         {
           "system": "SNOMED-CT",
           "code": "229065009",
-          "display": "Exercise therapy"
+          "display": "Thérapie par l'exercice"
         },
         {
           "system": "SNOMED-CT",
@@ -347,14 +347,14 @@
         {
           "system": "SNOMED-CT",
           "code": "412776001",
-          "display": "Chronic obstructive pulmonary disease clinical management plan"
+          "display": "Plan de gestion clinique des maladies pulmonaires obstructives chroniques"
         }
       ],
       "activities": [
         {
           "system": "SNOMED-CT",
           "code": "710081004",
-          "display": "Smoking cessation therapy"
+          "display": "Thérapie de sevrage tabagique"
         },
         {
           "system": "SNOMED-CT",
@@ -616,7 +616,7 @@
         {
           "system": "SNOMED-CT",
           "code": "127783003",
-          "display": "Spirometry (procedure)"
+          "display": "Spirométrie (procédure)"
         }
       ],
       "conditional_transition": [

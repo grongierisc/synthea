@@ -29,7 +29,7 @@
             "codes": [{
                 "system": "SNOMED-CT",
                 "code": "50849002",
-                "display": "Emergency Room Admission"
+                "display": "Admission aux urgences"
             }],
             "direct_transition": "Appendicitis"
         },
@@ -39,7 +39,7 @@
             "codes": [{
                 "system": "SNOMED-CT",
                 "code": "47693006",
-                "display": "Rupture of appendix"
+                "display": "Rupture de l'appendice"
             }],
             "assign_to_attribute" : "Most Recent ED Visit",
             "direct_transition": "Terminal"

@@ -108,7 +108,7 @@
         {
           "system": "SNOMED-CT",
           "code": "185347001",
-          "display": "Encounter for problem"
+          "display": "Rencontre médicale"
         }
       ],
       "direct_transition": "Fibromyalgia_Symptom1"
@@ -202,7 +202,7 @@
         {
           "system": "RxNorm",
           "code": "198014",
-          "display": "Naproxen 500 MG Oral Tablet"
+          "display": "Naproxen 500 MG Comprimé oral"
         }
       ],
       "direct_transition": "End_Diagnosis_Encounter"
@@ -302,7 +302,7 @@
         {
           "system": "RxNorm",
           "code": "483438",
-          "display": "pregabalin 100 MG Oral Capsule"
+          "display": "pregabalin 100 MG Comprimés oraux"
         }
       ],
       "direct_transition": "End_Episode_Encounter"
@@ -315,7 +315,7 @@
         {
           "system": "RxNorm",
           "code": "596926",
-          "display": "duloxetine 20 MG Delayed Release Oral Capsule"
+          "display": "duloxetine 20 MG Delayed Release Comprimés oraux"
         }
       ],
       "direct_transition": "End_Episode_Encounter"
@@ -328,7 +328,7 @@
         {
           "system": "RxNorm",
           "code": "833135",
-          "display": "Milnacipran hydrochloride 100 MG Oral Tablet"
+          "display": "Milnacipran hydrochloride 100 MG Comprimé oral"
         }
       ],
       "direct_transition": "End_Episode_Encounter"
@@ -344,7 +344,7 @@
         {
           "system": "RxNorm",
           "code": "1049635",
-          "display": "Acetaminophen 325 MG / oxyCODONE Hydrochloride 2.5 MG Oral Tablet"
+          "display": "Acetaminophen 325 MG / oxyCODONE Hydrochloride 2.5 MG Comprimé oral"
         }
       ],
       "direct_transition": "End_Episode_Encounter"
@@ -389,7 +389,7 @@
         {
           "system": "LOINC",
           "code": "72514-3",
-          "display": "Pain severity - 0-10 verbal numeric rating [Score] - Reported"
+          "display": "Gravité de la douleur - 0-10 évaluation numérique verbale [Score] - Signalée"
         }
       ],
       "range": {

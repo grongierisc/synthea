@@ -385,7 +385,7 @@
         {
           "system": "SNOMED-CT",
           "code": "50849002",
-          "display": "Emergency room admission (procedure)"
+          "display": "Admission aux urgences (procédure)"
         }
       ],
       "direct_transition": "Psychiatric_Evaluation"
@@ -445,7 +445,7 @@
         {
           "system": "SNOMED-CT",
           "code": "185347001",
-          "display": "Encounter for problem"
+          "display": "Rencontre médicale"
         }
       ],
       "direct_transition": "Suicide_CarePlan_Selector"
@@ -636,7 +636,7 @@
         {
           "system": "SNOMED-CT",
           "code": "185347001",
-          "display": "Encounter for problem"
+          "display": "Rencontre médicale"
         }
       ],
       "direct_transition": "Autopsy_Examination"

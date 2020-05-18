@@ -173,7 +173,7 @@
         {
           "system": "RxNorm",
           "code": "105078",
-          "display": "Penicillin G 375 MG/ML Injectable Solution"
+          "display": "Penicillin G 375 MG/ML Solution injectable"
         }
       ],
       "prescription": {
@@ -191,7 +191,7 @@
           {
             "system": "SNOMED-CT",
             "code": "418577003",
-            "display": "Take at regular intervals. Complete the prescribed course unless otherwise directed."
+            "display": "Prendre à intervalles réguliers. Suivez le cours prescrit, sauf indication contraire."
           }
         ]
       },
@@ -209,7 +209,7 @@
         {
           "system": "RxNorm",
           "code": "789980",
-          "display": "Ampicillin 100 MG/ML Injectable Solution"
+          "display": "Ampicillin 100 MG/ML Solution injectable"
         }
       ],
       "prescription": {
@@ -227,7 +227,7 @@
           {
             "system": "SNOMED-CT",
             "code": "418577003",
-            "display": "Take at regular intervals. Complete the prescribed course unless otherwise directed."
+            "display": "Prendre à intervalles réguliers. Suivez le cours prescrit, sauf indication contraire."
           }
         ]
       },
@@ -261,7 +261,7 @@
         {
           "system": "RxNorm",
           "code": "1652673",
-          "display": "Doxycycline Monohydrate 50 MG Oral Tablet"
+          "display": "Doxycycline Monohydrate 50 MG Comprimé oral"
         }
       ],
       "prescription": {
@@ -279,12 +279,12 @@
           {
             "system": "SNOMED-CT",
             "code": "418577003",
-            "display": "Take at regular intervals. Complete the prescribed course unless otherwise directed."
+            "display": "Prendre à intervalles réguliers. Suivez le cours prescrit, sauf indication contraire."
           },
           {
             "system": "SNOMED-CT",
             "code": "419115000",
-            "display": "Do not take milk, indigestion remedies, or medicines containing iron or zinc at the same time of day as this medicine"
+            "display": "Ne prenez pas de lait, de remèdes contre l'indigestion ou de médicaments contenant du fer ou du zinc au même moment de la journée que ce médicament"
           }
         ]
       },
@@ -297,7 +297,7 @@
         {
           "system": "RxNorm",
           "code": "1650142",
-          "display": "Doxycycline Monohydrate 100 MG Oral Tablet"
+          "display": "Doxycycline Monohydrate 100 MG Comprimé oral"
         }
       ],
       "prescription": {
@@ -315,12 +315,12 @@
           {
             "system": "SNOMED-CT",
             "code": "418577003",
-            "display": "Take at regular intervals. Complete the prescribed course unless otherwise directed."
+            "display": "Prendre à intervalles réguliers. Suivez le cours prescrit, sauf indication contraire."
           },
           {
             "system": "SNOMED-CT",
             "code": "419115000",
-            "display": "Do not take milk, indigestion remedies, or medicines containing iron or zinc at the same time of day as this medicine"
+            "display": "Ne prenez pas de lait, de remèdes contre l'indigestion ou de médicaments contenant du fer ou du zinc au même moment de la journée que ce médicament"
           }
         ]
       },
@@ -350,7 +350,7 @@
         {
           "system": "RxNorm",
           "code": "308182",
-          "display": "Amoxicillin 250 MG Oral Capsule"
+          "display": "Amoxicillin 250 MG Comprimés oraux"
         }
       ],
       "prescription": {
@@ -368,7 +368,7 @@
           {
             "system": "SNOMED-CT",
             "code": "418577003",
-            "display": "Take at regular intervals. Complete the prescribed course unless otherwise directed."
+            "display": "Prendre à intervalles réguliers. Suivez le cours prescrit, sauf indication contraire."
           }
         ]
       },
@@ -381,7 +381,7 @@
         {
           "system": "RxNorm",
           "code": "308192",
-          "display": "Amoxicillin 500 MG Oral Tablet"
+          "display": "Amoxicillin 500 MG Comprimé oral"
         }
       ],
       "prescription": {
@@ -399,7 +399,7 @@
           {
             "system": "SNOMED-CT",
             "code": "418577003",
-            "display": "Take at regular intervals. Complete the prescribed course unless otherwise directed."
+            "display": "Prendre à intervalles réguliers. Suivez le cours prescrit, sauf indication contraire."
           }
         ]
       },
@@ -429,7 +429,7 @@
         {
           "system": "RxNorm",
           "code": "309045",
-          "display": "Cefaclor 250 MG Oral Capsule"
+          "display": "Cefaclor 250 MG Comprimés oraux"
         }
       ],
       "prescription": {
@@ -447,7 +447,7 @@
           {
             "system": "SNOMED-CT",
             "code": "418577003",
-            "display": "Take at regular intervals. Complete the prescribed course unless otherwise directed."
+            "display": "Prendre à intervalles réguliers. Suivez le cours prescrit, sauf indication contraire."
           }
         ]
       },
@@ -460,7 +460,7 @@
         {
           "system": "RxNorm",
           "code": "309043",
-          "display": "12 HR Cefaclor 500 MG Extended Release Oral Tablet"
+          "display": "12 HR Cefaclor 500 MG Extended Release Comprimé oral"
         }
       ],
       "prescription": {
@@ -478,7 +478,7 @@
           {
             "system": "SNOMED-CT",
             "code": "418577003",
-            "display": "Take at regular intervals. Complete the prescribed course unless otherwise directed."
+            "display": "Prendre à intervalles réguliers. Suivez le cours prescrit, sauf indication contraire."
           }
         ]
       },
@@ -494,7 +494,7 @@
         {
           "system": "RxNorm",
           "code": "309097",
-          "display": "Cefuroxime 250 MG Oral Tablet"
+          "display": "Cefuroxime 250 MG Comprimé oral"
         }
       ],
       "prescription": {
@@ -512,7 +512,7 @@
           {
             "system": "SNOMED-CT",
             "code": "418577003",
-            "display": "Take at regular intervals. Complete the prescribed course unless otherwise directed."
+            "display": "Prendre à intervalles réguliers. Suivez le cours prescrit, sauf indication contraire."
           }
         ]
       },

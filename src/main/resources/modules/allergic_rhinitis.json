@@ -118,7 +118,7 @@
         {
           "system": "SNOMED-CT",
           "code": "367498001",
-          "display": "Seasonal allergic rhinitis"
+          "display": "Rhinite allergique saisonnière"
         }
       ],
       "direct_transition": "Allergic_Rhinitis_Diagnosis"
@@ -131,7 +131,7 @@
         {
           "system": "SNOMED-CT",
           "code": "446096008",
-          "display": "Perennial allergic rhinitis"
+          "display": "Rhinite allergique perannuelle"
         }
       ],
       "direct_transition": "Allergic_Rhinitis_Diagnosis"
@@ -144,7 +144,7 @@
         {
           "system": "SNOMED-CT",
           "code": "232353008",
-          "display": "Perennial allergic rhinitis with seasonal variation"
+          "display": "Rhinite allergique perannuelle avec variation saisonnière"
         }
       ],
       "direct_transition": "Allergic_Rhinitis_Diagnosis"
@@ -157,7 +157,7 @@
         {
           "system": "SNOMED-CT",
           "code": "185345009",
-          "display": "Encounter for symptom"
+          "display": "Rencontre pour symptôme"
         }
       ],
       "direct_transition": "Allergic_Rhinitis_Symptom1"
@@ -263,7 +263,7 @@
                 {
                   "system": "SNOMED-CT",
                   "code": "419263009",
-                  "display": "Allergy to tree pollen"
+                  "display": "Allergie au pollen des arbres"
                 }
               ]
             },
@@ -273,7 +273,7 @@
                 {
                   "system": "SNOMED-CT",
                   "code": "418689008",
-                  "display": "Allergy to grass pollen"
+                  "display": "Allergie au pollen de graminées"
                 }
               ]
             },
@@ -283,7 +283,7 @@
                 {
                   "system": "SNOMED-CT",
                   "code": "232347008",
-                  "display": "Dander (animal) allergy"
+                  "display": "Allergie aux phanères (animaux)"
                 }
               ]
             },
@@ -293,7 +293,7 @@
                 {
                   "system": "SNOMED-CT",
                   "code": "232350006",
-                  "display": "House dust mite allergy"
+                  "display": "Allergie aux acariens de la poussière de maison"
                 }
               ]
             },
@@ -303,7 +303,7 @@
                 {
                   "system": "SNOMED-CT",
                   "code": "419474003",
-                  "display": "Allergy to mould"
+                  "display": "Allergie aux moisissures"
                 }
               ]
             }

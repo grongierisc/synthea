@@ -15,7 +15,7 @@
         {
           "system": "SNOMED-CT",
           "code": "698314001",
-          "display": "Consultation for treatment"
+          "display": "Consultation pour traitement"
         }
       ],
       "direct_transition": "End_Consultation"
@@ -45,7 +45,7 @@
         {
           "system": "SNOMED-CT",
           "code": "308335008",
-          "display": "Patient encounter procedure"
+          "display": "Procédure de rencontre avec le patient"
         }
       ],
       "direct_transition": "Vasectomy"
@@ -78,19 +78,19 @@
         {
           "system": "SNOMED-CT",
           "code": "737471002",
-          "display": "Minor surgery care management (procedure)"
+          "display": "Gestion des soins de chirurgie mineure (procédure)"
         }
       ],
       "activities": [
         {
           "system": "SNOMED-CT",
           "code": "183051005",
-          "display": "Recommendation to rest"
+          "display": "Recommandation de repos"
         },
         {
           "system": "SNOMED-CT",
           "code": "243077000",
-          "display": "Recommendation to limit sexual activity"
+          "display": "Limiter les pratiques sexuelles"
         }
       ],
       "direct_transition": "End_Vasectomy_Encounter"

@@ -175,7 +175,7 @@
         {
           "system": "SNOMED-CT",
           "code": "50849002",
-          "display": "Emergency Room Admission"
+          "display": "Admission aux urgences"
         }
       ],
       "direct_transition": "History_of_Seizure"
@@ -302,7 +302,7 @@
         {
           "system": "RxNorm",
           "code": "197591",
-          "display": "Diazepam 5 MG Oral Tablet"
+          "display": "Diazepam 5 MG Comprimé oral"
         }
       ],
       "assign_to_attribute": "seizure_meds",
@@ -325,7 +325,7 @@
         {
           "system": "RxNorm",
           "code": "204892",
-          "display": "clonazePAM 0.25 MG Oral Tablet"
+          "display": "clonazePAM 0.25 MG Comprimé oral"
         }
       ],
       "assign_to_attribute": "seizure_meds",
@@ -347,7 +347,7 @@
       "discharge_disposition": {
         "system": "NUBC",
         "code": "01",
-        "display": "Discharged to home care or self care (routine discharge)"
+        "display": "Renvoi aux soins à domicile ou aux soins personnels (renvoi de routine)"
       },
       "direct_transition": "Undergoing_Seizure_Treatment"
     },
@@ -440,7 +440,7 @@
       "discharge_disposition": {
         "system": "NUBC",
         "code": "01",
-        "display": "Discharged to home care or self care (routine discharge)"
+        "display": "Renvoi aux soins à domicile ou aux soins personnels (renvoi de routine)"
       },
       "direct_transition": "Undergoing_Seizure_Treatment"
     },

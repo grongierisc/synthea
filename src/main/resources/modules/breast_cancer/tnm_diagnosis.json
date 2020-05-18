@@ -188,13 +188,13 @@
         {
           "system": "LOINC",
           "code": "21907-1",
-          "display": "Distant metastases.clinical [Class] Cancer"
+          "display": "Métastases à distance. Cancer clinique [classe]."
         }
       ],
       "value_code": {
         "system": "SNOMED-CT",
         "code": 55440008,
-        "display": "M1 category (finding)"
+        "display": "Catégorie M1 (constat)"
       },
       "direct_transition": "Distant Breast Cancer"
     },
@@ -206,13 +206,13 @@
         {
           "system": "LOINC",
           "code": "21907-1",
-          "display": "Distant metastases.clinical [Class] Cancer"
+          "display": "Métastases à distance. Cancer clinique [classe]."
         }
       ],
       "value_code": {
         "system": "SNOMED-CT",
         "code": 30893008,
-        "display": "M0 category (finding)"
+        "display": "M0 Catégorie (constat)"
       },
       "distributed_transition": [
         {
@@ -237,14 +237,14 @@
         {
           "system": "LOINC",
           "code": "21905-5",
-          "display": "Primary tumor.clinical [Class] Cancer"
+          "display": "Tumeur primaire.Cancer [Class]"
         }
       ],
       "direct_transition": "N Marker",
       "value_code": {
         "system": "SNOMED-CT",
         "code": 58790005,
-        "display": "T0 category (finding)"
+        "display": "T0 Catégorie (constat)"
       }
     },
     "T1_Diagnosed": {
@@ -255,13 +255,13 @@
         {
           "system": "LOINC",
           "code": "21905-5",
-          "display": "Primary tumor.clinical [Class] Cancer"
+          "display": "Tumeur primaire.Cancer [Class]"
         }
       ],
       "value_code": {
         "system": "SNOMED-CT",
         "code": 23351008,
-        "display": "T1 category (finding)"
+        "display": "T1 Catégorie (constat)"
       },
       "direct_transition": "N Marker"
     },
@@ -273,13 +273,13 @@
         {
           "system": "LOINC",
           "code": "21905-5",
-          "display": "Primary tumor.clinical [Class] Cancer"
+          "display": "Tumeur primaire.Cancer [Class]"
         }
       ],
       "value_code": {
         "system": "SNOMED-CT",
         "code": 67673008,
-        "display": "T2 category (finding)"
+        "display": "T2 Catégorie (constat)"
       },
       "direct_transition": "N Marker"
     },
@@ -291,13 +291,13 @@
         {
           "system": "LOINC",
           "code": "21905-5",
-          "display": "Primary tumor.clinical [Class] Cancer"
+          "display": "Tumeur primaire.Cancer [Class]"
         }
       ],
       "value_code": {
         "system": "SNOMED-CT",
         "code": 14410001,
-        "display": "T3 category (finding)"
+        "display": "T3 Catégorie (constat)"
       },
       "direct_transition": "N Marker",
       "remarks": [
@@ -312,13 +312,13 @@
         {
           "system": "LOINC",
           "code": "21905-5",
-          "display": "Primary tumor.clinical [Class] Cancer"
+          "display": "Tumeur primaire.Cancer [Class]"
         }
       ],
       "value_code": {
         "system": "SNOMED-CT",
         "code": 65565005,
-        "display": "T4 category (finding)"
+        "display": "T4 Catégorie (constat)"
       },
       "direct_transition": "N Marker"
     },
@@ -330,14 +330,14 @@
         {
           "system": "LOINC",
           "code": "21906-3",
-          "display": "Regional lymph nodes.clinical [Class] Cancer"
+          "display": "Ganglions lymphatiques locaux.Cancer [Class]"
         }
       ],
       "direct_transition": "Terminal",
       "value_code": {
         "system": "SNOMED-CT",
         "code": 53623008,
-        "display": "N1 category (finding)"
+        "display": "N1 Catégorie (constat)"
       }
     },
     "N0_Diagnosed": {
@@ -348,13 +348,13 @@
         {
           "system": "LOINC",
           "code": "21906-3",
-          "display": "Regional lymph nodes.clinical [Class] Cancer"
+          "display": "Ganglions lymphatiques locaux.Cancer [Class]"
         }
       ],
       "value_code": {
         "system": "SNOMED-CT",
         "code": 62455006,
-        "display": "N0 category (finding)"
+        "display": "N0 Catégorie (constat)"
       },
       "direct_transition": "Terminal"
     },
@@ -366,13 +366,13 @@
         {
           "system": "LOINC",
           "code": "21906-3",
-          "display": "Regional lymph nodes.clinical [Class] Cancer"
+          "display": "Ganglions lymphatiques locaux.Cancer [Class]"
         }
       ],
       "value_code": {
         "system": "SNOMED-CT",
         "code": 46059003,
-        "display": "N2 category (finding)"
+        "display": "N2 Catégorie (constat)"
       },
       "direct_transition": "Terminal"
     },
@@ -384,13 +384,13 @@
         {
           "system": "LOINC",
           "code": "21906-3",
-          "display": "Regional lymph nodes.clinical [Class] Cancer"
+          "display": "Ganglions lymphatiques locaux.Cancer [Class]"
         }
       ],
       "value_code": {
         "system": "SNOMED-CT",
         "code": 5856006,
-        "display": "N3 category (finding)"
+        "display": "N3 Catégorie (constat)"
       },
       "direct_transition": "Terminal"
     },
@@ -424,7 +424,7 @@
         {
           "system": "LOINC",
           "code": "33728-7",
-          "display": "Size.maximum dimension in Tumor"
+          "display": "Taille.dimension maximale de la tumeur"
         }
       ],
       "direct_transition": "T2",
@@ -453,7 +453,7 @@
         {
           "system": "LOINC",
           "code": "33728-7",
-          "display": "Size.maximum dimension in Tumor"
+          "display": "Taille.dimension maximale de la tumeur"
         }
       ],
       "direct_transition": "T3",
@@ -473,7 +473,7 @@
         {
           "system": "LOINC",
           "code": "33728-7",
-          "display": "Size.maximum dimension in Tumor"
+          "display": "Taille.dimension maximale de la tumeur"
         }
       ],
       "direct_transition": "T1",
@@ -502,7 +502,7 @@
         {
           "system": "LOINC",
           "code": "33728-7",
-          "display": "Size.maximum dimension in Tumor"
+          "display": "Taille.dimension maximale de la tumeur"
         }
       ],
       "remarks": [
@@ -522,7 +522,7 @@
         {
           "system": "LOINC",
           "code": "44667-4",
-          "display": "Site of distant metastasis in Breast tumor"
+          "display": "Site de métastase à distance dans la tumeur du sein"
         }
       ],
       "direct_transition": "M0",
@@ -533,7 +533,7 @@
       "value_code": {
         "system": "SNOMED-CT",
         "code": 260413007,
-        "display": "None (qualifier value)"
+        "display": "None (valeur unitaire)"
       }
     },
     "M0": {
@@ -571,7 +571,7 @@
         {
           "system": "LOINC",
           "code": "85352-3",
-          "display": "Lymph nodes with isolated tumor cells [#] in Cancer specimen by Light microscopy"
+          "display": "Ganglions lymphatiques avec cellules tumorales isolées [#] dans un échantillon de cancer par microscopie optique"
         }
       ],
       "exact": {
@@ -597,7 +597,7 @@
         {
           "system": "LOINC",
           "code": "85344-0",
-          "display": "Lymph nodes with micrometastases [#] in Cancer specimen by Light microscopy"
+          "display": "Ganglions lymphatiques avec micrométastases [#] dans un échantillon de cancer par microscopie optique"
         }
       ],
       "direct_transition": "N1",
@@ -618,7 +618,7 @@
         {
           "system": "LOINC",
           "code": "85343-2",
-          "display": "Lymph nodes with macrometastases [#] in Cancer specimen by Light microscopy"
+          "display": "Ganglions lymphatiques avec macrométastases [#] dans un échantillon de cancer par microscopie optique"
         }
       ],
       "direct_transition": "N2",
@@ -639,7 +639,7 @@
         {
           "system": "LOINC",
           "code": "85343-2",
-          "display": "Lymph nodes with macrometastases [#] in Cancer specimen by Light microscopy"
+          "display": "Ganglions lymphatiques avec macrométastases [#] dans un échantillon de cancer par microscopie optique"
         }
       ],
       "direct_transition": "N3",

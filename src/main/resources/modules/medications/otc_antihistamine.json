@@ -206,7 +206,7 @@
         {
           "system": "RxNorm",
           "code": "1049630",
-          "display": "diphenhydrAMINE Hydrochloride 25 MG Oral Tablet"
+          "display": "diphenhydrAMINE Hydrochloride 25 MG Comprimé oral"
         }
       ],
       "prescription": {
@@ -238,7 +238,7 @@
         {
           "system": "RxNorm",
           "code": "477045",
-          "display": "Chlorpheniramine Maleate 2 MG/ML Oral Solution"
+          "display": "Chlorpheniramine Maleate 2 MG/ML Solution orale"
         }
       ],
       "prescription": {
@@ -253,7 +253,7 @@
         {
           "system": "RxNorm",
           "code": "1363309",
-          "display": "Chlorpheniramine Maleate 4 MG Oral Tablet"
+          "display": "Chlorpheniramine Maleate 4 MG Comprimé oral"
         }
       ],
       "prescription": {
@@ -273,7 +273,7 @@
         {
           "system": "RxNorm",
           "code": "197378",
-          "display": "Astemizole 10 MG Oral Tablet"
+          "display": "Astemizole 10 MG Comprimé oral"
         }
       ],
       "prescription": {
@@ -293,7 +293,7 @@
         {
           "system": "RxNorm",
           "code": "141918",
-          "display": "Terfenadine 60 MG Oral Tablet"
+          "display": "Terfenadine 60 MG Comprimé oral"
         }
       ],
       "prescription": {
@@ -325,7 +325,7 @@
         {
           "system": "RxNorm",
           "code": "665078",
-          "display": "Loratadine 5 MG Chewable Tablet"
+          "display": "Loratadine 5 MG Comprimé à croquer"
         }
       ],
       "prescription": {
@@ -340,7 +340,7 @@
         {
           "system": "RxNorm",
           "code": "311372",
-          "display": "Loratadine 10 MG Oral Tablet"
+          "display": "Loratadine 10 MG Comprimé oral"
         }
       ],
       "prescription": {
@@ -372,7 +372,7 @@
         {
           "system": "RxNorm",
           "code": "997488",
-          "display": "Fexofenadine hydrochloride 30 MG Oral Tablet"
+          "display": "Fexofenadine hydrochloride 30 MG Comprimé oral"
         }
       ],
       "prescription": {
@@ -387,7 +387,7 @@
         {
           "system": "RxNorm",
           "code": "997501",
-          "display": "Fexofenadine hydrochloride 60 MG Oral Tablet"
+          "display": "Fexofenadine hydrochloride 60 MG Comprimé oral"
         }
       ],
       "prescription": {
@@ -419,7 +419,7 @@
         {
           "system": "RxNorm",
           "code": "1014676",
-          "display": "cetirizine hydrochloride 5 MG Oral Tablet"
+          "display": "cetirizine hydrochloride 5 MG Comprimé oral"
         }
       ],
       "prescription": {
@@ -434,7 +434,7 @@
         {
           "system": "RxNorm",
           "code": "1014678",
-          "display": "cetirizine hydrochloride 10 MG Oral Tablet"
+          "display": "cetirizine hydrochloride 10 MG Comprimé oral"
         }
       ],
       "prescription": {

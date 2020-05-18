@@ -14,7 +14,7 @@
         {
           "system": "RxNorm",
           "code": 727762,
-          "display": "5 ML fulvestrant 50 MG/ML Prefilled Syringe"
+          "display": "Seringue préremplie de 5 ML de fulvestrant 50 MG/ML"
         }
       ],
       "direct_transition": "ER_medication_end",
@@ -99,7 +99,7 @@
         {
           "system": "RxNorm",
           "code": 200064,
-          "display": "letrozole 2.5 MG Oral Tablet"
+          "display": "letrozole 2.5 MG Comprimé oral"
         }
       ],
       "direct_transition": "ER_medication_end",
@@ -124,7 +124,7 @@
         {
           "system": "RxNorm",
           "code": 199224,
-          "display": "anastrozole 1 MG Oral Tablet"
+          "display": "anastrozole 1 MG Comprimé oral"
         }
       ],
       "direct_transition": "ER_medication_end",
@@ -149,7 +149,7 @@
         {
           "system": "RxNorm",
           "code": 310261,
-          "display": "exemestane 25 MG Oral Tablet"
+          "display": "exemestane 25 MG Comprimé oral"
         }
       ],
       "direct_transition": "ER_medication_end",
@@ -269,7 +269,7 @@
         {
           "system": "RxNorm",
           "code": 672149,
-          "display": "lapatinib 250 MG Oral Tablet"
+          "display": "lapatinib 250 MG Comprimé oral"
         }
       ],
       "direct_transition": "HER2_medication_end",
@@ -282,7 +282,7 @@
         {
           "system": "RxNorm",
           "code": 1940648,
-          "display": "neratinib 40 MG Oral Tablet"
+          "display": "neratinib 40 MG Comprimé oral"
         }
       ],
       "direct_transition": "HER2_medication_end",
@@ -344,7 +344,7 @@
         {
           "system": "RxNorm",
           "code": 1946840,
-          "display": "Verzenio 100 MG Oral Tablet"
+          "display": "Verzenio 100 MG Comprimé oral"
         }
       ],
       "direct_transition": "ER_PR_medication_end",
@@ -357,7 +357,7 @@
         {
           "system": "RxNorm",
           "code": 1601380,
-          "display": "palbociclib 100 MG Oral Capsule"
+          "display": "palbociclib 100 MG Comprimés oraux"
         }
       ],
       "direct_transition": "ER_PR_medication_end",
@@ -370,7 +370,7 @@
         {
           "system": "RxNorm",
           "code": 1873983,
-          "display": "ribociclib 200 MG Oral Tablet"
+          "display": "ribociclib 200 MG Comprimé oral"
         }
       ],
       "direct_transition": "ER_PR_medication_end",
@@ -385,7 +385,7 @@
         {
           "system": "SNOMED-CT",
           "code": 185347001,
-          "display": "Encounter for problem"
+          "display": "Rencontre médicale"
         }
       ],
       "conditional_transition": [
@@ -459,7 +459,7 @@
         {
           "system": "RxNorm",
           "code": 198240,
-          "display": "Tamoxifen 10 MG Oral Tablet"
+          "display": "Tamoxifen 10 MG Comprimé oral"
         }
       ],
       "direct_transition": "ER_medication_end",

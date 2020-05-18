@@ -110,7 +110,7 @@
         {
           "system": "SNOMED-CT",
           "code": "781831000000109",
-          "display": "Major surgery care management"
+          "display": "Gestion des soins de chirurgie majeure"
         }
       ],
       "activities": [
@@ -267,7 +267,7 @@
         {
           "system": "SNOMED-CT",
           "code": 185389009,
-          "display": "Follow-up visit (procedure)"
+          "display": "Visite de suivi (procédure)"
         }
       ],
       "direct_transition": "Functional_Status_Assessments_2"

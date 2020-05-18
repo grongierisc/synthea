@@ -55,7 +55,7 @@
         {
           "system": "RxNorm",
           "code": 310798,
-          "display": "Hydrochlorothiazide 25 MG Oral Tablet"
+          "display": "Hydrochlorothiazide 25 MG Comprimé oral"
         }
       ],
       "prescription": {
@@ -117,7 +117,7 @@
         {
           "system": "RxNorm",
           "code": 746030,
-          "display": "Atenolol 50 MG / Chlorthalidone 25 MG Oral Tablet"
+          "display": "Atenolol 50 MG / Chlorthalidone 25 MG Comprimé oral"
         }
       ],
       "prescription": {
@@ -144,7 +144,7 @@
         {
           "system": "RxNorm",
           "code": 999967,
-          "display": "amLODIPine 5 MG / Hydrochlorothiazide 12.5 MG / Olmesartan medoxomil 20 MG Oral Tablet"
+          "display": "amLODIPine 5 MG / Hydrochlorothiazide 12.5 MG / Olmesartan medoxomil 20 MG Comprimé oral"
         }
       ],
       "prescription": {

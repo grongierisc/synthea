@@ -193,7 +193,7 @@ public class StateTest {
     Encounter enc = person.record.encounters.get(0);
     Code code = enc.codes.get(0);
     assertEquals("50849002", code.code);
-    assertEquals("Emergency Room Admission", code.display);
+    assertEquals("Admission aux urgences", code.display);
     assertEquals(1, enc.conditions.size());
     code = enc.conditions.get(0).codes.get(0);
     assertEquals("73211009", code.code);
@@ -222,11 +222,11 @@ public class StateTest {
     Encounter enc = person.record.encounters.get(0);
     Code code = enc.codes.get(0);
     assertEquals("50849002", code.code);
-    assertEquals("Emergency Room Admission", code.display);
+    assertEquals("Admission aux urgences", code.display);
     assertEquals(1, enc.conditions.size());
     code = enc.conditions.get(0).codes.get(0);
     assertEquals("47693006", code.code);
-    assertEquals("Rupture of appendix", code.display);
+    assertEquals("Rupture de l'appendice", code.display);
     Long onsetTime = person.getOnsetConditionRecord().getConditionLastOnsetTimeFromModule(
         module.name, code.display
     );
@@ -683,7 +683,7 @@ public class StateTest {
 
     Code code = enc.codes.get(0);
     assertEquals("50849002", code.code);
-    assertEquals("Emergency Room Admission", code.display);
+    assertEquals("Admission aux urgences", code.display);
 
   }
 
@@ -708,7 +708,7 @@ public class StateTest {
 
     Code code = enc.codes.get(0);
     assertEquals("50849002", code.code);
-    assertEquals("Emergency Room Admission", code.display);
+    assertEquals("Admission aux urgences", code.display);
   }
 
   @Test
@@ -728,7 +728,7 @@ public class StateTest {
 
     Code code = allergy.codes.get(0);
     assertEquals("91930004", code.code);
-    assertEquals("Allergy to eggs", code.display);
+    assertEquals("Allergie aux œufs", code.display);
   }
 
   @Test
@@ -752,7 +752,7 @@ public class StateTest {
 
     Code code = allergy.codes.get(0);
     assertEquals("91930004", code.code);
-    assertEquals("Allergy to eggs", code.display);
+    assertEquals("Allergie aux œufs", code.display);
   }
 
   @Test
@@ -933,7 +933,7 @@ public class StateTest {
 
     Code code = medication.codes.get(0);
     assertEquals("860975", code.code);
-    assertEquals("24 HR Metformin hydrochloride 500 MG Extended Release Oral Tablet", code.display);
+    assertEquals("24 HR Metformin hydrochloride 500 MG Extended Release Comprimé oral", code.display);
   }
 
   @Test
@@ -969,7 +969,7 @@ public class StateTest {
     // TODO: verify details. ideally these should not just be a jsonobject
     Code code = medication.codes.get(0);
     assertEquals("860975", code.code);
-    assertEquals("24 HR Metformin hydrochloride 500 MG Extended Release Oral Tablet", code.display);
+    assertEquals("24 HR Metformin hydrochloride 500 MG Extended Release Comprimé oral", code.display);
   }
 
   @Test
@@ -1047,7 +1047,7 @@ public class StateTest {
 
     Code code = medication.codes.get(0);
     assertEquals("860975", code.code);
-    assertEquals("24 HR Metformin hydrochloride 500 MG Extended Release Oral Tablet", code.display);
+    assertEquals("24 HR Metformin hydrochloride 500 MG Extended Release Comprimé oral", code.display);
   }
 
   @Test
@@ -1171,7 +1171,7 @@ public class StateTest {
 
     Code code = medication.codes.get(0);
     assertEquals("860975", code.code);
-    assertEquals("24 HR Metformin hydrochloride 500 MG Extended Release Oral Tablet", code.display);
+    assertEquals("24 HR Metformin hydrochloride 500 MG Extended Release Comprimé oral", code.display);
   }
 
   @Test
@@ -1318,11 +1318,11 @@ public class StateTest {
     // note that activities is a LinkedHashSet so should preserve insertion order
     Code activity = itr.next();
     assertEquals("229065009", activity.code);
-    assertEquals("Exercise therapy", activity.display);
+    assertEquals("Thérapie par l'exercice", activity.display);
 
     activity = itr.next();
     assertEquals("226234005", activity.code);
-    assertEquals("Healthy diet", activity.display);
+    assertEquals("Une alimentation saine", activity.display);
   }
 
   @Test

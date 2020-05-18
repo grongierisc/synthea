@@ -194,7 +194,7 @@
         {
           "system": "SNOMED-CT",
           "code": "74400008",
-          "display": "Appendicitis"
+          "display": "Appendicite"
         }
       ],
       "distributed_transition": [
@@ -222,7 +222,7 @@
         {
           "system": "SNOMED-CT",
           "code": "47693006",
-          "display": "Rupture of appendix"
+          "display": "Rupture de l'appendice"
         }
       ],
       "direct_transition": "Appendicitis_Encounter"
@@ -239,7 +239,7 @@
         {
           "system": "SNOMED-CT",
           "code": "50849002",
-          "display": "Emergency Room Admission"
+          "display": "Admission aux urgences"
         }
       ],
       "direct_transition": "History_of_Appendectomy"
@@ -251,7 +251,7 @@
         {
           "system": "SNOMED-CT",
           "code": "428251008",
-          "display": "History of appendectomy"
+          "display": "Historique de l'appendicectomie"
         }
       ],
       "direct_transition": "Appendectomy_Encounter"
@@ -264,7 +264,7 @@
         {
           "system": "SNOMED-CT",
           "code": "183452005",
-          "display": "Encounter Inpatient"
+          "display": "Rencontrer les patients hospitalisés"
         }
       ],
       "direct_transition": "Appendectomy"
@@ -276,7 +276,7 @@
         {
           "system": "SNOMED-CT",
           "code": "80146002",
-          "display": "Appendectomy"
+          "display": "Appendicectomie"
         }
       ],
       "duration" : { "low" : 40, "high" : 70, "unit" : "minutes" },
@@ -355,7 +355,7 @@
       "discharge_disposition" : {
         "system" : "NUBC",
         "code" : "01",
-        "display" : "Discharged to home care or self care (routine discharge)"
+        "display" : "Renvoi aux soins à domicile ou aux soins personnels (renvoi de routine)"
       },
       "direct_transition": "Terminal"
     },

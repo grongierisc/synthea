@@ -84,7 +84,7 @@
         {
           "system": "SNOMED-CT",
           "code": "185347001",
-          "display": "Encounter for problem"
+          "display": "Rencontre médicale"
         }
       ],
       "conditional_transition": [
@@ -112,7 +112,7 @@
         {
           "system": "SNOMED-CT",
           "code": "395142003",
-          "display": "Allergy screening test"
+          "display": "Test de dépistage des allergies"
         }
       ],
       "direct_transition": "Allergy_Panel"
@@ -140,14 +140,14 @@
         {
           "system": "SNOMED-CT",
           "code": "384758001",
-          "display": "Self-care interventions (procedure)"
+          "display": "Interventions d'autosoins (procédure)"
         }
       ],
       "activities": [
         {
           "system": "SNOMED-CT",
           "code": "58332002",
-          "display": "Allergy education"
+          "display": "Éducation sur les allergies"
         }
       ],
       "conditional_transition": [
@@ -175,7 +175,7 @@
         {
           "system": "RxNorm",
           "code": "1870230",
-          "display": "NDA020800 0.3 ML Epinephrine 1 MG/ML Auto-Injector"
+          "display": "NDA020800 0.3 ML Epinephrine 1 MG/ML Auto-Injecteur"
         }
       ],
       "prescription": {

@@ -142,7 +142,7 @@
             {
               "system": "LOINC",
               "code": "6299-2",
-              "display": "Urea Nitrogen"
+              "display": "Azote uréique"
             }
           ],
           "unit": "mg/dL"

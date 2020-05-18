@@ -22,7 +22,7 @@
         {
           "system": "SNOMED-CT",
           "code": "698314001",
-          "display": "Consultation for treatment"
+          "display": "Consultation pour traitement"
         }
       ],
       "direct_transition": "End_Consultation"
@@ -47,7 +47,7 @@
         {
           "system": "SNOMED-CT",
           "code": "305408004",
-          "display": "Admission to surgical department"
+          "display": "Admission au service de chirurgie"
         }
       ],
       "direct_transition": "Tubal_Ligation_Procedure"
@@ -58,7 +58,7 @@
         {
           "system": "SNOMED-CT",
           "code": "287664005",
-          "display": "Bilateral tubal ligation"
+          "display": "Ligature tubaire bilatérale"
         }
       ],
       "duration": {
@@ -80,19 +80,19 @@
         {
           "system": "SNOMED-CT",
           "code": "737471002",
-          "display": "Minor surgery care management (procedure)"
+          "display": "Gestion des soins de chirurgie mineure (procédure)"
         }
       ],
       "activities": [
         {
           "system": "SNOMED-CT",
           "code": "183051005",
-          "display": "Recommendation to rest"
+          "display": "Recommandation de repos"
         },
         {
           "system": "SNOMED-CT",
           "code": "243077000",
-          "display": "Recommendation to limit sexual activity"
+          "display": "Limiter les pratiques sexuelles"
         }
       ],
       "direct_transition": "End_Surgery_Encounter"

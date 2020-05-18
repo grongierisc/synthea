@@ -91,7 +91,7 @@
         {
           "system": "SNOMED-CT",
           "code": "185347001",
-          "display": "Encounter for problem"
+          "display": "Rencontre médicale"
         }
       ],
       "direct_transition": "Lupus_Symptom1"
@@ -152,7 +152,7 @@
         {
           "system": "SNOMED-CT",
           "code": "226234005",
-          "display": "Healthy diet"
+          "display": "Une alimentation saine"
         }
       ],
       "direct_transition": "Lupus_Nonopioid_Pain_Medication"
@@ -164,7 +164,7 @@
         {
           "system": "RxNorm",
           "code": "849574",
-          "display": "Naproxen sodium 220 MG Oral Tablet"
+          "display": "Naproxen sodium 220 MG Comprimé oral"
         }
       ],
       "direct_transition": "Corticosteroid"
@@ -182,7 +182,7 @@
         {
           "system": "RxNorm",
           "code": "312615",
-          "display": "predniSONE 20 MG Oral Tablet"
+          "display": "predniSONE 20 MG Comprimé oral"
         }
       ],
       "direct_transition": "End_Diagnosis_Encounter"
@@ -258,7 +258,7 @@
         {
           "system": "SNOMED-CT",
           "code": "185347001",
-          "display": "Encounter for problem"
+          "display": "Rencontre médicale"
         }
       ],
       "direct_transition": "Immune_Suppressant"
@@ -273,7 +273,7 @@
         {
           "system": "RxNorm",
           "code": "241834",
-          "display": "cycloSPORINE, modified 100 MG Oral Capsule"
+          "display": "cycloSPORINE, modified 100 MG Comprimés oraux"
         }
       ],
       "direct_transition": "Flareup_Corticosteroid"
@@ -291,7 +291,7 @@
         {
           "system": "RxNorm",
           "code": "312615",
-          "display": "predniSONE 20 MG Oral Tablet"
+          "display": "predniSONE 20 MG Comprimé oral"
         }
       ],
       "direct_transition": "End_Flareup_Encounter"

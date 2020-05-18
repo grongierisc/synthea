@@ -95,7 +95,7 @@
         {
           "system": "SNOMED-CT",
           "code": "185347001",
-          "display": "Encounter for problem"
+          "display": "Rencontre médicale"
         }
       ],
       "direct_transition": "Pain Vital"
@@ -132,7 +132,7 @@
         {
           "system": "RxNorm",
           "code": "849574",
-          "display": "Naproxen sodium 220 MG Oral Tablet"
+          "display": "Naproxen sodium 220 MG Comprimé oral"
         }
       ],
       "remarks": [
@@ -418,7 +418,7 @@
         {
           "system": "LOINC",
           "code": "72514-3",
-          "display": "Pain severity - 0-10 verbal numeric rating [Score] - Reported"
+          "display": "Gravité de la douleur - 0-10 évaluation numérique verbale [Score] - Signalée"
         }
       ],
       "direct_transition": "OA_CarePlan",

@@ -3,7 +3,7 @@
   "remarks": [
     "A severe allergic reaction is characterized by: ",
     "1. A visit to the ED ",
-    "2. Recording of 'Acute allergic reaction' ",
+    "2. Recording of 'Réaction allergique aiguë' ",
     "3. A dose of adrenaline (epinephrine) to stop the reaction ",
     "4. An observation period of 2-6 hours ",
     "5. A short prescription for oral steroids, usually prednisone "
@@ -20,7 +20,7 @@
         {
           "system": "SNOMED-CT",
           "code": "50849002",
-          "display": "Emergency room admission (procedure)"
+          "display": "Admission aux urgences (procédure)"
         }
       ],
       "direct_transition": "Acute_Allergic_Reaction"
@@ -32,7 +32,7 @@
         {
           "system": "SNOMED-CT",
           "code": "241929008",
-          "display": "Acute allergic reaction"
+          "display": "Réaction allergique aiguë"
         }
       ],
       "direct_transition": "Administer_Epinephrine"
@@ -43,7 +43,7 @@
         {
           "system": "SNOMED-CT",
           "code": "313191000",
-          "display": "Injection of adrenaline"
+          "display": "Injection d'adrénaline"
         }
       ],
       "direct_transition": "Observation_Period"
@@ -68,7 +68,7 @@
         {
           "system": "RxNorm",
           "code": "312617",
-          "display": "predniSONE 5 MG Oral Tablet"
+          "display": "predniSONE 5 MG comprimé oral"
         }
       ],
       "prescription": {

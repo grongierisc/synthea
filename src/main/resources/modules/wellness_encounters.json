@@ -160,7 +160,7 @@
             {
               "system": "LOINC",
               "code": "6299-2",
-              "display": "Urea Nitrogen"
+              "display": "Azote uréique"
             }
           ],
           "unit": "mg/dL"
@@ -576,7 +576,7 @@
         {
           "system": "LOINC",
           "code": "58410-2",
-          "display": "Complete blood count (hemogram) panel - Blood by Automated count"
+          "display": "Analyse complète de la formule sanguine (hémogramme) - Sang par comptage automatisé"
         }
       ],
       "observations": [
@@ -586,7 +586,7 @@
             {
               "system": "LOINC",
               "code": "6690-2",
-              "display": "Leukocytes [#/volume] in Blood by Automated count"
+              "display": "Leucocytes [#/volume] dans le sang par comptage automatisé"
             }
           ],
           "unit": "10*3/uL",
@@ -601,7 +601,7 @@
             {
               "system": "LOINC",
               "code": "789-8",
-              "display": "Erythrocytes [#/volume] in Blood by Automated count"
+              "display": "Erythrocytes [#/volume] dans le sang par comptage automatisé"
             }
           ],
           "unit": "10*6/uL",
@@ -616,7 +616,7 @@
             {
               "system": "LOINC",
               "code": "718-7",
-              "display": "Hemoglobin [Mass/volume] in Blood"
+              "display": "Hémoglobine [masse/volume] dans le sang"
             }
           ],
           "unit": "g/dL",
@@ -631,7 +631,7 @@
             {
               "system": "LOINC",
               "code": "4544-3",
-              "display": "Hematocrit [Volume Fraction] of Blood by Automated count"
+              "display": "Hématocrite [Fraction volumique] du sang par Comptage automatisé"
             }
           ],
           "unit": "%",
@@ -647,7 +647,7 @@
             {
               "system": "LOINC",
               "code": "787-2",
-              "display": "MCV [Entitic volume] by Automated count"
+              "display": "MCV [Volume entier] par Comptage automatisé"
             }
           ],
           "range": {
@@ -662,7 +662,7 @@
             {
               "system": "LOINC",
               "code": "785-6",
-              "display": "MCH [Entitic mass] by Automated count"
+              "display": "MCH [Volume entier] par Comptage automatisé"
             }
           ],
           "range": {
@@ -677,7 +677,7 @@
             {
               "system": "LOINC",
               "code": "786-4",
-              "display": "MCHC [Mass/volume] by Automated count"
+              "display": "MCHC [Volume entier] par Comptage automatisé"
             }
           ],
           "range": {
@@ -692,7 +692,7 @@
             {
               "system": "LOINC",
               "code": "21000-5",
-              "display": "Erythrocyte distribution width [Entitic volume] by Automated count"
+              "display": "Largeur de distribution des érythrocytes [volume entier] par comptage automatisé"
             }
           ],
           "range": {
@@ -707,7 +707,7 @@
             {
               "system": "LOINC",
               "code": "777-3",
-              "display": "Platelets [#/volume] in Blood by Automated count"
+              "display": "Plaquettes [#/volume] dans le sang par comptage automatisé"
             }
           ],
           "range": {
@@ -722,7 +722,7 @@
             {
               "system": "LOINC",
               "code": "32207-3",
-              "display": "Platelet distribution width [Entitic volume] in Blood by Automated count"
+              "display": "Largeur de distribution des plaquettes [volume entier] dans le sang par comptage automatisé"
             }
           ],
           "range": {
@@ -737,7 +737,7 @@
             {
               "system": "LOINC",
               "code": "32623-1",
-              "display": "Platelet mean volume [Entitic volume] in Blood by Automated count"
+              "display": "Volume moyen des plaquettes [volume entier] dans le sang par comptage automatisé"
             }
           ],
           "range": {
@@ -755,7 +755,7 @@
         {
           "system": "LOINC",
           "code": "72514-3",
-          "display": "Pain severity - 0-10 verbal numeric rating [Score] - Reported"
+          "display": "Gravité de la douleur - 0-10 évaluation numérique verbale [Score] - Signalée"
         }
       ],
       "unit": "{score}",

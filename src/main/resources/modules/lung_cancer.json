@@ -207,7 +207,7 @@
         {
           "system": "SNOMED-CT",
           "code": "50849002",
-          "display": "Emergency Room Admission"
+          "display": "Admission aux urgences"
         }
       ],
       "direct_transition": "Pain_Vital"
@@ -219,7 +219,7 @@
         {
           "system": "SNOMED-CT",
           "code": "399208008",
-          "display": "Plain chest X-ray (procedure)"
+          "display": "Radiographie du thorax (procédure)"
         }
       ],
       "duration": {
@@ -250,7 +250,7 @@
         {
           "system": "SNOMED-CT",
           "code": "185347001",
-          "display": "Encounter for problem"
+          "display": "Rencontre médicale"
         }
       ],
       "direct_transition": "Chest CT Scan"
@@ -345,7 +345,7 @@
         {
           "system": "SNOMED-CT",
           "code": "185347001",
-          "display": "Encounter for problem"
+          "display": "Rencontre médicale"
         }
       ],
       "distributed_transition": [
@@ -712,7 +712,7 @@
         {
           "system": "SNOMED-CT",
           "code": "185347001",
-          "display": "Encounter for problem"
+          "display": "Rencontre médicale"
         }
       ],
       "direct_transition": "Lung_Cancer_CarePlan"
@@ -741,7 +741,7 @@
         {
           "system": "SNOMED-CT",
           "code": "243072006",
-          "display": "Cancer education"
+          "display": "Éducation sur le cancer"
         }
       ],
       "direct_transition": "MRI Brain"
@@ -801,7 +801,7 @@
         {
           "system": "SNOMED-CT",
           "code": "185347001",
-          "display": "Encounter for problem"
+          "display": "Rencontre médicale"
         }
       ],
       "direct_transition": "Record_CMP_2"
@@ -863,7 +863,7 @@
         {
           "system": "SNOMED-CT",
           "code": "703423002",
-          "display": "Combined chemotherapy and radiation therapy (procedure)"
+          "display": "Chimiothérapie et radiothérapie combinées (procédure)"
         }
       ],
       "duration": {
@@ -906,7 +906,7 @@
         {
           "system": "SNOMED-CT",
           "code": "185347001",
-          "display": "Encounter for problem"
+          "display": "Rencontre médicale"
         }
       ],
       "direct_transition": "Record_CMP"
@@ -969,7 +969,7 @@
         {
           "system": "SNOMED-CT",
           "code": "703423002",
-          "display": "Combined chemotherapy and radiation therapy (procedure)"
+          "display": "Chimiothérapie et radiothérapie combinées (procédure)"
         }
       ],
       "duration": {
@@ -1007,7 +1007,7 @@
         {
           "system": "LOINC",
           "code": "24323-8",
-          "display": "Comprehensive metabolic 2000 panel - Serum or Plasma"
+          "display": "Panel métabolique complet 2000 - Sérum ou plasma"
         }
       ],
       "observations": [
@@ -1030,7 +1030,7 @@
             {
               "system": "LOINC",
               "code": "6299-2",
-              "display": "Urea Nitrogen"
+              "display": "Azote uréique"
             }
           ],
           "unit": "mg/dL"
@@ -1117,7 +1117,7 @@
             {
               "system": "LOINC",
               "code": "33914-3",
-              "display": "Glomerular filtration rate/1.73 sq M.predicted"
+              "display": "Taux de filtration glomérulaire/1,73 m² prévu"
             }
           ],
           "range": {
@@ -1132,7 +1132,7 @@
             {
               "system": "LOINC",
               "code": "2885-2",
-              "display": "Protein [Mass/volume] in Serum or Plasma"
+              "display": "Protéines [masse/volume] dans le sérum ou le plasma"
             }
           ],
           "range": {
@@ -1147,7 +1147,7 @@
             {
               "system": "LOINC",
               "code": "1751-7",
-              "display": "Albumin [Mass/volume] in Serum or Plasma"
+              "display": "Albumine [masse/volume] dans le sérum ou le plasma"
             }
           ],
           "range": {
@@ -1162,7 +1162,7 @@
             {
               "system": "LOINC",
               "code": "10834-0",
-              "display": "Globulin [Mass/volume] in Serum by calculation"
+              "display": "Globuline [masse/volume] dans le sérum par calcul"
             }
           ],
           "range": {
@@ -1177,7 +1177,7 @@
             {
               "system": "LOINC",
               "code": "1975-2",
-              "display": "Bilirubin.total [Mass/volume] in Serum or Plasma"
+              "display": "Bilirubine.total [masse/volume] dans le sérum ou le plasma"
             }
           ],
           "range": {
@@ -1192,7 +1192,7 @@
             {
               "system": "LOINC",
               "code": "6768-6",
-              "display": "Alkaline phosphatase [Enzymatic activity/volume] in Serum or Plasma"
+              "display": "Phosphatase alcaline [activité/volume enzymatique] dans le sérum ou le plasma"
             }
           ],
           "range": {
@@ -1207,7 +1207,7 @@
             {
               "system": "LOINC",
               "code": "1742-6",
-              "display": "Alanine aminotransferase [Enzymatic activity/volume] in Serum or Plasma"
+              "display": "Alanine aminotransférase [activité/volume enzymatique] dans le sérum ou le plasma"
             }
           ],
           "range": {
@@ -1222,7 +1222,7 @@
             {
               "system": "LOINC",
               "code": "1920-8",
-              "display": "Aspartate aminotransferase [Enzymatic activity/volume] in Serum or Plasma"
+              "display": "Aspartate aminotransférase [activité/volume enzymatique] dans le sérum ou le plasma"
             }
           ],
           "range": {
@@ -1239,7 +1239,7 @@
         {
           "system": "LOINC",
           "code": "24323-8",
-          "display": "Comprehensive metabolic 2000 panel - Serum or Plasma"
+          "display": "Panel métabolique complet 2000 - Sérum ou plasma"
         }
       ],
       "observations": [
@@ -1262,7 +1262,7 @@
             {
               "system": "LOINC",
               "code": "6299-2",
-              "display": "Urea Nitrogen"
+              "display": "Azote uréique"
             }
           ],
           "unit": "mg/dL"
@@ -1349,7 +1349,7 @@
             {
               "system": "LOINC",
               "code": "33914-3",
-              "display": "Glomerular filtration rate/1.73 sq M.predicted"
+              "display": "Taux de filtration glomérulaire/1,73 m² prévu"
             }
           ],
           "range": {
@@ -1364,7 +1364,7 @@
             {
               "system": "LOINC",
               "code": "2885-2",
-              "display": "Protein [Mass/volume] in Serum or Plasma"
+              "display": "Protéines [masse/volume] dans le sérum ou le plasma"
             }
           ],
           "range": {
@@ -1379,7 +1379,7 @@
             {
               "system": "LOINC",
               "code": "1751-7",
-              "display": "Albumin [Mass/volume] in Serum or Plasma"
+              "display": "Albumine [masse/volume] dans le sérum ou le plasma"
             }
           ],
           "range": {
@@ -1394,7 +1394,7 @@
             {
               "system": "LOINC",
               "code": "10834-0",
-              "display": "Globulin [Mass/volume] in Serum by calculation"
+              "display": "Globuline [masse/volume] dans le sérum par calcul"
             }
           ],
           "range": {
@@ -1409,7 +1409,7 @@
             {
               "system": "LOINC",
               "code": "1975-2",
-              "display": "Bilirubin.total [Mass/volume] in Serum or Plasma"
+              "display": "Bilirubine.total [masse/volume] dans le sérum ou le plasma"
             }
           ],
           "range": {
@@ -1424,7 +1424,7 @@
             {
               "system": "LOINC",
               "code": "6768-6",
-              "display": "Alkaline phosphatase [Enzymatic activity/volume] in Serum or Plasma"
+              "display": "Phosphatase alcaline [activité/volume enzymatique] dans le sérum ou le plasma"
             }
           ],
           "range": {
@@ -1439,7 +1439,7 @@
             {
               "system": "LOINC",
               "code": "1742-6",
-              "display": "Alanine aminotransferase [Enzymatic activity/volume] in Serum or Plasma"
+              "display": "Alanine aminotransférase [activité/volume enzymatique] dans le sérum ou le plasma"
             }
           ],
           "range": {
@@ -1454,7 +1454,7 @@
             {
               "system": "LOINC",
               "code": "1920-8",
-              "display": "Aspartate aminotransferase [Enzymatic activity/volume] in Serum or Plasma"
+              "display": "Aspartate aminotransférase [activité/volume enzymatique] dans le sérum ou le plasma"
             }
           ],
           "range": {
@@ -1622,7 +1622,7 @@
           "value_code": {
             "system": "SNOMED-CT",
             "code": 300828005,
-            "display": "Translucent (qualifier value)"
+            "display": "Translucent (valeur unitaire)"
           }
         },
         {
@@ -1638,7 +1638,7 @@
           "value_code": {
             "system": "SNOMED-CT",
             "code": 371254008,
-            "display": "Brown color (qualifier value)"
+            "display": "Brown color (valeur unitaire)"
           }
         },
         {
@@ -1901,7 +1901,7 @@
           "value_code": {
             "system": "SNOMED-CT",
             "code": 300828005,
-            "display": "Translucent (qualifier value)"
+            "display": "Translucent (valeur unitaire)"
           }
         },
         {
@@ -1917,7 +1917,7 @@
           "value_code": {
             "system": "SNOMED-CT",
             "code": 371254008,
-            "display": "Brown color (qualifier value)"
+            "display": "Brown color (valeur unitaire)"
           }
         },
         {
@@ -2132,7 +2132,7 @@
         {
           "system": "LOINC",
           "code": "58410-2",
-          "display": "Complete blood count (hemogram) panel - Blood by Automated count"
+          "display": "Analyse complète de la formule sanguine (hémogramme) - Sang par comptage automatisé"
         }
       ],
       "observations": [
@@ -2142,7 +2142,7 @@
             {
               "system": "LOINC",
               "code": "6690-2",
-              "display": "Leukocytes [#/volume] in Blood by Automated count"
+              "display": "Leucocytes [#/volume] dans le sang par comptage automatisé"
             }
           ],
           "unit": "10*3/uL",
@@ -2157,7 +2157,7 @@
             {
               "system": "LOINC",
               "code": "789-8",
-              "display": "Erythrocytes [#/volume] in Blood by Automated count"
+              "display": "Erythrocytes [#/volume] dans le sang par comptage automatisé"
             }
           ],
           "unit": "10*6/uL",
@@ -2172,7 +2172,7 @@
             {
               "system": "LOINC",
               "code": "718-7",
-              "display": "Hemoglobin [Mass/volume] in Blood"
+              "display": "Hémoglobine [masse/volume] dans le sang"
             }
           ],
           "unit": "g/dL",
@@ -2187,7 +2187,7 @@
             {
               "system": "LOINC",
               "code": "4544-3",
-              "display": "Hematocrit [Volume Fraction] of Blood by Automated count"
+              "display": "Hématocrite [Fraction volumique] du sang par Comptage automatisé"
             }
           ],
           "unit": "%",
@@ -2203,7 +2203,7 @@
             {
               "system": "LOINC",
               "code": "787-2",
-              "display": "MCV [Entitic volume] by Automated count"
+              "display": "MCV [Volume entier] par Comptage automatisé"
             }
           ],
           "range": {
@@ -2218,7 +2218,7 @@
             {
               "system": "LOINC",
               "code": "785-6",
-              "display": "MCH [Entitic mass] by Automated count"
+              "display": "MCH [Volume entier] par Comptage automatisé"
             }
           ],
           "range": {
@@ -2233,7 +2233,7 @@
             {
               "system": "LOINC",
               "code": "786-4",
-              "display": "MCHC [Mass/volume] by Automated count"
+              "display": "MCHC [Volume entier] par Comptage automatisé"
             }
           ],
           "range": {
@@ -2248,7 +2248,7 @@
             {
               "system": "LOINC",
               "code": "21000-5",
-              "display": "Erythrocyte distribution width [Entitic volume] by Automated count"
+              "display": "Largeur de distribution des érythrocytes [volume entier] par comptage automatisé"
             }
           ],
           "range": {
@@ -2263,7 +2263,7 @@
             {
               "system": "LOINC",
               "code": "777-3",
-              "display": "Platelets [#/volume] in Blood by Automated count"
+              "display": "Plaquettes [#/volume] dans le sang par comptage automatisé"
             }
           ],
           "range": {
@@ -2278,7 +2278,7 @@
             {
               "system": "LOINC",
               "code": "32207-3",
-              "display": "Platelet distribution width [Entitic volume] in Blood by Automated count"
+              "display": "Largeur de distribution des plaquettes [volume entier] dans le sang par comptage automatisé"
             }
           ],
           "range": {
@@ -2293,7 +2293,7 @@
             {
               "system": "LOINC",
               "code": "32623-1",
-              "display": "Platelet mean volume [Entitic volume] in Blood by Automated count"
+              "display": "Volume moyen des plaquettes [volume entier] dans le sang par comptage automatisé"
             }
           ],
           "range": {
@@ -2311,7 +2311,7 @@
         {
           "system": "LOINC",
           "code": "58410-2",
-          "display": "Complete blood count (hemogram) panel - Blood by Automated count"
+          "display": "Analyse complète de la formule sanguine (hémogramme) - Sang par comptage automatisé"
         }
       ],
       "observations": [
@@ -2321,7 +2321,7 @@
             {
               "system": "LOINC",
               "code": "6690-2",
-              "display": "Leukocytes [#/volume] in Blood by Automated count"
+              "display": "Leucocytes [#/volume] dans le sang par comptage automatisé"
             }
           ],
           "unit": "10*3/uL",
@@ -2336,7 +2336,7 @@
             {
               "system": "LOINC",
               "code": "789-8",
-              "display": "Erythrocytes [#/volume] in Blood by Automated count"
+              "display": "Erythrocytes [#/volume] dans le sang par comptage automatisé"
             }
           ],
           "unit": "10*6/uL",
@@ -2351,7 +2351,7 @@
             {
               "system": "LOINC",
               "code": "718-7",
-              "display": "Hemoglobin [Mass/volume] in Blood"
+              "display": "Hémoglobine [masse/volume] dans le sang"
             }
           ],
           "unit": "g/dL",
@@ -2366,7 +2366,7 @@
             {
               "system": "LOINC",
               "code": "4544-3",
-              "display": "Hematocrit [Volume Fraction] of Blood by Automated count"
+              "display": "Hématocrite [Fraction volumique] du sang par Comptage automatisé"
             }
           ],
           "unit": "%",
@@ -2382,7 +2382,7 @@
             {
               "system": "LOINC",
               "code": "787-2",
-              "display": "MCV [Entitic volume] by Automated count"
+              "display": "MCV [Volume entier] par Comptage automatisé"
             }
           ],
           "range": {
@@ -2397,7 +2397,7 @@
             {
               "system": "LOINC",
               "code": "785-6",
-              "display": "MCH [Entitic mass] by Automated count"
+              "display": "MCH [Volume entier] par Comptage automatisé"
             }
           ],
           "range": {
@@ -2412,7 +2412,7 @@
             {
               "system": "LOINC",
               "code": "786-4",
-              "display": "MCHC [Mass/volume] by Automated count"
+              "display": "MCHC [Volume entier] par Comptage automatisé"
             }
           ],
           "range": {
@@ -2427,7 +2427,7 @@
             {
               "system": "LOINC",
               "code": "21000-5",
-              "display": "Erythrocyte distribution width [Entitic volume] by Automated count"
+              "display": "Largeur de distribution des érythrocytes [volume entier] par comptage automatisé"
             }
           ],
           "range": {
@@ -2442,7 +2442,7 @@
             {
               "system": "LOINC",
               "code": "777-3",
-              "display": "Platelets [#/volume] in Blood by Automated count"
+              "display": "Plaquettes [#/volume] dans le sang par comptage automatisé"
             }
           ],
           "range": {
@@ -2457,7 +2457,7 @@
             {
               "system": "LOINC",
               "code": "32207-3",
-              "display": "Platelet distribution width [Entitic volume] in Blood by Automated count"
+              "display": "Largeur de distribution des plaquettes [volume entier] dans le sang par comptage automatisé"
             }
           ],
           "range": {
@@ -2472,7 +2472,7 @@
             {
               "system": "LOINC",
               "code": "32623-1",
-              "display": "Platelet mean volume [Entitic volume] in Blood by Automated count"
+              "display": "Volume moyen des plaquettes [volume entier] dans le sang par comptage automatisé"
             }
           ],
           "range": {
@@ -2491,7 +2491,7 @@
         {
           "system": "LOINC",
           "code": "72514-3",
-          "display": "Pain severity - 0-10 verbal numeric rating [Score] - Reported"
+          "display": "Gravité de la douleur - 0-10 évaluation numérique verbale [Score] - Signalée"
         }
       ],
       "range": {
@@ -2509,7 +2509,7 @@
         {
           "system": "LOINC",
           "code": "72514-3",
-          "display": "Pain severity - 0-10 verbal numeric rating [Score] - Reported"
+          "display": "Gravité de la douleur - 0-10 évaluation numérique verbale [Score] - Signalée"
         }
       ],
       "range": {
@@ -2527,7 +2527,7 @@
         {
           "system": "LOINC",
           "code": "72514-3",
-          "display": "Pain severity - 0-10 verbal numeric rating [Score] - Reported"
+          "display": "Gravité de la douleur - 0-10 évaluation numérique verbale [Score] - Signalée"
         }
       ],
       "range": {

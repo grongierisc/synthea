@@ -393,7 +393,7 @@
         {
           "system": "SNOMED-CT",
           "code": "50849002",
-          "display": "Emergency room admission (procedure)"
+          "display": "Admission aux urgences (procédure)"
         }
       ],
       "distributed_transition": [
@@ -512,7 +512,7 @@
         {
           "system": "SNOMED-CT",
           "code": "185347001",
-          "display": "Encounter for problem"
+          "display": "Rencontre médicale"
         }
       ],
       "direct_transition": "Spinal_Injury_Prescribe_Opioid"
@@ -543,7 +543,7 @@
         {
           "system": "SNOMED-CT",
           "code": "185349003",
-          "display": "Encounter for 'check-up'"
+          "display": "Rencontre pour le 'check-up'"
         }
       ],
       "direct_transition": "End_Spinal_Injury"
@@ -582,7 +582,7 @@
         {
           "system": "SNOMED-CT",
           "code": "50849002",
-          "display": "Emergency room admission (procedure)"
+          "display": "Admission aux urgences (procédure)"
         }
       ],
       "direct_transition": "Gunshot_Wound"
@@ -713,7 +713,7 @@
         {
           "system": "SNOMED-CT",
           "code": "185349003",
-          "display": "Encounter for 'check-up'"
+          "display": "Rencontre pour le 'check-up'"
         }
       ],
       "direct_transition": "Gunshot_Wound_Ends"
@@ -747,7 +747,7 @@
         {
           "system": "SNOMED-CT",
           "code": "50849002",
-          "display": "Emergency room admission (procedure)"
+          "display": "Admission aux urgences (procédure)"
         }
       ],
       "distributed_transition": [
@@ -851,7 +851,7 @@
         {
           "system": "SNOMED-CT",
           "code": "183051005",
-          "display": "Recommendation to rest"
+          "display": "Recommandation de repos"
         },
         {
           "system": "SNOMED-CT",
@@ -882,7 +882,7 @@
         {
           "system": "SNOMED-CT",
           "code": "185349003",
-          "display": "Encounter for 'check-up'"
+          "display": "Rencontre pour le 'check-up'"
         }
       ],
       "direct_transition": "End_Concussion_Injury"
@@ -919,7 +919,7 @@
         {
           "system": "SNOMED-CT",
           "code": "50849002",
-          "display": "Emergency room admission (procedure)"
+          "display": "Admission aux urgences (procédure)"
         }
       ],
       "direct_transition": "Whiplash"
@@ -961,7 +961,7 @@
         {
           "system": "SNOMED-CT",
           "code": "183051005",
-          "display": "Recommendation to rest"
+          "display": "Recommandation de repos"
         }
       ],
       "direct_transition": "End_Whiplash_Encounter"
@@ -1002,7 +1002,7 @@
         {
           "system": "SNOMED-CT",
           "code": "50849002",
-          "display": "Emergency room admission (procedure)"
+          "display": "Admission aux urgences (procédure)"
         }
       ],
       "direct_transition": "Broken_Bone"
@@ -1464,7 +1464,7 @@
         {
           "system": "SNOMED-CT",
           "code": "183051005",
-          "display": "Recommendation to rest",
+          "display": "Recommandation de repos",
           "remarks": [
             "Until the broken bone heals"
           ]
@@ -1530,7 +1530,7 @@
         {
           "system": "SNOMED-CT",
           "code": "312681000",
-          "display": "Bone density scan (procedure)"
+          "display": "Scanner de la densité osseuse (procédure)"
         }
       ],
       "reason": "broken_bone",
@@ -1634,7 +1634,7 @@
         {
           "system": "SNOMED-CT",
           "code": "185349003",
-          "display": "Encounter for 'check-up'"
+          "display": "Rencontre pour le 'check-up'"
         }
       ],
       "direct_transition": "End_Broken_Bone_Injury"
@@ -1691,7 +1691,7 @@
         {
           "system": "SNOMED-CT",
           "code": "50849002",
-          "display": "Emergency room admission (procedure)"
+          "display": "Admission aux urgences (procédure)"
         }
       ],
       "direct_transition": "Burn"
@@ -1903,7 +1903,7 @@
         {
           "system": "SNOMED-CT",
           "code": "185349003",
-          "display": "Encounter for 'check-up'"
+          "display": "Rencontre pour le 'check-up'"
         }
       ],
       "direct_transition": "End_Burn_Injury"
@@ -1937,7 +1937,7 @@
         {
           "system": "SNOMED-CT",
           "code": "50849002",
-          "display": "Emergency room admission (procedure)"
+          "display": "Admission aux urgences (procédure)"
         }
       ],
       "direct_transition": "Laceration"
@@ -2146,7 +2146,7 @@
         {
           "system": "SNOMED-CT",
           "code": "50849002",
-          "display": "Emergency room admission (procedure)"
+          "display": "Admission aux urgences (procédure)"
         }
       ],
       "distributed_transition": [
@@ -2260,7 +2260,7 @@
         {
           "system": "SNOMED-CT",
           "code": "50849002",
-          "display": "Emergency room admission (procedure)"
+          "display": "Admission aux urgences (procédure)"
         }
       ],
       "distributed_transition": [
@@ -2510,7 +2510,7 @@
         {
           "system": "SNOMED-CT",
           "code": "185347001",
-          "display": "Encounter for problem"
+          "display": "Rencontre médicale"
         }
       ],
       "direct_transition": "Shoulder_Injury_CarePlan"
@@ -2622,7 +2622,7 @@
         {
           "system": "SNOMED-CT",
           "code": "185349003",
-          "display": "Encounter for 'check-up'"
+          "display": "Rencontre pour le 'check-up'"
         }
       ],
       "direct_transition": "End_Shoulder_Injury"

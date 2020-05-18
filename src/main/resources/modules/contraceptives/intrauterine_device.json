@@ -70,7 +70,7 @@
         {
           "system": "SNOMED-CT",
           "code": "698314001",
-          "display": "Consultation for treatment"
+          "display": "Consultation pour traitement"
         }
       ],
       "direct_transition": "Prescribe_IUD"
@@ -250,7 +250,7 @@
         {
           "system": "RxNorm",
           "code": "807283",
-          "display": "Mirena 52 MG Intrauterine System"
+          "display": "Mirena 52 MG Système intra-utérin"
         }
       ],
       "direct_transition": "End_Consultation_Encounter"
@@ -262,7 +262,7 @@
         {
           "system": "RxNorm",
           "code": "1605257",
-          "display": "Liletta 52 MG Intrauterine System"
+          "display": "Liletta 52 MG Système intra-utérin"
         }
       ],
       "direct_transition": "End_Consultation_Encounter"
@@ -274,7 +274,7 @@
         {
           "system": "RxNorm",
           "code": "1856546",
-          "display": "Kyleena 19.5 MG Intrauterine System"
+          "display": "Kyleena 19.5 MG Système intra-utérin"
         }
       ],
       "direct_transition": "End_Consultation_Encounter"
@@ -299,7 +299,7 @@
         {
           "system": "SNOMED-CT",
           "code": "308335008",
-          "display": "Patient encounter procedure"
+          "display": "Procédure de rencontre avec le patient"
         }
       ],
       "direct_transition": "IUD_Insertion"
@@ -310,7 +310,7 @@
         {
           "system": "SNOMED-CT",
           "code": "65200003",
-          "display": "Insertion of intrauterine contraceptive device"
+          "display": "Insertion d'un dispositif contraceptif intra-utérin"
         }
       ],
       "duration": {

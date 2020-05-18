@@ -188,7 +188,7 @@
         {
           "system": "SNOMED-CT",
           "code": "185345009",
-          "display": "Encounter for symptom"
+          "display": "Rencontre pour symptôme"
         }
       ],
       "distributed_transition": [
@@ -212,7 +212,7 @@
         {
           "system": "RxNorm",
           "code": "562251",
-          "display": "Amoxicillin 250 MG / Clavulanate 125 MG Oral Tablet"
+          "display": "Amoxicillin 250 MG / Clavulanate 125 MG Comprimé oral"
         }
       ],
       "direct_transition": "End_Encounter"
@@ -239,7 +239,7 @@
                   {
                     "system": "RxNorm",
                     "code": "562251",
-                    "display": "Amoxicillin 250 MG / Clavulanate 125 MG Oral Tablet"
+                    "display": "Amoxicillin 250 MG / Clavulanate 125 MG Comprimé oral"
                   }
                 ]
               },
@@ -286,7 +286,7 @@
               {
                 "system": "RxNorm",
                 "code": "562251",
-                "display": "Amoxicillin 250 MG / Clavulanate 125 MG Oral Tablet"
+                "display": "Amoxicillin 250 MG / Clavulanate 125 MG Comprimé oral"
               }
             ]
           },
@@ -412,7 +412,7 @@
         {
           "system": "SNOMED-CT",
           "code": "185345009",
-          "display": "Encounter for symptom"
+          "display": "Rencontre pour symptôme"
         }
       ],
       "complex_transition": [
