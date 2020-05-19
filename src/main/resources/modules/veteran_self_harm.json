@@ -62,7 +62,7 @@
         {
           "system": "SNOMED-CT",
           "code": "86849004",
-          "display": "Suicidal deliberate poisoning"
+          "display": "Empoisonnement suicidaire délibéré"
         }
       ],
       "direct_transition": "ED_Visit_For_Attempted_Suicide"
@@ -75,7 +75,7 @@
         {
           "system": "SNOMED-CT",
           "code": "287185009",
-          "display": "Attempted suicide - cut/stab"
+          "display": "Tentative de suicide - coupure/stabulation"
         }
       ],
       "direct_transition": "ED_Visit_For_Attempted_Suicide"
@@ -88,7 +88,7 @@
         {
           "system": "SNOMED-CT",
           "code": "287182007",
-          "display": "Attempted suicide - suffocation"
+          "display": "Tentative de suicide - étouffement"
         }
       ],
       "direct_transition": "ED_Visit_For_Attempted_Suicide"
@@ -113,7 +113,7 @@
         {
           "system": "SNOMED-CT",
           "code": "90407005",
-          "display": "Evaluation of psychiatric state of patient"
+          "display": "Évaluation de l'état psychiatrique du patient"
         }
       ],
       "direct_transition": "Short_Hospital_Stay"
@@ -190,24 +190,24 @@
         {
           "system": "SNOMED-CT",
           "code": "183401008",
-          "display": "Anti-suicide psychotherapy"
+          "display": "Psychothérapie anti-suicide"
         }
       ],
       "activities": [
         {
           "system": "SNOMED-CT",
           "code": "784051000000106",
-          "display": "Depression care management"
+          "display": "Gestion des soins de la dépression"
         },
         {
           "system": "SNOMED-CT",
           "code": "415665002",
-          "display": "Suicide prevention"
+          "display": "Prévention du suicide"
         },
         {
           "system": "SNOMED-CT",
           "code": "10029008",
-          "display": "Suicide precautions"
+          "display": "Précautions contre le suicide"
         }
       ],
       "direct_transition": "Followup_Psychiatric_Evaluation"
@@ -219,7 +219,7 @@
         {
           "system": "SNOMED-CT",
           "code": "88848003",
-          "display": "Psychiatric follow-up"
+          "display": "Suivi psychiatrique"
         }
       ],
       "direct_transition": "End_Followup_Encounter"
@@ -295,7 +295,7 @@
         {
           "system": "SNOMED-CT",
           "code": "287193009",
-          "display": "Suicide - firearms"
+          "display": "Suicide - armes à feu"
         }
       ],
       "direct_transition": "Death"
@@ -321,7 +321,7 @@
         {
           "system": "SNOMED-CT",
           "code": "86849004",
-          "display": "Suicidal deliberate poisoning"
+          "display": "Empoisonnement suicidaire délibéré"
         }
       ],
       "direct_transition": "Death"
@@ -364,7 +364,7 @@
         {
           "system": "SNOMED-CT",
           "code": "29240004",
-          "display": "Autopsy examination"
+          "display": "Examen d'autopsie"
         }
       ],
       "direct_transition": "End_Suicide"
@@ -555,7 +555,7 @@
         {
           "system": "LOINC",
           "code": "87626-8",
-          "display": "Suicide prevention note"
+          "display": "Prévention du suicide note"
         }
       ],
       "exact": {

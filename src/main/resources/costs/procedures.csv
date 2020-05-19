@@ -43,51 +43,51 @@ CODE,MIN,MODE,MAX,COMMENTS
 79733001,10671.22,21342.44596,42684.89,Amputation of right leg
 46028000,10671.22,21342.44596,42684.89,"Amputation of right hand -- data only has ""amputation of lower extremity; assume the same for upper"
 13995008,10671.22,21342.44596,42684.89,Amputation of left arm
-65546002,5982.81,11965.62107,23931.24,Extraction of wisdom tooth
-56876005,3212.04,6424.085472,12848.17,Drug rehabilitation and detoxification
-61480009,3212.04,6424.085472,12848.17,Drug detoxification
-252160004,2621.34,5242.673228,10485.35,Standard pregnancy test
-169230002,4693.68,9387.358624,18774.72,Ultrasound scan for fetal viability
-312404004,1000.00,2000,4000.00,Antenatal blood tests
-274804006,2621.34,5242.673228,10485.35,Evaluation of uterine fundal height
-225158009,2621.34,5242.673228,10485.35,Auscultation of the fetal heart
+65546002,5982.81,11965.62107,23931.24,Extraction d'une dent de sagesse
+56876005,3212.04,6424.085472,12848.17,Réhabilitation et désintoxication des toxicomanes
+61480009,3212.04,6424.085472,12848.17,Désintoxication des drogues
+252160004,2621.34,5242.673228,10485.35,Test de grossesse standard
+169230002,4693.68,9387.358624,18774.72,Échographie pour déterminer la viabilité du fœtus
+312404004,1000.00,2000,4000.00,Tests sanguins prénataux
+274804006,2621.34,5242.673228,10485.35,Évaluation de la hauteur du fond utérin
+225158009,2621.34,5242.673228,10485.35,Auscultation du cœur fœtal
 44608003,1000.00,2000,4000.00,Blood typing  RH typing
-104091002,1000.00,2000,4000.00,Hemoglobin / Hématocrite / Platelet count
-47758006,1000.00,2000,4000.00,Hepatitis B Surface Antigen Measurement
-31676001,1000.00,2000,4000.00,Human immunodeficiency virus antigen test
-310861008,1000.00,2000,4000.00,Chlamydia antigen test
-165829005,1000.00,2000,4000.00,Gonorrhea infection test
-269828009,1000.00,2000,4000.00,Syphilis infection test
-117010004,1000.00,2000,4000.00,Urine culture
+104091002,1000.00,2000,4000.00,Hémoglobine / Hématocrite / Numération plaquettaire
+47758006,1000.00,2000,4000.00,Mesure de l'antigène de surface de l'hépatite B
+31676001,1000.00,2000,4000.00,Test de l'antigène du virus de l'immunodéficience humaine
+310861008,1000.00,2000,4000.00,Test de l'antigène de la chlamydia
+165829005,1000.00,2000,4000.00,Test d'infection à la gonorrhée
+269828009,1000.00,2000,4000.00,Test d'infection à la syphilis
+117010004,1000.00,2000,4000.00,Culture d'urine
 90226004,1000.00,2000,4000.00,Cytopathology procedure  preparation of smear  genital source
-395123002,1000.00,2000,4000.00,Urine screening test for diabetes
-104375008,1000.00,2000,4000.00,Hepatitis C antibody test
-169690007,1000.00,2000,4000.00,Rubella screening
-104326007,1000.00,2000,4000.00,Measurement of Varicella-zoster virus antibody
-28163009,1000.00,2000,4000.00,Skin test for tuberculosis
-167271000,1000.00,2000,4000.00,Urine protein test
-443529005,1000.00,2000,4000.00,Screening for chromosomal aneuploidy in prenatal amniotic fluid
-275833003,1000.00,2000,4000.00,Alpha-fetoprotein test
-169673001,1000.00,2000,4000.00,Antenatal RhD antibody screening
-51116004,1284.51,2569.027213,5138.05,RhD passive immunization
+395123002,1000.00,2000,4000.00,Test de dépistage du diabète dans l'urine
+104375008,1000.00,2000,4000.00,Test de détection des anticorps de l'hépatite C
+169690007,1000.00,2000,4000.00,Dépistage de la rubéole
+104326007,1000.00,2000,4000.00,Mesure de l'anticorps du virus varicelle-zona
+28163009,1000.00,2000,4000.00,Test cutané pour la tuberculose
+167271000,1000.00,2000,4000.00,Test de protéines urinaires
+443529005,1000.00,2000,4000.00,Dépistage de l'aneuploïdie chromosomique dans le liquide amniotique prénatal
+275833003,1000.00,2000,4000.00,Test d'alpha-foetoprotéine
+169673001,1000.00,2000,4000.00,Dépistage prénatal des anticorps RhD
+51116004,1284.51,2569.027213,5138.05,Immunisation passive RhD
 399014008,1284.51,2569.027213,5138.05,Vaccination for diphtheria  pertussis  and tetanus
-268556000,1000.00,2000,4000.00,Urine screening for glucose
-118001005,1000.00,2000,4000.00,Streptococcus pneumoniae group B antigen test
-31208007,1824.58,3649.164231,7298.33,Medical induction of labor
-18946005,1000.00,2000,4000.00,Epidural anesthesia
-237001001,2034.85,4069.693889,8139.39,Augmentation of labor
+268556000,1000.00,2000,4000.00,Dépistage du glucose dans l'urine
+118001005,1000.00,2000,4000.00,Test de l'antigène Streptococcus pneumoniae groupe B
+31208007,1824.58,3649.164231,7298.33,Déclenchement médical du travail
+18946005,1000.00,2000,4000.00,Anesthésie épidurale
+237001001,2034.85,4069.693889,8139.39,Accouchement
 85548006,2721.40,5442.799164,10885.60,Episiotomy
-236974004,3228.19,6456.387949,12912.78,Instrumental delivery
-177157003,3228.19,6456.387949,12912.78,Spontaneous breech delivery
-11466000,4190.84,8381.68,16763.36,Cesarean section
-236931002,1284.51,2569.027213,5138.05,Methotrexate injection into tubal pregnancy
-445912000,3955.85,7911.699567,15823.40,Excision of fallopian tube and surgical removal of ectopic pregnancy
-714812005,4552.66,9105.321512,18210.64,Induced termination of pregnancy
-112790001,2849.90,5699.796796,11399.59,Nasal sinus endoscopy (procedure)
-117015009,1000.00,2000,4000.00,Throat culture (procedure)
-609588000,9597.84,19195.68573,38391.37,Total knee replacement
-52734007,9674.16,19348.31177,38696.62,Total replacement of hip
-171245007,1000.00,2000,4000.00,Urine screening
+236974004,3228.19,6456.387949,12912.78,Accouchement assisté
+177157003,3228.19,6456.387949,12912.78,Accouchement spontané
+11466000,4190.84,8381.68,16763.36,Césarienne
+236931002,1284.51,2569.027213,5138.05,Injection de méthotrexate lors d'une grossesse textra-untérine
+445912000,3955.85,7911.699567,15823.40,Excision des trompes de Fallope et ablation chirurgicale d'une grossesse ectopique
+714812005,4552.66,9105.321512,18210.64,Interruption de grossesse provoquée
+112790001,2849.90,5699.796796,11399.59,Endoscopie des sinus nasaux (procédure)
+117015009,1000.00,2000,4000.00,Culture de la gorge (procédure)
+609588000,9597.84,19195.68573,38391.37,Remplacement total du genou
+52734007,9674.16,19348.31177,38696.62,Remplacement total de la hanche
+171245007,1000.00,2000,4000.00,Dépistage urinaire
 232717009,20965.79,41931.57962,83863.16,Coronary artery bypass grafting
 447365002,13027.20,26054.39635,52108.79,Insertion of biventricular implantable cardioverter defibrillator
 429500007,13027.20,26054.39635,52108.79,Monophasic defibrillation

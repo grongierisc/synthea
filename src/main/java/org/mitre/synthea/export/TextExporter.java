@@ -48,9 +48,9 @@ import org.mitre.synthea.world.concepts.HealthRecord.Report;
  * 2016-10-26[CURRENT] : 24 HR Metformin hydrochloride for Diabetes
  * --------------------------------------------------------------------------------
  * CONDITIONS:
- * 2016-12-28 - 2017-01-18 : Viral sinusitis (disorder)
+ * 2016-12-28 - 2017-01-18 : Sinusite virale (trouble)
  * 2016-10-26 -            : Diabetes
- * 2015-11-04 - 2015-11-18 : Acute viral pharyngitis (disorder)
+ * 2015-11-04 - 2015-11-18 : Pharyngite virale aiguë (trouble)
  * --------------------------------------------------------------------------------
  * CARE PLANS:
  * 2016-10-26[CURRENT] : Plan d'autogestion du diabète
@@ -66,14 +66,14 @@ import org.mitre.synthea.world.concepts.HealthRecord.Report;
  * 2017-11-01 : Blood Pressure
  *            - Diastolic Blood Pressure                 76.0 mmHg
  *            - Systolic Blood Pressure                  117.8 mmHg
- * 2017-11-01 : Body Mass Index                          37.2 kg/m2
- * 2017-11-01 : Body Weight                              122.7 kg
- * 2017-11-01 : Body Height                              181.6 cm
+ * 2017-11-01 : Indice de masse corporelle                          37.2 kg/m2
+ * 2017-11-01 : Poids corporel                              122.7 kg
+ * 2017-11-01 : Taille du corps                              181.6 cm
  * --------------------------------------------------------------------------------
  * ENCOUNTERS:
- * 2017-11-01 : Encounter for check up (procedure)
- * 2016-12-28 : Encounter for Viral sinusitis (disorder)
- * 2016-10-26 : Encounter for check up (procedure)
+ * 2017-11-01 : Rencontre pour le check up (procédure)
+ * 2016-12-28 : Encounter for Sinusite virale (trouble)
+ * 2016-10-26 : Rencontre pour le check up (procédure)
  * </pre>
 
  * Exporter for a simple human-readable text format per encounter.

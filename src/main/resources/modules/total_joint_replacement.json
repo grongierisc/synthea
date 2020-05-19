@@ -88,7 +88,7 @@
         {
           "system": "SNOMED-CT",
           "code": "609588000",
-          "display": "Total knee replacement"
+          "display": "Remplacement total du genou"
         }
       ],
       "direct_transition": "Post_Op_CarePlan"
@@ -99,7 +99,7 @@
         {
           "system": "SNOMED-CT",
           "code": "52734007",
-          "display": "Total replacement of hip"
+          "display": "Remplacement total de la hanche"
         }
       ],
       "direct_transition": "Post_Op_CarePlan"
@@ -227,7 +227,7 @@
         {
           "system": "SNOMED-CT",
           "code": 185349003,
-          "display": "Encounter for check up (procedure)"
+          "display": "Rencontre pour le check up (procédure)"
         }
       ],
       "direct_transition": "Functional_Status_Assessments"

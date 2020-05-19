@@ -56,7 +56,7 @@
         {
           "system": "SNOMED-CT",
           "code": "201834006",
-          "display": "Localized, primary osteoarthritis of the hand"
+          "display": "Arthrose primaire localisée de la main"
         }
       ],
       "direct_transition": "OA_Diagnosis"
@@ -69,7 +69,7 @@
         {
           "system": "SNOMED-CT",
           "code": "239873007",
-          "display": "Osteoarthritis of knee"
+          "display": "Arthrose du genou"
         }
       ],
       "direct_transition": "OA_Diagnosis"
@@ -82,7 +82,7 @@
         {
           "system": "SNOMED-CT",
           "code": "239872002",
-          "display": "Osteoarthritis of hip"
+          "display": "Arthrose de la hache"
         }
       ],
       "direct_transition": "OA_Diagnosis"

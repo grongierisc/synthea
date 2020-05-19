@@ -628,7 +628,7 @@
         {
           "system": "SNOMED-CT",
           "code": 715252007,
-          "display": "Depression screening using Patient Health Questionnaire Nine Item score (procedure)"
+          "display": "Dépistage de la dépression using Patient Health Questionnaire Nine Item score (procedure)"
         }
       ],
       "duration": {
@@ -732,7 +732,7 @@
         {
           "system": "SNOMED-CT",
           "code": 183401008,
-          "display": "Anti-suicide psychotherapy (regime/therapy)"
+          "display": "Psychothérapie anti-suicide (regime/therapy)"
         }
       ]
     },
@@ -926,7 +926,7 @@
         {
           "system": "SNOMED-CT",
           "code": 715252007,
-          "display": "Depression screening using Patient Health Questionnaire Nine Item score (procedure)"
+          "display": "Dépistage de la dépression using Patient Health Questionnaire Nine Item score (procedure)"
         }
       ],
       "duration": {

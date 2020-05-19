@@ -1,12 +1,12 @@
 SYSTEM,CODE,DISPLAY,LOW,MED,HIGH
-SNOMED-CT,10383002,Counseling for termination of pregnancy,0.078,0.114,0.159
+SNOMED-CT,10383002,Conseils en matière d'interruption de grossesse,0.078,0.114,0.159
 SNOMED-CT,10509002,Bronchite aiguë (trouble),0.011,0.019,0.033
 SNOMED-CT,109838007,Chevauchement du néoplasme malin du côlon,0.307,0.451,0.6
 SNOMED-CT,110030002,Commotion cérébrale,0.134,0.203,0.29
 SNOMED-CT,11218009,Infection causée par Pseudomonas aeruginosa,0.088,0.133,0.19
-SNOMED-CT,124171000119105,Chronic intractable migraine without aura,0.294,0.441,0.588
+SNOMED-CT,124171000119105,Migraine chronique intraitable sans aura,0.294,0.441,0.588
 SNOMED-CT,127013003,Maladie rénale diabétique (trouble),0.389,0.569,0.727
-SNOMED-CT,127295002,Traumatic brain injury (disorder),0.026,0.043,0.064
+SNOMED-CT,127295002,Traumatisme crânien (trouble),0.026,0.043,0.064
 SNOMED-CT,128613002,Troubles convulsifs,0.173,0.263,0.367
 SNOMED-CT,13995008,Amputation of left arm,0.024,0.039,0.059
 SNOMED-CT,1501000119109,Rétinopathie diabétique proliférative due au diabète sucré de type II (trouble),0.125,0.184,0.258
@@ -19,12 +19,12 @@ SNOMED-CT,1734006,Fracture de la colonne vertébrale avec lésion de la moelle �
 SNOMED-CT,180030006,Amputation of right foot,0.024,0.039,0.059
 SNOMED-CT,185086009,Bronchite obstructive chronique (trouble),0.011,0.019,0.033
 SNOMED-CT,190905008,Cystic Fibrosis,0.273,0.408,0.556
-SNOMED-CT,19169002,Miscarriage in first trimester,0.078,0.114,0.159
+SNOMED-CT,19169002,Fausse couche au premier trimestre,0.078,0.114,0.159
 SNOMED-CT,192127007,Trouble déficitaire de l'attention chez l'enfant,0.028,0.045,0.066
-SNOMED-CT,195662009,Acute viral pharyngitis (disorder),0.002,0.006,0.012
+SNOMED-CT,195662009,Pharyngite virale aiguë (trouble),0.002,0.006,0.012
 SNOMED-CT,195967001,Asthma,0.015,0.036,0.133
-SNOMED-CT,196416002,Impacted molars,0.005,0.01,0.019
-SNOMED-CT,197927001,Recurrent urinary tract infection,0.005,0.011,0.021
+SNOMED-CT,196416002,Molaires touchées,0.005,0.01,0.019
+SNOMED-CT,197927001,Infection urinaire récurrente,0.005,0.011,0.021
 SNOMED-CT,198992004,Antepartum eclampsia,0.031,0.049,0.072
 SNOMED-CT,200936003,Lupus érythémateux,0.034,0.052,0.076
 SNOMED-CT,201834006,Localized  primary osteoarthritis of the hand,0.017,0.28,0.045
@@ -36,8 +36,8 @@ SNOMED-CT,233678006,L'asthme chez l'enfant,0.015,0.036,0.133
 SNOMED-CT,235919008,Cholelithiasis,0.011,0.114,0.324
 SNOMED-CT,236077008,Diarrhée prolongée,0.164,0.247,0.348
 SNOMED-CT,239720000,Déchirure du ménisque du genou,0.023,0.079,0.165
-SNOMED-CT,239872002,Osteoarthritis of hip,0.023,0.079,0.165
-SNOMED-CT,239873007,Osteoarthritis of knee,0.023,0.079,0.165
+SNOMED-CT,239872002,Arthrose de la hache,0.023,0.079,0.165
+SNOMED-CT,239873007,Arthrose du genou,0.023,0.079,0.165
 SNOMED-CT,24079001,La dermatite atopique,0.027,0.188,0.267
 SNOMED-CT,254632001,Carcinome du poumon à petites cellules (trouble),0.193,0.288,0.399
 SNOMED-CT,254637007,Cancer du poumon grandes cellules (maladie),0.193,0.288,0.399
@@ -51,7 +51,7 @@ SNOMED-CT,283371005,Lacération de l'avant-bras,0.002,0.006,0.012
 SNOMED-CT,283385000,Lacération de la cuisse,0.002,0.006,0.012
 SNOMED-CT,284549007,Lacération de la main,0.002,0.006,0.012
 SNOMED-CT,284551006,Laceration of foot,0.002,0.006,0.012
-SNOMED-CT,301011002,Escherichia coli urinary tract infection,0.032,0.051,0.074
+SNOMED-CT,301011002,Infection urinaire à Escherichia coli,0.032,0.051,0.074
 SNOMED-CT,307731004,Lésion du tendon de la coiffe des rotateurs de l'épaule,0.08,0.117,0.163
 SNOMED-CT,30832001,Rupture du tendon rotulien,0.023,0.079,0.165
 SNOMED-CT,314994000,Metastasis from malignant tumor of prostate (disorder),0.307,0.451,0.6
@@ -60,16 +60,16 @@ SNOMED-CT,359817006,Fracture fermée de la hanche,0.216,0.317,0.44
 SNOMED-CT,363406005,Tumeur maligne du côlon,0.377,0.54,0.687
 SNOMED-CT,368581000119106,Neuropathie due au diabète sucré de type 2 (trouble),0.089,0.133,0.187
 SNOMED-CT,36923009,Major depression  single episode,0.099,0.145,0.209
-SNOMED-CT,36971009,Sinusitis (disorder),0.002,0.006,0.012
+SNOMED-CT,36971009,Sinusite (trouble),0.002,0.006,0.012
 SNOMED-CT,370143000,Major depression disorder,0.267,0.396,0.531
 SNOMED-CT,370247008,Lacération du visage,0.002,0.006,0.012
-SNOMED-CT,386394001,Pregnancy termination care,0.078,0.114,0.159
+SNOMED-CT,386394001,Soins d'interruption de grossesse,0.078,0.114,0.159
 SNOMED-CT,386522008,Gestion des comportements de suractivité/inattention,0.028,0.045,0.066
 SNOMED-CT,38822007,Cystitis,0.032,0.051,0.074
 SNOMED-CT,398254007,Preeclampsia,0.031,0.049,0.072
 SNOMED-CT,39848009,Coup du lapin,0.114,0.229,0.304
 SNOMED-CT,399211009,History of myocardial infarction (situation),0.049,0.074,0.105
-SNOMED-CT,40055000,Chronic sinusitis (disorder),0.002,0.006,0.012
+SNOMED-CT,40055000,Sinusite chronique (trouble),0.002,0.006,0.012
 SNOMED-CT,40275004,La dermatite de contact,0.027,0.188,0.576
 SNOMED-CT,403190006,Brûlure au premier degré,0.015,0.027,0.042
 SNOMED-CT,403191005,Brûlure au second degré,0.125,0.188,0.267
@@ -87,15 +87,15 @@ SNOMED-CT,431855005,Maladie rénale chronique de stade 1 (disorder),0.001,0.004,
 SNOMED-CT,431856006,Maladie rénale chronique de stade 2 (disorder),0.034,0.052,0.076
 SNOMED-CT,431857002,Maladie rénale chronique de stade 4 (disorder),0.101,0.149,0.209
 SNOMED-CT,433144002,Maladie rénale chronique de stade 3 (disorder),0.07,0.104,0.147
-SNOMED-CT,43878008,Streptococcal sore throat (disorder),0.002,0.006,0.012
+SNOMED-CT,43878008,Mal de gorge streptococcique (trouble),0.002,0.006,0.012
 SNOMED-CT,44054006,Diabetes,0.031,0.049,0.072
 SNOMED-CT,443165006,Fracture pathologique due à l'ostéoporose (trouble),0.08,0.117,0.163
 SNOMED-CT,444110003,Type II Diabetes Mellitus Well Controlled,0.031,0.049,0.072
 SNOMED-CT,444448004,Lésion du ligament collatéral médial du genou,0.023,0.079,0.165
 SNOMED-CT,444470001,Lésion du ligament croisé antérieur,0.023,0.079,0.165
 SNOMED-CT,44465007,Entorse de la cheville,0.013,0.023,0.037
-SNOMED-CT,444814009,Viral sinusitis (disorder),0.002,0.006,0.012
-SNOMED-CT,445912000,Excision of fallopian tube and surgical removal of ectopic pregnancy,0.078,0.114,0.159
+SNOMED-CT,444814009,Sinusite virale (trouble),0.002,0.006,0.012
+SNOMED-CT,445912000,Excision des trompes de Fallope et ablation chirurgicale d'une grossesse ectopique,0.078,0.114,0.159
 SNOMED-CT,446096008,Rhinite allergique perannuelle,0.002,0.006,0.012
 SNOMED-CT,448417001,Septicémie causée par Staphylococcus aureus,0.088,0.133,0.19
 SNOMED-CT,448813005,Septicémie causée par Pseudomonas (trouble),0.088,0.133,0.19
@@ -108,11 +108,11 @@ SNOMED-CT,48333001,Brûlures (anomalie morphologique),0.015,0.027,0.042
 SNOMED-CT,49436004,Atrial Fibrillation,0.151,0.224,0.312
 SNOMED-CT,49601007,Disorder of cardiovascular system,0.031,0.049,0.072
 SNOMED-CT,53741008,Coronary Heart Disease,0.031,0.049,0.072
-SNOMED-CT,55680006,Drug overdose,0.51,0.697,0.843
+SNOMED-CT,55680006,Surdose de drogue,0.51,0.697,0.843
 SNOMED-CT,5602001,Opioid abuse (disorder),0.221,0.335,0.473
 SNOMED-CT,58150001,Fracture de la clavicule,0.08,0.117,0.163
 SNOMED-CT,6072007,Saignement de l'anus,0.209,0.325,0.462
-SNOMED-CT,609496007,Complication occuring during pregnancy,0.078,0.114,0.159
+SNOMED-CT,609496007,Complication survenant pendant la grossesse,0.078,0.114,0.159
 SNOMED-CT,60951000119105,Cécité due au diabète sucré de type 2 (trouble),0.124,0.187,0.26
 SNOMED-CT,62106007,Commotion cérébrale sans perte de conscience,0.018,0.031,0.05
 SNOMED-CT,62564004,Commotion cérébrale avec perte de conscience,0.018,0.031,0.05
@@ -125,18 +125,18 @@ SNOMED-CT,67821000119109,Tumeur maligne primaire à petites cellules du poumon  
 SNOMED-CT,67831000119107,Tumeur maligne primaire à petites cellules du poumon  TNM stage 3 (disorder),0.307,0.451,0.6
 SNOMED-CT,67841000119103,Tumeur maligne primaire à petites cellules du poumon  TNM stage 4 (disorder),0.377,0.54,0.687
 SNOMED-CT,698754002,Paralysie chronique due à une lésion de la moelle épinière,0.374,0.542,0.702
-SNOMED-CT,69896004,Rheumatoid arthritis,0.216,0.317,0.44
+SNOMED-CT,69896004,La polyarthrite rhumatoïde,0.216,0.317,0.44
 SNOMED-CT,70704007,Entorse du poignet,0.017,0.028,0.045
 SNOMED-CT,707577004,Infertilité féminine,0.003,0.008,0.015
-SNOMED-CT,714812005,Induced termination of pregnancy,0.078,0.114,0.159
+SNOMED-CT,714812005,Interruption de grossesse provoquée,0.078,0.114,0.159
 SNOMED-CT,7200002,Alcoholism,0.123,0.373,0.57
 SNOMED-CT,74400008,Appendicitis,0.22,0.324,0.442
-SNOMED-CT,75498004,Acute bacterial sinusitis (disorder),0.002,0.006,0.012
-SNOMED-CT,79586000,Tubal pregnancy,0.078,0.114,0.159
+SNOMED-CT,75498004,Sinusite bactérienne aiguë (trouble),0.002,0.006,0.012
+SNOMED-CT,79586000,Grossesse extra-utérine,0.078,0.114,0.159
 SNOMED-CT,79733001,Amputation of right leg,0.024,0.039,0.059
-SNOMED-CT,82423001,Chronic pain,0.02,0.256,0.518
+SNOMED-CT,82423001,Douleur chronique,0.02,0.256,0.518
 SNOMED-CT,84757009,Epilepsy,0.375,0.552,0.71
-SNOMED-CT,85116003,Miscarriage in second trimester,0.078,0.114,0.159
+SNOMED-CT,85116003,Fausse couche au deuxième trimestre,0.078,0.114,0.159
 SNOMED-CT,87433001,Emphysème pulmonaire (trouble),0.011,0.019,0.033
 SNOMED-CT,88805009,Chronic congestive heart failure (disorder),0.049,0.179,0.251
 SNOMED-CT,90560007,Gout,0.196,0.295,0.409

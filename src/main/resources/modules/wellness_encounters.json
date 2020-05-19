@@ -21,7 +21,7 @@
         {
           "system": "LOINC",
           "code": "8302-2",
-          "display": "Body Height"
+          "display": "Taille du corps"
         }
       ],
       "unit": "cm",
@@ -35,7 +35,7 @@
         {
           "system": "LOINC",
           "code": "29463-7",
-          "display": "Body Weight"
+          "display": "Poids corporel"
         }
       ],
       "unit": "kg",
@@ -62,7 +62,7 @@
         {
           "system": "LOINC",
           "code": "39156-5",
-          "display": "Body Mass Index"
+          "display": "Indice de masse corporelle"
         }
       ],
       "unit": "kg/m2",
@@ -99,7 +99,7 @@
         {
           "system": "LOINC",
           "code": "85354-9",
-          "display": "Blood Pressure"
+          "display": "tension artérielle"
         }
       ],
       "observations": [
@@ -137,7 +137,7 @@
         {
           "system": "LOINC",
           "code": "51990-0",
-          "display": "Basic Metabolic Panel"
+          "display": "Panel métabolique de base"
         }
       ],
       "observations": [
@@ -282,7 +282,7 @@
             {
               "system": "LOINC",
               "code": "18262-6",
-              "display": "Low Density Lipoprotein Cholesterol"
+              "display": "Cholestérol des lipoprotéines de basse densité"
             }
           ],
           "unit": "mg/dL"
@@ -294,7 +294,7 @@
             {
               "system": "LOINC",
               "code": "2085-9",
-              "display": "High Density Lipoprotein Cholesterol"
+              "display": "Cholestérol des lipoprotéines de haute densité"
             }
           ],
           "unit": "mg/dL"
@@ -310,7 +310,7 @@
         {
           "system": "LOINC",
           "code": "14959-1",
-          "display": "Microalbumin Creatinine Ratio"
+          "display": "ratio microalbumine créatinine"
         }
       ],
       "unit": "mg/g",
@@ -324,7 +324,7 @@
         {
           "system": "LOINC",
           "code": "33914-3",
-          "display": "Estimated Glomerular Filtration Rate"
+          "display": "Estimation du taux de filtration glomérulaire"
         }
       ],
       "unit": "mL/min/{1.73_m2}",
@@ -468,13 +468,13 @@
         {
           "system": "LOINC",
           "code": "72166-2",
-          "display": "Tobacco smoking status NHIS"
+          "display": "Statut du tabagisme"
         }
       ],
       "value_code": {
         "system": "SNOMED-CT",
         "code": 449868002,
-        "display": "Current every day smoker"
+        "display": "Fumeur actuel tous les jours"
       },
       "direct_transition": "Wellness_Encounter"
     },
@@ -486,14 +486,14 @@
         {
           "system": "LOINC",
           "code": "72166-2",
-          "display": "Tobacco smoking status NHIS"
+          "display": "Statut du tabagisme"
         }
       ],
       "direct_transition": "Wellness_Encounter",
       "value_code": {
         "system": "SNOMED-CT",
         "code": 8517006,
-        "display": "Former smoker"
+        "display": "Ancien fumeur"
       }
     },
     "Record_Never_Smoker": {
@@ -504,14 +504,14 @@
         {
           "system": "LOINC",
           "code": "72166-2",
-          "display": "Tobacco smoking status NHIS"
+          "display": "Statut du tabagisme"
         }
       ],
       "direct_transition": "Wellness_Encounter",
       "value_code": {
         "system": "SNOMED-CT",
         "code": 266919005,
-        "display": "Never smoker"
+        "display": "N'a jamais fumé"
       }
     },
     "check_CBC": {
@@ -774,7 +774,7 @@
         {
           "system": "LOINC",
           "code": "59576-9",
-          "display": "Body mass index (BMI) [Percentile] Per age and gender"
+          "display": "Indice de masse corporelle (IMC) [Percentile] Par âge et sexe"
         }
       ],
       "direct_transition": "Record_BP",
@@ -788,7 +788,7 @@
         {
           "system": "LOINC",
           "code": "77606-2",
-          "display": "Weight-for-length Per age and sex"
+          "display": "Poids par rapport à la taille Par âge et sexe"
         }
       ],
       "attribute": "current_weight_length_percentile",
@@ -802,7 +802,7 @@
         {
           "system": "LOINC",
           "code": "9843-4",
-          "display": "Head Occipital-frontal circumference"
+          "display": "Tête Circonférence occipitale-frontale"
         }
       ],
       "conditional_transition": [
@@ -829,7 +829,7 @@
         {
           "system": "LOINC",
           "code": "8867-4",
-          "display": "Heart rate"
+          "display": "Fréquence cardiaque"
         }
       ],
       "direct_transition": "Record_Respiratory_Rate",
@@ -843,7 +843,7 @@
         {
           "system": "LOINC",
           "code": "9279-1",
-          "display": "Respiratory rate"
+          "display": "Fréquence respiratoire"
         }
       ],
       "direct_transition": "Lab_MetabolicPanel",

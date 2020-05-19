@@ -80,7 +80,7 @@
         {
           "system": "SNOMED-CT",
           "code": "195662009",
-          "display": "Acute viral pharyngitis (disorder)"
+          "display": "Pharyngite virale aiguë (trouble)"
         }
       ],
       "direct_transition": "Viral_Symptom_1"
@@ -183,7 +183,7 @@
         {
           "system": "SNOMED-CT",
           "code": "43878008",
-          "display": "Streptococcal sore throat (disorder)"
+          "display": "Mal de gorge streptococcique (trouble)"
         }
       ],
       "direct_transition": "Bacterial_Symptom_1"
@@ -248,7 +248,7 @@
               {
                 "system": "SNOMED-CT",
                 "code": "43878008",
-                "display": "Streptococcal sore throat (disorder)"
+                "display": "Mal de gorge streptococcique (trouble)"
               }
             ]
           },
@@ -277,12 +277,12 @@
         {
           "system": "LOINC",
           "code": "8310-5",
-          "display": "Body temperature"
+          "display": "Température du corps"
         },
         {
           "system": "LOINC",
           "code": "8331-1",
-          "display": "Oral temperature"
+          "display": "Température buccale"
         }
       ],
       "direct_transition": "Determine_if_Bacterial"
@@ -302,12 +302,12 @@
         {
           "system": "LOINC",
           "code": "8310-5",
-          "display": "Body temperature"
+          "display": "Température du corps"
         },
         {
           "system": "LOINC",
           "code": "8331-1",
-          "display": "Oral temperature"
+          "display": "Température buccale"
         }
       ],
       "direct_transition": "Determine_if_Bacterial"
@@ -350,7 +350,7 @@
                   {
                     "system": "LOINC",
                     "code": "8310-5",
-                    "display": "Body temperature"
+                    "display": "Température du corps"
                   }
                 ],
                 "operator": ">",
@@ -401,7 +401,7 @@
                   {
                     "system": "LOINC",
                     "code": "8310-5",
-                    "display": "Body temperature"
+                    "display": "Température du corps"
                   }
                 ],
                 "operator": ">",
@@ -481,7 +481,7 @@
         {
           "system": "SNOMED-CT",
           "code": "117015009",
-          "display": "Throat culture (procedure)"
+          "display": "Culture de la gorge (procédure)"
         }
       ],
       "conditional_transition": [
@@ -492,7 +492,7 @@
               {
                 "system": "SNOMED-CT",
                 "code": "43878008",
-                "display": "Streptococcal sore throat (disorder)"
+                "display": "Mal de gorge streptococcique (trouble)"
               }
             ]
           },

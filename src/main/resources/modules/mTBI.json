@@ -54,7 +54,7 @@
         {
           "system": "SNOMED-CT",
           "code": 127295002,
-          "display": "Traumatic brain injury (disorder)"
+          "display": "Traumatisme crânien (trouble)"
         }
       ],
       "direct_transition": "Wellness Encounter"

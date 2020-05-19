@@ -141,7 +141,7 @@
             {
               "system": "LOINC",
               "code": "18262-6",
-              "display": "Low Density Lipoprotein Cholesterol"
+              "display": "Cholestérol des lipoprotéines de basse densité"
             }
           ],
           "unit": "mg/dL",
@@ -156,7 +156,7 @@
             {
               "system": "LOINC",
               "code": "2085-9",
-              "display": "High Density Lipoprotein Cholesterol"
+              "display": "Cholestérol des lipoprotéines de haute densité"
             }
           ],
           "unit": "mg/dL",
@@ -762,7 +762,7 @@
             {
               "system": "LOINC",
               "code": "18262-6",
-              "display": "Low Density Lipoprotein Cholesterol"
+              "display": "Cholestérol des lipoprotéines de basse densité"
             }
           ],
           "unit": "mg/dL",
@@ -777,7 +777,7 @@
             {
               "system": "LOINC",
               "code": "2085-9",
-              "display": "High Density Lipoprotein Cholesterol"
+              "display": "Cholestérol des lipoprotéines de haute densité"
             }
           ],
           "unit": "mg/dL",

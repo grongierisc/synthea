@@ -1,7 +1,7 @@
 {
   "name": "Rheumatoid Arthritis",
   "remarks": [
-    "Rheumatoid arthritis (RA) is a chronic condition where joints and other organs are ",
+    "La polyarthrite rhumatoïde (RA) is a chronic condition where joints and other organs are ",
     "attacked by the body's own immune system. RA is treated aggressively and about 75% ",
     "of cases go into remission within 5 years.",
     "Information on treatment, prevalence, and incidence of specific arthritis types from the CDC: ",
@@ -99,7 +99,7 @@
         {
           "system": "SNOMED-CT",
           "code": "69896004",
-          "display": "Rheumatoid arthritis"
+          "display": "La polyarthrite rhumatoïde"
         }
       ],
       "direct_transition": "RA_Diagnosis"

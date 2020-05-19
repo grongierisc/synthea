@@ -22,7 +22,7 @@
         {
           "system": "LOINC",
           "code": "8302-2",
-          "display": "Body Height"
+          "display": "Taille du corps"
         }
       ],
       "unit": "cm",
@@ -37,7 +37,7 @@
         {
           "system": "LOINC",
           "code": "29463-7",
-          "display": "Body Weight"
+          "display": "Poids corporel"
         }
       ],
       "unit": "kg",
@@ -68,7 +68,7 @@
         {
           "system": "LOINC",
           "code": "39156-5",
-          "display": "Body Mass Index"
+          "display": "Indice de masse corporelle"
         }
       ],
       "unit": "kg/m2",
@@ -81,7 +81,7 @@
         {
           "system": "LOINC",
           "code": "55284-4",
-          "display": "Blood Pressure"
+          "display": "tension artérielle"
         }
       ],
       "observations": [
@@ -119,7 +119,7 @@
         {
           "system": "LOINC",
           "code": "51990-0",
-          "display": "Basic Metabolic Panel"
+          "display": "Panel métabolique de base"
         }
       ],
       "observations": [
@@ -264,7 +264,7 @@
             {
               "system": "LOINC",
               "code": "18262-6",
-              "display": "Low Density Lipoprotein Cholesterol"
+              "display": "Cholestérol des lipoprotéines de basse densité"
             }
           ],
           "unit": "mg/dL"
@@ -276,7 +276,7 @@
             {
               "system": "LOINC",
               "code": "2085-9",
-              "display": "High Density Lipoprotein Cholesterol"
+              "display": "Cholestérol des lipoprotéines de haute densité"
             }
           ],
           "unit": "mg/dL"
@@ -294,7 +294,7 @@
         {
           "system": "LOINC",
           "code": "14959-1",
-          "display": "Microalbumin Creatinine Ratio"
+          "display": "ratio microalbumine créatinine"
         }
       ],
       "unit": "mg/g",
@@ -309,7 +309,7 @@
         {
           "system": "LOINC",
           "code": "33914-3",
-          "display": "Estimated Glomerular Filtration Rate"
+          "display": "Estimation du taux de filtration glomérulaire"
         }
       ],
       "unit": "mL/min/{1.73_m2}",

@@ -731,7 +731,7 @@ public class FhirR4 {
           .setDisplay(encounter.clinician.getFullname());
       encounterResource.getParticipantFirstRep().addType(mapCodeToCodeableConcept(
           new Code("http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
-              "PPRF", "primary performer"), null));
+              "PPRF", "soignant"), null));
       encounterResource.getParticipantFirstRep().setPeriod(encounterResource.getPeriod());
     }
 

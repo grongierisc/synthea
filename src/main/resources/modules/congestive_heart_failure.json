@@ -97,7 +97,7 @@
         {
           "system": "LOINC",
           "code": "51990-0",
-          "display": "Basic Metabolic Panel"
+          "display": "Panel métabolique de base"
         }
       ],
       "observations": [
@@ -684,7 +684,7 @@
         {
           "system": "LOINC",
           "code": "51990-0",
-          "display": "Basic Metabolic Panel"
+          "display": "Panel métabolique de base"
         }
       ],
       "observations": [
@@ -1355,7 +1355,7 @@
         {
           "system": "LOINC",
           "code": "85354-9",
-          "display": "Blood Pressure"
+          "display": "tension artérielle"
         }
       ],
       "direct_transition": "End self-measurement",

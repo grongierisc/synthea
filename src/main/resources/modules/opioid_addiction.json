@@ -159,7 +159,7 @@
         {
           "system": "SNOMED-CT",
           "code": "196416002",
-          "display": "Impacted molars"
+          "display": "Molaires touchées"
         }
       ],
       "direct_transition": "Enter_Directed_Use_Encounter1"
@@ -183,7 +183,7 @@
         {
           "system": "SNOMED-CT",
           "code": "65546002",
-          "display": "Extraction of wisdom tooth"
+          "display": "Extraction d'une dent de sagesse"
         }
       ],
       "direct_transition": "Directed_Use_Prescription1"
@@ -207,7 +207,7 @@
         {
           "system": "SNOMED-CT",
           "code": "82423001",
-          "display": "Chronic pain"
+          "display": "Douleur chronique"
         }
       ],
       "direct_transition": "Enter_Directed_Use_Encounter2"
@@ -244,7 +244,7 @@
         {
           "system": "SNOMED-CT",
           "code": "124171000119105",
-          "display": "Chronic intractable migraine without aura"
+          "display": "Migraine chronique intraitable sans aura"
         }
       ],
       "direct_transition": "Enter_Directed_Use_Encounter3"
@@ -537,7 +537,7 @@
         {
           "system": "SNOMED-CT",
           "code": "56876005",
-          "display": "Drug rehabilitation and detoxification"
+          "display": "Réhabilitation et désintoxication des toxicomanes"
         }
       ],
       "direct_transition": "Pain_Vital_4"
@@ -610,7 +610,7 @@
         {
           "system": "SNOMED-CT",
           "code": "55680006",
-          "display": "Drug overdose"
+          "display": "Surdose de drogue"
         }
       ],
       "direct_transition": "Directed_Use_Overdose_Encounter"
@@ -648,7 +648,7 @@
         {
           "system": "SNOMED-CT",
           "code": "55680006",
-          "display": "Drug overdose"
+          "display": "Surdose de drogue"
         }
       ],
       "direct_transition": "Misuse_Overdose_Encounter"
@@ -686,7 +686,7 @@
         {
           "system": "SNOMED-CT",
           "code": "55680006",
-          "display": "Drug overdose"
+          "display": "Surdose de drogue"
         }
       ],
       "direct_transition": "Addiction_Overdose_Encounter"
@@ -737,24 +737,24 @@
         {
           "system": "SNOMED-CT",
           "code": 734163000,
-          "display": "Care plan (record artifact)"
+          "display": "Plan de soins (enregistrer l'artefact)"
         }
       ],
       "activities": [
         {
           "system": "SNOMED-CT",
           "code": "60112009",
-          "display": "Drug addiction counseling"
+          "display": "Conseil en matière de toxicomanie"
         },
         {
           "system": "SNOMED-CT",
           "code": "61480009",
-          "display": "Drug detoxification"
+          "display": "Désintoxication des drogues"
         },
         {
           "system": "SNOMED-CT",
           "code": 266707007,
-          "display": "Drug addiction therapy"
+          "display": "Traitement de la toxicomanie"
         }
       ],
       "direct_transition": "End_Addiction_Overdose_Encounter"
@@ -769,7 +769,7 @@
         {
           "system": "SNOMED-CT",
           "code": "55680006",
-          "display": "Drug overdose"
+          "display": "Surdose de drogue"
         }
       ],
       "direct_transition": "Terminal"

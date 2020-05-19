@@ -131,7 +131,7 @@
         {
           "system": "SNOMED-CT",
           "code": "301011002",
-          "display": "Escherichia coli urinary tract infection"
+          "display": "Infection urinaire à Escherichia coli"
         }
       ],
       "direct_transition": "UTI_Diagnosis"
@@ -284,19 +284,19 @@
         {
           "system": "SNOMED-CT",
           "code": "869761000000107",
-          "display": "Urinary tract infection care"
+          "display": "Soins en cas d'infection urinaire"
         }
       ],
       "activities": [
         {
           "system": "SNOMED-CT",
           "code": "223472008",
-          "display": "Discussion about hygiene"
+          "display": "Discussion sur l'hygiène"
         },
         {
           "system": "SNOMED-CT",
           "code": "171245007",
-          "display": "Urine screening"
+          "display": "Dépistage urinaire"
         }
       ],
       "direct_transition": "End_Diagnosis_Encounter"
@@ -474,7 +474,7 @@
         {
           "system": "SNOMED-CT",
           "code": "197927001",
-          "display": "Recurrent urinary tract infection"
+          "display": "Infection urinaire récurrente"
         }
       ],
       "direct_transition": "Wait_For_Recurring_UTI"

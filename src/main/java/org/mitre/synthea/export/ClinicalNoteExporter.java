@@ -114,7 +114,7 @@ public class ClinicalNoteExporter {
     person.attributes.put("ehr_symptoms", person.getSymptoms());
     person.attributes.put("ehr_activeAllergies", activeAllergies);
     person.attributes.put("ehr_activeConditions", activeConditions);
-    if (activeConditions.contains("Normal pregnancy")) {
+    if (activeConditions.contains("Grossesse normale")) {
       person.attributes.put("pregnant", true);
     } else {
       person.attributes.remove("pregnant");

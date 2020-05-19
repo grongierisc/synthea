@@ -1792,7 +1792,7 @@
           "value_code": {
             "system": "SNOMED-CT",
             "code": 167277001,
-            "display": "Urine protein test = +++ (finding)"
+            "display": "Test de protéines urinaires = +++ (finding)"
           }
         },
         {
@@ -2071,7 +2071,7 @@
           "value_code": {
             "system": "SNOMED-CT",
             "code": 167277001,
-            "display": "Urine protein test = +++ (finding)"
+            "display": "Test de protéines urinaires = +++ (finding)"
           }
         },
         {

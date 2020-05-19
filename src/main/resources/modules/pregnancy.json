@@ -60,7 +60,7 @@
         {
           "system": "SNOMED-CT",
           "code": "72892002",
-          "display": "Normal pregnancy"
+          "display": "Grossesse normale"
         }
       ],
       "direct_transition": "Delay_Eight_Weeks"
@@ -81,7 +81,7 @@
         {
           "system": "SNOMED-CT",
           "code": "424441002",
-          "display": "Prenatal initial visit"
+          "display": "Visite prénatale initiale"
         }
       ],
       "direct_transition": "Pregnancy_Test"
@@ -93,7 +93,7 @@
         {
           "system": "SNOMED-CT",
           "code": "252160004",
-          "display": "Standard pregnancy test"
+          "display": "Test de grossesse standard"
         }
       ],
       "direct_transition": "Fetal_Viability_Ultrasound"
@@ -105,7 +105,7 @@
         {
           "system": "SNOMED-CT",
           "code": "169230002",
-          "display": "Ultrasound scan for fetal viability"
+          "display": "Échographie pour déterminer la viabilité du fœtus"
         }
       ],
       "remarks": [
@@ -294,24 +294,24 @@
         {
           "system": "SNOMED-CT",
           "code": "134435003",
-          "display": "Routine antenatal care"
+          "display": "Soins prénataux de routine"
         }
       ],
       "activities": [
         {
           "system": "SNOMED-CT",
           "code": "135892000",
-          "display": "Antenatal education"
+          "display": "Conseils prénataux"
         },
         {
           "system": "SNOMED-CT",
           "code": "713076009",
-          "display": "Antenatal risk assessment"
+          "display": "Évaluation des risques prénataux"
         },
         {
           "system": "SNOMED-CT",
           "code": "312404004",
-          "display": "Antenatal blood tests"
+          "display": "Tests sanguins prénataux"
         }
       ],
       "assign_to_attribute": "pregnancy_careplan",
@@ -324,7 +324,7 @@
         {
           "system": "SNOMED-CT",
           "code": "274804006",
-          "display": "Evaluation of uterine fundal height"
+          "display": "Évaluation de la hauteur du fond utérin"
         }
       ],
       "direct_transition": "Inital_Visit_Fetal_Heartbeat"
@@ -336,7 +336,7 @@
         {
           "system": "SNOMED-CT",
           "code": "225158009",
-          "display": "Auscultation of the fetal heart"
+          "display": "Auscultation du cœur fœtal"
         }
       ],
       "direct_transition": "Blood_Typing"
@@ -348,7 +348,7 @@
         {
           "system": "SNOMED-CT",
           "code": "44608003",
-          "display": "Blood typing, RH typing"
+          "display": "Groupe sanguin, groupe RH"
         }
       ],
       "direct_transition": "Hemoglobin_Test"
@@ -360,7 +360,7 @@
         {
           "system": "SNOMED-CT",
           "code": "104091002",
-          "display": "Hemoglobin / Hématocrite / Platelet count"
+          "display": "Hémoglobine / Hématocrite / Numération plaquettaire"
         }
       ],
       "direct_transition": "Hep_B_Surface_Antigen"
@@ -372,7 +372,7 @@
         {
           "system": "SNOMED-CT",
           "code": "47758006",
-          "display": "Hepatitis B Surface Antigen Measurement"
+          "display": "Mesure de l'antigène de surface de l'hépatite B"
         }
       ],
       "direct_transition": "HIV_Test"
@@ -384,7 +384,7 @@
         {
           "system": "SNOMED-CT",
           "code": "31676001",
-          "display": "Human immunodeficiency virus antigen test"
+          "display": "Test de l'antigène du virus de l'immunodéficience humaine"
         }
       ],
       "direct_transition": "Chlamydia_Test"
@@ -396,7 +396,7 @@
         {
           "system": "SNOMED-CT",
           "code": "310861008",
-          "display": "Chlamydia antigen test"
+          "display": "Test de l'antigène de la chlamydia"
         }
       ],
       "direct_transition": "Gonorrhea_Test"
@@ -408,7 +408,7 @@
         {
           "system": "SNOMED-CT",
           "code": "165829005",
-          "display": "Gonorrhea infection test"
+          "display": "Test d'infection à la gonorrhée"
         }
       ],
       "direct_transition": "Syphilis_Test"
@@ -420,7 +420,7 @@
         {
           "system": "SNOMED-CT",
           "code": "269828009",
-          "display": "Syphilis infection test"
+          "display": "Test d'infection à la syphilis"
         }
       ],
       "direct_transition": "Urine_Culture"
@@ -432,7 +432,7 @@
         {
           "system": "SNOMED-CT",
           "code": "117010004",
-          "display": "Urine culture"
+          "display": "Culture d'urine"
         }
       ],
       "direct_transition": "Pap_Smear"
@@ -444,7 +444,7 @@
         {
           "system": "SNOMED-CT",
           "code": "90226004",
-          "display": "Cytopathology procedure, preparation of smear, genital source"
+          "display": "Procédure de cytopathologie, préparation du frottis, source génitale"
         }
       ],
       "direct_transition": "Diabetes_Screen"
@@ -456,7 +456,7 @@
         {
           "system": "SNOMED-CT",
           "code": "395123002",
-          "display": "Urine screening test for diabetes"
+          "display": "Test de dépistage du diabète dans l'urine"
         }
       ],
       "direct_transition": "Hep_C_Test"
@@ -468,7 +468,7 @@
         {
           "system": "SNOMED-CT",
           "code": "104375008",
-          "display": "Hepatitis C antibody test"
+          "display": "Test de détection des anticorps de l'hépatite C"
         }
       ],
       "direct_transition": "Rubella_Screen"
@@ -480,7 +480,7 @@
         {
           "system": "SNOMED-CT",
           "code": "169690007",
-          "display": "Rubella screening"
+          "display": "Dépistage de la rubéole"
         }
       ],
       "direct_transition": "Varicella_Test"
@@ -492,7 +492,7 @@
         {
           "system": "SNOMED-CT",
           "code": "104326007",
-          "display": "Measurement of Varicella-zoster virus antibody"
+          "display": "Mesure de l'anticorps du virus varicelle-zona"
         }
       ],
       "direct_transition": "Tuberculosis_Test"
@@ -504,7 +504,7 @@
         {
           "system": "SNOMED-CT",
           "code": "28163009",
-          "display": "Skin test for tuberculosis"
+          "display": "Test cutané pour la tuberculose"
         }
       ],
       "direct_transition": "Urine_Protein_Test"
@@ -516,7 +516,7 @@
         {
           "system": "SNOMED-CT",
           "code": "167271000",
-          "display": "Urine protein test"
+          "display": "Test de protéines urinaires"
         }
       ],
       "direct_transition": "Physical_Exam"
@@ -528,7 +528,7 @@
         {
           "system": "SNOMED-CT",
           "code": "5880005",
-          "display": "Physical examination of mother"
+          "display": "examen physique de la mère"
         }
       ],
       "direct_transition": "End_Prenatal_Initial_Visit"
@@ -565,7 +565,7 @@
         {
           "system": "SNOMED-CT",
           "code": "47200007",
-          "display": "Non-low risk pregnancy"
+          "display": "Grossesse à risque"
         }
       ],
       "assign_to_attribute": "non_low_risk_pregnancy",
@@ -592,7 +592,7 @@
         {
           "system": "SNOMED-CT",
           "code": "424619006",
-          "display": "Prenatal visit"
+          "display": "Visite prénatale"
         }
       ],
       "direct_transition": "Week_12_Fundal_Height"
@@ -604,7 +604,7 @@
         {
           "system": "SNOMED-CT",
           "code": "274804006",
-          "display": "Evaluation of uterine fundal height"
+          "display": "Évaluation de la hauteur du fond utérin"
         }
       ],
       "direct_transition": "Week_12_Fetal_Heartbeat"
@@ -616,7 +616,7 @@
         {
           "system": "SNOMED-CT",
           "code": "225158009",
-          "display": "Auscultation of the fetal heart"
+          "display": "Auscultation du cœur fœtal"
         }
       ],
       "direct_transition": "Fetal_Aneuploidy_Screen"
@@ -631,7 +631,7 @@
         {
           "system": "SNOMED-CT",
           "code": "443529005",
-          "display": "Screening for chromosomal aneuploidy in prenatal amniotic fluid"
+          "display": "Dépistage de l'aneuploïdie chromosomique dans le liquide amniotique prénatal"
         }
       ],
       "direct_transition": "End_Week_12_Visit"
@@ -656,7 +656,7 @@
         {
           "system": "SNOMED-CT",
           "code": "424619006",
-          "display": "Prenatal visit"
+          "display": "Visite prénatale"
         }
       ],
       "distributed_transition": [
@@ -683,7 +683,7 @@
         {
           "system": "SNOMED-CT",
           "code": "271442007",
-          "display": "Fetal anatomy study"
+          "display": "Étude de l'anatomie fœtale"
         }
       ],
       "direct_transition": "AFP_Test"
@@ -695,7 +695,7 @@
         {
           "system": "SNOMED-CT",
           "code": "275833003",
-          "display": "Alpha-fetoprotein test"
+          "display": "Test d'alpha-foetoprotéine"
         }
       ],
       "direct_transition": "Week_16_Fundal_Height"
@@ -707,7 +707,7 @@
         {
           "system": "SNOMED-CT",
           "code": "274804006",
-          "display": "Evaluation of uterine fundal height"
+          "display": "Évaluation de la hauteur du fond utérin"
         }
       ],
       "direct_transition": "Week_16_Fetal_Heartbeat"
@@ -719,7 +719,7 @@
         {
           "system": "SNOMED-CT",
           "code": "225158009",
-          "display": "Auscultation of the fetal heart"
+          "display": "Auscultation du cœur fœtal"
         }
       ],
       "direct_transition": "End_Week_16_Visit"
@@ -744,7 +744,7 @@
         {
           "system": "SNOMED-CT",
           "code": "424619006",
-          "display": "Prenatal visit"
+          "display": "Visite prénatale"
         }
       ],
       "direct_transition": "Week_20_Fundal_Height"
@@ -756,7 +756,7 @@
         {
           "system": "SNOMED-CT",
           "code": "274804006",
-          "display": "Evaluation of uterine fundal height"
+          "display": "Évaluation de la hauteur du fond utérin"
         }
       ],
       "direct_transition": "Week_20_Fetal_Heartbeat"
@@ -768,7 +768,7 @@
         {
           "system": "SNOMED-CT",
           "code": "225158009",
-          "display": "Auscultation of the fetal heart"
+          "display": "Auscultation du cœur fœtal"
         }
       ],
       "direct_transition": "End_Week_20_Visit"
@@ -793,7 +793,7 @@
         {
           "system": "SNOMED-CT",
           "code": "424619006",
-          "display": "Prenatal visit"
+          "display": "Visite prénatale"
         }
       ],
       "direct_transition": "Week_24_Fundal_Height"
@@ -805,7 +805,7 @@
         {
           "system": "SNOMED-CT",
           "code": "274804006",
-          "display": "Evaluation of uterine fundal height"
+          "display": "Évaluation de la hauteur du fond utérin"
         }
       ],
       "direct_transition": "Week_24_Fetal_Heartbeat"
@@ -817,7 +817,7 @@
         {
           "system": "SNOMED-CT",
           "code": "225158009",
-          "display": "Auscultation of the fetal heart"
+          "display": "Auscultation du cœur fœtal"
         }
       ],
       "direct_transition": "End_Week_24_Visit"
@@ -842,7 +842,7 @@
         {
           "system": "SNOMED-CT",
           "code": "424619006",
-          "display": "Prenatal visit"
+          "display": "Visite prénatale"
         }
       ],
       "conditional_transition": [
@@ -867,7 +867,7 @@
         {
           "system": "SNOMED-CT",
           "code": "169673001",
-          "display": "Antenatal RhD antibody screening"
+          "display": "Dépistage prénatal des anticorps RhD"
         }
       ],
       "direct_transition": "RhoD_Immune_Globulin"
@@ -879,7 +879,7 @@
         {
           "system": "SNOMED-CT",
           "code": "51116004",
-          "display": "RhD passive immunization"
+          "display": "Immunisation passive RhD"
         }
       ],
       "direct_transition": "Second_Hemoglobin_Test"
@@ -891,7 +891,7 @@
         {
           "system": "SNOMED-CT",
           "code": "104091002",
-          "display": "Hemoglobin / Hématocrite / Platelet count"
+          "display": "Hémoglobine / Hématocrite / Numération plaquettaire"
         }
       ],
       "direct_transition": "Tdap_Vaccine"
@@ -903,7 +903,7 @@
         {
           "system": "SNOMED-CT",
           "code": "399014008",
-          "display": "Vaccination for diphtheria, pertussis, and tetanus"
+          "display": "Vaccination contre la diphtérie, la coqueluche et le tétanos"
         }
       ],
       "direct_transition": "Glucose_Screen"
@@ -915,7 +915,7 @@
         {
           "system": "SNOMED-CT",
           "code": "268556000",
-          "display": "Urine screening for glucose"
+          "display": "Dépistage du glucose dans l'urine"
         }
       ],
       "direct_transition": "Week_28_Fundal_Height"
@@ -927,7 +927,7 @@
         {
           "system": "SNOMED-CT",
           "code": "274804006",
-          "display": "Evaluation of uterine fundal height"
+          "display": "Évaluation de la hauteur du fond utérin"
         }
       ],
       "direct_transition": "Week_28_Fetal_Heartbeat"
@@ -939,7 +939,7 @@
         {
           "system": "SNOMED-CT",
           "code": "225158009",
-          "display": "Auscultation of the fetal heart"
+          "display": "Auscultation du cœur fœtal"
         }
       ],
       "direct_transition": "End_Week_28_Visit"
@@ -986,7 +986,7 @@
         {
           "system": "SNOMED-CT",
           "code": "424619006",
-          "display": "Prenatal visit"
+          "display": "Visite prénatale"
         }
       ],
       "direct_transition": "Week_32_Fundal_Height"
@@ -998,7 +998,7 @@
         {
           "system": "SNOMED-CT",
           "code": "274804006",
-          "display": "Evaluation of uterine fundal height"
+          "display": "Évaluation de la hauteur du fond utérin"
         }
       ],
       "direct_transition": "Week_32_Fetal_Heartbeat"
@@ -1010,7 +1010,7 @@
         {
           "system": "SNOMED-CT",
           "code": "225158009",
-          "display": "Auscultation of the fetal heart"
+          "display": "Auscultation du cœur fœtal"
         }
       ],
       "direct_transition": "End_Week_32_Visit"
@@ -1085,7 +1085,7 @@
         {
           "system": "SNOMED-CT",
           "code": "424619006",
-          "display": "Prenatal visit"
+          "display": "Visite prénatale"
         }
       ],
       "direct_transition": "Group_B_Strep_Test"
@@ -1097,7 +1097,7 @@
         {
           "system": "SNOMED-CT",
           "code": "118001005",
-          "display": "Streptococcus pneumoniae group B antigen test"
+          "display": "Test de l'antigène Streptococcus pneumoniae groupe B"
         }
       ],
       "direct_transition": "Week_36_Fundal_Height"
@@ -1109,7 +1109,7 @@
         {
           "system": "SNOMED-CT",
           "code": "274804006",
-          "display": "Evaluation of uterine fundal height"
+          "display": "Évaluation de la hauteur du fond utérin"
         }
       ],
       "direct_transition": "Week_36_Fetal_Heartbeat"
@@ -1121,7 +1121,7 @@
         {
           "system": "SNOMED-CT",
           "code": "225158009",
-          "display": "Auscultation of the fetal heart"
+          "display": "Auscultation du cœur fœtal"
         }
       ],
       "direct_transition": "End_Week_36_Visit"
@@ -1155,7 +1155,7 @@
         {
           "system": "SNOMED-CT",
           "code": "424619006",
-          "display": "Prenatal visit"
+          "display": "Visite prénatale"
         }
       ],
       "direct_transition": "Week_38_Fundal_Height"
@@ -1167,7 +1167,7 @@
         {
           "system": "SNOMED-CT",
           "code": "274804006",
-          "display": "Evaluation of uterine fundal height"
+          "display": "Évaluation de la hauteur du fond utérin"
         }
       ],
       "direct_transition": "Week_38_Fetal_Heartbeat"
@@ -1179,7 +1179,7 @@
         {
           "system": "SNOMED-CT",
           "code": "225158009",
-          "display": "Auscultation of the fetal heart"
+          "display": "Auscultation du cœur fœtal"
         }
       ],
       "direct_transition": "End_Week_38_Visit"
@@ -1219,7 +1219,7 @@
         {
           "system": "SNOMED-CT",
           "code": "424619006",
-          "display": "Prenatal visit"
+          "display": "Visite prénatale"
         }
       ],
       "direct_transition": "Week_39_Fundal_Height"
@@ -1231,7 +1231,7 @@
         {
           "system": "SNOMED-CT",
           "code": "274804006",
-          "display": "Evaluation of uterine fundal height"
+          "display": "Évaluation de la hauteur du fond utérin"
         }
       ],
       "direct_transition": "Week_39_Fetal_Heartbeat"
@@ -1243,7 +1243,7 @@
         {
           "system": "SNOMED-CT",
           "code": "225158009",
-          "display": "Auscultation of the fetal heart"
+          "display": "Auscultation du cœur fœtal"
         }
       ],
       "direct_transition": "End_Week_39_Visit"
@@ -1283,7 +1283,7 @@
         {
           "system": "SNOMED-CT",
           "code": "424619006",
-          "display": "Prenatal visit"
+          "display": "Visite prénatale"
         }
       ],
       "direct_transition": "Week_40_Fundal_Height"
@@ -1295,7 +1295,7 @@
         {
           "system": "SNOMED-CT",
           "code": "274804006",
-          "display": "Evaluation of uterine fundal height"
+          "display": "Évaluation de la hauteur du fond utérin"
         }
       ],
       "direct_transition": "Week_40_Fetal_Heartbeat"
@@ -1307,7 +1307,7 @@
         {
           "system": "SNOMED-CT",
           "code": "225158009",
-          "display": "Auscultation of the fetal heart"
+          "display": "Auscultation du cœur fœtal"
         }
       ],
       "direct_transition": "End_Week_40_Visit"
@@ -1341,7 +1341,7 @@
         {
           "system": "SNOMED-CT",
           "code": "424619006",
-          "display": "Prenatal visit"
+          "display": "Visite prénatale"
         }
       ],
       "direct_transition": "Week_41_Fundal_Height"
@@ -1353,7 +1353,7 @@
         {
           "system": "SNOMED-CT",
           "code": "274804006",
-          "display": "Evaluation of uterine fundal height"
+          "display": "Évaluation de la hauteur du fond utérin"
         }
       ],
       "direct_transition": "Week_41_Fetal_Heartbeat"
@@ -1365,7 +1365,7 @@
         {
           "system": "SNOMED-CT",
           "code": "225158009",
-          "display": "Auscultation of the fetal heart"
+          "display": "Auscultation du cœur fœtal"
         }
       ],
       "direct_transition": "End_Week_41_Visit"
@@ -1375,7 +1375,7 @@
       "discharge_disposition": {
         "system": "NUBC",
         "code": "02",
-        "display": "Transferred to a short term general hospital for inpatient care"
+        "display": "Transféré dans un hôpital général de courte durée pour y être hospitalisé"
       },
       "direct_transition": "Induced_Birth"
     },
@@ -1413,7 +1413,7 @@
         {
           "system": "SNOMED-CT",
           "code": "183460006",
-          "display": "Obstetric emergency hospital admission"
+          "display": "Admission à l'hôpital en cas d'urgence obstétrique"
         }
       ],
       "distributed_transition": [
@@ -1471,7 +1471,7 @@
         {
           "system": "SNOMED-CT",
           "code": "31208007",
-          "display": "Medical induction of labor"
+          "display": "Déclenchement médical du travail"
         }
       ],
       "distributed_transition": [
@@ -1492,7 +1492,7 @@
         {
           "system": "SNOMED-CT",
           "code": "18946005",
-          "display": "Epidural anesthesia"
+          "display": "Anesthésie épidurale"
         }
       ],
       "distributed_transition": [
@@ -1513,7 +1513,7 @@
         {
           "system": "SNOMED-CT",
           "code": "237001001",
-          "display": "Augmentation of labor"
+          "display": "Accouchement"
         }
       ],
       "distributed_transition": [
@@ -1555,7 +1555,7 @@
         {
           "system": "SNOMED-CT",
           "code": "236974004",
-          "display": "Instrumental delivery"
+          "display": "Accouchement assisté"
         }
       ],
       "direct_transition": "Give_Birth"
@@ -1567,7 +1567,7 @@
         {
           "system": "SNOMED-CT",
           "code": "177157003",
-          "display": "Spontaneous breech delivery"
+          "display": "Accouchement spontané"
         }
       ],
       "direct_transition": "Give_Birth"
@@ -1626,7 +1626,7 @@
         {
           "system": "SNOMED-CT",
           "code": "66348005",
-          "display": "Childbirth"
+          "display": "Naissance"
         }
       ],
       "direct_transition": "Normal_Pregnancy_Completion"
@@ -1638,7 +1638,7 @@
         {
           "system": "SNOMED-CT",
           "code": "65588006",
-          "display": "Premature birth of newborn"
+          "display": "Naissance prématurée d'un nouveau-né"
         }
       ],
       "direct_transition": "Normal_Pregnancy_Completion"
@@ -1650,7 +1650,7 @@
         {
           "system": "SNOMED-CT",
           "code": "11466000",
-          "display": "Cesarean section"
+          "display": "Césarienne"
         }
       ],
       "direct_transition": "Normal_Pregnancy_Completion"
@@ -1667,7 +1667,7 @@
         {
           "system": "SNOMED-CT",
           "code": "19169002",
-          "display": "Miscarriage in first trimester"
+          "display": "Fausse couche au premier trimestre"
         }
       ],
       "assign_to_attribute": "miscarriage",
@@ -1697,7 +1697,7 @@
         {
           "system": "SNOMED-CT",
           "code": "85116003",
-          "display": "Miscarriage in second trimester"
+          "display": "Fausse couche au deuxième trimestre"
         }
       ],
       "assign_to_attribute": "miscarriage",
@@ -1723,7 +1723,7 @@
         {
           "system": "SNOMED-CT",
           "code": "156073000",
-          "display": "Fetus with unknown complication"
+          "display": "Fœtus avec complication inconnue"
         }
       ],
       "assign_to_attribute": "fatal_pregnancy_complication",
@@ -1736,7 +1736,7 @@
         {
           "system": "SNOMED-CT",
           "code": "35999006",
-          "display": "Blighted ovum"
+          "display": "Ovule flétrit"
         }
       ],
       "assign_to_attribute": "fatal_pregnancy_complication",
@@ -1749,7 +1749,7 @@
         {
           "system": "SNOMED-CT",
           "code": "79586000",
-          "display": "Tubal pregnancy"
+          "display": "Grossesse extra-utérine"
         }
       ],
       "assign_to_attribute": "fatal_pregnancy_complication",
@@ -1797,7 +1797,7 @@
         {
           "system": "SNOMED-CT",
           "code": "236931002",
-          "display": "Methotrexate injection into tubal pregnancy"
+          "display": "Injection de méthotrexate lors d'une grossesse textra-untérine"
         }
       ],
       "direct_transition": "End_Miscarriage_Encounter"
@@ -1809,7 +1809,7 @@
         {
           "system": "SNOMED-CT",
           "code": "445912000",
-          "display": "Excision of fallopian tube and surgical removal of ectopic pregnancy"
+          "display": "Excision des trompes de Fallope et ablation chirurgicale d'une grossesse ectopique"
         }
       ],
       "direct_transition": "End_Miscarriage_Encounter"
@@ -1826,7 +1826,7 @@
         {
           "system": "SNOMED-CT",
           "code": "267253006",
-          "display": "Fetus with chromosomal abnormality"
+          "display": "Fœtus présentant une anomalie chromosomique"
         }
       ],
       "direct_transition": "End_Miscarriage_Encounter"
@@ -1839,7 +1839,7 @@
         {
           "system": "SNOMED-CT",
           "code": "37849005",
-          "display": "Congenital uterine anomaly"
+          "display": "Anomalie utérine congénitale"
         }
       ],
       "direct_transition": "End_Miscarriage_Encounter"
@@ -1852,7 +1852,7 @@
         {
           "system": "SNOMED-CT",
           "code": "609496007",
-          "display": "Complication occuring during pregnancy"
+          "display": "Complication survenant pendant la grossesse"
         }
       ],
       "direct_transition": "End_Miscarriage_Encounter"
@@ -1878,7 +1878,7 @@
         {
           "system": "SNOMED-CT",
           "code": "424619006",
-          "display": "Prenatal visit"
+          "display": "Visite prénatale"
         }
       ],
       "conditional_transition": [
@@ -1903,7 +1903,7 @@
         {
           "system": "SNOMED-CT",
           "code": "51116004",
-          "display": "RhD passive immunization"
+          "display": "Immunisation passive RhD"
         }
       ],
       "direct_transition": "Physical_Exam_Post_Miscarriage"
@@ -1927,7 +1927,7 @@
         {
           "system": "SNOMED-CT",
           "code": "171207006",
-          "display": "Depression screening"
+          "display": "Dépistage de la dépression"
         }
       ],
       "direct_transition": "Miscarriage_Fatal_Pregnancy_Complication_Ends"
@@ -1963,7 +1963,7 @@
         {
           "system": "SNOMED-CT",
           "code": "270427003",
-          "display": "Patient-initiated encounter"
+          "display": "Rencontre à l'initiative du patient"
         }
       ],
       "direct_transition": "Induced_Abortion_Therapy"
@@ -1975,7 +1975,7 @@
         {
           "system": "SNOMED-CT",
           "code": "10383002",
-          "display": "Counseling for termination of pregnancy"
+          "display": "Conseils en matière d'interruption de grossesse"
         }
       ],
       "direct_transition": "Induced_Abortion_Procedure"
@@ -1987,7 +1987,7 @@
         {
           "system": "SNOMED-CT",
           "code": "714812005",
-          "display": "Induced termination of pregnancy"
+          "display": "Interruption de grossesse provoquée"
         }
       ],
       "direct_transition": "End_Induced_Abortion_Encounter"
@@ -2013,7 +2013,7 @@
         {
           "system": "SNOMED-CT",
           "code": "424619006",
-          "display": "Prenatal visit"
+          "display": "Visite prénatale"
         }
       ],
       "conditional_transition": [
@@ -2038,7 +2038,7 @@
         {
           "system": "SNOMED-CT",
           "code": "51116004",
-          "display": "RhD passive immunization"
+          "display": "Immunisation passive RhD"
         }
       ],
       "direct_transition": "Pregnancy_Termination_Care"
@@ -2050,7 +2050,7 @@
         {
           "system": "SNOMED-CT",
           "code": "386394001",
-          "display": "Pregnancy termination care"
+          "display": "Soins d'interruption de grossesse"
         }
       ],
       "direct_transition": "Physical_Exam_Post_Abortion"
@@ -2062,7 +2062,7 @@
         {
           "system": "SNOMED-CT",
           "code": "5880005",
-          "display": "Physical exam following abortion"
+          "display": "Examen physique après un avortement"
         }
       ],
       "direct_transition": "Depression_Screening_Post_Abortion"
@@ -2074,7 +2074,7 @@
         {
           "system": "SNOMED-CT",
           "code": "171207006",
-          "display": "Depression screening"
+          "display": "Dépistage de la dépression"
         }
       ],
       "direct_transition": "End_Abortion_Followup_Encounter"
@@ -2184,7 +2184,7 @@
         {
           "system": "SNOMED-CT",
           "code": "169762003",
-          "display": "Postnatal visit"
+          "display": "Visite postnatale"
         }
       ],
       "conditional_transition": [
@@ -2209,7 +2209,7 @@
         {
           "system": "SNOMED-CT",
           "code": "51116004",
-          "display": "RhD passive immunization"
+          "display": "Immunisation passive RhD"
         }
       ],
       "direct_transition": "Physical_Exam_Post_Birth"
@@ -2221,7 +2221,7 @@
         {
           "system": "SNOMED-CT",
           "code": "5880005",
-          "display": "Physical examination following birth"
+          "display": "Examen physique après la naissance"
         }
       ],
       "direct_transition": "Depression_Screening_Post_Birth"
@@ -2233,7 +2233,7 @@
         {
           "system": "SNOMED-CT",
           "code": "171207006",
-          "display": "Depression screening"
+          "display": "Dépistage de la dépression"
         }
       ],
       "direct_transition": "End_Postnatal_Visit"
