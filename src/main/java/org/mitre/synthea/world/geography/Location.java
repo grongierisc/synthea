@@ -282,7 +282,9 @@ public class Location implements Serializable {
     zipsForCity = zipCodes.get(cityName);
 
     if (zipsForCity == null) {
-      zipsForCity = zipCodes.get(cityName + " Town");
+      int size = zipCodes.keySet().size();
+      cityName = (String) zipCodes.keySet().toArray()[person.randInt(size)];
+      zipsForCity = zipCodes.get(cityName);
     }
     
     Place place;
