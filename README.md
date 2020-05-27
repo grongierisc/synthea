@@ -6,10 +6,14 @@ Partial traduction of Synthea<sup>TM</sup> in French
 - Name
 - Module Translation
 
-Todo :
+## Todo :
+
 [ ] Optimisation Geolocation
+
 [ ] French Social Number
+
 [ ] Better Translation of modules
+
 
 # Synthea<sup>TM</sup> Patient Generator [![Build Status](https://travis-ci.org/synthetichealth/synthea.svg?branch=master)](https://travis-ci.org/synthetichealth/synthea) [![codecov](https://codecov.io/gh/synthetichealth/synthea/branch/master/graph/badge.svg)](https://codecov.io/gh/synthetichealth/synthea)
 
