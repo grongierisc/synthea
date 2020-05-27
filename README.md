@@ -1,3 +1,16 @@
+# Synthea French
+
+Partial traduction of Synthea<sup>TM</sup> in French
+
+- Geolocation in France
+- Name
+- Module Translation
+
+Todo :
+[ ] Optimisation Geolocation
+[ ] French Social Number
+[ ] Better Translation of modules
+
 # Synthea<sup>TM</sup> Patient Generator [![Build Status](https://travis-ci.org/synthetichealth/synthea.svg?branch=master)](https://travis-ci.org/synthetichealth/synthea) [![codecov](https://codecov.io/gh/synthetichealth/synthea/branch/master/graph/badge.svg)](https://codecov.io/gh/synthetichealth/synthea)
 
 Synthea<sup>TM</sup> is a Synthetic Patient Population Simulator. The goal is to output synthetic, realistic (but not real), patient data and associated health records in a variety of formats.
