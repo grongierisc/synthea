@@ -118,7 +118,7 @@ SNOMED-CT,62106007,Commotion cérébrale sans perte de conscience,0.018,0.031,0.
 SNOMED-CT,62564004,Commotion cérébrale avec perte de conscience,0.018,0.031,0.05
 SNOMED-CT,64859006,Ostéoporose (trouble),0.0,0.0,0.0
 SNOMED-CT,65275009,Cholécystite aiguë,0.011,0.114,0.324
-SNOMED-CT,65363002,Otitis media,0.007,0.013,0.024
+SNOMED-CT,65363002,Otite,0.007,0.013,0.024
 SNOMED-CT,65966004,Fracture de l'avant-bras,0.08,0.117,0.163
 SNOMED-CT,67811000119102,Tumeur maligne primaire à petites cellules du poumon  TNM stage 1 (disorder),0.031,0.049,0.072
 SNOMED-CT,67821000119109,Tumeur maligne primaire à petites cellules du poumon  TNM stage 2 (disorder),0.193,0.288,0.399
