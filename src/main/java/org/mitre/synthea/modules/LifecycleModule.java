@@ -318,9 +318,9 @@ public final class LifecycleModule extends Module {
       int addtlNum = random.nextInt(100);
       List<String> s = (List<String>)names.get("street.secondary");
       String addtlType = s.get(random.nextInt(s.size()));
-      return number + " " + streetName + " " + streetType + " " + addtlType + " " + addtlNum;
+      return number + " " + addtlType + " " + streetType + " " + streetName;
     } else {
-      return number + " " + streetName + " " + streetType;
+      return number + " " + streetType + " " + streetName;
     }
   }
   

@@ -60,7 +60,7 @@ public class Generator {
   private boolean onlyDeadPatients;
   private boolean onlyVeterans;
   public TransitionMetrics metrics;
-  public static String DEFAULT_STATE = "Massachusetts";
+  public static String DEFAULT_STATE = "Île-de-france";
   private Exporter.ExporterRuntimeOptions exporterRuntimeOptions;
 
   /**
