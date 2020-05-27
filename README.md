@@ -8,11 +8,13 @@ Partial traduction of Synthea<sup>TM</sup> in French
 
 ## Todo :
 
-[ ] Optimisation Geolocation
+- [ ] Optimisation Geolocation
 
-[ ] French Social Number
+- [ ] French Social Number
 
-[ ] Better Translation of modules
+- [ ] Better Translation of modules
+
+- [ ] Update unit test
 
 
 # Synthea<sup>TM</sup> Patient Generator [![Build Status](https://travis-ci.org/synthetichealth/synthea.svg?branch=master)](https://travis-ci.org/synthetichealth/synthea) [![codecov](https://codecov.io/gh/synthetichealth/synthea/branch/master/graph/badge.svg)](https://codecov.io/gh/synthetichealth/synthea)
@@ -50,7 +52,7 @@ To clone the Synthea<sup>TM</sup> repo, then build and run the test suite:
 ```
 git clone https://github.com/synthetichealth/synthea.git
 cd synthea
-./gradlew build check test
+./gradlew build -x test
 ```
 
 ### Changing the default properties 
