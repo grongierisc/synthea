@@ -31,6 +31,7 @@ import org.mitre.synthea.engine.Transition.DistributedTransition;
 import org.mitre.synthea.engine.Transition.DistributedTransitionOption;
 import org.mitre.synthea.engine.Transition.LookupTableTransition;
 import org.mitre.synthea.engine.Transition.LookupTableTransitionOption;
+import org.mitre.synthea.helpers.Config;
 import org.mitre.synthea.helpers.ConstantValueGenerator;
 import org.mitre.synthea.helpers.ExpressionProcessor;
 import org.mitre.synthea.helpers.RandomValueGenerator;
@@ -65,6 +66,9 @@ public abstract class State implements Cloneable, Serializable {
   private List<ComplexTransitionOption> complexTransition;
   private List<LookupTableTransitionOption> lookupTableTransition;
   public List<String> remarks;
+  
+  public static boolean ENABLE_PHYSIOLOGY_STATE =
+      Boolean.parseBoolean(Config.get("physiology.state.enabled", "false"));
 
   protected void initialize(Module module, String name, JsonObject definition) {
     this.module = module;
@@ -256,6 +260,7 @@ public abstract class State implements Cloneable, Serializable {
         encounter = person.getCurrentEncounter(submod);
         if (encounter != null) {
           person.setCurrentEncounter(module, encounter);
+          person.setCurrentEncounter(submod, null);
         }
         return true;
       } else {
@@ -282,8 +287,10 @@ public abstract class State implements Cloneable, Serializable {
     private double stepSize;
     private double simDuration;
     private double leadTime;
+    private String altDirectTransition;
     private List<IoMapper> inputs;
     private List<IoMapper> outputs;
+    private Transition altTransition;
     private transient PhysiologySimulator simulator;
     private transient Map<String,String> paramTypes;
     
@@ -291,12 +298,21 @@ public abstract class State implements Cloneable, Serializable {
     protected void initialize(Module module, String name, JsonObject definition) {
       super.initialize(module, name, definition);
       
+      if (altDirectTransition == null || altDirectTransition == "") {
+        throw new RuntimeException("All Physiology States MUST have an alt_direct_transition"
+            + " defined in the event that Physiology States are disabled.");
+      }
+      
+      this.altTransition = new DirectTransition(altDirectTransition);
+      
       if (leadTime > simDuration) {
         throw new IllegalArgumentException(
             "Simulation lead time cannot be greater than sim duration!");
       }
 
-      setup();
+      if (ENABLE_PHYSIOLOGY_STATE) {
+        setup();
+      }
     }
     
     private void setup() {
@@ -328,6 +344,7 @@ public abstract class State implements Cloneable, Serializable {
       clone.stepSize = stepSize;
       clone.simDuration = simDuration;
       clone.leadTime = leadTime;
+      clone.altDirectTransition = altDirectTransition;
       
       List<IoMapper> inputList = new ArrayList<IoMapper>(inputs.size());
       for (IoMapper mapper : inputs) {
@@ -348,6 +365,9 @@ public abstract class State implements Cloneable, Serializable {
 
     @Override
     public boolean process(Person person, long time) {
+      if (!ENABLE_PHYSIOLOGY_STATE) {
+        return true;
+      }
       Map<String,Double> modelInputs = new HashMap<String,Double>();
       for (IoMapper mapper : inputs) {
         mapper.toModelInputs(person, time, modelInputs);
@@ -373,6 +393,24 @@ public abstract class State implements Cloneable, Serializable {
             + person.attributes.get(Person.ID), ex);
       }
       return true;
+    }
+    
+    /**
+     * Directs to the normal transition if Physiology states are enabled. Otherwise
+     * directs to the alternative direct transition.
+     * 
+     * @param person
+     *          the person being simulated
+     * @param time
+     *          the date within the simulated world
+     * @return next state
+     */
+    public String transition(Person person, long time) {
+      if (ENABLE_PHYSIOLOGY_STATE) {
+        return super.transition(person, time);
+      }
+      
+      return altTransition.follow(person, time);
     }
     
   }
@@ -485,6 +523,7 @@ public abstract class State implements Cloneable, Serializable {
   public static class SetAttribute extends State {
     private String attribute;
     private Object value;
+    private Range<Double> range;
     private String expression;
     private transient ThreadLocal<ExpressionProcessor> threadExpProcessor;
     private String seriesData;
@@ -529,6 +568,7 @@ public abstract class State implements Cloneable, Serializable {
       SetAttribute clone = (SetAttribute) super.clone();
       clone.attribute = attribute;
       clone.value = value;
+      clone.range = range;
       clone.expression = expression;
       clone.threadExpProcessor = threadExpProcessor;
       clone.seriesData = seriesData;
@@ -541,6 +581,8 @@ public abstract class State implements Cloneable, Serializable {
       ThreadLocal<ExpressionProcessor> expProcessor = getExpProcessor();
       if (expProcessor.get() != null) {
         value = expProcessor.get().evaluate(person, time);
+      } else if (range != null) {
+        value = person.rand(range.low, range.high, range.decimals);
       } else if (seriesData != null) {
         String[] items = seriesData.split(" ");
         TimeSeriesData data = new TimeSeriesData(items.length, period);
@@ -555,8 +597,8 @@ public abstract class State implements Cloneable, Serializable {
         }
         
         value = data;
-      } 
-      
+      }
+
       if (value != null) {
         person.attributes.put(attribute, value);
       } else if (person.attributes.containsKey(attribute)) {
@@ -603,7 +645,9 @@ public abstract class State implements Cloneable, Serializable {
     public boolean process(Person person, long time) {
       int counter = 0;
       if (person.attributes.containsKey(attribute)) {
-        counter = (int) person.attributes.get(attribute);
+        // this cast as int from double is to handle cases where the attribute
+        // is either a java.lang.Double or java.lang.Integer
+        counter = (int) Double.parseDouble(person.attributes.get(attribute).toString());
       }
 
       if (increment) {
@@ -818,16 +862,17 @@ public abstract class State implements Cloneable, Serializable {
     @Override
     public boolean process(Person person, long time) {
       HealthRecord.Encounter encounter = person.getCurrentEncounter(module);
-      EncounterType type = EncounterType.fromString(encounter.type);
-      if (type != EncounterType.WELLNESS) {
-        person.record.encounterEnd(time, type);
+      if (encounter != null) {
+        EncounterType type = EncounterType.fromString(encounter.type);
+        if (type != EncounterType.WELLNESS) {
+          person.record.encounterEnd(time, type);
+        }
+        encounter.discharge = dischargeDisposition;
       }
-      encounter.discharge = dischargeDisposition;
 
       // reset current provider hash
       person.removeCurrentProvider(module.name);
       person.setCurrentEncounter(module, null);
-
       return true;
     }
   }
@@ -1037,7 +1082,7 @@ public abstract class State implements Cloneable, Serializable {
   public static class MedicationOrder extends State {
     private List<Code> codes;
     private String reason;
-    private transient JsonObject prescription; // TODO make this a Component
+    private JsonObject prescription; // TODO make this a Component
     private String assignToAttribute;
     private boolean administration;
     private boolean chronic;
@@ -1048,7 +1093,11 @@ public abstract class State implements Cloneable, Serializable {
      * @param oos the stream to write to
      */
     private void writeObject(ObjectOutputStream oos) throws IOException {
-      oos.defaultWriteObject();
+      oos.writeObject(codes);
+      oos.writeObject(reason);
+      oos.writeObject(assignToAttribute);
+      oos.writeBoolean(administration);
+      oos.writeBoolean(chronic);
       if (prescription != null) {
         oos.writeObject(prescription.toString());
       } else {
@@ -1062,7 +1111,11 @@ public abstract class State implements Cloneable, Serializable {
      * @param ois the stream to read from
      */
     private void readObject(ObjectInputStream ois) throws ClassNotFoundException, IOException {
-      ois.defaultReadObject();
+      codes = (List<Code>)ois.readObject();
+      reason = (String)ois.readObject();
+      assignToAttribute = (String)ois.readObject();
+      administration = ois.readBoolean();
+      chronic = ois.readBoolean();
       String prescriptionJson = (String) ois.readObject();
       if (prescriptionJson != null) {
         Gson gson = Utilities.getGson();
@@ -1500,7 +1553,7 @@ public abstract class State implements Cloneable, Serializable {
       } else if (valueCode != null) {
         value = valueCode;
       } else if (threadExpProcessor != null
-    		  && threadExpProcessor.get() != null) {
+          && threadExpProcessor.get() != null) {
         value = threadExpProcessor.get().evaluate(person, time);
       } else if (sampledData != null) {
         // Capture the data lists from person attributes
@@ -1794,7 +1847,7 @@ public abstract class State implements Cloneable, Serializable {
       if (assignToAttribute != null) {
         person.attributes.put(assignToAttribute, device);
       }
-      
+
       return true;
     }
   }
@@ -1828,23 +1881,24 @@ public abstract class State implements Cloneable, Serializable {
       } else if (referencedByAttribute != null) {
         HealthRecord.Device deviceEntry = (HealthRecord.Device) person.attributes
                 .get(referencedByAttribute);
-        deviceEntry.stop = time;
-        person.record.deviceRemove(time, deviceEntry.type);
+        if (deviceEntry != null) {
+          deviceEntry.stop = time;
+          person.record.deviceRemove(time, deviceEntry.type);
+        }
       } else if (codes != null) {
         codes.forEach(code -> person.record.deviceRemove(time, code.code));
       }
       return true;
     }
   }
-  
+
   /**
    * The SupplyList state includes a list of supplies that are needed for the current encounter.
    * Supplies may include things like PPE for the physician, or other resources and machines.
    *
    */
   public static class SupplyList extends State {
-    // TODO: make a class for these, when needed beyond just exporting
-    public List<HealthRecord.Supply> supplies;
+    public List<SupplyComponent> supplies;
 
     @Override
     public SupplyList clone() {
@@ -1855,12 +1909,18 @@ public abstract class State implements Cloneable, Serializable {
 
     @Override
     public boolean process(Person person, long time) {
-      HealthRecord.Encounter encounter = person.getCurrentEncounter(module);
-      encounter.supplies.addAll(supplies);
+      for (SupplyComponent s : supplies) {
+        person.record.useSupply(time, s.code, s.quantity);
+      }
       return true;
     }
+
+    private static class SupplyComponent implements Serializable {
+      HealthRecord.Code code;
+      int quantity;
+    }
   }
-  
+
   /**
    * The Death state type indicates a point in the module at which the patient dies or the patient
    * is given a terminal diagnosis (e.g. "you have 3 months to live"). When the Death state is

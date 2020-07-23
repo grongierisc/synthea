@@ -99,9 +99,6 @@ public class Generator {
     public int maxAge = 140;
     public String city;
     public String state;
-    /** When Synthea is used as a standalone library, this directory holds
-     * any locally created modules. */
-    public File localModuleDir; 
     public List<String> enabledModules;
     /** File used to initialize a population. */
     public File initialPopulationSnapshotPath;
@@ -153,7 +150,6 @@ public class Generator {
    */
   public Generator(GeneratorOptions o) {
     this(o, new Exporter.ExporterRuntimeOptions());
-    init();
   }
   
   /**
@@ -234,9 +230,6 @@ public class Generator {
     // Initialize Payers
     Payer.loadPayers(location);
     // ensure modules load early
-    if (options.localModuleDir != null) {
-      Module.addModules(options.localModuleDir);
-    }
     List<String> coreModuleNames = getModuleNames(Module.getModules(path -> false));
     List<String> moduleNames = getModuleNames(Module.getModules(modulePredicate)); 
     Costs.loadCostData(); // ensure cost data loads early
@@ -292,7 +285,8 @@ public class Generator {
       try {
         fis = new FileInputStream(options.initialPopulationSnapshotPath);
         ObjectInputStream ois = new ObjectInputStream(fis);
-        initialPopulation = (List<Person>)ois.readObject();
+        initialPopulation = (List<Person>) ois.readObject();
+        ois.close();
       } catch (Exception ex) {
         System.out.printf("Unable to load population snapshot, error: %s", ex.getMessage());
       }
@@ -414,12 +408,12 @@ public class Generator {
         }
 
         recordPerson(person, index);
-        
+
         tryNumber++;
         if (!isAlive) {
           // rotate the seed so the next attempt gets a consistent but different one
           personSeed = new Random(personSeed).nextLong();
-          
+
           // if we've tried and failed > 10 times to generate someone over age 90
           // and the options allow for ages as low as 85
           // reduce the age to increase the likelihood of success
@@ -489,7 +483,7 @@ public class Generator {
           iter.remove(); // this module has completed/terminated.
         }
       }
-      encounterModule.endWellnessEncounter(person, time);
+      encounterModule.endEncounterModuleEncounters(person, time);
       person.lastUpdated = time;
       HealthRecordEditors.getInstance().executeAll(
               person, person.record, time, timestep, person.random);
