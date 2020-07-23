@@ -592,6 +592,29 @@ public class Person implements Serializable, QuadTreeElement {
 
     return moduleToCurrentEncounter.get(module.name);
   }
+  
+  /**
+   * Check if there are any current encounters.
+   * @return true if there current encounters, false otherwise
+   */
+  public boolean hasCurrentEncounter() {
+    if (attributes != null) {
+      Map<String, Encounter> moduleToCurrentEncounter
+              = (Map<String, Encounter>) attributes.get(CURRENT_ENCOUNTERS);
+
+      if (moduleToCurrentEncounter != null && !moduleToCurrentEncounter.isEmpty()) {
+        // Uncomment the following lines to see which module encounters are blocking the start
+        // of wellness encounters in the encounter module.
+        // System.out.println("Pre-wellness Encounter Check Failed:");
+        // for (String module: moduleToCurrentEncounter.keySet()) {
+        //   Encounter encounter = moduleToCurrentEncounter.get(module);
+        //   System.out.printf("%s, %s\n", module, encounter.codes.get(0).code);
+        // }
+        return true;
+      }
+    }
+    return false;
+  }
 
   /**
    * Set the current encounter for the specified module.

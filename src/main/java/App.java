@@ -4,9 +4,9 @@ import java.io.IOException;
 import java.util.Arrays;
 import java.util.LinkedList;
 import java.util.Queue;
-import org.apache.commons.io.FileExistsException;
 
 import org.mitre.synthea.engine.Generator;
+import org.mitre.synthea.engine.Module;
 import org.mitre.synthea.helpers.Config;
 
 /*
@@ -109,7 +109,7 @@ public class App {
             String value = argsQ.poll();
             File localModuleDir = new File(value);
             if (localModuleDir.exists() && localModuleDir.isDirectory()) {
-              options.localModuleDir = localModuleDir;
+              Module.addModules(localModuleDir);
             } else {
               throw new FileNotFoundException(String.format(
                       "Specified local module directory (%s) is not a directory",
@@ -117,6 +117,7 @@ public class App {
             }
           } else if (currArg.equalsIgnoreCase("-u")) {
             String value = argsQ.poll();
+            failIfPhysiologyEnabled(currArg);
             File file = new File(value);
             try {
               if (file.createNewFile()) {
@@ -130,6 +131,7 @@ public class App {
             }
           } else if (currArg.equalsIgnoreCase("-i")) {
             String value = argsQ.poll();
+            failIfPhysiologyEnabled(currArg);
             File file = new File(value);
             try {
               if (file.exists() && file.canRead()) {
@@ -188,6 +190,18 @@ public class App {
     if (validArgs) {
       Generator generator = new Generator(options);
       generator.run();
+    }
+  }
+  
+  private static void failIfPhysiologyEnabled(String arg) {
+    if (Boolean.valueOf(Config.get("physiology.generators.enabled", "false"))) {
+      String errString = String.format(
+              "The %s command line switch %s - %s",
+              arg,
+              "cannot be used when physiology generators are enabled",
+              "set configuration option physiology.generators.enabled=false to use"
+      );
+      throw new IllegalArgumentException(errString);
     }
   }
 }
